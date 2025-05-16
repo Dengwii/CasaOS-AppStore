@@ -105,5 +105,6 @@ x-casaos:
   tips: {}
   title:
     en_us: AdGuard Home
+    zh_cn: AdGuard 家
   index: /
   port_map: "3001"
