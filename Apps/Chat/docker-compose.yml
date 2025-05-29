@@ -84,12 +84,12 @@ x-casaos:
 
       Chat 提供多步骤推理可视化功能，让用户能够清晰了解 AI 生成输出的中间步骤，提升透明度和控制力。其直观的用户界面和多语言支持确保全球用户都能轻松使用。无论是日常任务还是复杂对话，Chat 都是创建智能、用户友好型 AI 交互的理想选择。
   developer: fromxiaobai
-  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/Chainlit/icon.png
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/Chat/icon.png
   main: chainlit
   port_map: "8010"
   scheme: http
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/Chainlit/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/Chat/screenshot-1.png
   store_app_id: chat
   tagline:
     en_us: Conversational AI application
