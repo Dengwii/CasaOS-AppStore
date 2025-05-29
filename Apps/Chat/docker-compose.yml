@@ -2,6 +2,7 @@ name: chat
 services:
   chat:
     container_name: chainlit
+    image: fromxiaobai/custom-chainlit:v2
     depends_on:
       postgres:
         condition: service_started
@@ -10,9 +11,8 @@ services:
       resources:
         reservations:
           memory: 1024M
-    #volumes:
-      #- ./resume.py:/app/app.py
-      #- ./.env:/app/.env
+        limits:
+          memory: 1024M
     environment:
       - ADMIN_USERNAME=admin
       - ADMIN_PASSWORD=123456
@@ -27,33 +27,34 @@ services:
       - THINK_API_KEY=
       - THINK_MODEL_NAME=DeepSeek-R1
       - USE_THINKING_MODEL=true
-    image: fromxiaobai/custom-chainlit:v2
     ports:
       - target: 8000
         published: "8010"
         protocol: tcp
     networks:
-      - chainlit_network
+      - chat
   postgres:
     container_name: postgres
+    image: fromxiaobai/pg:for-chainlit
     deploy:
       resources:
         reservations:
           memory: 512M
+        limits:
+          memory: 512M
     environment:
       - POSTGRES_DB=chainlit
-      - POSTGRES_PASSWORD=123456
       - POSTGRES_USER=chainlit
-    image: fromxiaobai/pg:for-chainlit
+      - POSTGRES_PASSWORD=123456
     volumes:
       - type: bind
         source: /DATA/AppData/postgresql/data
         target: /var/lib/postgresql/data
     networks:
-      - chainlit_network
+      - chat
 networks:
-  chainlit_network:
-    name: chainlit_network
+  chat:
+    name: chat
     driver: bridge
 x-casaos:
   architectures:
@@ -83,12 +84,12 @@ x-casaos:
 
       Chat 提供多步骤推理可视化功能，让用户能够清晰了解 AI 生成输出的中间步骤，提升透明度和控制力。其直观的用户界面和多语言支持确保全球用户都能轻松使用。无论是日常任务还是复杂对话，Chat 都是创建智能、用户友好型 AI 交互的理想选择。
   developer: fromxiaobai
-  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/Chat/icon.png
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/Chainlit/icon.png
   main: chainlit
   port_map: "8010"
   scheme: http
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/Chat/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore/blob/ai/Apps/Chainlit/screenshot-1.png
   store_app_id: chat
   tagline:
     en_us: Conversational AI application
