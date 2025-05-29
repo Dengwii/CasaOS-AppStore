@@ -89,7 +89,7 @@ x-casaos:
   port_map: "8010"
   scheme: http
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore/blob/ai/Apps/Chainlit/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/Chainlit/screenshot-1.png
   store_app_id: chat
   tagline:
     en_us: Conversational AI application
