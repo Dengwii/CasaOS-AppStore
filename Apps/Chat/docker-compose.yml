@@ -8,7 +8,7 @@ services:
         required: true
     deploy:
       resources:
-        limits:
+        reservations:
           memory: 1024M
     #volumes:
       #- ./resume.py:/app/app.py
@@ -38,7 +38,7 @@ services:
     container_name: postgres
     deploy:
       resources:
-        limits:
+        reservations:
           memory: 512M
     environment:
       - POSTGRES_DB=chainlit
