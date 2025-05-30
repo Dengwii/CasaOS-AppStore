@@ -90,6 +90,7 @@ x-casaos:
   scheme: http
   screenshot_link:
     - https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/Chat/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/Chat/screenshot-2.png
   store_app_id: chat
   tagline:
     en_us: Conversational AI application
