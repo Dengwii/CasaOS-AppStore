@@ -2,7 +2,7 @@ name: chat
 services:
   chat:
     container_name: chainlit
-    image: fromxiaobai/custom-chainlit:v2
+    image: yieol/chat:0.2
     depends_on:
       postgres:
         condition: service_started
