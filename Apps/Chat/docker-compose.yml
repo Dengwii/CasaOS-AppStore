@@ -10,9 +10,9 @@ services:
     deploy:
       resources:
         reservations:
-          memory: 1024M
+          memory: 512M
         limits:
-          memory: 1024M
+          memory: 512M
     environment:
       - ADMIN_USERNAME=admin
       - ADMIN_PASSWORD=123456
@@ -39,9 +39,9 @@ services:
     deploy:
       resources:
         reservations:
-          memory: 512M
+          memory: 256M
         limits:
-          memory: 512M
+          memory: 256M
     environment:
       - POSTGRES_DB=chainlit
       - POSTGRES_USER=chainlit
@@ -83,7 +83,7 @@ x-casaos:
 
 
       Chat 提供多步骤推理可视化功能，让用户能够清晰了解 AI 生成输出的中间步骤，提升透明度和控制力。其直观的用户界面和多语言支持确保全球用户都能轻松使用。无论是日常任务还是复杂对话，Chat 都是创建智能、用户友好型 AI 交互的理想选择。
-  developer: fromxiaobai
+  developer: IceWhale
   icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/Chat/icon.png
   main: chat
   port_map: "8010"
