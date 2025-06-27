@@ -9,7 +9,7 @@ services:
       # Mount the config file to allow for external configuration
       # - ./backend/models_config.json:/app/models_config.json
     ports:
-      - "8000:8000"
+      - "18301:8000"
     networks:
       - rag
     restart: unless-stopped
@@ -27,7 +27,7 @@ services:
     environment:
       # This tells the Next.js app inside the container where to find the backend API.
       # 'backend' is the service name defined above.
-      - NEXT_PUBLIC_API_URL=http://rag-qa:8000
+      - NEXT_PUBLIC_API_URL=http://rag-qa:18301
     depends_on:
       - rag-qa
     networks:
