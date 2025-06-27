@@ -1,0 +1,55 @@
+name: rag-qa
+services:
+  rag-qa:
+    image: fromxiaobai/rchat-back:v6
+    container_name: rag-qa
+    volumes:
+      # Mount the data directory to persist the database and knowledge base files
+      - /DATA/AppData/RAG-QA/backend/data:/app/data
+      # Mount the config file to allow for external configuration
+      # - ./backend/models_config.json:/app/models_config.json
+    ports:
+      - "8000:8000"
+    networks:
+      - rag-qa
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          memory: 512M
+        limits:
+          memory: 512M
+  frontend:
+    image: fromxiaobai/rchat-front:v6
+    container_name: rchat-frontend
+    ports:
+      - "18300:3000"
+    environment:
+      # This tells the Next.js app inside the container where to find the backend API.
+      # 'backend' is the service name defined above.
+      - NEXT_PUBLIC_API_URL=http://backend:8000
+    depends_on:
+      - backend
+    networks:
+      - rag-qa
+    restart: unless-stopped
+networks:
+  rag-qa:
+    driver: bridge
+x-casaos:
+  architectures:
+    - amd64
+  author: CasaOS Team
+  category: Chat
+  description:
+    en_us: "RAG"
+  developer: IceWhale
+  icon: ""
+  main: rag-qa
+  port_map: "18300"
+  scheme: http
+  screenshot_link:""
+  tagline:
+    en_US: RAG-QA
+  title:
+    en_US: RAG-QA
