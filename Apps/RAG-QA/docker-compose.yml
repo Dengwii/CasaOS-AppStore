@@ -1,8 +1,8 @@
-name: rag-qa
+name: ragqa
 services:
-  rag-qa:
+  ragqa:
     image: fromxiaobai/rchat-back:v6
-    container_name: rag-qa
+    container_name: ragqa
     volumes:
       # Mount the data directory to persist the database and knowledge base files
       - /DATA/AppData/RAG-QA/backend/data:/app/data
@@ -11,7 +11,7 @@ services:
     ports:
       - "8000:8000"
     networks:
-      - rag-qa
+      - ragqa
     restart: unless-stopped
     deploy:
       resources:
@@ -31,10 +31,10 @@ services:
     depends_on:
       - backend
     networks:
-      - rag-qa
+      - ragqa
     restart: unless-stopped
 networks:
-  rag-qa:
+  ragqa:
     driver: bridge
 x-casaos:
   architectures:
@@ -45,7 +45,7 @@ x-casaos:
     en_us: "RAG"
   developer: IceWhale
   icon: ""
-  main: rag-qa
+  main: ragqa
   port_map: "18300"
   scheme: http
   screenshot_link:""
