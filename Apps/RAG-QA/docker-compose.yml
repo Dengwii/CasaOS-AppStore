@@ -1,7 +1,7 @@
 name: rag-qa
 services:
   rag-qa:
-    image: fromxiaobai/rchat-back:v6
+    image: fromxiaobai/rchat-back:v7
     container_name: rag-qa
     volumes:
       # Mount the data directory to persist the database and knowledge base files
@@ -9,7 +9,7 @@ services:
       # Mount the config file to allow for external configuration
       # - ./backend/models_config.json:/app/models_config.json
     ports:
-      - "18301:8000"
+      - "8000:8000"
     networks:
       - rag
     restart: unless-stopped
@@ -20,14 +20,14 @@ services:
         limits:
           memory: 512M
   frontend:
-    image: fromxiaobai/rchat-front:v6
+    image: fromxiaobai/rchat-front:v7
     container_name: rchat-frontend
     ports:
       - "18300:3000"
     environment:
       # This tells the Next.js app inside the container where to find the backend API.
       # 'backend' is the service name defined above.
-      - NEXT_PUBLIC_API_URL=http://rag-qa:18301
+      - NEXT_PUBLIC_API_URL=http://rag-qa:8000
     depends_on:
       - rag-qa
     networks:
