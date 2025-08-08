@@ -8,7 +8,7 @@ services:
     depends_on:
       - backend
     networks:
-      - rag
+      - rag-qa-network
     restart: unless-stopped
     deploy:
       resources:
@@ -21,30 +21,54 @@ services:
     container_name: backend
     volumes:
       # Mount the data directory to persist the database and knowledge base files
-      - /DATA/AppData/RAG-QA/backend/data:/app/data
+      - /DATA/AppData/$AppID/backend/data:/app/data
       # Mount the config file to allow for external configuration
       # - ./backend/models_config.json:/app/models_config.json
     networks:
-      - rag
+      - rag-qa-network
     restart: unless-stopped
 networks:
-  rag:
+  rag-qa-network:
+    name: rag-qa-network
     driver: bridge
 x-casaos:
   architectures:
     - amd64
   author: CasaOS Team
   category: Chat
+  tagline:
+    en_US: A tool for CSV file uploads and document-based knowledge base question-answering
+    zh_CN: 一款支持 CSV 文件上传和基于文档的知识库对话工具
   description:
-    en_US: RAG
+    en_US: |
+      RAG-QA is an intelligent tool designed for knowledge base question-answering, enabling users to upload CSV files and query them for precise, document-based responses. Its intuitive design and efficient functionality make it ideal for researchers, data analysts, and enterprise users, catering to diverse needs from academic research to business data queries.
+
+      The tool focuses on enabling knowledge base conversations and CSV file uploads. Users can easily upload structured data files to create a tailored knowledge base. When posing questions, it intelligently parses the file content, extracting relevant information to provide answers rooted in the document, ensuring accuracy and contextual relevance. This approach simplifies extracting insights from complex datasets, making it suitable for large-scale data or time-sensitive queries.
+
+      It leverages natural language processing to deliver a seamless conversational experience, allowing users to interact with the knowledge base without complex setup. Responses prioritize the content of uploaded CSV files, ensuring reliability and consistency. Whether managing personal research data, team collaboration materials, or enterprise knowledge bases, the tool offers a modern knowledge management solution with efficiency, precision, and user-friendly design.
+
+      Key Features:
+      - Knowledge base question-answering with precise, natural language responses
+      - Support for uploading CSV files to build structured knowledge bases
+      - Document-based answers for accurate and contextually relevant information
+    zh_CN: |
+      RAG-QA 是一款专为知识库对话设计的智能工具，旨在帮助用户通过上传 CSV 文件快速构建和管理知识库，并基于文档内容进行精准问答。其直观的设计和高效的功能，适合研究人员、数据分析师和企业用户，满足从学术研究到商业数据查询的多样化需求。
+
+      该工具的核心功能是支持用户上传 CSV 文件并进行知识库对话。用户可以通过简单的上传操作，将结构化的数据文件整合到系统中，构建专属的知识库。提问时，它能够智能解析文件内容，提取关键信息，确保回答以文档为基础，准确且上下文相关。这种方法极大简化了从复杂数据中获取洞见的过程，适合处理大型数据集或需要快速响应的场景。
+
+      它通过自然语言处理技术，提供流畅的对话体验，用户无需复杂配置即可与知识库交互。回答优先基于上传的 CSV 文件内容，确保信息可信且一致。无论是管理个人研究数据、团队协作资料，还是企业级知识库，该工具以高效、精准和用户友好的特性，提供现代化的知识管理解决方案。
+
+      主要功能：
+      - 知识库对话，基于自然语言提问获取精准回答
+      - 支持上传 CSV 文件，快速构建结构化知识库
+      - 回答以文档内容为主，确保信息准确和上下文相关
   developer: IceWhale
   icon: ""
   main: rag-qa
   port_map: "18300"
   scheme: http
   screenshot_link:
-    - ""
-  tagline:
-    en_US: RAG-QA
+    - https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/RAG-QA/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/RAG-QA/screenshot-3.png
   title:
     en_US: RAG-QA
