@@ -1,10 +1,10 @@
 name: chat
 services:
   chat:
-    container_name: chainlit
+    chainlit: chainlit
     image: yieol/chat:0.2
     depends_on:
-      postgres:
+      chat-postgres:
         condition: service_started
         required: true
     deploy:
@@ -32,9 +32,9 @@ services:
         published: "8010"
         protocol: tcp
     networks:
-      - chat
-  postgres:
-    container_name: postgres
+      - chat-network
+  chat-postgres:
+    container_name: chat-postgres
     image: fromxiaobai/pg:for-chainlit
     deploy:
       resources:
@@ -48,13 +48,13 @@ services:
       - POSTGRES_PASSWORD=123456
     volumes:
       - type: bind
-        source: /DATA/AppData/postgresql/data
+        source: /DATA/AppData/$AppID/postgresql/data
         target: /var/lib/postgresql/data
     networks:
-      - chat
+      - chat-network
 networks:
-  chat:
-    name: chat
+  chat-network:
+    name: chat-network
     driver: bridge
 x-casaos:
   architectures:
@@ -69,18 +69,14 @@ x-casaos:
       leverages powerful language models to help users handle tasks, gain
       insights, or engage in intelligent conversations.
 
-
       The application integrates with popular frameworks and large language model (LLM) providers, such as OpenAI, Mistral, LangGraph, LlamaIndex, and HuggingFace, ensuring users can flexibly connect to a wide range of AI tools and services. It supports data persistence, allowing users to collect, monitor, and analyze interaction data to enhance user experience and tailor it to specific needs.
-
 
       Chat offers multi-step reasoning visualization, enabling users to clearly understand the intermediate steps behind AI-generated outputs, improving transparency and control. With its intuitive user interface and multilingual support, it ensures accessibility for users worldwide. Whether for everyday tasks or complex conversations, Chat is the ideal choice for creating intelligent, user-friendly AI interactions.
     zh_cn: >
       Chat 是一款开源的对话式人工智能应用，提供无缝的交互体验，使用户能够通过自然语言与 AI
       高效沟通。它专为个人和团队设计，利用强大的语言模型帮助用户处理任务、获取见解或进行智能对话。
 
-
       该应用与流行框架和大型语言模型（LLM）提供商（如 OpenAI、Mistral、LangGraph、LlamaIndex 和 HuggingFace）集成，确保用户能够灵活连接各种 AI 工具和服务。它支持数据持久性，使用户可以收集、监控和分析交互数据，以优化用户体验并满足特定需求。
-
 
       Chat 提供多步骤推理可视化功能，让用户能够清晰了解 AI 生成输出的中间步骤，提升透明度和控制力。其直观的用户界面和多语言支持确保全球用户都能轻松使用。无论是日常任务还是复杂对话，Chat 都是创建智能、用户友好型 AI 交互的理想选择。
   developer: IceWhale
