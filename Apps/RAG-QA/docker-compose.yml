@@ -63,7 +63,7 @@ x-casaos:
       - 支持上传 CSV 文件，快速构建结构化知识库
       - 回答以文档内容为主，确保信息准确和上下文相关
   developer: IceWhale
-  icon: ""
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/RAG-QA/icon.png
   main: rag-qa
   port_map: "18300"
   scheme: http
