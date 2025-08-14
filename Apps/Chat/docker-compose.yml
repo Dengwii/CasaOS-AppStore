@@ -1,7 +1,7 @@
 name: chat
 services:
   chat:
-    chainlit: chainlit
+    container_name: chainlit
     image: yieol/chat:0.2
     depends_on:
       chat-postgres:
