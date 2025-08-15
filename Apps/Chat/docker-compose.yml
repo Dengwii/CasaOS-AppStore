@@ -84,6 +84,18 @@ x-casaos:
       1. xxx
       
       ```xxxx```
+
+      **使用 Hugo 的前提条件：**
+      1. 打开命令行, 进入 /DATA/AppData/hugo/project 目录
+      ```cd /DATA/AppData/hugo/project```
+      2. 将 porject 目录初始化为空的 Git 存储库
+      ```git init```
+      3. 下载 Ananke 主题
+      ```git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke```
+      4. 指定当前主题
+      ```echo "theme = 'ananke'" >> hugo.toml```
+      5. 重启 Hugo
+      
   developer: IceWhale
   icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@ai/Apps/Chat/icon.png
   main: chat
