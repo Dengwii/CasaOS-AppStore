@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "store_id": "zimaos-appstore-d-test",
+  "name": "ZimaOS AppStore-D-Test",
+  "description": "Official ZimaOS application store, providing a curated collection of self-hosted applications.",
+  "maintainer": "Dengwii",
+  "url": "https://github.com/Dengwii/CasaOS-AppStore"
+}
