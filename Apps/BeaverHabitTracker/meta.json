@@ -1,0 +1,46 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "category": "Productivity",
+  "developer": "daya0576",
+  "author": "daya0576",
+  "tagline": "A self-hosted, goal-free habit tracking tool.",
+  "description": "Beaver Habit Tracker is a self-hosted habit tracking tool designed for users who want to effortlessly monitor daily behaviors without the stress of goal-setting. Its intuitive Web interface offers a pressure-free tracking experience, ideal for those focused on behavior observation and personal growth.\n\nThe tool's core features include goal-free habit tracking and a minimalist interface. It allows users to log multiple habits easily, without focusing on streaks or targets, and provides simple visualizations to understand behavior patterns. Users can add daily notes to record specific activities or reflections, with a smooth, low-effort interface.\n\nIt uses a self-hosted approach, ensuring data privacy and full control, with a lightweight, efficient design requiring minimal server resources. Users can manually reorder habits for an optimized experience. The tool's stress-free observation and intuitive operation help users gradually improve habits, delivering a modern habit management solution.\n\n**Key Features:**\n- Goal-free habit tracking focused on awareness, not achievement\n- Clean, minimalist interface for effortless daily logging\n- Lightweight and efficient, requiring minimal server resources\n- Simple visualizations to understand behavior patterns\n- Daily notes for recording activities or reflections\n\n**Learn More:**\n- [Beaver Habit Tracker Official Website](https://beaverhabits.com/)\n- [Beaver Habit Tracker GitHub](https://github.com/daya0576/beaverhabits)\n",
+  "screenshot_link": [
+    "/apps/beaverhabittracker/assets/screenshot-1.png",
+    "/apps/beaverhabittracker/assets/screenshot-2.png",
+    "/apps/beaverhabittracker/assets/screenshot-3.png"
+  ],
+  "thumbnail": "",
+  "updateAt": "2026-05-20",
+  "releaseNotes": {
+    "en_US": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "en_GB": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "it_IT": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "nb_NO": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "zh_CN": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "ja_JP": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "ko_KR": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "fr_FR": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "de_DE": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "sv_SE": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "el_GR": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "hr_HR": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "pt_PT": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "ru_RU": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
+    "tr_TR": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes."
+  },
+  "website": "https://beaverhabits.com/",
+  "repo": "https://github.com/daya0576/beaverhabits",
+  "support": "https://github.com/daya0576/beaverhabits/issues",
+  "docs": "https://github.com/daya0576/beaverhabits#readme",
+  "title": "BeaverHabitTracker",
+  "base_url": "",
+  "categories": [
+    "utilities"
+  ],
+  "min_memory": 134217728,
+  "min_image_size": 0
+}

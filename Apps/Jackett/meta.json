@@ -1,0 +1,47 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Networking",
+  "description": "it translates queries from apps (Sonarr, Radarr, SickRage, CouchPotato, Mylar3, Lidarr, DuckieTV, qBittorrent, Nefarious etc.) into tracker-site-specific http queries, parses the html or json response, and then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps.",
+  "developer": "Jackett",
+  "screenshot_link": [
+    "/apps/jackett/assets/screenshot-1.png",
+    "/apps/jackett/assets/screenshot-2.png",
+    "/apps/jackett/assets/screenshot-3.png"
+  ],
+  "tagline": "Jackett works as a proxy server",
+  "thumbnail": "/apps/jackett/assets/thumbnail.png",
+  "tips": {},
+  "updateAt": "2026-05-25",
+  "releaseNotes": {
+    "en_US": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "en_GB": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "it_IT": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "nb_NO": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "zh_CN": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "ja_JP": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "ko_KR": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "fr_FR": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "de_DE": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "sv_SE": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "el_GR": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "hr_HR": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "pt_PT": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "ru_RU": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25.",
+    "tr_TR": "- v0.24.1947 updates arabp2p poster fields, date formats, and English bracket-title parsing.\n- It adds arabicsource categories, updates rotorrent MR/MST, and fixes hdzero support for v9.2.0.\n- The linuxserver/jackett:0.24.1947 Docker image tag was published on 2026-05-25."
+  },
+  "website": "",
+  "repo": "https://github.com/Jackett/Jackett",
+  "support": "https://github.com/Jackett/Jackett/issues",
+  "docs": "https://github.com/Jackett/Jackett#readme",
+  "title": "Jackett",
+  "base_url": "",
+  "categories": [
+    "network"
+  ],
+  "min_memory": 67108864,
+  "min_image_size": 0
+}

@@ -1,0 +1,50 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "category": "Productivity",
+  "developer": "Etherpad Foundation",
+  "author": "CasaOS Community",
+  "tagline": "Real-time collaborative document editor",
+  "description": "Etherpad is a real-time collaborative document editor where multiple people can edit the same pad simultaneously, with every change synchronized instantly and colour-coded per author.\nSelf-hosted, open source, and fully under your control, it is perfect for meeting notes, brainstorming, shared writing, and lightweight knowledge capture.\nIt ships with a built-in admin panel, a plugin ecosystem of 250+ add-ons, native DOCX/PDF/Markdown import & export, and multi-architecture container support (amd64 + arm64).\n\n**Main Features:**\n- Real-time collaborative editing with instant sync\n- Per-author colour coding for clear writing attribution\n- Built-in admin panel and a plugin ecosystem with 250+ add-ons\n- Native DOCX, PDF, and Markdown import & export\n- Open source, self-hosted deployment with amd64 and arm64 support\n\n**Learn More:**\n- [Etherpad Official Website](https://etherpad.org/)\n- [Etherpad GitHub](https://github.com/ether/etherpad)\n- [Etherpad Documentation](https://docs.etherpad.org/)\n",
+  "screenshot_link": [
+    "/apps/etherpad/assets/screenshot-1.png",
+    "/apps/etherpad/assets/screenshot-2.png",
+    "/apps/etherpad/assets/screenshot-3.png"
+  ],
+  "thumbnail": "/apps/etherpad/assets/thumbnail.png",
+  "tips": {
+    "before_install": "Default admin password is \"admin\". Change ADMIN_PASSWORD before exposing Etherpad to the network. Pads are stored on-disk in /DATA/AppData/etherpad/var using the embedded dirty database; this is ideal for personal and small-team use. For heavy multi-user production workloads, switch DB_TYPE to postgres or mysql and point DB_HOST, DB_NAME, DB_USER, and DB_PASS at an external database.\n"
+  },
+  "updateAt": "2026-05-17",
+  "releaseNotes": {
+    "en_US": "- Etherpad v3.1.0 adds Tier 4 autonomous self-updates with maintenance windows, preflight checks, and email notifications for failures and rollbacks.\n- It also introduces real SMTP delivery for updater mail and includes API, export, and HTTP security hardening plus localisation updates.",
+    "en_GB": "- Etherpad v3.1.0 adds Tier 4 autonomous self-updates with maintenance windows, preflight checks, and email notifications for failures and rollbacks.\n- It also introduces real SMTP delivery for updater mail and includes API, export, and HTTP security hardening plus localisation updates.",
+    "it_IT": "- Etherpad v3.1.0 aggiunge auto-aggiornamenti autonomi di livello 4 con finestre di manutenzione, controlli preliminari e notifiche email per errori e rollback.\n- Introduce anche l'invio SMTP reale per le email dell'updater e include miglioramenti di sicurezza per API, esportazione e HTTP oltre ad aggiornamenti di localizzazione.",
+    "nb_NO": "- Etherpad v3.1.0 legger til Tier 4 autonome selvoppdateringer med vedlikeholdsvinduer, preflight-kontroller og e-postvarsler ved feil og tilbakerullinger.\n- Den introduserer også ekte SMTP-levering for oppdateringsmailer og inkluderer sikkerhetsforbedringer for API, eksport og HTTP samt lokaliseringsoppdateringer.",
+    "zh_CN": "- Etherpad v3.1.0 新增第 4 级自治自更新，支持维护时间窗口、预检检查，以及在失败和回滚时发送邮件通知。\n- 同时加入了更新器邮件的真实 SMTP 发送能力，并包含 API、导出与 HTTP 安全加固以及本地化更新。",
+    "ja_JP": "- Etherpad v3.1.0 では、メンテナンスウィンドウ、事前チェック、失敗やロールバック時のメール通知に対応した Tier 4 の自律セルフアップデートが追加されました。\n- さらに、アップデーター用メールの実際の SMTP 配信、API・エクスポート・HTTP のセキュリティ強化、ローカライズ更新も含まれています。",
+    "ko_KR": "- Etherpad v3.1.0은 유지보수 시간대, 사전 점검, 실패 및 롤백 시 이메일 알림을 포함한 Tier 4 자율 자체 업데이트를 추가했습니다.\n- 또한 업데이트 메일의 실제 SMTP 전송을 도입했고 API, 내보내기, HTTP 보안 강화와 현지화 업데이트도 포함합니다.",
+    "fr_FR": "- Etherpad v3.1.0 ajoute des auto-mises à jour autonomes de niveau 4 avec fenêtres de maintenance, vérifications préalables et notifications par e-mail en cas d'échec ou de rollback.\n- Il introduit aussi l'envoi SMTP réel pour les e-mails de l'outil de mise à jour et inclut un renforcement de la sécurité des API, des exports et de HTTP ainsi que des mises à jour de localisation.",
+    "de_DE": "- Etherpad v3.1.0 ergänzt autonome Selbstaktualisierungen der Stufe 4 mit Wartungsfenstern, Vorabprüfungen und E-Mail-Benachrichtigungen bei Fehlern und Rollbacks.\n- Außerdem führt es echten SMTP-Versand für Updater-E-Mails ein und enthält Sicherheitsverbesserungen für API, Export und HTTP sowie Lokalisierungsupdates.",
+    "sv_SE": "- Etherpad v3.1.0 lägger till autonoma självuppdateringar på nivå 4 med underhållsfönster, förhandskontroller och e-postaviseringar vid fel och återställningar.\n- Det inför också riktig SMTP-leverans för uppdateringsmejl och innehåller säkerhetshärdning för API, export och HTTP samt lokaliseringsuppdateringar.",
+    "el_GR": "- Το Etherpad v3.1.0 προσθέτει αυτόνομες αυτοενημερώσεις επιπέδου 4 με παράθυρα συντήρησης, προληπτικούς ελέγχους και ειδοποιήσεις email για αποτυχίες και επαναφορές.\n- Εισάγει επίσης πραγματική αποστολή SMTP για τα email του updater και περιλαμβάνει ενίσχυση ασφάλειας για API, export και HTTP, μαζί με ενημερώσεις τοπικοποίησης.",
+    "hr_HR": "- Etherpad v3.1.0 dodaje autonomna samoažuriranja razine 4 s vremenskim prozorima održavanja, prethodnim provjerama i obavijestima e-poštom za pogreške i vraćanja.\n- Također uvodi stvarnu SMTP isporuku za poruke ažuriranja te uključuje sigurnosna poboljšanja za API, izvoz i HTTP, kao i ažuriranja lokalizacije.",
+    "pt_PT": "- O Etherpad v3.1.0 adiciona autoatualizações autónomas de nível 4 com janelas de manutenção, verificações prévias e notificações por email para falhas e reversões.\n- Introduz também envio SMTP real para os emails do atualizador e inclui reforços de segurança em API, exportação e HTTP, além de atualizações de localização.",
+    "ru_RU": "- Etherpad v3.1.0 добавляет автономные самообновления уровня 4 с окнами обслуживания, предварительными проверками и уведомлениями по email о сбоях и откатах.\n- Также он вводит полноценную SMTP-доставку писем обновлятора и включает усиление безопасности API, экспорта и HTTP, а также обновления локализации.",
+    "tr_TR": "- Etherpad v3.1.0; bakım pencereleri, ön kontroller ve hata ya da geri alma durumları için e-posta bildirimleri içeren Tier 4 otonom öz güncellemeleri ekler.\n- Ayrıca güncelleyici postaları için gerçek SMTP gönderimini sunar ve API, dışa aktarma ve HTTP tarafında güvenlik iyileştirmeleriyle birlikte yerelleştirme güncellemeleri içerir."
+  },
+  "store_app_id": "etherpad",
+  "website": "https://etherpad.org/",
+  "repo": "https://github.com/ether/etherpad",
+  "support": "https://github.com/ether/etherpad/issues",
+  "docs": "https://docs.etherpad.org/",
+  "title": "Etherpad",
+  "base_url": "",
+  "categories": [
+    "notes"
+  ],
+  "min_memory": 268435456,
+  "min_image_size": 0
+}
