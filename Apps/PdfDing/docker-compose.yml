@@ -202,7 +202,7 @@ x-casaos:
     pt_PT: Gestor, visualizador e editor PDF auto-hospedado
     ru_RU: Самостоятельно размещаемый менеджер, просмотрщик и редактор PDF
     tr_TR: Kendi kendine barındırılan PDF yöneticisi, görüntüleyicisi ve düzenleyicisi
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PdfDing/thumbnail.png
+  thumbnail: ""
   tips:
     before_install:
       en_US: |
