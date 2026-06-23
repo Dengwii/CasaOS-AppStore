@@ -1,0 +1,6 @@
+{
+  "id": "mongodb",
+  "tips": {
+    "before_install": "Den här versionen av MongoDB kräver en CPU med AVX-stöd. Den här versionen av MongoDB kommer inte att fungera med ZimaBoard."
+  }
+}

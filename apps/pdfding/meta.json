@@ -1,0 +1,49 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "mrmn2",
+  "category": "Documents",
+  "description": "PdfDing is a selfhosted PDF manager, viewer and editor offering a seamless user experience on multiple devices. It's designed to be minimal, fast, and easy to set up using Docker.\n\nWith features like seamless browser-based PDF viewing that remembers your current position, multi-level tagging, starring and archiving functionalities, PDF editing with comments, highlighting and drawings, clean intuitive UI with dark mode, SSO support via OIDC, PDF sharing with external audience, markdown notes, and progress bars showing reading progress, PdfDing ensures an excellent PDF management experience.\n\nDeploying PdfDing on private cloud devices like Zima brings unmatched convenience with multi-device access, ensuring your PDF collection is always within reach and secure, no matter where you are.\n",
+  "developer": "mrmn2",
+  "screenshot_link": [
+    "/apps/pdfding/assets/screenshot-1.webp",
+    "/apps/pdfding/assets/screenshot-2.webp",
+    "/apps/pdfding/assets/screenshot-3.webp"
+  ],
+  "tagline": "Selfhosted PDF manager, viewer and editor",
+  "thumbnail": "",
+  "tips": {
+    "before_install": "After installation, you can access PdfDing at http://your-server-ip:8000. Create your first admin account during the initial setup.\n\nNote: If you encounter access issues, you may need to manually edit the docker-compose.yml file and replace the HOST_NAME environment variable with your actual server IP address.\n"
+  },
+  "updateAt": "2026-04-12",
+  "releaseNotes": {
+    "en_US": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "en_GB": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "it_IT": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "nb_NO": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "zh_CN": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "ja_JP": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "ko_KR": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "fr_FR": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "de_DE": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "sv_SE": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "el_GR": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "hr_HR": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "pt_PT": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "ru_RU": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12.",
+    "tr_TR": "- v1.7.2 updates dependencies for a security update.\n- The mrmn/pdfding:v1.7.2 Docker image tag was published on 2026-04-12."
+  },
+  "website": "https://www.pdfding.com",
+  "repo": "https://github.com/mrmn2/PdfDing",
+  "support": "https://github.com/mrmn2/PdfDing/issues",
+  "docs": "https://github.com/mrmn2/PdfDing#readme",
+  "title": "PdfDing",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "documents"
+  ],
+  "min_memory": 134217728,
+  "min_image_size": 72612791
+}

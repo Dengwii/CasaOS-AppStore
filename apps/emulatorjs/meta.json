@@ -1,0 +1,57 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "EmulatorJS is a Docker-based emulator application that can simulate various operating systems and device environments within containers for development, testing, and learning purposes.",
+  "screenshot_link": [
+    "/apps/emulatorjs/assets/screenshot-1.webp"
+  ],
+  "tagline": "",
+  "en_us": "Unlock the power of emulation with EmulatorJS – Explore, experiment, and innovate across diverse operating systems and device environments.",
+  "zh_cn": "发掘模拟的力量，与EmulatorJS一同探索、实验和创新于多样化的操作系统和设备环境。",
+  "ar_sa": "اكتشف قوة المحاكاة مع EmulatorJS - استكشف وتجرب وابتكر عبر أنظمة التشغيل وبيئات الأجهزة المتنوعة.",
+  "de_de": "Entfesseln Sie die Kraft der Emulation mit EmulatorJS – Erkunden, experimentieren und innovieren Sie in vielfältigen Betriebssystemen und Geräteumgebungen.",
+  "es_es": "Desbloquea el poder de la emulación con EmulatorJS Explora, experimenta e innova en diversos sistemas operativos y entornos de dispositivos.",
+  "fr_fr": "Libérez la puissance de l'émulation avec EmulatorJS - Explorez, expérimentez et innovez dans divers systèmes d'exploitation et environnements de périphériques.",
+  "hu_hu": "Fedezd fel az emuláció erejét az EmulatorJS-szel - Fedezz fel, kísérletezz és innoválj sokféle operációs rendszeren és eszközkörnyezetben.",
+  "it_it": "Sblocca il potere dell'emulazione con EmulatorJS - Esplora, sperimenta e innova su diversi sistemi operativi e ambienti dispositivi.",
+  "ru_ru": "Разблокируйте мощь эмуляции с помощью EmulatorJS - Исследуйте, экспериментируйте и инновируйте в разнообразных операционных системах и средах устройств.",
+  "pl_pl": "Odblokuj potęgę emulacji z EmulatorJS - Eksploruj, eksperymentuj i innowuj na różnorodnych systemach operacyjnych i środowiskach urządzeń.",
+  "pt_br": "Desbloqueie o poder da emulação com o EmulatorJS - Explore, experimente e inove em diversos sistemas operacionais e ambientes de dispositivos.",
+  "sv_se": "Lås upp kraften i emulering med EmulatorJS - Utforska, experimentera och innovera över olika operativsystem och enhetsmiljöer.",
+  "uk_ua": "Розкрийте потужність емуляції з EmulatorJS - Досліджуйте, експериментуйте та інновуйте у різних операційних системах і середовищах пристроїв.",
+  "author": "self",
+  "category": "Utilities",
+  "hostname": "",
+  "store_app_id": "emulatorjs",
+  "updateAt": "2025-06-09",
+  "releaseNotes": {
+    "en_US": "- Metadata release 1.9.2 adds logos and videos for 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn, and Wonderswan.\n- This entry remains tied to the configured LinuxServer image tag.",
+    "en_GB": "- Metadata release 1.9.2 adds logos and videos for 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn, and Wonderswan.\n- This entry remains tied to the configured LinuxServer image tag.",
+    "it_IT": "- La versione dei metadati 1.9.2 aggiunge loghi e video per 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn e Wonderswan.\n- Questa voce rimane legata al tag immagine LinuxServer configurato.",
+    "nb_NO": "- Metadatautgivelse 1.9.2 legger til logoer og videoer for 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn og Wonderswan.\n- Denne oppføringen forblir knyttet til den konfigurerte LinuxServer-bildekoden.",
+    "zh_CN": "- Metadata release 1.9.2 增加了 3DO、Arcade、MSX、NDS、NGP、PSX、Saturn 和 Wonderswan 的标志与视频。\n- 这个条目继续跟踪当前配置的 LinuxServer 镜像标签。",
+    "ja_JP": "- Metadata release 1.9.2 は 3DO、Arcade、MSX、NDS、NGP、PSX、Saturn、Wonderswan のロゴと動画を追加します。\n- このエントリは設定済みの LinuxServer イメージタグに引き続き紐づきます。",
+    "ko_KR": "- Metadata release 1.9.2는 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn, Wonderswan용 로고와 비디오를 추가합니다.\n- 이 항목은 구성된 LinuxServer 이미지 태그를 계속 따릅니다.",
+    "fr_FR": "- Metadata release 1.9.2 ajoute des logos et des vidéos pour 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn et Wonderswan.\n- Cette entrée reste liée au tag d'image LinuxServer configuré.",
+    "de_DE": "- Metadata Release 1.9.2 ergänzt Logos und Videos für 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn und Wonderswan.\n- Dieser Eintrag bleibt an den konfigurierten LinuxServer-Image-Tag gebunden.",
+    "sv_SE": "- Metadatarelease 1.9.2 lägger till logotyper och videor för 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn och Wonderswan.\n- Den här posten förblir knuten till den konfigurerade LinuxServer-bildtaggen.",
+    "el_GR": "- Η κυκλοφορία μεταδεδομένων 1.9.2 προσθέτει λογότυπα και βίντεο για 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn και Wonderswan.\n- Αυτή η καταχώρηση παραμένει συνδεδεμένη με τη ρυθμισμένη ετικέτα εικόνας LinuxServer.",
+    "hr_HR": "- Izdanje metapodataka 1.9.2 dodaje logotipe i videozapise za 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn i Wonderswan.\n- Ovaj unos ostaje povezan s konfiguriranom oznakom slike LinuxServer.",
+    "pt_PT": "- Lançamento de metadados 1.9.2 adiciona logótipos e vídeos para 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn e Wonderswan.\n- Esta entrada permanece ligada à etiqueta de imagem LinuxServer configurada.",
+    "ru_RU": "- В выпуске метаданных 1.9.2 добавлены логотипы и видеоролики для 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn и Wonderswan.\n- Эта запись остается привязанной к настроенному тегу изображения LinuxServer.",
+    "tr_TR": "- Meta veri sürümü 1.9.2, 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn ve Wonderswan için logolar ve videolar ekler.\n- Bu giriş yapılandırılmış LinuxServer resim etiketine bağlı kalır."
+  },
+  "website": "https://emulatorjs.org/",
+  "repo": "https://github.com/linuxserver/emulatorjs",
+  "support": "https://github.com/linuxserver/emulatorjs/issues",
+  "docs": "https://docs.linuxserver.io/deprecated_images/docker-emulatorjs/",
+  "title": "emulatorjs",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "utilities"
+  ],
+  "min_memory": 0,
+  "min_image_size": 285131697
+}

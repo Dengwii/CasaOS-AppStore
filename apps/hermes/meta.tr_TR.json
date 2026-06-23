@@ -1,0 +1,8 @@
+{
+  "id": "hermes",
+  "description": "Hermes Agent, Nous Research tarafından geliştirilen ve tek seferlik bir sohbet botundan ziyade uzun vadeli bir çalışma ortağı olarak tasarlanan kendini geliştiren bir yapay zeka aracısıdır.\nYerleşik öğrenme döngüsü kalıcı hafıza, oturumlar arası arama ve yeniden kullanılabilir becerileri bir araya getirerek bağlamı korumasını ve tekrar eden iş akışlarını zamanla iyileştirmesini sağlar.\nBirleşik ağ geçidi, zengin araç setleri ve tarayıcı tabanlı paneli sayesinde Hermes; araştırma, otomasyon, çok platformlu iletişim ve süreklilik gerektiren operasyonel işler için uygundur.\n\n**Başlıca İşlevler:**\n- Kalıcı hafıza, oturumlar arası arama ve yeniden kullanılabilir becerilerle yerleşik öğrenme döngüsü\n- CLI, Telegram, Discord, Slack, WhatsApp, Signal ve daha fazlası için tek ağ geçidi\n- Terminal, web araması, tarayıcı otomasyonu, dosya düzenleme ve MCP entegrasyonu ile araç odaklı iş akışları\n- Cron, alt aracılar, web paneli ve OpenAI uyumlu API ile otomasyon ve koordinasyon\n\n**Daha Fazla Bilgi:**\n- [Hermes Agent Resmi Web Sitesi](https://hermes-agent.nousresearch.com/)\n- [Hermes Agent GitHub](https://github.com/NousResearch/hermes-agent)\n- [Hermes Agent Dokümantasyonu](https://hermes-agent.nousresearch.com/docs/)\n",
+  "tagline": "Hafıza, beceriler, mesajlaşma ve web paneline sahip kendini geliştiren bir yapay zeka aracısı.",
+  "tips": {
+    "before_install": "Cogu durumda modelleri ve mesajlasmayi dogrudan Hermes WebUI uzerinden yapilandirabilirsiniz.\nIlgili secenegi bulamazsaniz [bu rehbere](https://www.zimaspace.com/docs/zimaos/hermes-agent-setup) bakin ve kurulumu konteyner terminalinde tamamlayin.\n"
+  }
+}

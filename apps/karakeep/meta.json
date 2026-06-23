@@ -1,0 +1,50 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "category": "Notes",
+  "developer": "karakeep-app",
+  "author": "karakeep",
+  "tagline": "The Bookmark Everything App",
+  "description": "Karakeep is an open-source, self-hosted bookmark manager for links, notes, images, PDFs, and highlights, built to keep everything you want to save in one place.\nIt automatically fetches titles, descriptions, and previews, then helps you organize your library with AI tagging, full-text search, lists, and rule-based automation.\nWith browser extensions, mobile apps, RSS ingestion, and page archiving, Karakeep works well as both a read-later tool and a durable personal content archive.\n\n**Main Features:**\n- Save links, notes, images, PDFs, and text highlights in one library\n- Auto-fetch titles, descriptions, images, and archived pages for later reading\n- Use AI tagging, summarization, OCR, and full-text search to rediscover content quickly\n- Organize content with tags, collaborative lists, RSS feeds, and rule-based workflows\n- Access your collection through the web app, mobile apps, browser extensions, REST API, and CLI\n\n**Learn More:**\n- [Karakeep Official Website](https://karakeep.app/)\n- [Karakeep GitHub](https://github.com/karakeep-app/karakeep)\n- [Karakeep Documentation](https://docs.karakeep.app/)\n",
+  "screenshot_link": [
+    "/apps/karakeep/assets/screenshot-1.png",
+    "/apps/karakeep/assets/screenshot-2.webp",
+    "/apps/karakeep/assets/screenshot-3.png"
+  ],
+  "thumbnail": "/apps/karakeep/assets/thumbnail.webp",
+  "tips": {
+    "before_install": "Set `NEXTAUTH_URL` to the address you will use to access Karakeep.\nUse long random strings for `NEXTAUTH_SECRET` and `MEILI_MASTER_KEY`, and keep the `MEILI_MASTER_KEY` identical in both `karakeep` and `meilisearch`.\nThe first user to sign up on your instance becomes the admin.\n"
+  },
+  "updateAt": "2026-05-08",
+  "releaseNotes": {
+    "en_US": "- v0.32.0 updates the default Meilisearch version to 1.41.0 and improves the Docker Compose development environment.\n- It improves self-hosted operation with granular API key scopes, CLI authentication config storage, new MCP/API capabilities, event logging, and rule engine enhancements.\n- It includes server-side security fixes for SSRF, rate limiting, stored XSS, and password reset tokens, plus crawler, import, search, and Meilisearch batching fixes.",
+    "en_GB": "- v0.32.0 updates the default Meilisearch version to 1.41.0 and improves the Docker Compose development environment.\n- It improves self-hosted operation with granular API key scopes, CLI authentication config storage, new MCP/API capabilities, event logging, and rule engine enhancements.\n- It includes server-side security fixes for SSRF, rate limiting, stored XSS, and password reset tokens, plus crawler, import, search, and Meilisearch batching fixes.",
+    "it_IT": "- La v0.32.0 aggiorna la versione predefinita di Meilisearch alla 1.41.0 e migliora l'ambiente di sviluppo Docker Compose.\n- Migliora l'uso self-hosted con scope granulari per le chiavi API, salvataggio della configurazione auth della CLI, nuove capacità MCP/API, event logging e miglioramenti al rule engine.\n- Include fix di sicurezza lato server per SSRF, rate limiting, stored XSS e token di reset password, oltre a correzioni per crawler, import, ricerca e batching Meilisearch.",
+    "nb_NO": "- v0.32.0 oppdaterer standard Meilisearch-versjon til 1.41.0 og forbedrer Docker Compose-utviklingsmiljøet.\n- Den forbedrer selvhosting med granulære API-nøkkelomfang, lagring av CLI-autentiseringskonfigurasjon, nye MCP/API-funksjoner, hendelseslogging og forbedringer i regelmotoren.\n- Den inneholder serverside sikkerhetsrettinger for SSRF, rate limiting, lagret XSS og passordtilbakestillingstokener, samt rettinger for crawler, import, søk og Meilisearch-batching.",
+    "zh_CN": "- v0.32.0 将默认 Meilisearch 版本更新到 1.41.0，并改进了 Docker Compose 开发环境。\n- 改进自托管使用体验，包含细粒度 API Key 权限、CLI 认证配置保存、新的 MCP/API 能力、事件日志以及规则引擎增强。\n- 包含 SSRF、限流、存储型 XSS、密码重置令牌等服务端安全修复，并修复了抓取、导入、搜索和 Meilisearch 批处理相关问题。",
+    "ja_JP": "- v0.32.0では既定のMeilisearchバージョンが1.41.0に更新され、Docker Compose開発環境も改善されました。\n- 細かなAPIキー権限、CLI認証設定の保存、新しいMCP/API機能、イベントログ、ルールエンジン強化により、セルフホスト運用が改善されています。\n- SSRF、レート制限、保存型XSS、パスワードリセットトークンのサーバー側セキュリティ修正に加え、クローラー、インポート、検索、Meilisearchバッチ処理の修正も含まれます。",
+    "ko_KR": "- v0.32.0은 기본 Meilisearch 버전을 1.41.0으로 업데이트하고 Docker Compose 개발 환경을 개선합니다.\n- 세분화된 API 키 범위, CLI 인증 설정 저장, 새로운 MCP/API 기능, 이벤트 로깅, 규칙 엔진 개선으로 자체 호스팅 운영을 향상합니다.\n- SSRF, 속도 제한, 저장형 XSS, 비밀번호 재설정 토큰에 대한 서버 측 보안 수정과 크롤러, 가져오기, 검색, Meilisearch 배치 처리 수정이 포함됩니다.",
+    "fr_FR": "- La v0.32.0 met à jour la version Meilisearch par défaut vers 1.41.0 et améliore l'environnement de développement Docker Compose.\n- Elle améliore l'exploitation auto-hébergée avec des scopes granulaires pour les clés API, le stockage de la configuration d'auth CLI, de nouvelles capacités MCP/API, l'event logging et des améliorations du moteur de règles.\n- Elle inclut des correctifs de sécurité côté serveur pour SSRF, rate limiting, XSS stocké et jetons de réinitialisation de mot de passe, ainsi que des corrections pour crawler, import, recherche et batching Meilisearch.",
+    "de_DE": "- v0.32.0 aktualisiert die Standardversion von Meilisearch auf 1.41.0 und verbessert die Docker-Compose-Entwicklungsumgebung.\n- Es verbessert den selbst gehosteten Betrieb mit granularen API-Schlüssel-Scopes, gespeicherter CLI-Authentifizierungskonfiguration, neuen MCP/API-Funktionen, Event-Logging und Verbesserungen der Regel-Engine.\n- Es enthält serverseitige Sicherheitskorrekturen für SSRF, Rate Limiting, Stored XSS und Passwort-Reset-Tokens sowie Korrekturen für Crawler, Import, Suche und Meilisearch-Batching.",
+    "sv_SE": "- v0.32.0 uppdaterar standardversionen av Meilisearch till 1.41.0 och förbättrar Docker Compose-utvecklingsmiljön.\n- Den förbättrar självhostad drift med granulära API-nyckelomfång, sparad CLI-autentiseringskonfiguration, nya MCP/API-funktioner, händelseloggning och förbättringar i regelmotorn.\n- Den innehåller serversidiga säkerhetsfixar för SSRF, rate limiting, lagrad XSS och lösenordsåterställningstokens, samt fixar för crawler, import, sök och Meilisearch-batching.",
+    "el_GR": "- Η v0.32.0 ενημερώνει την προεπιλεγμένη έκδοση Meilisearch σε 1.41.0 και βελτιώνει το περιβάλλον ανάπτυξης Docker Compose.\n- Βελτιώνει τη self-hosted λειτουργία με granular API key scopes, αποθήκευση CLI auth config, νέες δυνατότητες MCP/API, event logging και βελτιώσεις στο rule engine.\n- Περιλαμβάνει server-side διορθώσεις ασφαλείας για SSRF, rate limiting, stored XSS και password reset tokens, καθώς και διορθώσεις για crawler, import, search και Meilisearch batching.",
+    "hr_HR": "- v0.32.0 ažurira zadanu verziju Meilisearcha na 1.41.0 i poboljšava Docker Compose razvojno okruženje.\n- Poboljšava samohostirani rad uz granularne opsege API ključeva, spremanje CLI auth konfiguracije, nove MCP/API mogućnosti, event logging i poboljšanja rule enginea.\n- Uključuje serverske sigurnosne ispravke za SSRF, ograničavanje brzine, stored XSS i tokene za reset lozinke, uz ispravke za crawler, import, pretraživanje i Meilisearch batching.",
+    "pt_PT": "- A v0.32.0 atualiza a versão predefinida do Meilisearch para 1.41.0 e melhora o ambiente de desenvolvimento Docker Compose.\n- Melhora a operação auto-hospedada com âmbitos granulares para chaves API, armazenamento da configuração de autenticação CLI, novas capacidades MCP/API, event logging e melhorias no motor de regras.\n- Inclui correções de segurança do lado do servidor para SSRF, rate limiting, XSS armazenado e tokens de reposição de palavra-passe, além de correções para crawler, importação, pesquisa e batching do Meilisearch.",
+    "ru_RU": "- v0.32.0 обновляет версию Meilisearch по умолчанию до 1.41.0 и улучшает среду разработки Docker Compose.\n- Улучшена self-hosted эксплуатация: детализированные scopes API-ключей, сохранение CLI auth config, новые возможности MCP/API, event logging и улучшения rule engine.\n- Включены серверные исправления безопасности для SSRF, rate limiting, stored XSS и токенов сброса пароля, а также исправления для crawler, импорта, поиска и batching в Meilisearch.",
+    "tr_TR": "- v0.32.0 varsayılan Meilisearch sürümünü 1.41.0'a günceller ve Docker Compose geliştirme ortamını iyileştirir.\n- Ayrıntılı API anahtarı kapsamları, CLI kimlik doğrulama yapılandırmasını saklama, yeni MCP/API özellikleri, event logging ve kural motoru iyileştirmeleriyle kendi kendine barındırılan kullanımı geliştirir.\n- SSRF, hız sınırlama, stored XSS ve parola sıfırlama tokenları için sunucu tarafı güvenlik düzeltmeleri ile crawler, içe aktarma, arama ve Meilisearch batching düzeltmeleri içerir."
+  },
+  "store_app_id": "karakeep",
+  "website": "https://karakeep.app/",
+  "repo": "https://github.com/karakeep-app/karakeep",
+  "support": "https://github.com/karakeep-app/karakeep/issues",
+  "docs": "https://docs.karakeep.app/",
+  "title": "Karakeep",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "notes"
+  ],
+  "min_memory": 1342177280,
+  "min_image_size": 943710422
+}

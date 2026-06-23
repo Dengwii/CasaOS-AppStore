@@ -1,0 +1,43 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "joaobosconff",
+  "category": "Utility",
+  "description": "Glances is an open-source system cross-platform monitoring tool. It allows real-time monitoring of various aspects of your system such as CPU, memory, disk, network usage etc.",
+  "developer": "Nicolas Hennion",
+  "screenshot_link": [
+    "/apps/glances/assets/screenshot-1.webp"
+  ],
+  "tagline": "Cross-platform monitoring tool.",
+  "updateAt": "2026-04-19",
+  "releaseNotes": {
+    "en_US": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "en_GB": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "it_IT": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "nb_NO": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "zh_CN": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "ja_JP": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "ko_KR": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "fr_FR": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "de_DE": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "sv_SE": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "el_GR": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "hr_HR": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "pt_PT": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "ru_RU": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
+    "tr_TR": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection."
+  },
+  "website": "https://nicolargo.github.io/glances/",
+  "repo": "https://github.com/nicolargo/glances",
+  "support": "https://github.com/nicolargo/glances/issues",
+  "docs": "https://glances.readthedocs.io/",
+  "title": "Glances",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "utility"
+  ],
+  "min_memory": 268435456,
+  "min_image_size": 43501264
+}

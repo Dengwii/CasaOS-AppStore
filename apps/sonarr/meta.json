@@ -1,0 +1,48 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
+  "developer": "Sonarr",
+  "screenshot_link": [
+    "/apps/sonarr/assets/screenshot-1.webp",
+    "/apps/sonarr/assets/screenshot-2.webp",
+    "/apps/sonarr/assets/screenshot-3.webp",
+    "/apps/sonarr/assets/screenshot-4.webp"
+  ],
+  "tagline": "The PVR for Usenet and BitTorrent users",
+  "thumbnail": "/apps/sonarr/assets/thumbnail.webp",
+  "tips": {},
+  "updateAt": "2026-05-09",
+  "releaseNotes": {
+    "en_US": "- Sonarr 4.0.17.2967 backports qBittorrent fixes to the v4 release line.\n- The release is based on changes after v4.0.17.2953.",
+    "en_GB": "- Sonarr 4.0.17.2967 backports qBittorrent fixes to the v4 release line.\n- The release is based on changes after v4.0.17.2953.",
+    "it_IT": "- Sonarr 4.0.17.2967 esegue il backport delle correzioni qBittorrent alla linea di rilascio v4.\n- La versione si basa sulle modifiche successive a v4.0.17.2953.",
+    "nb_NO": "- Sonarr 4.0.17.2967 tilbakeporterer qBittorrent-fikser til v4 utgivelseslinjen.\n- Utgivelsen er basert på endringer etter v4.0.17.2953.",
+    "zh_CN": "- Sonarr 4.0.17.2967 将 qBittorrent 修复回移到 v4 发布线。\n- 该版本基于 v4.0.17.2953 之后的变更。",
+    "ja_JP": "- Sonarr 4.0.17.2967 は qBittorrent の修正を v4 リリースラインへバックポートします。\n- このリリースは v4.0.17.2953 以降の変更に基づいています。",
+    "ko_KR": "- Sonarr 4.0.17.2967은 qBittorrent 수정 사항을 v4 릴리스 라인으로 백포트합니다.\n- 이 릴리스는 v4.0.17.2953 이후 변경 사항을 기반으로 합니다.",
+    "fr_FR": "- Sonarr 4.0.17.2967 rétroporte des correctifs qBittorrent dans la ligne de release v4.\n- Cette version est basée sur les changements après v4.0.17.2953.",
+    "de_DE": "- Sonarr 4.0.17.2967 portiert qBittorrent-Korrekturen zurück in die v4-Release-Linie.\n- Die Veröffentlichung basiert auf Änderungen nach v4.0.17.2953.",
+    "sv_SE": "- Sonarr 4.0.17.2967 backportar qBittorrent-fixar till v4 release line.\n- Utgivningen är baserad på ändringar efter v4.0.17.2953.",
+    "el_GR": "- Το Sonarr 4.0.17.2967 υποστηρίζει τις διορθώσεις qBittorrent στη γραμμή έκδοσης v4.\n- Η κυκλοφορία βασίζεται σε αλλαγές μετά από v4.0.17.2953.",
+    "hr_HR": "- Sonarr 4.0.17.2967 vraća qBittorrent popravke na liniju izdanja v4.\n- Izdanje se temelji na promjenama nakon v4.0.17.2953.",
+    "pt_PT": "- Sonarr 4.0.17.2967 faz backport das correções qBittorrent para a linha de lançamento v4.\n- O lançamento é baseado em alterações posteriores a v4.0.17.2953.",
+    "ru_RU": "- Sonarr 4.0.17.2967 переносит исправления qBittorrent в линейку выпуска v4.\n- Релиз основан на изменениях после v4.0.17.2953.",
+    "tr_TR": "- Sonarr 4.0.17.2967, qBittorrent düzeltmelerini v4 sürüm satırına destekler.\n- Sürüm, v4.0.17.2953 sonrasındaki değişikliklere dayanmaktadır."
+  },
+  "website": "https://sonarr.tv",
+  "repo": "https://github.com/Sonarr/Sonarr",
+  "support": "https://sonarr.tv/#support",
+  "docs": "https://wiki.servarr.com/sonarr",
+  "title": "Sonarr",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "media"
+  ],
+  "min_memory": 268435456,
+  "min_image_size": 89221968
+}

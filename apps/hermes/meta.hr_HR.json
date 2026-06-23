@@ -1,0 +1,8 @@
+{
+  "id": "hermes",
+  "description": "Hermes Agent je samopoboljšavajući AI agent tvrtke Nous Research, osmišljen kao dugoročni suradnik, a ne kao jednokratni chatbot.\nNjegova ugrađena petlja učenja spaja trajnu memoriju, pretraživanje između sesija i ponovno upotrebljive vještine kako bi zadržao kontekst i s vremenom unaprijedio ponavljajuće radne tokove.\nUz objedinjeni pristupnik, bogate skupove alata i web nadzornu ploču, Hermes je prikladan za istraživanje, automatizaciju, višekanalnu komunikaciju i kontinuirani operativni rad.\n\n**Glavne Funkcije:**\n- Ugrađena petlja učenja s trajnom memorijom, pretraživanjem sesija i ponovno upotrebljivim vještinama\n- Jedan pristupnik za CLI, Telegram, Discord, Slack, WhatsApp, Signal i druge platforme\n- Radni tokovi vođeni alatima uz terminal, web pretragu, automatizaciju preglednika, uređivanje datoteka i MCP integraciju\n- Automatizacija i koordinacija uz cron, podagente, web nadzornu ploču i OpenAI-kompatibilni API\n\n**Saznajte Više:**\n- [Službena Web Stranica Hermes Agent](https://hermes-agent.nousresearch.com/)\n- [Hermes Agent GitHub](https://github.com/NousResearch/hermes-agent)\n- [Dokumentacija Hermes Agent](https://hermes-agent.nousresearch.com/docs/)\n",
+  "tagline": "Samopoboljšavajući AI agent s memorijom, vještinama, porukama i web nadzornom pločom.",
+  "tips": {
+    "before_install": "U vecini slucajeva modele i razmjenu poruka mozete konfigurirati izravno kroz Hermes WebUI.\nAko ne mozete pronaci odgovarajucu opciju, pogledajte [ovaj vodic](https://www.zimaspace.com/docs/zimaos/hermes-agent-setup) i dovrsite konfiguraciju u terminalu kontejnera.\n"
+  }
+}

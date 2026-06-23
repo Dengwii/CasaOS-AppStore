@@ -1,0 +1,47 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "Tim Düsterhus",
+  "category": "Database",
+  "description": "Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP. Conversely to phpMyAdmin, it consist of a single file ready to deploy to the target server. Adminer is available for MySQL, PostgreSQL, SQLite, MS SQL, Oracle, Firebird, SimpleDB, Elasticsearch and MongoDB.",
+  "developer": "Jakub Vrána",
+  "screenshot_link": [
+    "/apps/adminer/assets/screenshot-1.webp",
+    "/apps/adminer/assets/screenshot-2.webp",
+    "/apps/adminer/assets/screenshot-3.webp"
+  ],
+  "tagline": "Database management in a single PHP file",
+  "thumbnail": "/apps/adminer/assets/thumbnail.webp",
+  "updateAt": "2026-02-08",
+  "releaseNotes": {
+    "en_US": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "en_GB": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "it_IT": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "nb_NO": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "zh_CN": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "ja_JP": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "ko_KR": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "fr_FR": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "de_DE": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "sv_SE": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "el_GR": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "hr_HR": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "pt_PT": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "ru_RU": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+    "tr_TR": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins."
+  },
+  "website": "https://www.adminer.org",
+  "repo": "https://github.com/vrana/adminer",
+  "support": "https://github.com/vrana/adminer/issues",
+  "docs": "https://www.adminer.org/en/",
+  "title": "Adminer",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "database"
+  ],
+  "min_memory": 33554432,
+  "min_image_size": 46701128
+}

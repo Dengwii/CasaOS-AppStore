@@ -1,0 +1,6 @@
+{
+  "id": "crafty",
+  "tips": {
+    "before_install": "Standardkonto\n| Användarnamn | Lösenord |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n"
+  }
+}

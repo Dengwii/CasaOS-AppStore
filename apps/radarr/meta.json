@@ -1,0 +1,49 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Radarr is a movie collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new movies and will interface with clients and indexers to grab, sort, and rename them. It can also be configured to automatically upgrade the quality of existing files in the library when a better quality format becomes available. Note that only one type of a given movie is supported. If you want both an 4k version and 1080p version of a given movie you will need multiple instances.",
+  "developer": "Radarr",
+  "screenshot_link": [
+    "/apps/radarr/assets/screenshot-1.webp",
+    "/apps/radarr/assets/screenshot-2.webp",
+    "/apps/radarr/assets/screenshot-3.webp",
+    "/apps/radarr/assets/screenshot-4.webp",
+    "/apps/radarr/assets/screenshot-5.webp"
+  ],
+  "tagline": "The movie collection manager for Usenet and BitTorrent users",
+  "thumbnail": "/apps/radarr/assets/thumbnail.webp",
+  "tips": {},
+  "updateAt": "2026-05-17",
+  "releaseNotes": {
+    "en_US": "- Radarr 6.1.1.10360 fixes Inno Setup download handling and URL parsing on some systems.\n- Updates MailKit, ImageSharp, translations, HTTP file mapper behavior, and SonarCloud versioning.\n- Adds GiLG group parsing and fixes a collection API error around Movie CollectionThe.\n- Docker users should update the container image rather than update inside the container.",
+    "en_GB": "- Radarr 6.1.1.10360 fixes Inno Setup download handling and URL parsing on some systems.\n- Updates MailKit, ImageSharp, translations, HTTP file mapper behavior, and SonarCloud versioning.\n- Adds GiLG group parsing and fixes a collection API error around Movie CollectionThe.\n- Docker users should update the container image rather than update inside the container.",
+    "it_IT": "- Radarr 6.1.1.10360 risolve la gestione dei download di Inno Setup e l'analisi di URL su alcuni sistemi.\n- Aggiornamenti MailKit, ImageSharp, traduzioni, comportamento del file mapper HTTP e controllo delle versioni SonarCloud.\n- Aggiunge l'analisi del gruppo GiLG e corregge un errore di raccolta API relativo al film CollectionThe.\n- Gli utenti Docker dovrebbero aggiornare l'immagine del contenitore anziché aggiornarla all'interno del contenitore.",
+    "nb_NO": "- Radarr 6.1.1.10360 fikser Inno Setup-nedlastingshåndtering og URL-parsing på enkelte systemer.\n- Oppdateringer MailKit, ImageSharp, oversettelser, HTTP filtilordningsadferd og SonarCloud versjonering.\n- Legger til GiLG gruppeparsing og fikser en samling API feil rundt film CollectionThe.\n- Docker-brukere bør oppdatere beholderbildet i stedet for å oppdatere inne i beholderen.",
+    "zh_CN": "- Radarr 6.1.1.10360 修复了某些系统上的 Inno Setup 下载处理和 URL 解析。\n- 更新了 MailKit、ImageSharp、翻译、HTTP file mapper 行为，以及 SonarCloud versioning。\n- 增加了 GiLG group parsing，并修复了 Movie CollectionThe 相关的 collection API 错误。\n- Docker 用户应更新容器镜像，而不是在容器内更新。",
+    "ja_JP": "- Radarr 6.1.1.10360 は一部システムでの Inno Setup ダウンロード処理と URL 解析を修正します。\n- MailKit、ImageSharp、翻訳、HTTP file mapper の動作、SonarCloud versioning を更新します。\n- GiLG group parsing を追加し、Movie CollectionThe に関する collection API エラーを修正します。\n- Docker ユーザーはコンテナ内で更新するのではなく、コンテナイメージを更新してください。",
+    "ko_KR": "- Radarr 6.1.1.10360은 일부 시스템의 Inno Setup 다운로드 처리와 URL 파싱을 수정합니다.\n- MailKit, ImageSharp, 번역, HTTP file mapper 동작, SonarCloud versioning을 업데이트합니다.\n- GiLG group parsing을 추가하고 Movie CollectionThe 관련 collection API 오류를 수정합니다.\n- Docker 사용자는 컨테이너 내부에서 업데이트하지 말고 컨테이너 이미지를 업데이트해야 합니다.",
+    "fr_FR": "- Radarr 6.1.1.10360 corrige la gestion des téléchargements Inno Setup et l'analyse d'URL sur certains systèmes.\n- Met à jour MailKit, ImageSharp, les traductions, le comportement HTTP file mapper et le versioning SonarCloud.\n- Ajoute GiLG group parsing et corrige une erreur d'API de collection autour de Movie CollectionThe.\n- Les utilisateurs Docker doivent mettre à jour l'image du conteneur plutôt que de faire une mise à jour dans le conteneur.",
+    "de_DE": "- Radarr 6.1.1.10360 behebt Inno-Setup-Download-Verarbeitung und URL-Parsing auf einigen Systemen.\n- Aktualisiert MailKit, ImageSharp, Übersetzungen, HTTP-file-mapper-Verhalten und SonarCloud-Versioning.\n- Fügt GiLG group parsing hinzu und behebt einen collection API-Fehler rund um Movie CollectionThe.\n- Docker-Nutzer sollten das Container-Image aktualisieren, statt innerhalb des Containers zu aktualisieren.",
+    "sv_SE": "- Radarr 6.1.1.10360 fixar Inno Setup-nedladdningshantering och URL-analys på vissa system.\n- Uppdateringar MailKit, ImageSharp, översättningar, HTTP filmappningsbeteende och SonarCloud versionshantering.\n- Lägger till GiLG gruppanalys och fixar ett samlings API fel kring film CollectionThe.\n- Docker-användare bör uppdatera behållarbilden istället för att uppdatera inuti behållaren.",
+    "el_GR": "- Το Radarr 6.1.1.10360 διορθώνει το χειρισμό λήψης του Inno Setup και την ανάλυση URL σε ορισμένα συστήματα.\n- Ενημερώνει τα MailKit, ImageSharp, τις μεταφράσεις, τη συμπεριφορά αντιστοίχισης αρχείων HTTP και την έκδοση SonarCloud.\n- Προσθέτει GiLG ανάλυση ομάδας και διορθώνει ένα σφάλμα συλλογής API γύρω από την Ταινία CollectionThe.\n- Οι χρήστες Docker θα πρέπει να ενημερώνουν την εικόνα του κοντέινερ αντί να ενημερώνουν μέσα στο κοντέινερ.",
+    "hr_HR": "- Radarr 6.1.1.10360 popravlja upravljanje preuzimanjem Inno Setup-a i raščlanjivanje URL na nekim sustavima.\n- Ažuriranja MailKit, ImageSharp, prijevodi, HTTP ponašanje mapera datoteka i SonarCloud određivanje verzija.\n- Dodaje raščlanjivanje grupe GiLG i popravlja pogrešku zbirke API oko filma CollectionThe.\n- Korisnici Docker trebali bi ažurirati sliku spremnika umjesto ažuriranja unutar spremnika.",
+    "pt_PT": "- O Radarr 6.1.1.10360 corrige o tratamento de download do Inno Setup e a análise de URL em alguns sistemas.\n- Atualizações MailKit, ImageSharp, traduções, comportamento do mapeador de ficheiros HTTP e controlo de versões SonarCloud.\n- Adiciona a análise de grupo GiLG e corrige um erro de recolha API em torno do filme CollectionThe.\n- Os utilizadores Docker devem atualizar a imagem do contentor em vez de atualizar dentro do contentor.",
+    "ru_RU": "- Radarr 6.1.1.10360 исправляет обработку загрузки Inno Setup и анализ URL в некоторых системах.\n- Обновлены MailKit, ImageSharp, переводы, поведение сопоставителя файлов HTTP и управление версиями SonarCloud.\n- Добавляет синтаксический анализ группы GiLG и исправляет ошибку коллекции API вокруг фильма CollectionThe.\n- Пользователи Docker должны обновлять образ контейнера, а не обновлять его внутри.",
+    "tr_TR": "- Radarr 6.1.1.10360, bazı sistemlerde Inno Kurulum indirme işlemlerini ve URL ayrıştırmayı düzeltir.\n- MailKit, ImageSharp, çeviriler, HTTP dosya eşleyici davranışı ve SonarCloud sürüm oluşturma güncellemeleri.\n- GiLG grup ayrıştırmasını ekler ve Film CollectionThe ile ilgili bir API koleksiyon hatasını düzeltir.\n- Docker kullanıcıları konteynerin içinde güncelleme yapmak yerine konteyner görüntüsünü güncellemelidir."
+  },
+  "website": "https://radarr.video",
+  "repo": "https://github.com/Radarr/Radarr",
+  "support": "https://radarr.video/support",
+  "docs": "https://wiki.servarr.com/radarr",
+  "title": "Radarr",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "media"
+  ],
+  "min_memory": 268435456,
+  "min_image_size": 92848355
+}

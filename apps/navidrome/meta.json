@@ -1,0 +1,45 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "The Navidrome Authors",
+  "category": "Media",
+  "description": "Navidrome is an open source web-based music collection server and streamer. It gives you freedom to listen to your music collection from any browser or mobile device. It's like your personal Spotify!",
+  "tagline": "Music Collection and Streaming Server",
+  "screenshot_link": [
+    "/apps/navidrome/assets/screenshot-1.webp",
+    "/apps/navidrome/assets/screenshot-2.webp"
+  ],
+  "store_app_id": "navidrome",
+  "updateAt": "2026-04-12",
+  "releaseNotes": {
+    "en_US": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "en_GB": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "it_IT": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "nb_NO": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "zh_CN": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "ja_JP": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "ko_KR": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "fr_FR": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "de_DE": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "sv_SE": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "el_GR": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "hr_HR": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "pt_PT": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "ru_RU": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
+    "tr_TR": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation."
+  },
+  "website": "https://www.navidrome.org",
+  "repo": "https://github.com/navidrome/navidrome",
+  "support": "https://github.com/navidrome/navidrome/issues",
+  "docs": "https://www.navidrome.org/docs/",
+  "title": "Navidrome",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "media"
+  ],
+  "min_memory": 1073741824,
+  "min_image_size": 88759279
+}

@@ -1,0 +1,46 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "category": "Chat",
+  "developer": "ollama",
+  "author": "ollama",
+  "tagline": "Get up and running with large language models locally",
+  "description": "Ollama is a tool for running large language models locally, designed to help users quickly deploy and manage AI models via a simple command-line interface and server. Its intuitive Web interface and efficient design make it ideal for developers, researchers, and AI enthusiasts working on local hardware.\n\nThe tool's core features include local model execution and multi-model support. It enables running models like Llama 3, Mistral, and Gemma, with simple commands for downloading and switching models. All data processing occurs locally, ensuring privacy. Low resource usage optimizes model loading, allowing smooth operation on limited hardware.\n\nIt offers a RESTful API for application integration and supports tool calling (e.g., Llama 3.1) for complex tasks. Model management via Modelfile bundles weights and configurations for ease of use. The tool's efficiency and user control deliver a modern local AI solution.\n\n**Key Features:**\n- **Local Execution**: Run LLMs directly on your hardware without internet dependency\n- **Multiple Model Support**: Access to dozens of pre-trained models including Llama 3, Mistral, Gemma, Code Llama, and more\n- **Easy Model Management**: Simple commands to pull, run, and manage different models\n- **API Integration**: RESTful API for building applications and integrations\n- **Memory Efficient**: Optimized model loading and memory management\n- **Privacy-Focused**: All processing happens locally, ensuring data privacy\n\n**Supported Models:**\n- DeepSeek-R1 (1.5B, 7B, 8B, 14B, 32B, 70B, 671B parameters)\n- Gemma3n (2B, 4B parameters)\n- Gemma3 (1B, 4B, 12B, 27B parameters)\n- Qwen3 (0.6B, 1.7B, 4B, 8B, 14B, 30B, 32B, 235B parameters)\n- Qwen2.5vl (3B, 7B, 32B, 72B parameters)\n- Llama3.1 (8B, 70B, 405B parameters)\n- Llama3.2 (1B, 3B parameters)\n- Mistral (7B parameters)\n- And many more...\n\n**Use Cases:**\n- Local AI development and experimentation\n- Educational purposes and research\n- Building AI-powered applications\n- Code generation and assistance\n- Text generation and completion\n- Chatbots and conversational AI\n- Data analysis and insights\n\n**Learn More:**\n- [Ollama Official Website](https://ollama.com/)\n- [Ollama GitHub Repository](https://github.com/ollama/ollama)\n- [Model Library](https://ollama.com/library)\n",
+  "screenshot_link": [
+    "/apps/ollama-nvidia/assets/screenshot-1.webp",
+    "/apps/ollama-nvidia/assets/screenshot-2.webp",
+    "/apps/ollama-nvidia/assets/screenshot-3.webp"
+  ],
+  "thumbnail": "",
+  "updateAt": "2025-07-02",
+  "releaseNotes": {
+    "en_US": "- v0.9.5 updates the macOS and Windows applications.\n- Ollama can now be exposed on the network, and the model storage directory can be changed.\n- The macOS app is now native with a smaller footprint and faster startup, and fixes include CLI installation and notarization issues.",
+    "en_GB": "- v0.9.5 updates the macOS and Windows applications.\n- Ollama can now be exposed on the network, and the model storage directory can be changed.\n- The macOS app is now native with a smaller footprint and faster startup, and fixes include CLI installation and notarization issues.",
+    "it_IT": "- v0.9.5 aggiorna le applicazioni macOS e Windows.\n- Ollama ora può essere esposto in rete e la directory di archiviazione del modello può essere modificata.\n- L'app macOS è ora nativa con un ingombro ridotto e un avvio più rapido e le correzioni includono problemi di installazione e autenticazione di CLI.",
+    "nb_NO": "- v0.9.5 oppdaterer macOS- og Windows-applikasjonene.\n- Ollama kan nå eksponeres på nettverket, og modelllagringskatalogen kan endres.\n- MacOS-appen er nå innebygd med et mindre fotavtrykk og raskere oppstart, og fikser inkluderer CLI-installasjons- og notariseringsproblemer.",
+    "zh_CN": "- v0.9.5 更新了 macOS 和 Windows applications。\n- Ollama 现在可以暴露到网络上，并且可以更改 model storage directory。\n- macOS app 现在是 native，体积更小、启动更快，并修复了 CLI installation 和 notarization issues。",
+    "ja_JP": "- v0.9.5 は macOS と Windows applications を更新します。\n- Ollama をネットワークに公開できるようになり、model storage directory も変更できるようになりました。\n- macOS app は native になり、サイズが小さく起動が速くなり、CLI installation と notarization issues も修正されました。",
+    "ko_KR": "- v0.9.5는 macOS 및 Windows applications를 업데이트합니다.\n- Ollama를 이제 네트워크에 노출할 수 있고 model storage directory를 변경할 수 있습니다.\n- macOS app은 이제 native이며 더 작고 빠르게 시작하고 CLI installation 및 notarization issues가 수정되었습니다.",
+    "fr_FR": "- v0.9.5 met a jour les macOS et Windows applications.\n- Ollama peut maintenant etre expose sur le reseau et le model storage directory peut etre modifie.\n- La macOS app est maintenant native, plus legere et demarre plus vite; les problemes CLI installation et notarization issues sont corriges.",
+    "de_DE": "- v0.9.5 aktualisiert die macOS- und Windows applications.\n- Ollama kann nun im Netzwerk freigegeben werden, und das model storage directory kann geaendert werden.\n- Die macOS app ist nun native, kleiner und startet schneller; ausserdem wurden CLI installation und notarization issues behoben.",
+    "sv_SE": "- v0.9.5 uppdaterar macOS- och Windows-applikationerna.\n- Ollama kan nu exponeras på nätverket, och modelllagringskatalogen kan ändras.\n- MacOS-appen är nu inbyggd med ett mindre fotavtryck och snabbare uppstart, och korrigeringar inkluderar CLI installations- och notariseringsproblem.",
+    "el_GR": "- Το v0.9.5 ενημερώνει τις εφαρμογές macOS και Windows.\n- Το Ollama μπορεί τώρα να εκτεθεί στο δίκτυο και ο κατάλογος αποθήκευσης μοντέλου μπορεί να αλλάξει.\n- Η εφαρμογή macOS είναι πλέον εγγενής με μικρότερο αποτύπωμα και ταχύτερη εκκίνηση και οι διορθώσεις περιλαμβάνουν προβλήματα εγκατάστασης CLI και συμβολαιογραφικής.",
+    "hr_HR": "- v0.9.5 ažurira macOS i Windows aplikacije.\n- Ollama sada može biti izložen na mreži, a direktorij za pohranu modela se može promijeniti.\n- Aplikacija macOS sada je izvorna s manjim otiskom i bržim pokretanjem, a popravci uključuju probleme s instalacijom CLI i ovjerom kod javnog bilježnika.",
+    "pt_PT": "- v0.9.5 atualiza as aplicações macOS e Windows.\n- O Ollama pode agora ser exposto na rede e o diretório de armazenamento do modelo pode ser alterado.\n- A aplicação macOS é agora nativa, ocupa menos espaço e tem um arranque mais rápido, e as correções incluem problemas de instalação e reconhecimento de assinaturas do CLI.",
+    "ru_RU": "- v0.9.5 обновляет приложения macOS и Windows.\n- Олламу теперь можно открыть в сети, а каталог хранения модели можно изменить.\n- Приложение macOS теперь является встроенным, занимает меньше места и быстрее запускается, а исправления включают проблемы с установкой CLI и нотариальным заверением.",
+    "tr_TR": "- v0.9.5 macOS ve Windows uygulamalarını günceller.\n- Ollama artık ağ üzerinde gösterilebilir ve model depolama dizini değiştirilebilir.\n- macOS uygulaması artık daha az yer kaplayan ve daha hızlı başlatılabilen yerel bir uygulamadır ve düzeltmeler arasında CLI yükleme ve noter tasdiki sorunları yer alır."
+  },
+  "website": "https://ollama.com/",
+  "repo": "https://github.com/ollama/ollama",
+  "support": "https://github.com/ollama/ollama/issues",
+  "docs": "https://docs.ollama.com",
+  "title": "Ollama(Nvidia GPU)",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "chat"
+  ],
+  "min_memory": 2147483648,
+  "min_image_size": 1168433570
+}

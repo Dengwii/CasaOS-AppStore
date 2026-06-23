@@ -1,0 +1,46 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services, such as Sonarr, Radarr, and Plex!",
+  "tagline": "Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "screenshot_link": [
+    "/apps/overseerr/assets/screenshot-1.webp",
+    "/apps/overseerr/assets/screenshot-2.webp",
+    "/apps/overseerr/assets/screenshot-3.webp"
+  ],
+  "thumbnail": "",
+  "category": "Media",
+  "updateAt": "2026-02-16",
+  "releaseNotes": {
+    "en_US": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "en_GB": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "it_IT": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "nb_NO": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "zh_CN": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "ja_JP": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "ko_KR": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "fr_FR": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "de_DE": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "sv_SE": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "el_GR": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "hr_HR": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "pt_PT": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "ru_RU": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16.",
+    "tr_TR": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16."
+  },
+  "website": "https://overseerr.dev",
+  "repo": "https://github.com/sct/overseerr",
+  "support": "https://github.com/sct/overseerr/issues",
+  "docs": "https://docs.overseerr.dev",
+  "title": "Overseerr",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "media"
+  ],
+  "min_memory": 0,
+  "min_image_size": 180825745
+}

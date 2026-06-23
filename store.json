@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "store_id": "appstore-d-test",
+  "name": "AppStore-D-Test",
+  "description": "测试专用",
+  "maintainer": "Dengwii",
+  "url": "https://github.com/Dengwii/CasaOS-AppStore"
+}

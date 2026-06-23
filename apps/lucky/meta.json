@@ -1,0 +1,50 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "IceWhaleTech",
+  "category": "Network",
+  "description": "A powerful tool for port forwarding, reverse proxy, dynamic DNS, wake-on-LAN, IPv4 NAT traversal, webdav services, task scheduling, and automatic certificate management.",
+  "developer": "gdy666",
+  "screenshot_link": [
+    "/apps/lucky/assets/screenshot-1.webp",
+    "/apps/lucky/assets/screenshot-2.webp",
+    "/apps/lucky/assets/screenshot-3.webp"
+  ],
+  "tagline": "Powerful networking tool",
+  "tips": {
+    "before_install": "Default login account `666`, Default login password `666`,tips:`Before each update, remember to back up the configuration`."
+  },
+  "store_app_id": "lucky",
+  "updateAt": "2026-02-15",
+  "releaseNotes": {
+    "en_US": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "en_GB": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "it_IT": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "nb_NO": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "zh_CN": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "ja_JP": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "ko_KR": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "fr_FR": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "de_DE": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "sv_SE": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "el_GR": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "hr_HR": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "pt_PT": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "ru_RU": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
+    "tr_TR": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02."
+  },
+  "website": "https://lucky666.cn/",
+  "repo": "https://github.com/gdy666/lucky",
+  "support": "https://github.com/gdy666/lucky/issues",
+  "docs": "https://lucky666.cn/docs/",
+  "title": "Lucky",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "network"
+  ],
+  "min_memory": 67108864,
+  "min_image_size": 34083377
+}

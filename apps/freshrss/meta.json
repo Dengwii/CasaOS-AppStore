@@ -1,0 +1,45 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "FreshRSS",
+  "category": "Utilities",
+  "description": "FreshRSS is a self-hosted RSS and Atom feed aggregator. It is lightweight, easy to work with, powerful, and customizable.",
+  "developer": "FreshRSS",
+  "screenshot_link": [
+    "/apps/freshrss/assets/screenshot-1.webp"
+  ],
+  "tagline": "A free, self-hostable news aggregator…",
+  "store_app_id": "freshrss",
+  "updateAt": "2026-05-20",
+  "releaseNotes": {
+    "en_US": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "en_GB": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "it_IT": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "nb_NO": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "zh_CN": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "ja_JP": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "ko_KR": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "fr_FR": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "de_DE": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "sv_SE": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "el_GR": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "hr_HR": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "pt_PT": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "ru_RU": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle.",
+    "tr_TR": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle."
+  },
+  "website": "https://freshrss.org/",
+  "repo": "https://github.com/FreshRSS/FreshRSS",
+  "support": "https://github.com/FreshRSS/FreshRSS/issues",
+  "docs": "https://freshrss.github.io/FreshRSS/en/",
+  "title": "FreshRSS",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "utilities"
+  ],
+  "min_memory": 0,
+  "min_image_size": 88525564
+}

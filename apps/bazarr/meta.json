@@ -1,0 +1,49 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.",
+  "developer": "Sabnzbd Team",
+  "screenshot_link": [
+    "/apps/bazarr/assets/screenshot-1.webp",
+    "/apps/bazarr/assets/screenshot-2.webp",
+    "/apps/bazarr/assets/screenshot-3.webp",
+    "/apps/bazarr/assets/screenshot-4.webp"
+  ],
+  "tagline": "Letter generators for Sonarr and Radarr",
+  "thumbnail": "/apps/bazarr/assets/thumbnail.webp",
+  "tips": {},
+  "updateAt": "2026-05-12",
+  "releaseNotes": {
+    "en_US": "- v1.5.6 improves subdl and Gestdown provider error handling and release matching.\n- Adds Spain vs LATAM Spanish detection for SubX and completes SubX API key integration.\n- Fixes audio profile migration, Windows post-processing, assrt season-pack matching, and CJK title matching issues.",
+    "en_GB": "- v1.5.6 improves subdl and Gestdown provider error handling and release matching.\n- Adds Spain vs LATAM Spanish detection for SubX and completes SubX API key integration.\n- Fixes audio profile migration, Windows post-processing, assrt season-pack matching, and CJK title matching issues.",
+    "it_IT": "- v1.5.6 migliora la gestione degli errori del provider subdl e Gestdown e la corrispondenza delle versioni.\n- Aggiunge il rilevamento Spagna vs LATAM spagnolo per SubX e completa l'integrazione della chiave SubX API.\n- Risolve i problemi di migrazione del profilo audio, Windows post-processing, corrispondenza assrt season-pack e corrispondenza dei titoli CJK.",
+    "nb_NO": "- v1.5.6 forbedrer subdl- og Gestdown-leverandørens feilhåndtering og utgivelsesmatching.\n- Legger til Spania vs LATAM spansk deteksjon for SubX og fullfører SubX API nøkkelintegrasjon.\n- Løser problemer med lydprofilmigrering, Windows post-processing, assrt season-pack og CJK tittelmatching.",
+    "zh_CN": "- v1.5.6 改进了 subdl 和 Gestdown provider 的错误处理以及 release 匹配。\n- 增加了 SubX 的 Spain vs LATAM Spanish 检测，并完成 SubX API key 集成。\n- 修复了 audio profile migration、Windows post-processing、assrt season-pack 匹配和 CJK title 匹配问题。",
+    "ja_JP": "- v1.5.6 は subdl と Gestdown provider のエラー処理および release マッチングを改善します。\n- SubX 向け Spain vs LATAM Spanish 検出を追加し、SubX API key 連携を完了しました。\n- audio profile migration、Windows post-processing、assrt season-pack マッチング、CJK title マッチングの問題が修正されました。",
+    "ko_KR": "- v1.5.6은 subdl 및 Gestdown provider의 오류 처리와 release 매칭을 개선합니다.\n- SubX용 Spain vs LATAM Spanish 감지를 추가하고 SubX API key 통합을 완료했습니다.\n- audio profile migration, Windows post-processing, assrt season-pack 매칭, CJK title 매칭 문제가 수정되었습니다.",
+    "fr_FR": "- v1.5.6 ameliore la gestion des erreurs et le matching de release pour subdl et Gestdown provider.\n- La detection Spain vs LATAM Spanish pour SubX a ete ajoutee et l'integration SubX API key est terminee.\n- Les correctifs couvrent audio profile migration, Windows post-processing, le matching assrt season-pack et les problemes de matching CJK title.",
+    "de_DE": "- v1.5.6 verbessert Fehlerbehandlung und Release-Matching fuer subdl und Gestdown provider.\n- Spain-vs-LATAM-Spanish-Erkennung fuer SubX wurde hinzugefuegt, und die SubX API key-Integration wurde abgeschlossen.\n- Behoben wurden audio profile migration, Windows post-processing, assrt season-pack-Matching und CJK title-Matching-Probleme.",
+    "sv_SE": "- v1.5.6 förbättrar subdl och Gestdown-leverantörens felhantering och releasematchning.\n- Lägger till Spanien vs LATAM spansk upptäckt för SubX och slutför SubX API nyckelintegrering.\n- Fixar ljudprofilmigrering, Windows post-processing, assrt season-pack matchning och CJK titelmatchning.",
+    "el_GR": "- Το v1.5.6 βελτιώνει το χειρισμό σφαλμάτων subdl και παρόχου Gestdown και την αντιστοίχιση έκδοσης.\n- Προσθέτει ανίχνευση Ισπανίας έναντι LATAM Ισπανικών για SubX και ολοκληρώνει την ενσωμάτωση κλειδιού SubX API.\n- Διορθώνει προβλήματα μετανάστευσης προφίλ ήχου, αντιστοίχισης των Windows post-processing, assrt season-pack και CJK αντιστοίχισης τίτλου.",
+    "hr_HR": "- v1.5.6 poboljšava rukovanje pogreškama pružatelja subdl i Gestdown i usklađivanje izdanja.\n- Dodaje španjolsko u odnosu na LATAM španjolsko otkrivanje za SubX i dovršava integraciju ključa SubX API.\n- Popravlja probleme migracije audio profila, Windows post-processing, assrt season-pack podudaranja i CJK naslova podudaranja.",
+    "pt_PT": "- v1.5.6 melhora o tratamento de erros do fornecedor subdl e Gestdown e a correspondência de lançamento.\n- Adiciona a deteção de Espanha vs LATAM espanhol para SubX e conclui a integração da chave SubX API.\n- Corrige problemas de migração de perfil de áudio, Windows post-processing, correspondência de assrt season-pack e correspondência de título CJK.",
+    "ru_RU": "- v1.5.6 улучшает обработку ошибок поставщиков subdl и Gestdown и сопоставление выпусков.\n- Добавлено обнаружение Испании и LATAM для SubX и завершена интеграция ключей SubX API.\n- Исправлена ​​миграция аудиопрофиля, проблемы с сопоставлением заголовков Windows post-processing, assrt season-pack и CJK.",
+    "tr_TR": "- v1.5.6, subdl ve Gestdown sağlayıcısının hata işlemesini ve sürüm eşleştirmesini geliştirir.\n- SubX için İspanya ve LATAM İspanyolca tespitini ekler ve SubX API anahtar entegrasyonunu tamamlar.\n- Ses profili geçişini, Windows post-processing, assrt season-pack eşleşmesini ve CJK başlık eşleştirme sorunlarını düzeltir."
+  },
+  "website": "https://www.bazarr.media",
+  "repo": "https://github.com/morpheus65535/bazarr",
+  "support": "https://github.com/morpheus65535/bazarr/issues",
+  "docs": "https://wiki.bazarr.media",
+  "title": "Bazarr",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "media"
+  ],
+  "min_memory": 67108864,
+  "min_image_size": 150541321
+}

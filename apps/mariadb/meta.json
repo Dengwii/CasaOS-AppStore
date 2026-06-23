@@ -1,0 +1,44 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "MariaDB Server is one of the most popular open source relational databases. It’s made by the original developers of MySQL and guaranteed to stay open source. It is part of most cloud offerings and the default in most Linux distributions.\n\nIt is built upon the values of performance, stability, and openness, and MariaDB Foundation ensures contributions will be accepted on technical merit. Recent new functionality includes advanced clustering with Galera Cluster 4, compatibility features with Oracle Database and Temporal Data Tables, allowing one to query the data as it stood at any point in the past.\n",
+  "tagline": "MariaDB Server is one of the most popular database servers in the world. It's made by the original developers of MySQL and guaranteed to stay open source.",
+  "developer": "MariaDB Foundation",
+  "author": "WisdomSky",
+  "thumbnail": "",
+  "tips": {
+    "before_install": "Default user: `casaos`\nDefault password: `casaos`\nDefault database: `casaos`\n\nDefault root password: `casaos`\n"
+  },
+  "category": "Developer",
+  "updateAt": "2026-02-24",
+  "releaseNotes": {
+    "en_US": "- The GitHub release points to the matching MariaDB community server release notes.\n- Detailed changes are delegated to the corresponding MariaDB release-notes page.",
+    "en_GB": "- The GitHub release points to the matching MariaDB community server release notes.\n- Detailed changes are delegated to the corresponding MariaDB release-notes page.",
+    "it_IT": "- La versione GitHub punta alle note sulla versione del server della comunità MariaDB corrispondente.\n- Le modifiche dettagliate sono delegate alla pagina MariaDB release-notes corrispondente.",
+    "nb_NO": "- GitHub-utgivelsen peker på samsvarende MariaDB fellesskapsserver-utgivelsesnotater.\n- Detaljerte endringer delegeres til den tilsvarende MariaDB release-notes siden.",
+    "zh_CN": "- GitHub release 指向匹配的 MariaDB community server release notes。\n- 详细变更委托给对应的 MariaDB release-notes 页面。",
+    "ja_JP": "- GitHub release は対応する MariaDB community server release notes を参照しています。\n- 詳細な変更は対応する MariaDB release-notes ページに委ねています。",
+    "ko_KR": "- GitHub release는 일치하는 MariaDB community server release notes를 가리킵니다.\n- 자세한 변경 사항은 해당 MariaDB release-notes 페이지에 위임됩니다.",
+    "fr_FR": "- La release GitHub renvoie aux MariaDB community server release notes correspondantes.\n- Les changements detailles sont delegues a la page MariaDB release-notes correspondante.",
+    "de_DE": "- Das GitHub Release verweist auf die passenden MariaDB community server release notes.\n- Detaillierte Aenderungen werden an die entsprechende MariaDB release-notes-Seite delegiert.",
+    "sv_SE": "- GitHub-versionen pekar på de matchande MariaDB-gemenskapsserverns releasenoteringar.\n- Detaljerade ändringar delegeras till motsvarande MariaDB release-notes sida.",
+    "el_GR": "- Η έκδοση GitHub παραπέμπει στις αντίστοιχες σημειώσεις έκδοσης διακομιστή κοινότητας MariaDB.\n- Οι λεπτομερείς αλλαγές ανατίθενται στην αντίστοιχη σελίδα MariaDB release-notes.",
+    "hr_HR": "- Izdanje GitHub ukazuje na odgovarajuće napomene o izdanju poslužitelja zajednice MariaDB.\n- Detaljne promjene delegirane su na odgovarajuću stranicu MariaDB release-notes.",
+    "pt_PT": "- A versão GitHub aponta para as notas de versão correspondentes do servidor da comunidade MariaDB.\n- As alterações detalhadas são delegadas na página MariaDB release-notes correspondente.",
+    "ru_RU": "- Версия GitHub указывает на соответствующие примечания к выпуску сервера сообщества MariaDB.\n- Подробные изменения делегируются на соответствующую страницу MariaDB release-notes.",
+    "tr_TR": "- GitHub sürümü, eşleşen MariaDB topluluk sunucusu sürüm notlarına işaret ediyor.\n- Ayrıntılı değişiklikler ilgili MariaDB release-notes sayfasına devredilir."
+  },
+  "website": "https://mariadb.org/",
+  "repo": "https://github.com/MariaDB/server",
+  "support": "https://mariadb.com/docs/general-resources/community/community/faq/getting-help-with-mariadb",
+  "docs": "https://mariadb.com/kb/en/documentation/",
+  "title": "MariaDB",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "developer"
+  ],
+  "min_memory": 0,
+  "min_image_size": 106462809
+}

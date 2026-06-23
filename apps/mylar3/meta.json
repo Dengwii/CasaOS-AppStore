@@ -1,0 +1,48 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Downloader",
+  "description": "Mylar is an automated Comic Book (cbr/cbz) downloader program for use with NZB and torrents. Mylar allows you to create a watchlist of series that it monitors for various things (new issues, updated information, etc). It will grab, sort, and rename downloaded issues. It will also allow you to monitor weekly pull-lists for items belonging to said watchlisted series to download, as well as being able to monitor and maintain story-arcs.",
+  "developer": "Mylar3 Team",
+  "screenshot_link": [
+    "/apps/mylar3/assets/screenshot-1.webp",
+    "/apps/mylar3/assets/screenshot-2.webp",
+    "/apps/mylar3/assets/screenshot-3.webp",
+    "/apps/mylar3/assets/screenshot-4.webp"
+  ],
+  "tagline": "Automatic comic book (cbr/cbz) downloader",
+  "thumbnail": "/apps/mylar3/assets/thumbnail.webp",
+  "tips": {},
+  "updateAt": "2026-05-22",
+  "releaseNotes": {
+    "en_US": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "en_GB": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "it_IT": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "nb_NO": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "zh_CN": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "ja_JP": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "ko_KR": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "fr_FR": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "de_DE": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "sv_SE": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "el_GR": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "hr_HR": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "pt_PT": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "ru_RU": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub.",
+    "tr_TR": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub."
+  },
+  "website": "",
+  "repo": "https://github.com/mylar3/mylar3",
+  "support": "https://github.com/mylar3/mylar3/issues",
+  "docs": "https://github.com/mylar3/mylar3/wiki",
+  "title": "Mylar3",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "downloader"
+  ],
+  "min_memory": 67108864,
+  "min_image_size": 192750740
+}

@@ -1,0 +1,46 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "category": "Utilities",
+  "developer": "monica",
+  "author": "monica",
+  "tagline": "A Personal Relationship Management tool to help you document your social life.",
+  "description": "Monica is a self-hosted personal relationship management tool that helps users document and organize interactions with family and friends via an intuitive Web interface, creating a personalized contact database. It is ideal for users balancing work and life, ensuring key personal connections are never missed.\n\nThe tool's core features include comprehensive contact management and smart reminders. It supports creating detailed contact profiles, logging personal details, relationships (e.g., family, friends), and how contacts were met. Users can set automatic reminders for birthdays, anniversaries, and other key dates, while tracking conversations, activities, and gift ideas. A diary feature records daily moods and significant moments, maintaining a clear life record.\n\nIt offers task and debt management to track to-dos or financial interactions. Users can upload photos and documents, favorite contacts, and organize relationships with labels for streamlined data management. Full control over local data ensures privacy. The tool’s intuitive operation and high flexibility deliver a modern relationship management solution.\n\n**Key Features:**\n- Comprehensive contact management with detailed profiles\n- Automatic reminders for birthdays, anniversaries, and key dates\n- Track conversations, activities, and gift ideas\n- Diary feature to record daily moods and moments\n- Task and debt management for to-dos and finances\n- Upload photos and documents, favorite contacts\n- Organize contacts with labels\n- Local data storage for privacy assurance\n\n**Learn More:**\n- [Monica Official Website](https://www.monicahq.com)\n- [Monica GitHub Repository](https://github.com/monicahq/monica)\n",
+  "screenshot_link": [
+    "/apps/monica/assets/screenshot-1.webp",
+    "/apps/monica/assets/screenshot-2.webp",
+    "/apps/monica/assets/screenshot-3.webp"
+  ],
+  "thumbnail": "",
+  "updateAt": "2026-05-12",
+  "releaseNotes": {
+    "en_US": "- v4.1.2 fixes contact listing updates that changed the updated_at date for all contacts.",
+    "en_GB": "- v4.1.2 fixes contact listing updates that changed the updated_at date for all contacts.",
+    "it_IT": "- v4.1.2 corregge gli aggiornamenti dell'elenco dei contatti che modificavano la data di aggiornamento_at per tutti i contatti.",
+    "nb_NO": "- v4.1.2 fikser kontaktoppføringsoppdateringer som endret updated_at-datoen for alle kontakter.",
+    "zh_CN": "- v4.1.2 修复了 contact listing updates 会改变所有 contacts 的 updated_at date 的问题。",
+    "ja_JP": "- v4.1.2 は、contact listing updates がすべての contacts の updated_at date を変更してしまう問題を修正します。",
+    "ko_KR": "- v4.1.2는 contact listing updates가 모든 contacts의 updated_at date를 변경하던 문제를 수정합니다.",
+    "fr_FR": "- v4.1.2 corrige les contact listing updates qui modifiaient updated_at date pour tous les contacts.",
+    "de_DE": "- v4.1.2 behebt, dass contact listing updates das updated_at date fuer alle contacts veraenderten.",
+    "sv_SE": "- v4.1.2 fixar uppdateringar av kontaktlistor som ändrade updated_at-datumet för alla kontakter.",
+    "el_GR": "- Το v4.1.2 διορθώνει ενημερώσεις της λίστας επαφών που άλλαξαν την ημερομηνία updated_at για όλες τις επαφές.",
+    "hr_HR": "- v4.1.2 popravlja ažuriranja popisa kontakata koja su promijenila datum updated_at za sve kontakte.",
+    "pt_PT": "- v4.1.2 corrige as atualizações da lista de contactos que alteraram a data update_at para todos os contactos.",
+    "ru_RU": "- v4.1.2 исправляет обновления списка контактов, которые изменили дату update_at для всех контактов.",
+    "tr_TR": "- v4.1.2, tüm kişiler için güncellendi_at tarihini değiştiren kişi listesi güncellemelerini düzeltir."
+  },
+  "website": "https://www.monicahq.com",
+  "repo": "https://github.com/monicahq/monica",
+  "support": "https://github.com/monicahq/monica/issues",
+  "docs": "https://docs.monicahq.com",
+  "title": "Monica",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "utilities"
+  ],
+  "min_memory": 536870912,
+  "min_image_size": 330832058
+}

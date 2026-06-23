@@ -1,0 +1,51 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Downloader",
+  "description": "NZBGet can run on almost any device - classic PC, NAS, media player, SAT-receiver, WLAN-router, etc. The download area provides precompiled binaries for Windows, macOS, Linux (compatible with many CPUs and platform variants), FreeBSD and Android. For other platforms the program can be compiled from sources.",
+  "developer": "Nzbget Team",
+  "screenshot_link": [
+    "/apps/nzbget/assets/screenshot-1.webp",
+    "/apps/nzbget/assets/screenshot-2.webp",
+    "/apps/nzbget/assets/screenshot-3.webp",
+    "/apps/nzbget/assets/screenshot-4.webp"
+  ],
+  "tagline": "Efficient Usenet downloader",
+  "thumbnail": "/apps/nzbget/assets/thumbnail.webp",
+  "tips": {
+    "before_install": "Default Account\n\n| Username | Password |\n| -------- | -------- |\n| nzbget   | tegbzn6789 |\n"
+  },
+  "updateAt": "2026-05-22",
+  "releaseNotes": {
+    "en_US": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "en_GB": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "it_IT": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "nb_NO": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "zh_CN": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "ja_JP": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "ko_KR": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "fr_FR": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "de_DE": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "sv_SE": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "el_GR": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "hr_HR": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "pt_PT": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "ru_RU": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line.",
+    "tr_TR": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line."
+  },
+  "website": "https://nzbget.com",
+  "repo": "https://github.com/nzbgetcom/nzbget",
+  "support": "https://github.com/nzbgetcom/nzbget/discussions",
+  "docs": "https://nzbget.com/documentation",
+  "title": "Nzbget",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "downloader"
+  ],
+  "min_memory": 67108864,
+  "min_image_size": 46776638
+}

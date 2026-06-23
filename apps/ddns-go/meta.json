@@ -1,0 +1,44 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "zxxhz,Cp0204",
+  "category": "Network",
+  "description": "A simple and easy-to-use DDNS tool. Automatically updates domain name resolution to your public IP (supports Alibaba Cloud, Tencent Cloud, Dnspod, Cloudflare, Callback, Huawei Cloud, Baidu Cloud, Porkbun, GoDaddy, and Google Domain).\n\nDeploy DDNS-go on Zima, and you can bind the public IP of your Zima device to your domain name. This way, you can access your Zima device via the domain name while you are away.\n",
+  "developer": "jeessy2",
+  "screenshot_link": [
+    "/apps/ddns-go/assets/screenshot-1.webp"
+  ],
+  "tagline": "Simple and easy to use DDNS",
+  "updateAt": "2026-05-31",
+  "releaseNotes": {
+    "en_US": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "en_GB": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "it_IT": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "nb_NO": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "zh_CN": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "ja_JP": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "ko_KR": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "fr_FR": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "de_DE": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "sv_SE": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "el_GR": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "hr_HR": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "pt_PT": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "ru_RU": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+    "tr_TR": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream."
+  },
+  "website": "",
+  "repo": "https://github.com/jeessy2/ddns-go",
+  "support": "https://github.com/jeessy2/ddns-go/issues",
+  "docs": "https://github.com/jeessy2/ddns-go#readme",
+  "title": "ddns-go",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "network"
+  ],
+  "min_memory": 33554432,
+  "min_image_size": 11793753
+}

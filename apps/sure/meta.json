@@ -1,0 +1,48 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "category": "Finance",
+  "developer": "we-promise",
+  "author": "we-promise",
+  "tagline": "Personal finance management application",
+  "description": "Sure is a personal finance management application designed to help you track your expenses, income, and investments in one place. With an intuitive interface and powerful features, Sure makes it easy to understand your financial situation and make informed decisions about your money.\n\n**Key Features:**\n- **Expense Tracking**: Easily log and categorize your expenses\n- **Income Management**: Track multiple income sources\n- **Investment Monitoring**: Keep an eye on your investments and their performance\n- **Budget Planning**: Create and maintain budgets to control your spending\n- **Financial Reports**: Generate detailed reports to understand your financial habits\n- **AI-Powered Insights**: Get personalized financial advice using AI technology\n\n**Use Cases:**\n- Personal budget management\n- Expense tracking and categorization\n- Investment portfolio monitoring\n- Financial goal setting and tracking\n- Cash flow analysis\n\n**Learn More:**\n- [Sure GitHub Repository](https://github.com/we-promise/sure)\n",
+  "screenshot_link": [
+    "/apps/sure/assets/screenshot-1.webp",
+    "/apps/sure/assets/screenshot-2.webp",
+    "/apps/sure/assets/screenshot-3.webp",
+    "/apps/sure/assets/screenshot-4.webp",
+    "/apps/sure/assets/screenshot-5.webp"
+  ],
+  "thumbnail": "",
+  "updateAt": "2025-12-03",
+  "releaseNotes": {
+    "en_US": "- v0.6.5-hotfix.1 fixes mobile drag and re-order behavior.\n- Simplefin liabilities recording was fixed.",
+    "en_GB": "- v0.6.5-hotfix.1 fixes mobile drag and re-order behavior.\n- Simplefin liabilities recording was fixed.",
+    "it_IT": "- v0.6.5-hotfix.1 risolve il trascinamento mobile e il comportamento di re-order.\n- La registrazione delle passività Simplefin è stata corretta.",
+    "nb_NO": "- v0.6.5-hotfix.1 fikser mobil dra og re-order oppførsel.\n- Simplefin gjeldsregistrering ble fikset.",
+    "zh_CN": "- v0.6.5-hotfix.1 修复了 mobile drag 和 re-order behavior。\n- 修复了 Simplefin liabilities recording。",
+    "ja_JP": "- v0.6.5-hotfix.1 は mobile drag と re-order behavior を修正します。\n- Simplefin liabilities recording が修正されました。",
+    "ko_KR": "- v0.6.5-hotfix.1은 mobile drag 및 re-order behavior를 수정합니다.\n- Simplefin liabilities recording이 수정되었습니다.",
+    "fr_FR": "- v0.6.5-hotfix.1 corrige mobile drag et re-order behavior.\n- Simplefin liabilities recording a ete corrige.",
+    "de_DE": "- v0.6.5-hotfix.1 behebt mobile drag und re-order behavior.\n- Simplefin liabilities recording wurde korrigiert.",
+    "sv_SE": "- v0.6.5-hotfix.1 fixar mobilt drag och re-order beteende.\n- Simplefin skuldregistrering fixades.",
+    "el_GR": "- Το v0.6.5-hotfix.1 διορθώνει τη συμπεριφορά μεταφοράς και re-order για κινητά.\n- Διορθώθηκε η απλή καταγραφή υποχρεώσεων.",
+    "hr_HR": "- v0.6.5-hotfix.1 popravlja mobilno povlačenje i ponašanje re-order.\n- Popravljeno je evidentiranje obveza u Simplefinu.",
+    "pt_PT": "- v0.6.5-hotfix.1 corrige o comportamento de arrasto móvel e re-order.\n- Foi corrigida a contabilização do passivo Simplefin.",
+    "ru_RU": "- v0.6.5-hotfix.1 исправляет перетаскивание мобильных устройств и поведение re-order.\n- Исправлен учет обязательств Simplefin.",
+    "tr_TR": "- v0.6.5-hotfix.1 mobil sürüklemeyi ve re-order davranışını düzeltir.\n- Simplefin pasif kaydı düzeltildi."
+  },
+  "website": "https://sure.am",
+  "repo": "https://github.com/we-promise/sure",
+  "support": "https://github.com/we-promise/sure/issues",
+  "docs": "https://github.com/we-promise/sure/wiki",
+  "title": "Sure",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "finance"
+  ],
+  "min_memory": 4294967296,
+  "min_image_size": 483169806
+}

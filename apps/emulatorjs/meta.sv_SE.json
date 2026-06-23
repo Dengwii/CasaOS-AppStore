@@ -1,0 +1,4 @@
+{
+  "id": "emulatorjs",
+  "description": "EmulatorJS är en Docker-baserad emulatorapplikation som kan simulera olika operativsystem och enhetsmiljöer i containrar för utveckling, testning och lärande."
+}

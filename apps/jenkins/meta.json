@@ -1,0 +1,27 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tagline": "Jenkins Continuous Integration and Delivery server.",
+  "description": "A server for creating pipelines for Jenkins continuous integration and delivery.",
+  "developer": "bepp-boop",
+  "author": "bepp-boop",
+  "category": "Network",
+  "tips": {
+    "before_install": ""
+  },
+  "updateAt": "2026-03-18",
+  "releaseNotes": "",
+  "website": "https://www.jenkins.io/",
+  "repo": "https://github.com/jenkinsci/jenkins",
+  "support": "https://www.jenkins.io/participate/",
+  "docs": "https://www.jenkins.io/doc/",
+  "title": "Jenkins CI/CD",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "categories": [
+    "network"
+  ],
+  "min_memory": 0,
+  "min_image_size": 279862047
+}
