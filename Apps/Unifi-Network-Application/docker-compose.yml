@@ -138,7 +138,7 @@ x-casaos:
         通常，还需要 ssh 到您想要采用的设备并手动设置通知 IP 地址，所需的命令是“set-inform http://HOST-ADDRESS:8080/inform”。
 
         了解更多[信息](https://docs.linuxserver.io/images/docker-unifi-network-application/)
-  thumbnail:  https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Unifi-network-application/thumbnail.png
+  thumbnail:  ""
   index: /
   port_map: "8443"
   scheme: https

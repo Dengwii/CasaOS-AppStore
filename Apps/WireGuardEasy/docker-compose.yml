@@ -78,7 +78,7 @@ x-casaos:
   developer: WeejeWel
   author: Sawy
   icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/WireGuardEasy/icon.png
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/WireGuardEasy/icon.png
+  thumbnail: ""
   category: Network
   tips:
     before_install:

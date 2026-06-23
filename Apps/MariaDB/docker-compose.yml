@@ -118,7 +118,7 @@ x-casaos:
   developer: MariaDB Foundation
   author: WisdomSky
   icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MariaDB/icon.png
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MariaDB/icon.png
+  thumbnail: ""
   tips:
     before_install:
       en_us: |

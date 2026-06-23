@@ -159,7 +159,7 @@ x-casaos:
   developer: PostgreSQL Global Dev't Group
   author: WisdomSky
   icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PostgreSQL/icon.png
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PostgreSQL/icon.png
+  thumbnail: ""
   tips:
     before_install:
       en_us: |

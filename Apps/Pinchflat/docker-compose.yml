@@ -424,7 +424,7 @@ x-casaos:
     pt_PT: O seu próximo gestor multimédia YouTube
     ru_RU: Ваш следующий менеджер медиа YouTube
     tr_TR: Bir sonraki YouTube medya yöneticiniz
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pinchflat/thumbnail.png
+  thumbnail: ""
   tips:
     before_install:
       en_US: |

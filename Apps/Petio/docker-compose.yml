@@ -133,7 +133,7 @@ x-casaos:
   developer: Petio Team
   author: WisdomSky
   icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/icon.png
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/icon.png
+  thumbnail: ""
   title:
     en_us: Petio
   category: Media
