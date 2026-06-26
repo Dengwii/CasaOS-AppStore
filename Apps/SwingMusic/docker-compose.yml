@@ -1,7 +1,7 @@
 name: swingmusic
 services:
   swingmusic:
-    image: ghcr.io/swingmx/swingmusic:v2.1.4
+    image: ghcr.io/swingmx/swingmusic:v3.0.0
     container_name: swingmusic
     volumes:
       - type: bind
