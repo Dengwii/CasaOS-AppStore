@@ -261,7 +261,7 @@ x-casaos:
     zh_cn: Swing Music
   index: /
   port_map: "1970"
-  version: "v2.1.4"
+  version: "v3.0.0"
   updateAt: "2026-01-18"
   releaseNotes:
     en_US: |-
