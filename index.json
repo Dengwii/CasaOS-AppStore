@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-06-26T09:19:03Z",
+  "updated_at": "2026-06-26T09:28:06Z",
   "app_count": 166,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -227,7 +227,7 @@
       "categories": [
         "media"
       ],
-      "version": "2.35.0",
+      "version": "2.35.1",
       "author": "advplyr",
       "developer": "advplyr",
       "architectures": [
@@ -238,7 +238,7 @@
       "thumbnail": "",
       "compose_url": "/apps/audiobookshelf/docker-compose.yml",
       "meta_url": "/apps/audiobookshelf/meta.json",
-      "content_hash": "7ad59eb2"
+      "content_hash": "60860a07"
     },
     {
       "id": "autobrr",
@@ -3051,7 +3051,7 @@
       "categories": [
         "media"
       ],
-      "version": "v2.1.4",
+      "version": "v3.0.0",
       "author": "SwingMX",
       "developer": "SwingMX",
       "architectures": [
@@ -3061,7 +3061,7 @@
       "thumbnail": "/apps/swingmusic/assets/thumbnail.webp",
       "compose_url": "/apps/swingmusic/docker-compose.yml",
       "meta_url": "/apps/swingmusic/meta.json",
-      "content_hash": "b303395c"
+      "content_hash": "b46f7740"
     },
     {
       "id": "syncthing",
