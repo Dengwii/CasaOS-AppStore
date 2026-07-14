@@ -43,5 +43,5 @@
     "chat"
   ],
   "min_memory": 67108864,
-  "min_image_size": 25055687
+  "min_image_size": 0
 }

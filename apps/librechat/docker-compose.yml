@@ -7,7 +7,7 @@ services:
     depends_on:
     - librechat-mongodb
     - librechat-rag-api
-    image: ghcr.io/danny-avila/librechat-dev@sha256:adef403efc0a88379179a302344d1d68dcba54007aacea67db80be8e36d8a9da
+    image: ghcr.io/danny-avila/librechat-dev@sha256:7f95c733d6c9b29de9feb7dd14efa8b29cb0d369bf49710daf7e9b302a8bbe41
     restart: unless-stopped
     extra_hosts:
     - host.docker.internal:host-gateway
