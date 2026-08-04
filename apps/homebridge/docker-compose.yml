@@ -2,7 +2,7 @@ name: homebridge
 version: '2'
 services:
   homebridge:
-    image: homebridge/homebridge@sha256:d26cf915f2e0a9aa6e8323116db87f55a74e3b488dbc5b782f7b878b12eade5a
+    image: homebridge/homebridge@sha256:d4f3579fc09c8d43d6956c8c970351f510096b9d990c53280d2c27c1e77bfbef
     restart: always
     network_mode: host
     volumes:
