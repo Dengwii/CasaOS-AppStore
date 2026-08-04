@@ -40,5 +40,5 @@
     "network"
   ],
   "min_memory": 33554432,
-  "min_image_size": 11793753
+  "min_image_size": 0
 }

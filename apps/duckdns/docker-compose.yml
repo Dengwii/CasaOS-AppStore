@@ -1,7 +1,7 @@
 name: duckdns
 services:
   duckdns:
-    image: lscr.io/linuxserver/duckdns@sha256:ac65c0d1d2cdfd380ab7b450d97b8c80b2a30f2e086bd79b4cce2fc7190d33a6
+    image: lscr.io/linuxserver/duckdns:latest
     container_name: duckdns
     network_mode: host
     environment:
