@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-08-05T04:18:32Z",
+  "updated_at": "2026-08-05T04:19:57Z",
   "app_count": 166,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -1865,7 +1865,7 @@
       "thumbnail": "",
       "compose_url": "/apps/monica/docker-compose.yml",
       "meta_url": "/apps/monica/meta.json",
-      "content_hash": "8eaa49a8"
+      "content_hash": "aea3d7ac"
     },
     {
       "id": "motioneye",

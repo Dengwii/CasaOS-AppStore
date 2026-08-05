@@ -28,7 +28,7 @@ services:
     depends_on:
     - monica-db
   monica-db:
-    image: mariadb:11.8.2
+    image: mariadb:11.8.8
     container_name: monica-db
     deploy:
       resources:
