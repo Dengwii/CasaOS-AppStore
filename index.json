@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-08-04T13:39:01Z",
+  "updated_at": "2026-08-05T03:22:02Z",
   "app_count": 166,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -217,7 +217,7 @@
       "thumbnail": "/apps/archivebox/assets/thumbnail.webp",
       "compose_url": "/apps/archivebox/docker-compose.yml",
       "meta_url": "/apps/archivebox/meta.json",
-      "content_hash": "aa648ef9"
+      "content_hash": "0f16741f"
     },
     {
       "id": "audiobookshelf",
@@ -536,7 +536,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ddns-go/docker-compose.yml",
       "meta_url": "/apps/ddns-go/meta.json",
-      "content_hash": "91b4fbc0"
+      "content_hash": "6d0766f0"
     },
     {
       "id": "ddns-updater",
@@ -620,7 +620,7 @@
       "thumbnail": "/apps/dify/assets/thumbnail.webp",
       "compose_url": "/apps/dify/docker-compose.yml",
       "meta_url": "/apps/dify/meta.json",
-      "content_hash": "61fa2318"
+      "content_hash": "d516b758"
     },
     {
       "id": "docmost",
@@ -683,7 +683,7 @@
       "thumbnail": "",
       "compose_url": "/apps/duckdns/docker-compose.yml",
       "meta_url": "/apps/duckdns/meta.json",
-      "content_hash": "e1fdec81"
+      "content_hash": "6c26549e"
     },
     {
       "id": "duplicati",
@@ -851,7 +851,7 @@
       "thumbnail": "",
       "compose_url": "/apps/excalidraw/docker-compose.yml",
       "meta_url": "/apps/excalidraw/meta.json",
-      "content_hash": "386912cb"
+      "content_hash": "53c02b2d"
     },
     {
       "id": "filedrop",
@@ -915,7 +915,7 @@
       "thumbnail": "",
       "compose_url": "/apps/firefly/docker-compose.yml",
       "meta_url": "/apps/firefly/meta.json",
-      "content_hash": "a3ed96dc"
+      "content_hash": "0a923137"
     },
     {
       "id": "flaresolverr",
@@ -1194,7 +1194,7 @@
       "thumbnail": "",
       "compose_url": "/apps/homebridge/docker-compose.yml",
       "meta_url": "/apps/homebridge/meta.json",
-      "content_hash": "3e64c81d"
+      "content_hash": "ecca0d4a"
     },
     {
       "id": "hugo",
@@ -1235,7 +1235,7 @@
       "thumbnail": "",
       "compose_url": "/apps/icewhale-stable-diffusion-webui/docker-compose.yml",
       "meta_url": "/apps/icewhale-stable-diffusion-webui/meta.json",
-      "content_hash": "c1667410"
+      "content_hash": "69e9c1bf"
     },
     {
       "id": "immich",
@@ -1338,7 +1338,7 @@
       "thumbnail": "",
       "compose_url": "/apps/jdownloader2/docker-compose.yml",
       "meta_url": "/apps/jdownloader2/meta.json",
-      "content_hash": "fd3d8de9"
+      "content_hash": "ff718747"
     },
     {
       "id": "jellyfin",
@@ -1802,7 +1802,7 @@
       "thumbnail": "",
       "compose_url": "/apps/mineos-node/docker-compose.yml",
       "meta_url": "/apps/mineos-node/meta.json",
-      "content_hash": "42cb42ef"
+      "content_hash": "5416dc4c"
     },
     {
       "id": "mongodb",
@@ -2765,7 +2765,7 @@
       "thumbnail": "/apps/ragflow/assets/thumbnail.webp",
       "compose_url": "/apps/ragflow/docker-compose.yml",
       "meta_url": "/apps/ragflow/meta.json",
-      "content_hash": "bfc1c16d"
+      "content_hash": "92c8349a"
     },
     {
       "id": "rdtclient",
@@ -2850,7 +2850,7 @@
       "thumbnail": "",
       "compose_url": "/apps/retroarch/docker-compose.yml",
       "meta_url": "/apps/retroarch/meta.json",
-      "content_hash": "2f531a32"
+      "content_hash": "832b1ce8"
     },
     {
       "id": "romm",
@@ -3168,7 +3168,7 @@
       "thumbnail": "/apps/teable/assets/thumbnail.webp",
       "compose_url": "/apps/teable/docker-compose.yml",
       "meta_url": "/apps/teable/meta.json",
-      "content_hash": "9499ebf0"
+      "content_hash": "c16f3a65"
     },
     {
       "id": "threadfin",
@@ -3190,7 +3190,7 @@
       "thumbnail": "",
       "compose_url": "/apps/threadfin/docker-compose.yml",
       "meta_url": "/apps/threadfin/meta.json",
-      "content_hash": "b9dacb6e"
+      "content_hash": "a5936304"
     },
     {
       "id": "transmission",
@@ -3317,7 +3317,7 @@
       "thumbnail": "",
       "compose_url": "/apps/unifi-network-application/docker-compose.yml",
       "meta_url": "/apps/unifi-network-application/meta.json",
-      "content_hash": "ac6937df"
+      "content_hash": "fc089993"
     },
     {
       "id": "uptimekuma",
