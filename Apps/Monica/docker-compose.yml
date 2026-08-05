@@ -134,7 +134,7 @@ services:
             ru_RU: Пароль базы данных
             tr_TR: Veritabanı Şifresi
   monica-db:
-    image: mariadb:11.8.8
+    image: mariadb:11.8.2
     container_name: monica-db
     deploy:
       resources:
