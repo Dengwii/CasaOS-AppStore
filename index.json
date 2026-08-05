@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-08-05T03:52:50Z",
+  "updated_at": "2026-08-05T03:58:26Z",
   "app_count": 166,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -536,7 +536,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ddns-go/docker-compose.yml",
       "meta_url": "/apps/ddns-go/meta.json",
-      "content_hash": "1e8ab9e1"
+      "content_hash": "cc6d0766"
     },
     {
       "id": "ddns-updater",
@@ -1865,7 +1865,7 @@
       "thumbnail": "",
       "compose_url": "/apps/monica/docker-compose.yml",
       "meta_url": "/apps/monica/meta.json",
-      "content_hash": "aea3d7ac"
+      "content_hash": "8eaa49a8"
     },
     {
       "id": "motioneye",
