@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-08-05T04:07:06Z",
+  "updated_at": "2026-08-05T04:08:59Z",
   "app_count": 166,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -1865,7 +1865,7 @@
       "thumbnail": "",
       "compose_url": "/apps/monica/docker-compose.yml",
       "meta_url": "/apps/monica/meta.json",
-      "content_hash": "8eaa49a8"
+      "content_hash": "aea3d7ac"
     },
     {
       "id": "motioneye",
@@ -3168,7 +3168,7 @@
       "thumbnail": "/apps/teable/assets/thumbnail.webp",
       "compose_url": "/apps/teable/docker-compose.yml",
       "meta_url": "/apps/teable/meta.json",
-      "content_hash": "bd391d6b"
+      "content_hash": "69b370d9"
     },
     {
       "id": "threadfin",
