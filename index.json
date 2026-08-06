@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-08-06T04:05:59Z",
+  "updated_at": "2026-08-06T04:10:11Z",
   "app_count": 166,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -2860,7 +2860,7 @@
       "categories": [
         "games"
       ],
-      "version": "4.8.1",
+      "version": "5.1.0",
       "author": "rommapp",
       "developer": "rommapp",
       "architectures": [
@@ -2872,7 +2872,7 @@
       "thumbnail": "",
       "compose_url": "/apps/romm/docker-compose.yml",
       "meta_url": "/apps/romm/meta.json",
-      "content_hash": "974e5134"
+      "content_hash": "64ab80ab"
     },
     {
       "id": "sabnzbd",
