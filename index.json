@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-08-06T04:10:11Z",
+  "updated_at": "2026-08-06T04:14:50Z",
   "app_count": 166,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -1854,7 +1854,7 @@
       "categories": [
         "utilities"
       ],
-      "version": "4.1.2",
+      "version": "4.1.3",
       "author": "monica",
       "developer": "monica",
       "architectures": [
@@ -1865,7 +1865,7 @@
       "thumbnail": "",
       "compose_url": "/apps/monica/docker-compose.yml",
       "meta_url": "/apps/monica/meta.json",
-      "content_hash": "465fd285"
+      "content_hash": "b1d0c391"
     },
     {
       "id": "motioneye",
