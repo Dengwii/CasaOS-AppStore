@@ -1,7 +1,7 @@
 name: teable
 services:
   teable:
-    image: teableio/teable@sha256:80e5516bae1488bd52c85da8e2c5b588e452de2dba10e3e30321af84fea03232
+    image: teableio/teable@sha256:3d35449bf0c0ae13b02303841c66ad911a6c5bfdf1497d180170b615336ed66e
     container_name: teable
     restart: unless-stopped
     deploy:
