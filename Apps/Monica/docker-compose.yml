@@ -134,7 +134,7 @@ services:
             ru_RU: Пароль базы данных
             tr_TR: Veritabanı Şifresi
   monica-db:
-    image: mariadb:11.8.2
+    image: mariadb:11.8.8
     container_name: monica-db
     deploy:
       resources:
@@ -579,7 +579,7 @@ x-casaos:
   index: /
   title:
     en_US: Monica
-  version: "4.1.2"
+  version: "4.1.3"
   updateAt: "2026-05-12"
   releaseNotes:
     en_US: |-
