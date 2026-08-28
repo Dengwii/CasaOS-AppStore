@@ -44,5 +44,5 @@
     "utilities"
   ],
   "min_memory": 268435456,
-  "min_image_size": 80559488
+  "min_image_size": 0
 }
