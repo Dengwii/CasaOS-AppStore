@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-08-28T12:19:51Z",
+  "updated_at": "2026-08-29T12:57:44Z",
   "app_count": 166,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -1194,7 +1194,7 @@
       "thumbnail": "",
       "compose_url": "/apps/homebridge/docker-compose.yml",
       "meta_url": "/apps/homebridge/meta.json",
-      "content_hash": "282c4c1b"
+      "content_hash": "2101dcef"
     },
     {
       "id": "hugo",
@@ -1569,7 +1569,7 @@
       "thumbnail": "",
       "compose_url": "/apps/librechat/docker-compose.yml",
       "meta_url": "/apps/librechat/meta.json",
-      "content_hash": "21e16295"
+      "content_hash": "d090fe27"
     },
     {
       "id": "lidarr",
@@ -3370,7 +3370,7 @@
       "categories": [
         "utilities"
       ],
-      "version": "1.36.0",
+      "version": "1.37.1",
       "author": "CasaOS Team",
       "developer": "Daniel García",
       "architectures": [
@@ -3382,7 +3382,7 @@
       "thumbnail": "/apps/vaultwarden/assets/thumbnail.webp",
       "compose_url": "/apps/vaultwarden/docker-compose.yml",
       "meta_url": "/apps/vaultwarden/meta.json",
-      "content_hash": "67ba3981"
+      "content_hash": "fdcec33a"
     },
     {
       "id": "virtmanager",
