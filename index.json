@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-03T08:54:32Z",
+  "updated_at": "2026-09-03T09:01:17Z",
   "app_count": 166,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -524,7 +524,7 @@
       "categories": [
         "network"
       ],
-      "version": "v6.17.4",
+      "version": "v6.17.1",
       "author": "zxxhz,Cp0204",
       "developer": "jeessy2",
       "architectures": [
@@ -536,7 +536,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ddns-go/docker-compose.yml",
       "meta_url": "/apps/ddns-go/meta.json",
-      "content_hash": "d4fcc4f4"
+      "content_hash": "cc6d0766"
     },
     {
       "id": "ddns-updater",
