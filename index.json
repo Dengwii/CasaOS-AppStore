@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-03T09:01:17Z",
+  "updated_at": "2026-09-03T09:02:36Z",
   "app_count": 166,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -3370,7 +3370,7 @@
       "categories": [
         "utilities"
       ],
-      "version": "1.36.0",
+      "version": "1.37.1",
       "author": "CasaOS Team",
       "developer": "Daniel García",
       "architectures": [
@@ -3382,7 +3382,7 @@
       "thumbnail": "/apps/vaultwarden/assets/thumbnail.webp",
       "compose_url": "/apps/vaultwarden/docker-compose.yml",
       "meta_url": "/apps/vaultwarden/meta.json",
-      "content_hash": "67ba3981"
+      "content_hash": "fdcec33a"
     },
     {
       "id": "virtmanager",
