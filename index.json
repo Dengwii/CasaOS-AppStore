@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-03T09:09:26Z",
+  "updated_at": "2026-09-03T09:16:14Z",
   "app_count": 166,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -1011,7 +1011,7 @@
       "categories": [
         "developer"
       ],
-      "version": "1.26.4",
+      "version": "1.26.2",
       "author": "CasaOS Team",
       "developer": "Gitea",
       "architectures": [
@@ -1022,7 +1022,7 @@
       "thumbnail": "/apps/gitea/assets/thumbnail.webp",
       "compose_url": "/apps/gitea/docker-compose.yml",
       "meta_url": "/apps/gitea/meta.json",
-      "content_hash": "d9397bf0"
+      "content_hash": "49be0914"
     },
     {
       "id": "glances",
