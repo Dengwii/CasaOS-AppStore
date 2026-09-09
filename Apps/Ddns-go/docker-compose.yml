@@ -1,7 +1,7 @@
 name: ddns-go
 services:
   ddns-go:
-    image: jeessy/ddns-go:v6.17.1
+    image: jeessy/ddns-go:v6.17.2
     network_mode: bridge
     deploy:
       resources:
@@ -57,19 +57,19 @@ x-casaos:
     zh_CN: 简单好用的DDNS
   title:
     en_US: ddns-go
-  version: "6.17.1"
+  version: "6.17.2"
   update_at: "2026-05-31"
   release_notes:
     en_US: |-
-      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - v6.17.2 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
       - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
       - Updates Go crypto and network dependencies from the upstream release stream.
     en_GB: |-
-      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - v6.17.2 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
       - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
       - Updates Go crypto and network dependencies from the upstream release stream.
     it_IT: |-
-      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - v6.17.2 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
       - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
       - Updates Go crypto and network dependencies from the upstream release stream.
     nb_NO: |-
@@ -81,7 +81,7 @@ x-casaos:
       - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
       - Updates Go crypto and network dependencies from the upstream release stream.
     ja_JP: |-
-      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - v6.17.2 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
       - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
       - Updates Go crypto and network dependencies from the upstream release stream.
     ko_KR: |-
