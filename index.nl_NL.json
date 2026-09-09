@@ -1,7 +1,12 @@
 {
   "apps": [
     {
-      "id": "playit-agent",
+      "id": "org.icewhale.llamacpp",
+      "title": "llama.cpp",
+      "tagline": "Draai GGUF LLM's lokaal met GPU-versnelling"
+    },
+    {
+      "id": "org.icewhale.playitagent",
       "tagline": "Een gratis reverse proxy voor tunnelingdiensten (niet zelf gehost)."
     }
   ]

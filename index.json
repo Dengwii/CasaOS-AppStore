@@ -1,19 +1,123 @@
 {
   "version": 2,
-  "updated_at": "2026-09-03T09:54:12Z",
-  "app_count": 166,
+  "updated_at": "2026-09-09T06:48:06Z",
+  "app_count": 178,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
     {
-      "id": "2fauth",
+      "id": "com.icewhale.bentopdf",
+      "title": "BentoPDF",
+      "tagline": "Privacy-first, self-hosted PDF toolkit",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "CasaOS Team",
+      "developer": "BentoPDF",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.icewhale.bentopdf/assets/icon.svg",
+      "thumbnail": "/apps/com.icewhale.bentopdf/assets/thumbnail.webp",
+      "compose_url": "/apps/com.icewhale.bentopdf/docker-compose.yml",
+      "meta_url": "/apps/com.icewhale.bentopdf/meta.json",
+      "content_hash": "633ce10f",
+      "version": "2.8.8"
+    },
+    {
+      "id": "com.nzbfast.nzbfast",
+      "title": "nzbfast",
+      "tagline": "Fast Usenet downloader with a SABnzbd-compatible API",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "nzbfast",
+      "developer": "nzbfast",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.nzbfast.nzbfast/assets/icon.svg",
+      "thumbnail": "",
+      "compose_url": "/apps/com.nzbfast.nzbfast/docker-compose.yml",
+      "meta_url": "/apps/com.nzbfast.nzbfast/meta.json",
+      "content_hash": "11ceb008",
+      "version": "1.3.1"
+    },
+    {
+      "id": "com.snapotter.snapotter",
+      "title": "SnapOtter",
+      "tagline": "Self-hosted file toolkit for images, video, audio, PDFs, and files",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "SnapOtter",
+      "developer": "SnapOtter",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/com.snapotter.snapotter/assets/icon.png",
+      "thumbnail": "/apps/com.snapotter.snapotter/assets/thumbnail.webp",
+      "compose_url": "/apps/com.snapotter.snapotter/docker-compose.yml",
+      "meta_url": "/apps/com.snapotter.snapotter/meta.json",
+      "content_hash": "9ed8b32d",
+      "version": "2.2.0"
+    },
+    {
+      "id": "io.github.samtv12345.podfetch",
+      "title": "PodFetch",
+      "tagline": "Sleek podcast downloader with GPodder sync",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "SamTV12345",
+      "developer": "SamTV12345",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.samtv12345.podfetch/assets/icon.png",
+      "thumbnail": "/apps/io.github.samtv12345.podfetch/assets/thumbnail.webp",
+      "compose_url": "/apps/io.github.samtv12345.podfetch/docker-compose.yml",
+      "meta_url": "/apps/io.github.samtv12345.podfetch/meta.json",
+      "content_hash": "6ad03ba2",
+      "version": "5.2.3"
+    },
+    {
+      "id": "org.clumoove.app",
+      "title": "Clumoove",
+      "tagline": "Self-hosted cloud data migration & sync manager",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "Marcel Meyer",
+      "developer": "Marcel Meyer",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/org.clumoove.app/assets/icon.svg",
+      "thumbnail": "/apps/org.clumoove.app/assets/thumbnail.webp",
+      "compose_url": "/apps/org.clumoove.app/docker-compose.yml",
+      "meta_url": "/apps/org.clumoove.app/meta.json",
+      "content_hash": "0902a81d",
+      "version": "0.17.0"
+    },
+    {
+      "id": "org.icewhale.2fauth",
       "title": "2FAuth",
       "tagline": "A web app to manage your Two-Factor Authentication (2FA) accounts and generate their security codes",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "6.1.3",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Bubka",
       "architectures": [
         "amd64",
@@ -21,43 +125,43 @@
         "arm64",
         "arm"
       ],
-      "icon": "/apps/2fauth/assets/icon.png",
-      "thumbnail": "/apps/2fauth/assets/thumbnail.webp",
-      "compose_url": "/apps/2fauth/docker-compose.yml",
-      "meta_url": "/apps/2fauth/meta.json",
-      "content_hash": "39096ce5"
+      "icon": "/apps/org.icewhale.2fauth/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.2fauth/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.2fauth/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.2fauth/meta.json",
+      "content_hash": "d50c6739",
+      "version": "6.1.3"
     },
     {
-      "id": "actualbudget",
+      "id": "org.icewhale.actualbudget",
       "title": "Actual Budget",
       "tagline": "Privacy-first finance app with envelope budgeting and multi-device sync.",
       "category": "Finance",
       "categories": [
         "finance"
       ],
-      "version": "26.5.2",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "ActualBudget",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/actualbudget/assets/icon.png",
+      "icon": "/apps/org.icewhale.actualbudget/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/actualbudget/docker-compose.yml",
-      "meta_url": "/apps/actualbudget/meta.json",
-      "content_hash": "f0e532e9"
+      "compose_url": "/apps/org.icewhale.actualbudget/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.actualbudget/meta.json",
+      "content_hash": "784da39f",
+      "version": "26.5.2"
     },
     {
-      "id": "adguard-home",
+      "id": "org.icewhale.adguardhome",
       "title": "AdGuard Home",
-      "tagline": "Blocking ads & tracking Network-widly",
-      "category": "Network",
+      "tagline": "Network-wide ad and tracker blocking",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "v0.107.76",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "AdguardTeam",
       "architectures": [
         "386",
@@ -66,21 +170,21 @@
         "arm64",
         "ppc64le"
       ],
-      "icon": "/apps/adguard-home/assets/icon.png",
-      "thumbnail": "/apps/adguard-home/assets/thumbnail.webp",
-      "compose_url": "/apps/adguard-home/docker-compose.yml",
-      "meta_url": "/apps/adguard-home/meta.json",
-      "content_hash": "cb681454"
+      "icon": "/apps/org.icewhale.adguardhome/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.adguardhome/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.adguardhome/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.adguardhome/meta.json",
+      "content_hash": "d5bfac99",
+      "version": "0.107.79"
     },
     {
-      "id": "adminer",
+      "id": "org.icewhale.adminer",
       "title": "Adminer",
       "tagline": "Database management in a single PHP file",
-      "category": "Database",
+      "category": "Developer",
       "categories": [
-        "database"
+        "developer"
       ],
-      "version": "5.4.2",
       "author": "Tim Düsterhus",
       "developer": "Jakub Vrána",
       "architectures": [
@@ -88,42 +192,42 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/adminer/assets/icon.png",
-      "thumbnail": "/apps/adminer/assets/thumbnail.webp",
-      "compose_url": "/apps/adminer/docker-compose.yml",
-      "meta_url": "/apps/adminer/meta.json",
-      "content_hash": "8712e75a"
+      "icon": "/apps/org.icewhale.adminer/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.adminer/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.adminer/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.adminer/meta.json",
+      "content_hash": "cd1bc1cd",
+      "version": "5.4.2"
     },
     {
-      "id": "albyhub",
+      "id": "org.icewhale.albyhub",
       "title": "Alby Hub ✨",
       "tagline": "Self-custodial Bitcoin Lightning wallet with integrated node and app connections.",
       "category": "Finance",
       "categories": [
         "finance"
       ],
-      "version": "v1.22.2",
       "author": "calganaygun",
       "developer": "",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/albyhub/assets/icon.png",
+      "icon": "/apps/org.icewhale.albyhub/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/albyhub/docker-compose.yml",
-      "meta_url": "/apps/albyhub/meta.json",
-      "content_hash": "45834adb"
+      "compose_url": "/apps/org.icewhale.albyhub/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.albyhub/meta.json",
+      "content_hash": "69ed6909",
+      "version": "1.22.2"
     },
     {
-      "id": "alist",
+      "id": "org.icewhale.alist",
       "title": "Alist",
       "tagline": "Mount your cloud drive on your home NAS",
-      "category": "Cloud",
+      "category": "Productivity",
       "categories": [
-        "cloud"
+        "productivity"
       ],
-      "version": "v3.40.0",
       "author": "Xhofe",
       "developer": "Xhofe",
       "architectures": [
@@ -131,21 +235,21 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/alist/assets/icon.png",
-      "thumbnail": "/apps/alist/assets/thumbnail.webp",
-      "compose_url": "/apps/alist/docker-compose.yml",
-      "meta_url": "/apps/alist/meta.json",
-      "content_hash": "48add4c0"
+      "icon": "/apps/org.icewhale.alist/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.alist/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.alist/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.alist/meta.json",
+      "content_hash": "b0d214cd",
+      "version": "3.40.0"
     },
     {
-      "id": "alist-sync",
+      "id": "org.icewhale.alistsync",
       "title": "Alist-Sync",
       "tagline": "An Alist storage synchronization tool based on the Web interface.",
-      "category": "Cloud",
+      "category": "Productivity",
       "categories": [
-        "cloud"
+        "productivity"
       ],
-      "version": "1.1.5",
       "author": "xjxjin",
       "developer": "xjxjin",
       "architectures": [
@@ -153,102 +257,101 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/alist-sync/assets/icon.png",
-      "thumbnail": "/apps/alist-sync/assets/thumbnail.webp",
-      "compose_url": "/apps/alist-sync/docker-compose.yml",
-      "meta_url": "/apps/alist-sync/meta.json",
-      "content_hash": "e2bf2dac"
+      "icon": "/apps/org.icewhale.alistsync/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.alistsync/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.alistsync/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.alistsync/meta.json",
+      "content_hash": "d73b5faa",
+      "version": "1.1.5"
     },
     {
-      "id": "anaconda3",
+      "id": "org.icewhale.anaconda3",
       "title": "Anaconda3",
       "tagline": "Your machine learning Env work with Jupyter Lab",
       "category": "AI",
       "categories": [
         "ai"
       ],
-      "version": "2024.10-1",
       "author": "LisonEvf",
       "developer": "LisonEvf",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/anaconda3/assets/icon.png",
-      "thumbnail": "/apps/anaconda3/assets/thumbnail.webp",
-      "compose_url": "/apps/anaconda3/docker-compose.yml",
-      "meta_url": "/apps/anaconda3/meta.json",
-      "content_hash": "ee13904e"
+      "icon": "/apps/org.icewhale.anaconda3/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.anaconda3/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.anaconda3/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.anaconda3/meta.json",
+      "content_hash": "388f0c0c"
     },
     {
-      "id": "anythingllm",
+      "id": "org.icewhale.anythingllm",
       "title": "AnythingLLM",
       "tagline": "The all-in-one AI application.",
-      "category": "Chat",
+      "category": "AI",
       "categories": [
-        "chat"
+        "ai"
       ],
-      "version": "latest",
       "author": "",
       "developer": "Mintplex Labs",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/anythingllm/assets/icon.png",
+      "icon": "/apps/org.icewhale.anythingllm/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/anythingllm/docker-compose.yml",
-      "meta_url": "/apps/anythingllm/meta.json",
-      "content_hash": "c31c59cd"
+      "compose_url": "/apps/org.icewhale.anythingllm/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.anythingllm/meta.json",
+      "content_hash": "8f9b5fde",
+      "version": "1.14.2"
     },
     {
-      "id": "archivebox",
+      "id": "org.icewhale.archivebox",
       "title": "ArchiveBox",
       "tagline": "Self-hosted internet archiving solution",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "0.7.4",
       "author": "ArchiveBox",
       "developer": "ArchiveBox",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/archivebox/assets/icon.png",
-      "thumbnail": "/apps/archivebox/assets/thumbnail.webp",
-      "compose_url": "/apps/archivebox/docker-compose.yml",
-      "meta_url": "/apps/archivebox/meta.json",
-      "content_hash": "70a7f7fe"
+      "icon": "/apps/org.icewhale.archivebox/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.archivebox/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.archivebox/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.archivebox/meta.json",
+      "content_hash": "8464faa6",
+      "version": "0.7.4"
     },
     {
-      "id": "audiobookshelf",
+      "id": "org.icewhale.audiobookshelf",
       "title": "Audiobookshelf",
       "tagline": "Audiobookshelf is a self-hosted audiobook and podcast server.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "2.35.1",
       "author": "advplyr",
       "developer": "advplyr",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/audiobookshelf/assets/icon.png",
+      "icon": "/apps/org.icewhale.audiobookshelf/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/audiobookshelf/docker-compose.yml",
-      "meta_url": "/apps/audiobookshelf/meta.json",
-      "content_hash": "d927a5bb"
+      "compose_url": "/apps/org.icewhale.audiobookshelf/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.audiobookshelf/meta.json",
+      "content_hash": "2265cdc9",
+      "version": "2.35.0"
     },
     {
-      "id": "autobrr",
+      "id": "org.icewhale.autobrr",
       "title": "Autobrr",
       "tagline": "Modern, easy to use download automation for torrents and usenet.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "v1.79.0",
       "author": "Autobrr Team",
       "developer": "Autobrr Team",
       "architectures": [
@@ -256,169 +359,168 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/autobrr/assets/icon.png",
-      "thumbnail": "/apps/autobrr/assets/thumbnail.webp",
-      "compose_url": "/apps/autobrr/docker-compose.yml",
-      "meta_url": "/apps/autobrr/meta.json",
-      "content_hash": "8d719c1d"
+      "icon": "/apps/org.icewhale.autobrr/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.autobrr/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.autobrr/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.autobrr/meta.json",
+      "content_hash": "c198af55",
+      "version": "1.79.0"
     },
     {
-      "id": "bazarr",
+      "id": "org.icewhale.bazarr",
       "title": "Bazarr",
       "tagline": "Letter generators for Sonarr and Radarr",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "1.5.6",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Sabnzbd Team",
       "architectures": [
         "amd64",
-        "arm",
         "arm64"
       ],
-      "icon": "/apps/bazarr/assets/icon.png",
-      "thumbnail": "/apps/bazarr/assets/thumbnail.webp",
-      "compose_url": "/apps/bazarr/docker-compose.yml",
-      "meta_url": "/apps/bazarr/meta.json",
-      "content_hash": "09aa1c48"
+      "icon": "/apps/org.icewhale.bazarr/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.bazarr/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.bazarr/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.bazarr/meta.json",
+      "content_hash": "a90cb5db",
+      "version": "1.5.6"
     },
     {
-      "id": "beaverhabittracker",
+      "id": "org.icewhale.beaverhabittracker",
       "title": "BeaverHabitTracker",
       "tagline": "A self-hosted, goal-free habit tracking tool.",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "0.9.1",
       "author": "daya0576",
       "developer": "daya0576",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/beaverhabittracker/assets/icon.png",
+      "icon": "/apps/org.icewhale.beaverhabittracker/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/beaverhabittracker/docker-compose.yml",
-      "meta_url": "/apps/beaverhabittracker/meta.json",
-      "content_hash": "a293d6dd"
+      "compose_url": "/apps/org.icewhale.beaverhabittracker/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.beaverhabittracker/meta.json",
+      "content_hash": "d6631617",
+      "version": "0.9.1"
     },
     {
-      "id": "blinko",
+      "id": "org.icewhale.blinko",
       "title": "Blinko",
       "tagline": "Blinko is an AI-powered card note-taking project. Designed for individuals who want to quickly capture and organize their fleeting thoughts. Blinko allows users to seamlessly jot down ideas the moment they strike, ensuring that no spark of creativity is lost.",
-      "category": "Notes",
+      "category": "Productivity",
       "categories": [
-        "notes"
+        "productivity"
       ],
-      "version": "1.8.7",
       "author": "blinkospace",
       "developer": "blinkospace",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/blinko/assets/icon.png",
-      "thumbnail": "/apps/blinko/assets/thumbnail.webp",
-      "compose_url": "/apps/blinko/docker-compose.yml",
-      "meta_url": "/apps/blinko/meta.json",
-      "content_hash": "7f77a79d"
+      "icon": "/apps/org.icewhale.blinko/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.blinko/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.blinko/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.blinko/meta.json",
+      "content_hash": "508d5b8b",
+      "version": "1.8.7"
     },
     {
-      "id": "calibre-web",
+      "id": "org.icewhale.calibreweb",
       "title": "Calibre-web",
       "tagline": "Web app for browsing, reading and downloading eBooks stored in a Calibre database",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "0.6.24",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "linuxserver",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/calibre-web/assets/icon.png",
-      "thumbnail": "/apps/calibre-web/assets/thumbnail.webp",
-      "compose_url": "/apps/calibre-web/docker-compose.yml",
-      "meta_url": "/apps/calibre-web/meta.json",
-      "content_hash": "87404ee0"
+      "icon": "/apps/org.icewhale.calibreweb/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.calibreweb/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.calibreweb/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.calibreweb/meta.json",
+      "content_hash": "c7fa4d39",
+      "version": "0.6.24"
     },
     {
-      "id": "chatbot-ui",
+      "id": "org.icewhale.chatbotui",
       "title": "Chatbot UI",
       "tagline": "Open source chat UI for AI models",
-      "category": "Chat",
+      "category": "AI",
       "categories": [
-        "chat"
+        "ai"
       ],
-      "version": "main",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Mckay Wrigley",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/chatbot-ui/assets/icon.jpg",
+      "icon": "/apps/org.icewhale.chatbotui/assets/icon.jpg",
       "thumbnail": "",
-      "compose_url": "/apps/chatbot-ui/docker-compose.yml",
-      "meta_url": "/apps/chatbot-ui/meta.json",
-      "content_hash": "e3bb2e42"
+      "compose_url": "/apps/org.icewhale.chatbotui/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.chatbotui/meta.json",
+      "content_hash": "65e99b6b",
+      "version": "0.0.1"
     },
     {
-      "id": "chatgpt-next-web",
+      "id": "org.icewhale.chatgptnextweb",
       "title": "ChatGPT Next Web",
       "tagline": "A well-designed cross-platform ChatGPT UI.",
-      "category": "Utilities",
+      "category": "AI",
       "categories": [
-        "utilities"
+        "ai"
       ],
-      "version": "v2.16.1",
       "author": "CorrectRoadH,Cp0204",
       "developer": "Yidadaa",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/chatgpt-next-web/assets/icon.png",
-      "thumbnail": "/apps/chatgpt-next-web/assets/thumbnail.webp",
-      "compose_url": "/apps/chatgpt-next-web/docker-compose.yml",
-      "meta_url": "/apps/chatgpt-next-web/meta.json",
-      "content_hash": "814d908a"
+      "icon": "/apps/org.icewhale.chatgptnextweb/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.chatgptnextweb/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.chatgptnextweb/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.chatgptnextweb/meta.json",
+      "content_hash": "65fa53b8",
+      "version": "2.16.1"
     },
     {
-      "id": "cloudbeaver",
+      "id": "org.icewhale.cloudbeaver",
       "title": "CloudBeaver",
       "tagline": "Cloud Database Manager.",
       "category": "Developer",
       "categories": [
         "developer"
       ],
-      "version": "26.0.5",
       "author": "joaobosconff",
       "developer": "dbeaver",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/cloudbeaver/assets/icon.png",
+      "icon": "/apps/org.icewhale.cloudbeaver/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/cloudbeaver/docker-compose.yml",
-      "meta_url": "/apps/cloudbeaver/meta.json",
-      "content_hash": "a2de0939"
+      "compose_url": "/apps/org.icewhale.cloudbeaver/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.cloudbeaver/meta.json",
+      "content_hash": "4cfcf202",
+      "version": "26.0.5"
     },
     {
-      "id": "cloudflared",
+      "id": "org.icewhale.cloudflared",
       "title": "Cloudflared",
       "tagline": "A tunneling daemon by Cloudflare that safely exposes your web servers into the internet.",
-      "category": "Developer",
+      "category": "Networking",
       "categories": [
-        "developer"
+        "networking"
       ],
-      "version": "2026.5.0",
       "author": "WisdomSky",
       "developer": "Cloudflare Inc.",
       "architectures": [
@@ -426,105 +528,104 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/cloudflared/assets/icon.png",
-      "thumbnail": "/apps/cloudflared/assets/thumbnail.webp",
-      "compose_url": "/apps/cloudflared/docker-compose.yml",
-      "meta_url": "/apps/cloudflared/meta.json",
-      "content_hash": "66bfcf6d"
+      "icon": "/apps/org.icewhale.cloudflared/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.cloudflared/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.cloudflared/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.cloudflared/meta.json",
+      "content_hash": "e36e10c1",
+      "version": "2026.5.0"
     },
     {
-      "id": "convertx",
+      "id": "org.icewhale.convertx",
       "title": "ConvertX",
       "tagline": "A versatile file conversion tool that supports multiple formats.",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "v0.17.0",
       "author": "c4illin",
       "developer": "c4illin",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/convertx/assets/icon.png",
+      "icon": "/apps/org.icewhale.convertx/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/convertx/docker-compose.yml",
-      "meta_url": "/apps/convertx/meta.json",
-      "content_hash": "0e3f3eff"
+      "compose_url": "/apps/org.icewhale.convertx/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.convertx/meta.json",
+      "content_hash": "f9b35ab7",
+      "version": "0.17.0"
     },
     {
-      "id": "copyparty",
+      "id": "org.icewhale.copyparty",
       "title": "CopyParty",
       "tagline": "A simple, private file server.",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "1.20.13",
       "author": "CopyParty",
       "developer": "CopyParty",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/copyparty/assets/icon.png",
+      "icon": "/apps/org.icewhale.copyparty/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/copyparty/docker-compose.yml",
-      "meta_url": "/apps/copyparty/meta.json",
-      "content_hash": "81aa8b21"
+      "compose_url": "/apps/org.icewhale.copyparty/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.copyparty/meta.json",
+      "content_hash": "8c56540b",
+      "version": "1.20.13"
     },
     {
-      "id": "crafty",
+      "id": "org.icewhale.crafty",
       "title": "Crafty",
       "tagline": "Take control of your Minecraft servers.",
-      "category": "Games",
+      "category": "Media",
       "categories": [
-        "games"
+        "media"
       ],
-      "version": "4.10.4",
       "author": "Chàra Rose",
       "developer": "Crafty Team",
       "architectures": [
         "amd64",
-        "arm",
         "arm64"
       ],
-      "icon": "/apps/crafty/assets/icon.png",
+      "icon": "/apps/org.icewhale.crafty/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/crafty/docker-compose.yml",
-      "meta_url": "/apps/crafty/meta.json",
-      "content_hash": "96b076e0"
+      "compose_url": "/apps/org.icewhale.crafty/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.crafty/meta.json",
+      "content_hash": "15e44ddf",
+      "version": "4.10.4"
     },
     {
-      "id": "databag",
+      "id": "org.icewhale.databag",
       "title": "Databag",
       "tagline": "Messenger for the Decentralized Web",
-      "category": "Chat",
+      "category": "Social",
       "categories": [
-        "chat"
+        "social"
       ],
-      "version": "0.1.18",
       "author": "Pierre Balzack",
       "developer": "balzack",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/databag/assets/icon.png",
+      "icon": "/apps/org.icewhale.databag/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/databag/docker-compose.yml",
-      "meta_url": "/apps/databag/meta.json",
-      "content_hash": "b3ba0c0c"
+      "compose_url": "/apps/org.icewhale.databag/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.databag/meta.json",
+      "content_hash": "57ce24c4",
+      "version": "0.1.18"
     },
     {
-      "id": "ddns-go",
+      "id": "org.icewhale.ddnsgo",
       "title": "ddns-go",
       "tagline": "Simple and easy to use DDNS",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "v6.17.1",
       "author": "zxxhz,Cp0204",
       "developer": "jeessy2",
       "architectures": [
@@ -532,21 +633,21 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/ddns-go/assets/icon.png",
+      "icon": "/apps/org.icewhale.ddnsgo/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/ddns-go/docker-compose.yml",
-      "meta_url": "/apps/ddns-go/meta.json",
-      "content_hash": "cc6d0766"
+      "compose_url": "/apps/org.icewhale.ddnsgo/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.ddnsgo/meta.json",
+      "content_hash": "95a82dec",
+      "version": "6.17.1"
     },
     {
-      "id": "ddns-updater",
+      "id": "org.icewhale.ddnsupdater",
       "title": "ddns-updater",
       "tagline": "Simple and easy to use DDNS",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "v2.10.0",
       "author": "rstuhlmuller",
       "developer": "qmcgaw",
       "architectures": [
@@ -554,356 +655,375 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/ddns-updater/assets/icon.png",
+      "icon": "/apps/org.icewhale.ddnsupdater/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/ddns-updater/docker-compose.yml",
-      "meta_url": "/apps/ddns-updater/meta.json",
-      "content_hash": "5c3e67f2"
+      "compose_url": "/apps/org.icewhale.ddnsupdater/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.ddnsupdater/meta.json",
+      "content_hash": "1a619419",
+      "version": "2.10.0"
     },
     {
-      "id": "deepseek-ocr-nvidia",
+      "id": "org.icewhale.deepseekocrnvidia",
       "title": "DeepSeek OCR(Nvidia GPU)",
       "tagline": "Powerful OCR powered by DeepSeek AI",
       "category": "AI",
       "categories": [
         "ai"
       ],
-      "version": "v2.2.0",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "rdumasia303",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/deepseek-ocr-nvidia/assets/icon.png",
+      "icon": "/apps/org.icewhale.deepseekocrnvidia/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/deepseek-ocr-nvidia/docker-compose.yml",
-      "meta_url": "/apps/deepseek-ocr-nvidia/meta.json",
-      "content_hash": "afdd1d41"
+      "compose_url": "/apps/org.icewhale.deepseekocrnvidia/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.deepseekocrnvidia/meta.json",
+      "content_hash": "b586fe2b",
+      "version": "2.2.0"
     },
     {
-      "id": "deluge",
+      "id": "org.icewhale.deluge",
       "title": "Deluge",
       "tagline": "A lightweight and free BitTorrent client.",
-      "category": "Downloader",
+      "category": "Media",
       "categories": [
-        "downloader"
+        "media"
       ],
-      "version": "2.2.0",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Deluge Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/deluge/assets/icon.png",
-      "thumbnail": "/apps/deluge/assets/thumbnail.webp",
-      "compose_url": "/apps/deluge/docker-compose.yml",
-      "meta_url": "/apps/deluge/meta.json",
-      "content_hash": "a39b0930"
+      "icon": "/apps/org.icewhale.deluge/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.deluge/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.deluge/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.deluge/meta.json",
+      "content_hash": "53f1e287",
+      "version": "2.2.0"
     },
     {
-      "id": "dify",
+      "id": "org.icewhale.dify",
       "title": "Dify",
       "tagline": "LLM App Development Platform",
-      "category": "Chat",
+      "category": "AI",
       "categories": [
-        "chat"
+        "ai"
       ],
-      "version": "0.15.8",
       "author": "IceWhaleTech",
       "developer": "LangGenius",
       "architectures": [
-        "arm64",
         "amd64"
       ],
-      "icon": "/apps/dify/assets/icon.png",
-      "thumbnail": "/apps/dify/assets/thumbnail.webp",
-      "compose_url": "/apps/dify/docker-compose.yml",
-      "meta_url": "/apps/dify/meta.json",
-      "content_hash": "836fc47c"
+      "icon": "/apps/org.icewhale.dify/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.dify/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.dify/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.dify/meta.json",
+      "content_hash": "55afdfe1",
+      "version": "0.15.8"
     },
     {
-      "id": "docmost",
+      "id": "org.icewhale.docmost",
       "title": "Docmost",
       "tagline": "A modern wiki and knowledge base for teams",
-      "category": "Notes",
+      "category": "Productivity",
       "categories": [
-        "notes"
+        "productivity"
       ],
-      "version": "0.90.0",
       "author": "docmost",
       "developer": "docmost",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/docmost/assets/icon.png",
+      "icon": "/apps/org.icewhale.docmost/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/docmost/docker-compose.yml",
-      "meta_url": "/apps/docmost/meta.json",
-      "content_hash": "9901da66"
+      "compose_url": "/apps/org.icewhale.docmost/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.docmost/meta.json",
+      "content_hash": "72b592bd",
+      "version": "0.90.0"
     },
     {
-      "id": "downtify",
+      "id": "org.icewhale.downtify",
       "title": "Downtify",
       "tagline": "Download Spotify music with album art and metadata",
-      "category": "Downloader",
+      "category": "Media",
       "categories": [
-        "downloader"
+        "media"
       ],
-      "version": "2.7.0",
       "author": "Henrique Sebastião",
       "developer": "Henrique Sebastião",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/downtify/assets/icon.png",
+      "icon": "/apps/org.icewhale.downtify/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/downtify/docker-compose.yml",
-      "meta_url": "/apps/downtify/meta.json",
-      "content_hash": "bf05e929"
+      "compose_url": "/apps/org.icewhale.downtify/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.downtify/meta.json",
+      "content_hash": "e71f3b55",
+      "version": "2.7.0"
     },
     {
-      "id": "duckdns",
+      "id": "org.icewhale.dsh-harness",
+      "title": "DeepSeekHarness",
+      "tagline": "DeepSeek Harness “Everything is a Plugin“.",
+      "category": "AI",
+      "categories": [
+        "ai"
+      ],
+      "author": "ZimaOS Team",
+      "developer": "DeepSeek",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/org.icewhale.dsh-harness/assets/icon.png",
+      "thumbnail": "/apps/org.icewhale.dsh-harness/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.dsh-harness/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.dsh-harness/meta.json",
+      "content_hash": "f1712100",
+      "version": "0.1.0"
+    },
+    {
+      "id": "org.icewhale.duckdns",
       "title": "duckdns",
       "tagline": "Dynamic DNS for your domain, supporting both IPv4 and IPv6",
-      "category": "Utilities",
+      "category": "Networking",
       "categories": [
-        "utilities"
+        "networking"
       ],
-      "version": "latest",
       "author": "DuckDNS Team",
       "developer": "DuckDNS Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/duckdns/assets/icon.png",
+      "icon": "/apps/org.icewhale.duckdns/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/duckdns/docker-compose.yml",
-      "meta_url": "/apps/duckdns/meta.json",
-      "content_hash": "c835228f"
+      "compose_url": "/apps/org.icewhale.duckdns/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.duckdns/meta.json",
+      "content_hash": "14135552",
+      "version": "0.0.1"
     },
     {
-      "id": "duplicati",
+      "id": "org.icewhale.duplicati",
       "title": "Duplicati",
       "tagline": "Store securely encrypted backups in the cloud!",
-      "category": "Cloud",
+      "category": "Productivity",
       "categories": [
-        "cloud"
+        "productivity"
       ],
-      "version": "2.1.0",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "duplicati",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/duplicati/assets/icon.png",
-      "thumbnail": "/apps/duplicati/assets/thumbnail.webp",
-      "compose_url": "/apps/duplicati/docker-compose.yml",
-      "meta_url": "/apps/duplicati/meta.json",
-      "content_hash": "cb8865d5"
+      "icon": "/apps/org.icewhale.duplicati/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.duplicati/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.duplicati/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.duplicati/meta.json",
+      "content_hash": "cb40fb8e",
+      "version": "2.1.0"
     },
     {
-      "id": "emby",
+      "id": "org.icewhale.emby",
       "title": "Emby",
       "tagline": "Emby brings together your personal videos, music, photos, and live television.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "4.9.5",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "linuxserver",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/emby/assets/icon.png",
-      "thumbnail": "/apps/emby/assets/thumbnail.webp",
-      "compose_url": "/apps/emby/docker-compose.yml",
-      "meta_url": "/apps/emby/meta.json",
-      "content_hash": "44f2e5b8"
+      "icon": "/apps/org.icewhale.emby/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.emby/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.emby/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.emby/meta.json",
+      "content_hash": "df46f29f",
+      "version": "4.9.5"
     },
     {
-      "id": "emby-nvidia",
+      "id": "org.icewhale.embynvidia",
       "title": "Emby(Nvidia GPU)",
       "tagline": "TAKE YOUR MEDIA ANYWHERE WITH EMBY",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "4.9.1",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "linuxserver",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/emby-nvidia/assets/icon.png",
-      "thumbnail": "/apps/emby-nvidia/assets/thumbnail.webp",
-      "compose_url": "/apps/emby-nvidia/docker-compose.yml",
-      "meta_url": "/apps/emby-nvidia/meta.json",
-      "content_hash": "79dc86e3"
+      "icon": "/apps/org.icewhale.embynvidia/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.embynvidia/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.embynvidia/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.embynvidia/meta.json",
+      "content_hash": "2041de25",
+      "version": "4.9.1"
     },
     {
-      "id": "embystat",
+      "id": "org.icewhale.embystat",
       "title": "Embystat",
       "tagline": "Calculate all kinds of statistics from your (local) Emby or Jellyfin server",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "0.2.0",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Embystart Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/embystat/assets/icon.png",
+      "icon": "/apps/org.icewhale.embystat/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/embystat/docker-compose.yml",
-      "meta_url": "/apps/embystat/meta.json",
-      "content_hash": "e7b070f4"
+      "compose_url": "/apps/org.icewhale.embystat/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.embystat/meta.json",
+      "content_hash": "666dff12",
+      "version": "0.2.0"
     },
     {
-      "id": "emulatorjs",
+      "id": "org.icewhale.emulatorjs",
       "title": "emulatorjs",
       "tagline": "",
-      "category": "Utilities",
+      "category": "Media",
       "categories": [
-        "utilities"
+        "media"
       ],
-      "version": "1.9.2",
       "author": "self",
       "developer": "",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/emulatorjs/assets/icon.png",
+      "icon": "/apps/org.icewhale.emulatorjs/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/emulatorjs/docker-compose.yml",
-      "meta_url": "/apps/emulatorjs/meta.json",
-      "content_hash": "d3726fb5"
+      "compose_url": "/apps/org.icewhale.emulatorjs/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.emulatorjs/meta.json",
+      "content_hash": "d45e9e17",
+      "version": "1.9.2"
     },
     {
-      "id": "esphome",
+      "id": "org.icewhale.esphome",
       "title": "ESPHome",
       "tagline": "Home Automation systems",
-      "category": "Home Automation",
+      "category": "Home",
       "categories": [
-        "home automation"
+        "home"
       ],
-      "version": "2026.5.1",
       "author": "kd9lsv",
       "developer": "",
       "architectures": [
         "amd64",
-        "arm64",
-        "arm"
+        "arm64"
       ],
-      "icon": "/apps/esphome/assets/icon.png",
+      "icon": "/apps/org.icewhale.esphome/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/esphome/docker-compose.yml",
-      "meta_url": "/apps/esphome/meta.json",
-      "content_hash": "1f0fda61"
+      "compose_url": "/apps/org.icewhale.esphome/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.esphome/meta.json",
+      "content_hash": "2149fb03",
+      "version": "2026.5.1"
     },
     {
-      "id": "etherpad",
+      "id": "org.icewhale.etherpad",
       "title": "Etherpad",
       "tagline": "Real-time collaborative document editor",
-      "category": "Notes",
+      "category": "Productivity",
       "categories": [
-        "notes"
+        "productivity"
       ],
-      "version": "3.1.0",
       "author": "CasaOS Community",
       "developer": "Etherpad Foundation",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/etherpad/assets/icon.png",
-      "thumbnail": "/apps/etherpad/assets/thumbnail.webp",
-      "compose_url": "/apps/etherpad/docker-compose.yml",
-      "meta_url": "/apps/etherpad/meta.json",
-      "content_hash": "dc7fd777"
+      "icon": "/apps/org.icewhale.etherpad/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.etherpad/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.etherpad/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.etherpad/meta.json",
+      "content_hash": "6db5ee27",
+      "version": "3.1.0"
     },
     {
-      "id": "excalidraw",
+      "id": "org.icewhale.excalidraw",
       "title": "Excalidraw",
       "tagline": "Virtual whiteboard for sketching hand-drawn like diagrams",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "latest",
       "author": "excalidraw",
       "developer": "excalidraw",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/excalidraw/assets/icon.png",
+      "icon": "/apps/org.icewhale.excalidraw/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/excalidraw/docker-compose.yml",
-      "meta_url": "/apps/excalidraw/meta.json",
-      "content_hash": "a9b10ccb"
+      "compose_url": "/apps/org.icewhale.excalidraw/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.excalidraw/meta.json",
+      "content_hash": "184bd91d",
+      "version": "0.18.1"
     },
     {
-      "id": "filedrop",
+      "id": "org.icewhale.filedrop",
       "title": "FileDrop",
       "tagline": "FileDrop is a free, open source file sharing service",
-      "category": "Cloud",
+      "category": "Productivity",
       "categories": [
-        "cloud"
+        "productivity"
       ],
-      "version": "1.0.1",
       "author": "Noé Favier",
       "developer": "Noé Favier (noe.favier@outlook.com)",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/filedrop/assets/icon.png",
+      "icon": "/apps/org.icewhale.filedrop/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/filedrop/docker-compose.yml",
-      "meta_url": "/apps/filedrop/meta.json",
-      "content_hash": "85390b01"
+      "compose_url": "/apps/org.icewhale.filedrop/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.filedrop/meta.json",
+      "content_hash": "3618f31a",
+      "version": "1.0.1"
     },
     {
-      "id": "fileflows",
+      "id": "org.icewhale.fileflows",
       "title": "FileFlows",
       "tagline": "File processing made easy!",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "stable",
       "author": "FileFlows",
       "developer": "FileFlows",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/fileflows/assets/icon.png",
+      "icon": "/apps/org.icewhale.fileflows/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/fileflows/docker-compose.yml",
-      "meta_url": "/apps/fileflows/meta.json",
-      "content_hash": "a0877a8e"
+      "compose_url": "/apps/org.icewhale.fileflows/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.fileflows/meta.json",
+      "content_hash": "8fee85e7",
+      "version": "0.0.1"
     },
     {
-      "id": "firefly",
+      "id": "org.icewhale.firefly",
       "title": "Firefly",
       "tagline": "Firefly, the easiest using of WireGuard VPN server, plus version of wg-easy.",
-      "category": "VPN",
+      "category": "Networking",
       "categories": [
-        "vpn"
+        "networking"
       ],
-      "version": "latest",
       "author": "Cp0204",
       "developer": "Safe3",
       "architectures": [
@@ -911,21 +1031,21 @@
         "arm64",
         "arm"
       ],
-      "icon": "/apps/firefly/assets/icon.png",
+      "icon": "/apps/org.icewhale.firefly/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/firefly/docker-compose.yml",
-      "meta_url": "/apps/firefly/meta.json",
-      "content_hash": "c0a172a9"
+      "compose_url": "/apps/org.icewhale.firefly/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.firefly/meta.json",
+      "content_hash": "f928b7e4",
+      "version": "0.0.1"
     },
     {
-      "id": "flaresolverr",
+      "id": "org.icewhale.flaresolverr",
       "title": "FlareSolverr",
       "tagline": "",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "v3.4.6",
       "author": "calganaygun",
       "developer": "",
       "architectures": [
@@ -933,41 +1053,41 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/flaresolverr/assets/icon.png",
+      "icon": "/apps/org.icewhale.flaresolverr/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/flaresolverr/docker-compose.yml",
-      "meta_url": "/apps/flaresolverr/meta.json",
-      "content_hash": "3ec32a59"
+      "compose_url": "/apps/org.icewhale.flaresolverr/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.flaresolverr/meta.json",
+      "content_hash": "1cd04b86",
+      "version": "3.4.6"
     },
     {
-      "id": "flowise",
+      "id": "org.icewhale.flowise",
       "title": "Flowise",
       "tagline": "An open source generative AI development platform for building AI Agents and LLM workflows",
-      "category": "Developer",
+      "category": "AI",
       "categories": [
-        "developer"
+        "ai"
       ],
-      "version": "3.1.2",
       "author": "Flowise",
       "developer": "Flowise",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/flowise/assets/icon.png",
+      "icon": "/apps/org.icewhale.flowise/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/flowise/docker-compose.yml",
-      "meta_url": "/apps/flowise/meta.json",
-      "content_hash": "32141d97"
+      "compose_url": "/apps/org.icewhale.flowise/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.flowise/meta.json",
+      "content_hash": "78acaa68",
+      "version": "3.1.2"
     },
     {
-      "id": "freshrss",
+      "id": "org.icewhale.freshrss",
       "title": "FreshRSS",
       "tagline": "A free, self-hostable news aggregator…",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "1.29.1",
       "author": "FreshRSS",
       "developer": "FreshRSS",
       "architectures": [
@@ -975,21 +1095,42 @@
         "arm64",
         "arm"
       ],
-      "icon": "/apps/freshrss/assets/icon.png",
+      "icon": "/apps/org.icewhale.freshrss/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/freshrss/docker-compose.yml",
-      "meta_url": "/apps/freshrss/meta.json",
-      "content_hash": "73f01407"
+      "compose_url": "/apps/org.icewhale.freshrss/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.freshrss/meta.json",
+      "content_hash": "1c2fcd47",
+      "version": "1.29.1"
     },
     {
-      "id": "gateway-go",
+      "id": "org.icewhale.frigate",
+      "title": "Frigate",
+      "tagline": "Monitor your security cameras with locally processed AI",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "author": "ZimaOS Team",
+      "developer": "Frigate",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/org.icewhale.frigate/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/org.icewhale.frigate/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.frigate/meta.json",
+      "content_hash": "66d56f0e",
+      "version": "0.17.2"
+    },
+    {
+      "id": "org.icewhale.gatewaygo",
       "title": "gateway-go",
       "tagline": "A third-party client for casaos and zimaOS, remote access management interface, remote access to installed applications.",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "v2.0.12",
       "author": "iotserv",
       "developer": "iotserv",
       "architectures": [
@@ -997,63 +1138,63 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/gateway-go/assets/icon.png",
+      "icon": "/apps/org.icewhale.gatewaygo/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/gateway-go/docker-compose.yml",
-      "meta_url": "/apps/gateway-go/meta.json",
-      "content_hash": "9cde6f7d"
+      "compose_url": "/apps/org.icewhale.gatewaygo/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.gatewaygo/meta.json",
+      "content_hash": "21cbd289",
+      "version": "2.0.12"
     },
     {
-      "id": "gitea",
+      "id": "org.icewhale.gitea",
       "title": "Gitea",
       "tagline": "Self-hosted software development service",
       "category": "Developer",
       "categories": [
         "developer"
       ],
-      "version": "1.26.2",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Gitea",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/gitea/assets/icon.png",
-      "thumbnail": "/apps/gitea/assets/thumbnail.webp",
-      "compose_url": "/apps/gitea/docker-compose.yml",
-      "meta_url": "/apps/gitea/meta.json",
-      "content_hash": "49be0914"
+      "icon": "/apps/org.icewhale.gitea/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.gitea/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.gitea/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.gitea/meta.json",
+      "content_hash": "81e06f94",
+      "version": "1.26.2"
     },
     {
-      "id": "glances",
+      "id": "org.icewhale.glances",
       "title": "Glances",
       "tagline": "Cross-platform monitoring tool.",
-      "category": "Utility",
+      "category": "Productivity",
       "categories": [
-        "utility"
+        "productivity"
       ],
-      "version": "4.5.4",
       "author": "joaobosconff",
       "developer": "Nicolas Hennion",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/glances/assets/icon.png",
+      "icon": "/apps/org.icewhale.glances/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/glances/docker-compose.yml",
-      "meta_url": "/apps/glances/meta.json",
-      "content_hash": "f06562fb"
+      "compose_url": "/apps/org.icewhale.glances/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.glances/meta.json",
+      "content_hash": "d242a1f6",
+      "version": "4.5.4"
     },
     {
-      "id": "gopeed",
+      "id": "org.icewhale.gopeed",
       "title": "Gopeed",
       "tagline": "Open source, lightweight, native, supports (HTTP, BitTorrent, Magnet, etc.) for downloading.",
-      "category": "Utilities",
+      "category": "Media",
       "categories": [
-        "utilities"
+        "media"
       ],
-      "version": "v1.9.3",
       "author": "joaobosconff",
       "developer": "GopeedLab",
       "architectures": [
@@ -1061,128 +1202,126 @@
         "arm64",
         "arm"
       ],
-      "icon": "/apps/gopeed/assets/icon.png",
+      "icon": "/apps/org.icewhale.gopeed/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/gopeed/docker-compose.yml",
-      "meta_url": "/apps/gopeed/meta.json",
-      "content_hash": "19b30917"
+      "compose_url": "/apps/org.icewhale.gopeed/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.gopeed/meta.json",
+      "content_hash": "f68ebd14",
+      "version": "1.9.3"
     },
     {
-      "id": "grafana",
+      "id": "org.icewhale.grafana",
       "title": "Grafana",
       "tagline": "Grafana is a complete observability stack that allows you to monitor and analyze metrics, logs and traces. It allows you to query, visualize, alert on and understand your data no matter where it is stored.\n",
-      "category": "Network",
+      "category": "Developer",
       "categories": [
-        "network"
+        "developer"
       ],
-      "version": "13.0.1-security-01",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "grafana",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/grafana/assets/icon.png",
-      "thumbnail": "/apps/grafana/assets/thumbnail.webp",
-      "compose_url": "/apps/grafana/docker-compose.yml",
-      "meta_url": "/apps/grafana/meta.json",
-      "content_hash": "f41c93b0"
+      "icon": "/apps/org.icewhale.grafana/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.grafana/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.grafana/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.grafana/meta.json",
+      "content_hash": "52d324e0",
+      "version": "13.0.1-security-01"
     },
     {
-      "id": "handbrake",
+      "id": "org.icewhale.handbrake",
       "title": "handbrake",
       "tagline": "Liberate your videos and unleash infinite possibilities.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "v26.03.3",
       "author": "self",
       "developer": "",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/handbrake/assets/icon.png",
+      "icon": "/apps/org.icewhale.handbrake/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/handbrake/docker-compose.yml",
-      "meta_url": "/apps/handbrake/meta.json",
-      "content_hash": "f4b6b8e8"
+      "compose_url": "/apps/org.icewhale.handbrake/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.handbrake/meta.json",
+      "content_hash": "dbcca33a",
+      "version": "26.3.3"
     },
     {
-      "id": "hermes",
+      "id": "org.icewhale.hermes",
       "title": "Hermes",
       "tagline": "A self-improving AI agent with memory, skills, messaging, and a web dashboard.",
       "category": "AI",
       "categories": [
         "ai"
       ],
-      "version": "0.16.0",
       "author": "Nous Research",
       "developer": "Nous Research",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/hermes/assets/icon.png",
-      "thumbnail": "/apps/hermes/assets/thumbnail.webp",
-      "compose_url": "/apps/hermes/docker-compose.yml",
-      "meta_url": "/apps/hermes/meta.json",
-      "content_hash": "9dbadfa2"
+      "icon": "/apps/org.icewhale.hermes/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.hermes/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.hermes/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.hermes/meta.json",
+      "content_hash": "152395d8",
+      "version": "0.16.0"
     },
     {
-      "id": "holoplay",
+      "id": "org.icewhale.holoplay",
       "title": "HoloPlay",
       "tagline": "A web app to listen Youtube audio source.",
-      "category": "WEB",
+      "category": "Media",
       "categories": [
-        "web"
+        "media"
       ],
-      "version": "1.12.3",
       "author": "",
       "developer": "Stéphane Richin",
       "architectures": [
         "amd64",
-        "386",
         "arm64",
         "arm"
       ],
-      "icon": "/apps/holoplay/assets/icon.png",
-      "thumbnail": "/apps/holoplay/assets/thumbnail.webp",
-      "compose_url": "/apps/holoplay/docker-compose.yml",
-      "meta_url": "/apps/holoplay/meta.json",
-      "content_hash": "d345f869"
+      "icon": "/apps/org.icewhale.holoplay/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.holoplay/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.holoplay/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.holoplay/meta.json",
+      "content_hash": "9f1f07a9",
+      "version": "1.12.3"
     },
     {
-      "id": "homeassistant",
+      "id": "org.icewhale.homeassistant",
       "title": "Home Assistant",
       "tagline": "Open source home automation that puts local control and privacy first.",
-      "category": "Home Automation",
+      "category": "Home",
       "categories": [
-        "home automation"
+        "home"
       ],
-      "version": "2026.5.4",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Home Assistant",
       "architectures": [
         "amd64",
-        "arm64",
-        "arm"
+        "arm64"
       ],
-      "icon": "/apps/homeassistant/assets/icon.png",
-      "thumbnail": "/apps/homeassistant/assets/thumbnail.webp",
-      "compose_url": "/apps/homeassistant/docker-compose.yml",
-      "meta_url": "/apps/homeassistant/meta.json",
-      "content_hash": "35685342"
+      "icon": "/apps/org.icewhale.homeassistant/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.homeassistant/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.homeassistant/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.homeassistant/meta.json",
+      "content_hash": "6d719174",
+      "version": "2026.5.4"
     },
     {
-      "id": "homebridge",
+      "id": "org.icewhale.homebridge",
       "title": "Homebridge",
       "tagline": "HomeKit support for the impatient.",
-      "category": "Home Automation",
+      "category": "Home",
       "categories": [
-        "home automation"
+        "home"
       ],
-      "version": "latest",
       "author": "UnderCurve",
       "developer": "Homebridge",
       "architectures": [
@@ -1190,270 +1329,270 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/homebridge/assets/icon.png",
+      "icon": "/apps/org.icewhale.homebridge/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/homebridge/docker-compose.yml",
-      "meta_url": "/apps/homebridge/meta.json",
-      "content_hash": "015392ae"
+      "compose_url": "/apps/org.icewhale.homebridge/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.homebridge/meta.json",
+      "content_hash": "3aed2bde",
+      "version": "2.1.0"
     },
     {
-      "id": "hugo",
+      "id": "org.icewhale.hugo",
       "title": "Hugo",
       "tagline": "The world's fastest framework for building websites",
       "category": "Developer",
       "categories": [
         "developer"
       ],
-      "version": "v0.161.1",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "gohugoio",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/hugo/assets/icon.png",
+      "icon": "/apps/org.icewhale.hugo/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/hugo/docker-compose.yml",
-      "meta_url": "/apps/hugo/meta.json",
-      "content_hash": "0a515e48"
+      "compose_url": "/apps/org.icewhale.hugo/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.hugo/meta.json",
+      "content_hash": "f1dfd4af",
+      "version": "0.161.1"
     },
     {
-      "id": "icewhale-stable-diffusion-webui",
+      "id": "org.icewhale.icewhalestablediffusionwebui",
       "title": "Stable Diffusion",
       "tagline": "An AI model used to generate images conditioned on text descriptions.",
-      "category": "Developer",
+      "category": "AI",
       "categories": [
-        "developer"
+        "ai"
       ],
-      "version": "latest",
       "author": "",
       "developer": "stability.ai",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/icewhale-stable-diffusion-webui/assets/icon.png",
+      "icon": "/apps/org.icewhale.icewhalestablediffusionwebui/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/icewhale-stable-diffusion-webui/docker-compose.yml",
-      "meta_url": "/apps/icewhale-stable-diffusion-webui/meta.json",
-      "content_hash": "eaf74aa8"
+      "compose_url": "/apps/org.icewhale.icewhalestablediffusionwebui/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.icewhalestablediffusionwebui/meta.json",
+      "content_hash": "648469cf",
+      "version": "9.0.0"
     },
     {
-      "id": "immich",
+      "id": "org.icewhale.immich",
       "title": "Immich",
       "tagline": "Self-hosted media management solution",
-      "category": "Gallery",
+      "category": "Media",
       "categories": [
-        "gallery"
+        "media"
       ],
-      "version": "v2.7.2",
       "author": "Cp0204",
       "developer": "alextran1502",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/immich/assets/icon.png",
-      "thumbnail": "/apps/immich/assets/thumbnail.webp",
-      "compose_url": "/apps/immich/docker-compose.yml",
-      "meta_url": "/apps/immich/meta.json",
-      "content_hash": "9bdc3756"
+      "icon": "/apps/org.icewhale.immich/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.immich/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.immich/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.immich/meta.json",
+      "content_hash": "f8b5e473",
+      "version": "2.7.2"
     },
     {
-      "id": "index-tts",
+      "id": "org.icewhale.indextts",
       "title": "Index-TTS",
       "tagline": "An Industrial-Level Controllable and Efficient Zero-Shot Text-To-Speech System",
-      "category": "Utilities",
+      "category": "AI",
       "categories": [
-        "utilities"
+        "ai"
       ],
-      "version": "2.0",
       "author": "index-tts",
       "developer": "icewhaletech",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/index-tts/assets/icon.png",
-      "thumbnail": "/apps/index-tts/assets/thumbnail.webp",
-      "compose_url": "/apps/index-tts/docker-compose.yml",
-      "meta_url": "/apps/index-tts/meta.json",
-      "content_hash": "c7ae2cfd"
+      "icon": "/apps/org.icewhale.indextts/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.indextts/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.indextts/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.indextts/meta.json",
+      "content_hash": "91098377",
+      "version": "2.0.0"
     },
     {
-      "id": "index-tts-nvidia",
+      "id": "org.icewhale.indexttsnvidia",
       "title": "Index-TTS(Nvidia GPU)",
       "tagline": "An Industrial-Level Controllable and Efficient Zero-Shot Text-To-Speech System",
-      "category": "Utilities",
+      "category": "AI",
       "categories": [
-        "utilities"
+        "ai"
       ],
-      "version": "2.0",
       "author": "index-tts",
       "developer": "icewhaletech",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/index-tts-nvidia/assets/icon.png",
-      "thumbnail": "/apps/index-tts-nvidia/assets/thumbnail.webp",
-      "compose_url": "/apps/index-tts-nvidia/docker-compose.yml",
-      "meta_url": "/apps/index-tts-nvidia/meta.json",
-      "content_hash": "091a7238"
+      "icon": "/apps/org.icewhale.indexttsnvidia/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.indexttsnvidia/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.indexttsnvidia/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.indexttsnvidia/meta.json",
+      "content_hash": "e8778856",
+      "version": "2.0.0"
     },
     {
-      "id": "jackett",
+      "id": "org.icewhale.jackett",
       "title": "Jackett",
       "tagline": "Jackett works as a proxy server",
-      "category": "Network",
+      "category": "Media",
       "categories": [
-        "network"
+        "media"
       ],
-      "version": "0.24.1985",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Jackett",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/jackett/assets/icon.png",
-      "thumbnail": "/apps/jackett/assets/thumbnail.webp",
-      "compose_url": "/apps/jackett/docker-compose.yml",
-      "meta_url": "/apps/jackett/meta.json",
-      "content_hash": "e44ca7e6"
+      "icon": "/apps/org.icewhale.jackett/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.jackett/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.jackett/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.jackett/meta.json",
+      "content_hash": "3b1851c5",
+      "version": "0.24.1985"
     },
     {
-      "id": "jdownloader2",
+      "id": "org.icewhale.jdownloader2",
       "title": "JDownloader2",
       "tagline": "Free & open-source download management tool",
-      "category": "Utilities",
+      "category": "Media",
       "categories": [
-        "utilities"
+        "media"
       ],
-      "version": "latest",
       "author": "Fabio Tea",
       "developer": "jdownloader",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/jdownloader2/assets/icon.png",
+      "icon": "/apps/org.icewhale.jdownloader2/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/jdownloader2/docker-compose.yml",
-      "meta_url": "/apps/jdownloader2/meta.json",
-      "content_hash": "a14b0c28"
+      "compose_url": "/apps/org.icewhale.jdownloader2/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.jdownloader2/meta.json",
+      "content_hash": "fdea7f74",
+      "version": "26.3.1"
     },
     {
-      "id": "jellyfin",
+      "id": "org.icewhale.jellyfin",
       "title": "Jellyfin",
       "tagline": "The personal Media System",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "10.11.10",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Jellyfin",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/jellyfin/assets/icon.png",
-      "thumbnail": "/apps/jellyfin/assets/thumbnail.webp",
-      "compose_url": "/apps/jellyfin/docker-compose.yml",
-      "meta_url": "/apps/jellyfin/meta.json",
-      "content_hash": "02d37fea"
+      "icon": "/apps/org.icewhale.jellyfin/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.jellyfin/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.jellyfin/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.jellyfin/meta.json",
+      "content_hash": "7eeb3a40",
+      "version": "10.11.10"
     },
     {
-      "id": "jellyfin-nvidia",
+      "id": "org.icewhale.jellyfinnvidia",
       "title": "Jellyfin(Nvidia GPU)",
       "tagline": "The personal Media System",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "10.10.6",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Jellyfin",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/jellyfin-nvidia/assets/icon.png",
-      "thumbnail": "/apps/jellyfin-nvidia/assets/thumbnail.webp",
-      "compose_url": "/apps/jellyfin-nvidia/docker-compose.yml",
-      "meta_url": "/apps/jellyfin-nvidia/meta.json",
-      "content_hash": "925d5876"
+      "icon": "/apps/org.icewhale.jellyfinnvidia/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.jellyfinnvidia/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.jellyfinnvidia/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.jellyfinnvidia/meta.json",
+      "content_hash": "69d8711c",
+      "version": "10.10.6"
     },
     {
-      "id": "jellyseerr",
+      "id": "org.icewhale.jellyseerr",
       "title": "Jellyseerr",
       "tagline": "Jellyseerr is a free and open source software application for managing requests for your media library.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "2.7.3",
       "author": "Fallenbagel",
       "developer": "Fallenbagel",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/jellyseerr/assets/icon.png",
+      "icon": "/apps/org.icewhale.jellyseerr/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/jellyseerr/docker-compose.yml",
-      "meta_url": "/apps/jellyseerr/meta.json",
-      "content_hash": "409ad0bf"
+      "compose_url": "/apps/org.icewhale.jellyseerr/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.jellyseerr/meta.json",
+      "content_hash": "21c5d60d",
+      "version": "2.7.3"
     },
     {
-      "id": "jenkins",
+      "id": "org.icewhale.jenkins",
       "title": "Jenkins CI/CD",
       "tagline": "Jenkins Continuous Integration and Delivery server.",
-      "category": "Network",
+      "category": "Developer",
       "categories": [
-        "network"
+        "developer"
       ],
-      "version": "lts-jdk17",
       "author": "bepp-boop",
       "developer": "bepp-boop",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/jenkins/assets/icon.png",
+      "icon": "/apps/org.icewhale.jenkins/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/jenkins/docker-compose.yml",
-      "meta_url": "/apps/jenkins/meta.json",
-      "content_hash": "ca6b7512"
+      "compose_url": "/apps/org.icewhale.jenkins/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.jenkins/meta.json",
+      "content_hash": "4a26d459",
+      "version": "2.569.0"
     },
     {
-      "id": "karakeep",
+      "id": "org.icewhale.karakeep",
       "title": "Karakeep",
       "tagline": "The Bookmark Everything App",
-      "category": "Notes",
+      "category": "Productivity",
       "categories": [
-        "notes"
+        "productivity"
       ],
-      "version": "0.32.0",
       "author": "karakeep",
       "developer": "karakeep-app",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/karakeep/assets/icon.png",
-      "thumbnail": "/apps/karakeep/assets/thumbnail.webp",
-      "compose_url": "/apps/karakeep/docker-compose.yml",
-      "meta_url": "/apps/karakeep/meta.json",
-      "content_hash": "555b3471"
+      "icon": "/apps/org.icewhale.karakeep/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.karakeep/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.karakeep/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.karakeep/meta.json",
+      "content_hash": "15064426",
+      "version": "0.33.2"
     },
     {
-      "id": "kavita",
+      "id": "org.icewhale.kavita",
       "title": "Kavita",
       "tagline": "Kavita is a free and open source web based Comic and Book Server.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "0.9.0.2",
       "author": "jvmilazz0",
       "developer": "jvmilazz0",
       "architectures": [
@@ -1461,21 +1600,21 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/kavita/assets/icon.png",
+      "icon": "/apps/org.icewhale.kavita/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/kavita/docker-compose.yml",
-      "meta_url": "/apps/kavita/meta.json",
-      "content_hash": "495bf266"
+      "compose_url": "/apps/org.icewhale.kavita/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.kavita/meta.json",
+      "content_hash": "43d21fa9",
+      "version": "0.9.0-2"
     },
     {
-      "id": "komga",
+      "id": "org.icewhale.komga",
       "title": "Komga",
       "tagline": "Komga is a media server for your comics, mangas, BDs, magazines and eBooks.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "1.24.4",
       "author": "gotson",
       "developer": "gotson",
       "architectures": [
@@ -1483,186 +1622,228 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/komga/assets/icon.png",
+      "icon": "/apps/org.icewhale.komga/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/komga/docker-compose.yml",
-      "meta_url": "/apps/komga/meta.json",
-      "content_hash": "d5fadef0"
+      "compose_url": "/apps/org.icewhale.komga/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.komga/meta.json",
+      "content_hash": "c607231e",
+      "version": "1.24.4"
     },
     {
-      "id": "label-studio",
+      "id": "org.icewhale.labelstudio",
       "title": "Label Studio",
       "tagline": "Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.",
       "category": "AI",
       "categories": [
         "ai"
       ],
-      "version": "1.23.0",
       "author": "CorrectRoadH",
       "developer": "Yidadaa",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/label-studio/assets/icon.png",
-      "thumbnail": "/apps/label-studio/assets/thumbnail.webp",
-      "compose_url": "/apps/label-studio/docker-compose.yml",
-      "meta_url": "/apps/label-studio/meta.json",
-      "content_hash": "7a85150b"
+      "icon": "/apps/org.icewhale.labelstudio/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.labelstudio/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.labelstudio/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.labelstudio/meta.json",
+      "content_hash": "d77386f3",
+      "version": "1.23.0"
     },
     {
-      "id": "langflow",
+      "id": "org.icewhale.langflow",
       "title": "Langflow",
       "tagline": "Open-source UI for building and debugging multi-agent and RAG applications",
       "category": "AI",
       "categories": [
         "ai"
       ],
-      "version": "1.9.3",
       "author": "langflowai",
       "developer": "langflowai",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/langflow/assets/icon.png",
+      "icon": "/apps/org.icewhale.langflow/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/langflow/docker-compose.yml",
-      "meta_url": "/apps/langflow/meta.json",
-      "content_hash": "6660a73d"
+      "compose_url": "/apps/org.icewhale.langflow/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.langflow/meta.json",
+      "content_hash": "ff1c2098",
+      "version": "1.9.3"
     },
     {
-      "id": "lazylibrarian",
+      "id": "org.icewhale.lazylibrarian",
       "title": "Lazylibrarian",
       "tagline": "eBook Auto Downloader",
-      "category": "Downloader",
+      "category": "Media",
       "categories": [
-        "downloader"
+        "media"
       ],
-      "version": "version-169e669f",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Lazylibrarian Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/lazylibrarian/assets/icon.png",
-      "thumbnail": "/apps/lazylibrarian/assets/thumbnail.webp",
-      "compose_url": "/apps/lazylibrarian/docker-compose.yml",
-      "meta_url": "/apps/lazylibrarian/meta.json",
-      "content_hash": "ee8bb431"
+      "icon": "/apps/org.icewhale.lazylibrarian/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.lazylibrarian/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.lazylibrarian/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.lazylibrarian/meta.json",
+      "content_hash": "d7e0c9ae",
+      "version": "0.0.0-version-169e669f"
     },
     {
-      "id": "librechat",
+      "id": "org.icewhale.librechat",
       "title": "LibreChat",
       "tagline": "A full-featured, open-source AI chat interface",
       "category": "AI",
       "categories": [
         "ai"
       ],
-      "version": "latest",
       "author": "LibreChat",
       "developer": "LibreChat",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/librechat/assets/icon.png",
+      "icon": "/apps/org.icewhale.librechat/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/librechat/docker-compose.yml",
-      "meta_url": "/apps/librechat/meta.json",
-      "content_hash": "bcf1e0aa"
+      "compose_url": "/apps/org.icewhale.librechat/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.librechat/meta.json",
+      "content_hash": "1c65018b",
+      "version": "0.8.7-rc1"
     },
     {
-      "id": "lidarr",
+      "id": "org.icewhale.libredbstudio",
+      "title": "LibreDB Studio",
+      "tagline": "Open-source self-hosted SQL IDE.",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "libredb",
+      "developer": "libredb",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/org.icewhale.libredbstudio/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.libredbstudio/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.libredbstudio/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.libredbstudio/meta.json",
+      "content_hash": "224ef7e7",
+      "version": "0.13.7"
+    },
+    {
+      "id": "org.icewhale.lidarr",
       "title": "Lidarr",
       "tagline": "Music collection manager for Usenet and BitTorrent users",
-      "category": "Downloader",
+      "category": "Media",
       "categories": [
-        "downloader"
+        "media"
       ],
-      "version": "3.1.0",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "lidarr Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/lidarr/assets/icon.png",
-      "thumbnail": "/apps/lidarr/assets/thumbnail.webp",
-      "compose_url": "/apps/lidarr/docker-compose.yml",
-      "meta_url": "/apps/lidarr/meta.json",
-      "content_hash": "78c0cad8"
+      "icon": "/apps/org.icewhale.lidarr/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.lidarr/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.lidarr/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.lidarr/meta.json",
+      "content_hash": "e580dcb9",
+      "version": "3.1.0"
     },
     {
-      "id": "linkwarden",
+      "id": "org.icewhale.linkwarden",
       "title": "Linkwarden",
       "tagline": "Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.",
-      "category": "Notes",
+      "category": "Productivity",
       "categories": [
-        "notes"
+        "productivity"
       ],
-      "version": "v2.14.1",
       "author": "linkwarden",
       "developer": "linkwarden",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/linkwarden/assets/icon.png",
-      "thumbnail": "/apps/linkwarden/assets/thumbnail.webp",
-      "compose_url": "/apps/linkwarden/docker-compose.yml",
-      "meta_url": "/apps/linkwarden/meta.json",
-      "content_hash": "ceb75dc0"
+      "icon": "/apps/org.icewhale.linkwarden/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.linkwarden/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.linkwarden/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.linkwarden/meta.json",
+      "content_hash": "42ca200e",
+      "version": "2.14.1"
     },
     {
-      "id": "llama-factory-nvidia",
+      "id": "org.icewhale.llamacpp",
+      "title": "llama.cpp",
+      "tagline": "Run GGUF LLMs locally with GPU acceleration",
+      "category": "AI",
+      "categories": [
+        "ai"
+      ],
+      "author": "",
+      "developer": "",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/org.icewhale.llamacpp/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.llamacpp/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.llamacpp/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.llamacpp/meta.json",
+      "content_hash": "c4d77c82",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.icewhale.llamafactorynvidia",
       "title": "LLaMA Factory(Nvidia GPU)",
       "tagline": "Unified LLM Fine-Tuning with 100+ Models",
       "category": "AI",
       "categories": [
         "ai"
       ],
-      "version": "0.9.4",
       "author": "hiyouga",
       "developer": "hiyouga",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/llama-factory-nvidia/assets/icon.png",
+      "icon": "/apps/org.icewhale.llamafactorynvidia/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/llama-factory-nvidia/docker-compose.yml",
-      "meta_url": "/apps/llama-factory-nvidia/meta.json",
-      "content_hash": "905fca01"
+      "compose_url": "/apps/org.icewhale.llamafactorynvidia/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.llamafactorynvidia/meta.json",
+      "content_hash": "5757e33f",
+      "version": "0.9.4"
     },
     {
-      "id": "logseq",
+      "id": "org.icewhale.logseq",
       "title": "Logseq",
       "tagline": "A privacy-first, open-source platform for knowledge management and collaboration.",
-      "category": "Notes",
+      "category": "Productivity",
       "categories": [
-        "notes"
+        "productivity"
       ],
-      "version": "v0.10.10",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Logseq  Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/logseq/assets/icon.png",
-      "thumbnail": "/apps/logseq/assets/thumbnail.webp",
-      "compose_url": "/apps/logseq/docker-compose.yml",
-      "meta_url": "/apps/logseq/meta.json",
-      "content_hash": "25038e0b"
+      "icon": "/apps/org.icewhale.logseq/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.logseq/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.logseq/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.logseq/meta.json",
+      "content_hash": "1c9f9f0d",
+      "version": "0.10.10"
     },
     {
-      "id": "lucky",
+      "id": "org.icewhale.lucky",
       "title": "Lucky",
       "tagline": "Powerful networking tool",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "2.27.2",
       "author": "IceWhaleTech",
       "developer": "gdy666",
       "architectures": [
@@ -1670,21 +1851,21 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/lucky/assets/icon.png",
+      "icon": "/apps/org.icewhale.lucky/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/lucky/docker-compose.yml",
-      "meta_url": "/apps/lucky/meta.json",
-      "content_hash": "257f25e7"
+      "compose_url": "/apps/org.icewhale.lucky/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.lucky/meta.json",
+      "content_hash": "479fb9f8",
+      "version": "2.27.2"
     },
     {
-      "id": "lyrionmusicserver",
+      "id": "org.icewhale.lyrionmusicserver",
       "title": "LyrionMusicServer",
       "tagline": "Lyrion Music Server is a streaming audio server for Squeezebox audio players.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "9.1.1",
       "author": "lmscommunity",
       "developer": "LMS-Community",
       "architectures": [
@@ -1692,63 +1873,63 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/lyrionmusicserver/assets/icon.png",
+      "icon": "/apps/org.icewhale.lyrionmusicserver/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/lyrionmusicserver/docker-compose.yml",
-      "meta_url": "/apps/lyrionmusicserver/meta.json",
-      "content_hash": "466286fc"
+      "compose_url": "/apps/org.icewhale.lyrionmusicserver/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.lyrionmusicserver/meta.json",
+      "content_hash": "0f8e1ee7",
+      "version": "9.1.1"
     },
     {
-      "id": "mariadb",
+      "id": "org.icewhale.mariadb",
       "title": "MariaDB",
       "tagline": "MariaDB Server is one of the most popular database servers in the world. It's made by the original developers of MySQL and guaranteed to stay open source.",
       "category": "Developer",
       "categories": [
         "developer"
       ],
-      "version": "11.4.8",
       "author": "WisdomSky",
       "developer": "MariaDB Foundation",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/mariadb/assets/icon.png",
+      "icon": "/apps/org.icewhale.mariadb/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/mariadb/docker-compose.yml",
-      "meta_url": "/apps/mariadb/meta.json",
-      "content_hash": "b4865e34"
+      "compose_url": "/apps/org.icewhale.mariadb/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.mariadb/meta.json",
+      "content_hash": "4073f5ce",
+      "version": "11.4.8"
     },
     {
-      "id": "maybe",
+      "id": "org.icewhale.maybe",
       "title": "Maybe",
       "tagline": "Personal finance management application",
       "category": "Finance",
       "categories": [
         "finance"
       ],
-      "version": "latest",
       "author": "maybe-finance",
       "developer": "maybe-finance",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/maybe/assets/icon.png",
+      "icon": "/apps/org.icewhale.maybe/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/maybe/docker-compose.yml",
-      "meta_url": "/apps/maybe/meta.json",
-      "content_hash": "fd03f9e3"
+      "compose_url": "/apps/org.icewhale.maybe/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.maybe/meta.json",
+      "content_hash": "3d8f12e9",
+      "version": "0.6.0"
     },
     {
-      "id": "medusa",
+      "id": "org.icewhale.medusa",
       "title": "Medusa",
       "tagline": "",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "master",
       "author": "Jason McFeetors",
       "developer": "pyMedusa (https://github.com/pymedusa)",
       "architectures": [
@@ -1756,21 +1937,21 @@
         "arm64",
         "arm"
       ],
-      "icon": "/apps/medusa/assets/icon.png",
+      "icon": "/apps/org.icewhale.medusa/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/medusa/docker-compose.yml",
-      "meta_url": "/apps/medusa/meta.json",
-      "content_hash": "dd1a378b"
+      "compose_url": "/apps/org.icewhale.medusa/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.medusa/meta.json",
+      "content_hash": "baa66fdb",
+      "version": "1.0.25"
     },
     {
-      "id": "memos",
+      "id": "org.icewhale.memos",
       "title": "Memos",
       "tagline": "Memos is a lightweight, self-hosted memo hub. Open Source and Free forever.",
-      "category": "Notes",
+      "category": "Productivity",
       "categories": [
-        "notes"
+        "productivity"
       ],
-      "version": "0.28.0",
       "author": "usememos Team",
       "developer": "usememos Team",
       "architectures": [
@@ -1778,145 +1959,145 @@
         "arm64",
         "arm"
       ],
-      "icon": "/apps/memos/assets/icon.png",
-      "thumbnail": "/apps/memos/assets/thumbnail.webp",
-      "compose_url": "/apps/memos/docker-compose.yml",
-      "meta_url": "/apps/memos/meta.json",
-      "content_hash": "b5c3aaaf"
+      "icon": "/apps/org.icewhale.memos/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.memos/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.memos/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.memos/meta.json",
+      "content_hash": "504d135f",
+      "version": "0.28.0"
     },
     {
-      "id": "mineos-node",
+      "id": "org.icewhale.mineosnode",
       "title": "MineOS",
       "tagline": "Free and easy to use Minecraft server management tool.",
-      "category": "Games",
+      "category": "Media",
       "categories": [
-        "games"
+        "media"
       ],
-      "version": "latest",
       "author": "Chàra Rose",
       "developer": "hexparrot",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/mineos-node/assets/icon.png",
+      "icon": "/apps/org.icewhale.mineosnode/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/mineos-node/docker-compose.yml",
-      "meta_url": "/apps/mineos-node/meta.json",
-      "content_hash": "5debb368"
+      "compose_url": "/apps/org.icewhale.mineosnode/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.mineosnode/meta.json",
+      "content_hash": "9569a03d",
+      "version": "1.2.2"
     },
     {
-      "id": "mongodb",
+      "id": "org.icewhale.mongodb",
       "title": "MongoDB",
       "tagline": "A free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata.",
       "category": "Developer",
       "categories": [
         "developer"
       ],
-      "version": "8.2.2",
       "author": "WisdomSky",
       "developer": "MongoDB Inc.",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/mongodb/assets/icon.png",
-      "thumbnail": "",
-      "compose_url": "/apps/mongodb/docker-compose.yml",
-      "meta_url": "/apps/mongodb/meta.json",
-      "content_hash": "4772d4df"
+      "icon": "/apps/org.icewhale.mongodb/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.mongodb/assets/icon.webp",
+      "compose_url": "/apps/org.icewhale.mongodb/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.mongodb/meta.json",
+      "content_hash": "0050e017",
+      "version": "8.2.2"
     },
     {
-      "id": "mongodb4",
+      "id": "org.icewhale.mongodb4",
       "title": "MongoDB 4",
       "tagline": "A free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata.",
       "category": "Developer",
       "categories": [
         "developer"
       ],
-      "version": "4.4.22",
       "author": "WisdomSky",
       "developer": "MongoDB Inc.",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/mongodb4/assets/icon.png",
-      "thumbnail": "",
-      "compose_url": "/apps/mongodb4/docker-compose.yml",
-      "meta_url": "/apps/mongodb4/meta.json",
-      "content_hash": "029c4c41"
+      "icon": "/apps/org.icewhale.mongodb4/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.mongodb4/assets/icon.webp",
+      "compose_url": "/apps/org.icewhale.mongodb4/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.mongodb4/meta.json",
+      "content_hash": "98b4eeae",
+      "version": "4.4.22"
     },
     {
-      "id": "monica",
+      "id": "org.icewhale.monica",
       "title": "Monica",
       "tagline": "A Personal Relationship Management tool to help you document your social life.",
-      "category": "Utilities",
+      "category": "Social",
       "categories": [
-        "utilities"
+        "social"
       ],
-      "version": "4.1.2",
       "author": "monica",
       "developer": "monica",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/monica/assets/icon.png",
+      "icon": "/apps/org.icewhale.monica/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/monica/docker-compose.yml",
-      "meta_url": "/apps/monica/meta.json",
-      "content_hash": "ef813662"
+      "compose_url": "/apps/org.icewhale.monica/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.monica/meta.json",
+      "content_hash": "7acb7308",
+      "version": "4.1.2"
     },
     {
-      "id": "motioneye",
+      "id": "org.icewhale.motioneye",
       "title": "Motioneye",
       "tagline": "A web frontend for the motion daemon.",
-      "category": "Utilities",
+      "category": "Home",
       "categories": [
-        "utilities"
+        "home"
       ],
-      "version": "master-amd64",
       "author": "f4bio",
       "developer": "Motioneye",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/motioneye/assets/icon.png",
+      "icon": "/apps/org.icewhale.motioneye/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/motioneye/docker-compose.yml",
-      "meta_url": "/apps/motioneye/meta.json",
-      "content_hash": "1a2af147"
+      "compose_url": "/apps/org.icewhale.motioneye/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.motioneye/meta.json",
+      "content_hash": "7c08a1e1",
+      "version": "0.44.0"
     },
     {
-      "id": "mylar3",
+      "id": "org.icewhale.mylar3",
       "title": "Mylar3",
       "tagline": "Automatic comic book (cbr/cbz) downloader",
-      "category": "Downloader",
+      "category": "Media",
       "categories": [
-        "downloader"
+        "media"
       ],
-      "version": "0.9.0",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Mylar3 Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/mylar3/assets/icon.png",
-      "thumbnail": "/apps/mylar3/assets/thumbnail.webp",
-      "compose_url": "/apps/mylar3/docker-compose.yml",
-      "meta_url": "/apps/mylar3/meta.json",
-      "content_hash": "99c45cc4"
+      "icon": "/apps/org.icewhale.mylar3/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.mylar3/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.mylar3/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.mylar3/meta.json",
+      "content_hash": "25fff307",
+      "version": "0.9.0"
     },
     {
-      "id": "myspeed",
+      "id": "org.icewhale.myspeed",
       "title": "MySpeed",
       "tagline": "Analysis software that shows your internet speed for up to 30 days.",
-      "category": "Utilities",
+      "category": "Networking",
       "categories": [
-        "utilities"
+        "networking"
       ],
-      "version": "1.0.9",
       "author": "joaobosconff",
       "developer": "Mathias Wagner",
       "architectures": [
@@ -1924,42 +2105,42 @@
         "arm64",
         "arm"
       ],
-      "icon": "/apps/myspeed/assets/icon.png",
+      "icon": "/apps/org.icewhale.myspeed/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/myspeed/docker-compose.yml",
-      "meta_url": "/apps/myspeed/meta.json",
-      "content_hash": "51a44117"
+      "compose_url": "/apps/org.icewhale.myspeed/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.myspeed/meta.json",
+      "content_hash": "052acfa1",
+      "version": "1.0.9"
     },
     {
-      "id": "n8n",
+      "id": "org.icewhale.n8n",
       "title": "n8n",
       "tagline": "Workflow automation tool",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "2.22.3",
       "author": "YoussofKhawaja",
       "developer": "n8n",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/n8n/assets/icon.png",
-      "thumbnail": "/apps/n8n/assets/thumbnail.webp",
-      "compose_url": "/apps/n8n/docker-compose.yml",
-      "meta_url": "/apps/n8n/meta.json",
-      "content_hash": "b7d8f0e3"
+      "icon": "/apps/org.icewhale.n8n/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.n8n/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.n8n/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.n8n/meta.json",
+      "content_hash": "280b694a",
+      "version": "2.22.3"
     },
     {
-      "id": "navidrome",
+      "id": "org.icewhale.navidrome",
       "title": "Navidrome",
       "tagline": "Music Collection and Streaming Server",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "0.61.2",
       "author": "The Navidrome Authors",
       "developer": "",
       "architectures": [
@@ -1967,42 +2148,42 @@
         "arm64",
         "arm"
       ],
-      "icon": "/apps/navidrome/assets/icon.png",
+      "icon": "/apps/org.icewhale.navidrome/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/navidrome/docker-compose.yml",
-      "meta_url": "/apps/navidrome/meta.json",
-      "content_hash": "84477d3f"
+      "compose_url": "/apps/org.icewhale.navidrome/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.navidrome/meta.json",
+      "content_hash": "8c1a8d2e",
+      "version": "0.61.2"
     },
     {
-      "id": "netbird",
+      "id": "org.icewhale.netbird",
       "title": "NetBird",
       "tagline": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "0.62.3",
       "author": "NetBird Team",
       "developer": "NetBird GmbH",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/netbird/assets/icon.png",
-      "thumbnail": "/apps/netbird/assets/thumbnail.webp",
-      "compose_url": "/apps/netbird/docker-compose.yml",
-      "meta_url": "/apps/netbird/meta.json",
-      "content_hash": "bec5628f"
+      "icon": "/apps/org.icewhale.netbird/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.netbird/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.netbird/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.netbird/meta.json",
+      "content_hash": "3c56c78e",
+      "version": "0.62.3"
     },
     {
-      "id": "netdata",
+      "id": "org.icewhale.netdata",
       "title": "Netdata",
       "tagline": "Real-time Performance Monitoring",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "v2.10.3",
       "author": "f4bio",
       "developer": "",
       "architectures": [
@@ -2010,281 +2191,278 @@
         "arm64",
         "arm"
       ],
-      "icon": "/apps/netdata/assets/icon.png",
+      "icon": "/apps/org.icewhale.netdata/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/netdata/docker-compose.yml",
-      "meta_url": "/apps/netdata/meta.json",
-      "content_hash": "a6b7bcf8"
+      "compose_url": "/apps/org.icewhale.netdata/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.netdata/meta.json",
+      "content_hash": "f9091c38",
+      "version": "2.10.3"
     },
     {
-      "id": "nextcloud",
+      "id": "org.icewhale.netronome",
+      "title": "Netronome",
+      "tagline": "Monitor, analyze, and alert on network performance.",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "autobrr",
+      "developer": "autobrr",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/org.icewhale.netronome/assets/icon.png",
+      "thumbnail": "/apps/org.icewhale.netronome/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.netronome/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.netronome/meta.json",
+      "content_hash": "8791872b",
+      "version": "0.13.0"
+    },
+    {
+      "id": "org.icewhale.nextcloud",
       "title": "Nextcloud",
       "tagline": "Content collaboration platform",
-      "category": "Cloud",
+      "category": "Productivity",
       "categories": [
-        "cloud"
+        "productivity"
       ],
-      "version": "33.0.3",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Nextcloud",
       "architectures": [
         "amd64",
         "arm",
         "arm64",
         "386",
-        "mips64le",
         "ppc64le",
         "s390x"
       ],
-      "icon": "/apps/nextcloud/assets/icon.png",
-      "thumbnail": "/apps/nextcloud/assets/thumbnail.webp",
-      "compose_url": "/apps/nextcloud/docker-compose.yml",
-      "meta_url": "/apps/nextcloud/meta.json",
-      "content_hash": "88cf2a85"
+      "icon": "/apps/org.icewhale.nextcloud/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.nextcloud/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.nextcloud/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.nextcloud/meta.json",
+      "content_hash": "ea7c8a8b",
+      "version": "33.0.3"
     },
     {
-      "id": "nginxproxymanager",
+      "id": "org.icewhale.nginxproxymanager",
       "title": "Nginx Proxy Manager",
       "tagline": "Managing Nginx proxy hosts with a simple, powerful interface.",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "2.13.5",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Nginx Proxy Manager",
       "architectures": [
         "amd64",
         "arm64",
         "arm"
       ],
-      "icon": "/apps/nginxproxymanager/assets/icon.png",
-      "thumbnail": "/apps/nginxproxymanager/assets/thumbnail.webp",
-      "compose_url": "/apps/nginxproxymanager/docker-compose.yml",
-      "meta_url": "/apps/nginxproxymanager/meta.json",
-      "content_hash": "bcddfcdd"
+      "icon": "/apps/org.icewhale.nginxproxymanager/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.nginxproxymanager/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.nginxproxymanager/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.nginxproxymanager/meta.json",
+      "content_hash": "614b95c6",
+      "version": "2.13.5"
     },
     {
-      "id": "node-red",
+      "id": "org.icewhale.nodered",
       "title": "Node-RED",
       "tagline": "Low-code programming for event-driven applications",
       "category": "Developer",
       "categories": [
         "developer"
       ],
-      "version": "4.1.10",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Node-RED",
       "architectures": [
         "amd64",
         "arm64",
-        "s390x",
         "arm"
       ],
-      "icon": "/apps/node-red/assets/icon.png",
-      "thumbnail": "/apps/node-red/assets/thumbnail.webp",
-      "compose_url": "/apps/node-red/docker-compose.yml",
-      "meta_url": "/apps/node-red/meta.json",
-      "content_hash": "951177a1"
+      "icon": "/apps/org.icewhale.nodered/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.nodered/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.nodered/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.nodered/meta.json",
+      "content_hash": "27c062da",
+      "version": "4.1.10"
     },
     {
-      "id": "nzbget",
+      "id": "org.icewhale.nzbget",
       "title": "Nzbget",
       "tagline": "Efficient Usenet downloader",
-      "category": "Downloader",
+      "category": "Media",
       "categories": [
-        "downloader"
+        "media"
       ],
-      "version": "26.1.20260522",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Nzbget Team",
       "architectures": [
         "amd64",
-        "arm",
         "arm64"
       ],
-      "icon": "/apps/nzbget/assets/icon.png",
-      "thumbnail": "/apps/nzbget/assets/thumbnail.webp",
-      "compose_url": "/apps/nzbget/docker-compose.yml",
-      "meta_url": "/apps/nzbget/meta.json",
-      "content_hash": "c4e10dd6"
+      "icon": "/apps/org.icewhale.nzbget/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.nzbget/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.nzbget/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.nzbget/meta.json",
+      "content_hash": "a1869cd2",
+      "version": "26.1.20260522"
     },
     {
-      "id": "obsidian",
+      "id": "org.icewhale.obsidian",
       "title": "Obsidian",
       "tagline": "Obsidian is a knowledge management app for creating, linking, and visually organizing Markdown notes.",
-      "category": "Notes",
+      "category": "Productivity",
       "categories": [
-        "notes"
+        "productivity"
       ],
-      "version": "1.12.7",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "linuxserver",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/obsidian/assets/icon.png",
+      "icon": "/apps/org.icewhale.obsidian/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/obsidian/docker-compose.yml",
-      "meta_url": "/apps/obsidian/meta.json",
-      "content_hash": "1acf3a74"
+      "compose_url": "/apps/org.icewhale.obsidian/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.obsidian/meta.json",
+      "content_hash": "60960e40",
+      "version": "1.12.7"
     },
     {
-      "id": "ollama",
+      "id": "org.icewhale.ollama",
       "title": "Ollama",
       "tagline": "Get up and running with large language models locally",
-      "category": "Chat",
+      "category": "AI",
       "categories": [
-        "chat"
+        "ai"
       ],
-      "version": "0.24.0",
       "author": "ollama",
       "developer": "ollama",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/ollama/assets/icon.png",
+      "icon": "/apps/org.icewhale.ollama/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/ollama/docker-compose.yml",
-      "meta_url": "/apps/ollama/meta.json",
-      "content_hash": "6ffca700"
+      "compose_url": "/apps/org.icewhale.ollama/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.ollama/meta.json",
+      "content_hash": "c3b17b82",
+      "version": "0.24.0"
     },
     {
-      "id": "ollama-nvidia",
+      "id": "org.icewhale.ollamanvidia",
       "title": "Ollama(Nvidia GPU)",
       "tagline": "Get up and running with large language models locally",
-      "category": "Chat",
+      "category": "AI",
       "categories": [
-        "chat"
+        "ai"
       ],
-      "version": "0.9.5",
       "author": "ollama",
       "developer": "ollama",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/ollama-nvidia/assets/icon.png",
+      "icon": "/apps/org.icewhale.ollamanvidia/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/ollama-nvidia/docker-compose.yml",
-      "meta_url": "/apps/ollama-nvidia/meta.json",
-      "content_hash": "20fd63b9"
+      "compose_url": "/apps/org.icewhale.ollamanvidia/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.ollamanvidia/meta.json",
+      "content_hash": "44b21313",
+      "version": "0.9.5"
     },
     {
-      "id": "ombi",
+      "id": "org.icewhale.ombi",
       "title": "Ombi",
       "tagline": "Friendly media request tool, automatically syncs with your media servers!",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "4.53.5",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Sabnzbd Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/ombi/assets/icon.png",
-      "thumbnail": "/apps/ombi/assets/thumbnail.webp",
-      "compose_url": "/apps/ombi/docker-compose.yml",
-      "meta_url": "/apps/ombi/meta.json",
-      "content_hash": "b0f21ed5"
+      "icon": "/apps/org.icewhale.ombi/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.ombi/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.ombi/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.ombi/meta.json",
+      "content_hash": "4a15d905",
+      "version": "4.53.5"
     },
     {
-      "id": "open-webui-ollama",
-      "title": "Open WebUI",
-      "tagline": "User-friendly WebUI for LLMs (Formerly Ollama WebUI)",
-      "category": "Chat",
-      "categories": [
-        "chat"
-      ],
-      "version": "ollama",
-      "author": "",
-      "developer": "Tim J. Baek",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "/apps/open-webui-ollama/assets/icon.png",
-      "thumbnail": "/apps/open-webui-ollama/assets/thumbnail.webp",
-      "compose_url": "/apps/open-webui-ollama/docker-compose.yml",
-      "meta_url": "/apps/open-webui-ollama/meta.json",
-      "content_hash": "42d8be31"
-    },
-    {
-      "id": "openclaw",
+      "id": "org.icewhale.openclaw",
       "title": "OpenClaw",
       "tagline": "OpenClaw is a personal AI assistant you run on your own devices",
       "category": "AI",
       "categories": [
         "ai"
       ],
-      "version": "2026.5.7",
       "author": "openclaw",
       "developer": "openclaw",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/openclaw/assets/icon.png",
-      "thumbnail": "/apps/openclaw/assets/thumbnail.webp",
-      "compose_url": "/apps/openclaw/docker-compose.yml",
-      "meta_url": "/apps/openclaw/meta.json",
-      "content_hash": "ce603639"
+      "icon": "/apps/org.icewhale.openclaw/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.openclaw/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.openclaw/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.openclaw/meta.json",
+      "content_hash": "4795e831",
+      "version": "2026.5.7"
     },
     {
-      "id": "openhab",
+      "id": "org.icewhale.openhab",
       "title": "OpenHAB",
       "tagline": "Empowering the smart home",
-      "category": "Home Automation",
+      "category": "Home",
       "categories": [
-        "home automation"
+        "home"
       ],
-      "version": "5.1.4",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "openHAB",
       "architectures": [
         "amd64",
-        "arm64",
-        "arm"
+        "arm64"
       ],
-      "icon": "/apps/openhab/assets/icon.png",
-      "thumbnail": "/apps/openhab/assets/thumbnail.webp",
-      "compose_url": "/apps/openhab/docker-compose.yml",
-      "meta_url": "/apps/openhab/meta.json",
-      "content_hash": "cd9149f7"
+      "icon": "/apps/org.icewhale.openhab/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.openhab/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.openhab/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.openhab/meta.json",
+      "content_hash": "9cbdfdf9",
+      "version": "5.1.4"
     },
     {
-      "id": "openhands",
+      "id": "org.icewhale.openhands",
       "title": "OpenHands",
       "tagline": "Open-source AI-powered coding assistant",
       "category": "AI",
       "categories": [
         "ai"
       ],
-      "version": "0.59",
       "author": "All-Hands-AI",
       "developer": "All-Hands-AI",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/openhands/assets/icon.png",
+      "icon": "/apps/org.icewhale.openhands/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/openhands/docker-compose.yml",
-      "meta_url": "/apps/openhands/meta.json",
-      "content_hash": "a9a6f304"
+      "compose_url": "/apps/org.icewhale.openhands/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.openhands/meta.json",
+      "content_hash": "fde78b91",
+      "version": "0.59.0"
     },
     {
-      "id": "openlist",
+      "id": "org.icewhale.openlist",
       "title": "OpenList",
       "tagline": "Mount your cloud drive on your home NAS",
-      "category": "Cloud",
+      "category": "Productivity",
       "categories": [
-        "cloud"
+        "productivity"
       ],
-      "version": "4.2.2",
       "author": "OpenList Team",
       "developer": "OpenListTeam",
       "architectures": [
@@ -2292,21 +2470,21 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/openlist/assets/icon.png",
-      "thumbnail": "/apps/openlist/assets/thumbnail.webp",
-      "compose_url": "/apps/openlist/docker-compose.yml",
-      "meta_url": "/apps/openlist/meta.json",
-      "content_hash": "ebcb01f2"
+      "icon": "/apps/org.icewhale.openlist/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.openlist/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.openlist/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.openlist/meta.json",
+      "content_hash": "a56003ae",
+      "version": "4.2.2"
     },
     {
-      "id": "openspeedtest",
+      "id": "org.icewhale.openspeedtest",
       "title": "OpenSpeedTest",
       "tagline": "HTML5 Network Speed Test Server.",
-      "category": "Utilities",
+      "category": "Networking",
       "categories": [
-        "utilities"
+        "networking"
       ],
-      "version": "v2.0.6",
       "author": "OpenSpeedTest",
       "developer": "OpenSpeedTest",
       "architectures": [
@@ -2317,149 +2495,167 @@
         "386",
         "arm"
       ],
-      "icon": "/apps/openspeedtest/assets/icon.png",
-      "thumbnail": "/apps/openspeedtest/assets/thumbnail.webp",
-      "compose_url": "/apps/openspeedtest/docker-compose.yml",
-      "meta_url": "/apps/openspeedtest/meta.json",
-      "content_hash": "e259d835"
+      "icon": "/apps/org.icewhale.openspeedtest/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.openspeedtest/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.openspeedtest/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.openspeedtest/meta.json",
+      "content_hash": "7a7d6ef6",
+      "version": "2.0.6"
     },
     {
-      "id": "opodsync",
+      "id": "org.icewhale.openwebuiollama",
+      "title": "Open WebUI",
+      "tagline": "User-friendly WebUI for LLMs (Formerly Ollama WebUI)",
+      "category": "AI",
+      "categories": [
+        "ai"
+      ],
+      "author": "",
+      "developer": "Tim J. Baek",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/org.icewhale.openwebuiollama/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.openwebuiollama/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.openwebuiollama/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.openwebuiollama/meta.json",
+      "content_hash": "704664ce",
+      "version": "0.9.6"
+    },
+    {
+      "id": "org.icewhale.opodsync",
       "title": "oPodSync",
       "tagline": "Podcast synchronization service",
-      "category": "Utilities",
+      "category": "Media",
       "categories": [
-        "utilities"
+        "media"
       ],
-      "version": "latest",
       "author": "ganeshlab",
       "developer": "ganeshlab",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/opodsync/assets/icon.png",
+      "icon": "/apps/org.icewhale.opodsync/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/opodsync/docker-compose.yml",
-      "meta_url": "/apps/opodsync/meta.json",
-      "content_hash": "470017d4"
+      "compose_url": "/apps/org.icewhale.opodsync/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.opodsync/meta.json",
+      "content_hash": "0865f198",
+      "version": "0.0.1"
     },
     {
-      "id": "overseerr",
+      "id": "org.icewhale.overseerr",
       "title": "Overseerr",
       "tagline": "Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "1.35.0",
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/overseerr/assets/icon.png",
-      "thumbnail": "",
-      "compose_url": "/apps/overseerr/docker-compose.yml",
-      "meta_url": "/apps/overseerr/meta.json",
-      "content_hash": "22cb3c97"
+      "icon": "/apps/org.icewhale.overseerr/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.overseerr/assets/icon.webp",
+      "compose_url": "/apps/org.icewhale.overseerr/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.overseerr/meta.json",
+      "content_hash": "600b6d16",
+      "version": "1.35.0"
     },
     {
-      "id": "pdfding",
+      "id": "org.icewhale.pdfding",
       "title": "PdfDing",
       "tagline": "Selfhosted PDF manager, viewer and editor",
-      "category": "Documents",
+      "category": "Productivity",
       "categories": [
-        "documents"
+        "productivity"
       ],
-      "version": "v1.7.2",
       "author": "mrmn2",
       "developer": "mrmn2",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/pdfding/assets/icon.png",
+      "icon": "/apps/org.icewhale.pdfding/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/pdfding/docker-compose.yml",
-      "meta_url": "/apps/pdfding/meta.json",
-      "content_hash": "467db2ca"
+      "compose_url": "/apps/org.icewhale.pdfding/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.pdfding/meta.json",
+      "content_hash": "d339a9a1",
+      "version": "1.7.2"
     },
     {
-      "id": "peanut",
+      "id": "org.icewhale.peanut",
       "title": "PeaNUT",
       "tagline": "UPS monitoring and power outage notification system",
-      "category": "Utilities",
+      "category": "Home",
       "categories": [
-        "utilities"
+        "home"
       ],
-      "version": "6.0.0",
       "author": "brandawg93",
       "developer": "brandawg93",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/peanut/assets/icon.png",
-      "thumbnail": "/apps/peanut/assets/thumbnail.webp",
-      "compose_url": "/apps/peanut/docker-compose.yml",
-      "meta_url": "/apps/peanut/meta.json",
-      "content_hash": "ac76e2da"
+      "icon": "/apps/org.icewhale.peanut/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.peanut/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.peanut/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.peanut/meta.json",
+      "content_hash": "19b1dc0c",
+      "version": "6.0.0"
     },
     {
-      "id": "petio",
+      "id": "org.icewhale.petio",
       "title": "Petio",
       "tagline": "A third party companion app available to Plex server owners to allow their users to request, review and discover content.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "sha256:1c5a9276a844f4284601cbe332905864950545ebdeaad74bacb9097ea4f4b333",
       "author": "WisdomSky",
       "developer": "Petio Team",
       "architectures": [
         "amd64",
-        "arm",
         "arm64"
       ],
-      "icon": "/apps/petio/assets/icon.png",
+      "icon": "/apps/org.icewhale.petio/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/petio/docker-compose.yml",
-      "meta_url": "/apps/petio/meta.json",
-      "content_hash": "f64ef5b3"
+      "compose_url": "/apps/org.icewhale.petio/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.petio/meta.json",
+      "content_hash": "b0a8dfd3",
+      "version": "0.5.5"
     },
     {
-      "id": "photoprism",
+      "id": "org.icewhale.photoprism",
       "title": "PhotoPrism",
       "tagline": "Browse Your Life in Images",
-      "category": "Gallery",
+      "category": "Media",
       "categories": [
-        "gallery"
+        "media"
       ],
-      "version": "260523",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "PhotoPrism",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/photoprism/assets/icon.png",
-      "thumbnail": "/apps/photoprism/assets/thumbnail.webp",
-      "compose_url": "/apps/photoprism/docker-compose.yml",
-      "meta_url": "/apps/photoprism/meta.json",
-      "content_hash": "52314d1b"
+      "icon": "/apps/org.icewhale.photoprism/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.photoprism/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.photoprism/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.photoprism/meta.json",
+      "content_hash": "db9d5282"
     },
     {
-      "id": "pihole",
+      "id": "org.icewhale.pihole",
       "title": "Pi-hole",
       "tagline": "Network-wide Ad Blocking",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "2026.05.0",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Pi-hole",
       "architectures": [
         "amd64",
@@ -2467,146 +2663,145 @@
         "386",
         "arm"
       ],
-      "icon": "/apps/pihole/assets/icon.png",
-      "thumbnail": "/apps/pihole/assets/thumbnail.webp",
-      "compose_url": "/apps/pihole/docker-compose.yml",
-      "meta_url": "/apps/pihole/meta.json",
-      "content_hash": "c806f152"
+      "icon": "/apps/org.icewhale.pihole/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.pihole/assets/thumbnaill.webp",
+      "compose_url": "/apps/org.icewhale.pihole/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.pihole/meta.json",
+      "content_hash": "411c260e",
+      "version": "2026.5.0"
     },
     {
-      "id": "pinchflat",
+      "id": "org.icewhale.pinchflat",
       "title": "Pinchflat",
       "tagline": "Your next YouTube media manager",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "latest",
       "author": "kieraneglin",
       "developer": "kieraneglin",
       "architectures": [
-        "amd64",
-        "arm64"
+        "amd64"
       ],
-      "icon": "/apps/pinchflat/assets/icon.png",
+      "icon": "/apps/org.icewhale.pinchflat/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/pinchflat/docker-compose.yml",
-      "meta_url": "/apps/pinchflat/meta.json",
-      "content_hash": "25bfa65a"
+      "compose_url": "/apps/org.icewhale.pinchflat/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.pinchflat/meta.json",
+      "content_hash": "2ce0596c",
+      "version": "2025.9.26"
     },
     {
-      "id": "pingvin-share",
+      "id": "org.icewhale.pingvinshare",
       "title": "Pingvin-Share",
       "tagline": "Self-hosted file sharing with a modern web interface",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "latest",
       "author": "stonith404",
       "developer": "stonith404",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/pingvin-share/assets/icon.png",
+      "icon": "/apps/org.icewhale.pingvinshare/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/pingvin-share/docker-compose.yml",
-      "meta_url": "/apps/pingvin-share/meta.json",
-      "content_hash": "f340d9bf"
+      "compose_url": "/apps/org.icewhale.pingvinshare/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.pingvinshare/meta.json",
+      "content_hash": "2a5e380c",
+      "version": "1.13.0"
     },
     {
-      "id": "playit-agent",
+      "id": "org.icewhale.playitagent",
       "title": "Playit Agent",
       "tagline": "A free reverse proxy for tunneling services (not self-hosted).",
-      "category": "Utilities",
+      "category": "Networking",
       "categories": [
-        "utilities"
+        "networking"
       ],
-      "version": "latest",
       "author": "mafen",
       "developer": "Patrick Lorio",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/playit-agent/assets/icon.png",
+      "icon": "/apps/org.icewhale.playitagent/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/playit-agent/docker-compose.yml",
-      "meta_url": "/apps/playit-agent/meta.json",
-      "content_hash": "a6324702"
+      "compose_url": "/apps/org.icewhale.playitagent/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.playitagent/meta.json",
+      "content_hash": "597a59c9",
+      "version": "1.0.10"
     },
     {
-      "id": "plex",
+      "id": "org.icewhale.plex",
       "title": "Plex",
       "tagline": "Stream Movies & TV Shows",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "1.43.2",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Plex",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/plex/assets/icon.png",
-      "thumbnail": "/apps/plex/assets/thumbnail.webp",
-      "compose_url": "/apps/plex/docker-compose.yml",
-      "meta_url": "/apps/plex/meta.json",
-      "content_hash": "090c5991"
+      "icon": "/apps/org.icewhale.plex/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.plex/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.plex/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.plex/meta.json",
+      "content_hash": "671d3946",
+      "version": "1.43.2"
     },
     {
-      "id": "plex-nvidia",
+      "id": "org.icewhale.plexnvidia",
       "title": "Plex(Nvidia GPU)",
       "tagline": "Stream Movies & TV Shows",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "1.41.3",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Plex",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/plex-nvidia/assets/icon.png",
-      "thumbnail": "/apps/plex-nvidia/assets/thumbnail.webp",
-      "compose_url": "/apps/plex-nvidia/docker-compose.yml",
-      "meta_url": "/apps/plex-nvidia/meta.json",
-      "content_hash": "e90a48be"
+      "icon": "/apps/org.icewhale.plexnvidia/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.plexnvidia/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.plexnvidia/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.plexnvidia/meta.json",
+      "content_hash": "1bc4bc46",
+      "version": "1.41.3"
     },
     {
-      "id": "pocketbase",
+      "id": "org.icewhale.pocketbase",
       "title": "PocketBase",
       "tagline": "Open Source realtime backend in 1 file",
       "category": "Developer",
       "categories": [
         "developer"
       ],
-      "version": "0.26.6",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Gani Georgiev",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/pocketbase/assets/icon.png",
-      "thumbnail": "/apps/pocketbase/assets/thumbnail.webp",
-      "compose_url": "/apps/pocketbase/docker-compose.yml",
-      "meta_url": "/apps/pocketbase/meta.json",
-      "content_hash": "f5fd6d70"
+      "icon": "/apps/org.icewhale.pocketbase/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.pocketbase/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.pocketbase/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.pocketbase/meta.json",
+      "content_hash": "7975ddd1",
+      "version": "0.26.6"
     },
     {
-      "id": "portainer",
+      "id": "org.icewhale.portainer",
       "title": "Portainer",
       "tagline": "Lightweight Docker management UI",
-      "category": "Utilities",
+      "category": "Developer",
       "categories": [
-        "utilities"
+        "developer"
       ],
-      "version": "2.31.3",
       "author": "Cp0204",
       "developer": "Portainer",
       "architectures": [
@@ -2614,21 +2809,21 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/portainer/assets/icon.png",
-      "thumbnail": "/apps/portainer/assets/thumbnail.webp",
-      "compose_url": "/apps/portainer/docker-compose.yml",
-      "meta_url": "/apps/portainer/meta.json",
-      "content_hash": "7b32a624"
+      "icon": "/apps/org.icewhale.portainer/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.portainer/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.portainer/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.portainer/meta.json",
+      "content_hash": "46131687",
+      "version": "2.31.3"
     },
     {
-      "id": "postgresql",
+      "id": "org.icewhale.postgresql",
       "title": "PostgreSQL",
       "tagline": "PostgreSQL is an advanced, enterprise-class, and open-source relational database system. PostgreSQL supports both SQL (relational) and JSON (non-relational) querying.",
       "category": "Developer",
       "categories": [
         "developer"
       ],
-      "version": "17.4",
       "author": "WisdomSky",
       "developer": "PostgreSQL Global Dev't Group",
       "architectures": [
@@ -2636,464 +2831,503 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/postgresql/assets/icon.png",
+      "icon": "/apps/org.icewhale.postgresql/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/postgresql/docker-compose.yml",
-      "meta_url": "/apps/postgresql/meta.json",
-      "content_hash": "5a6ea6c5"
+      "compose_url": "/apps/org.icewhale.postgresql/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.postgresql/meta.json",
+      "content_hash": "aa691452",
+      "version": "17.4.0"
     },
     {
-      "id": "prowlarr",
+      "id": "org.icewhale.prowlarr",
       "title": "Prowlarr",
       "tagline": "Integration of various PVR applications",
-      "category": "Downloader",
+      "category": "Media",
       "categories": [
-        "downloader"
+        "media"
       ],
-      "version": "2.3.5",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Prowlarr Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/prowlarr/assets/icon.png",
-      "thumbnail": "/apps/prowlarr/assets/thumbnail.webp",
-      "compose_url": "/apps/prowlarr/docker-compose.yml",
-      "meta_url": "/apps/prowlarr/meta.json",
-      "content_hash": "3068e102"
+      "icon": "/apps/org.icewhale.prowlarr/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.prowlarr/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.prowlarr/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.prowlarr/meta.json",
+      "content_hash": "b46381e8",
+      "version": "2.5.2"
     },
     {
-      "id": "psitransfer",
+      "id": "org.icewhale.psitransfer",
       "title": "PsiTransfer",
       "tagline": "A simple, open-source file sharing host.",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "v2.4.1",
       "author": "psitrax",
       "developer": "psitrax",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/psitransfer/assets/icon.png",
+      "icon": "/apps/org.icewhale.psitransfer/assets/icon.png",
       "thumbnail": "",
-      "compose_url": "/apps/psitransfer/docker-compose.yml",
-      "meta_url": "/apps/psitransfer/meta.json",
-      "content_hash": "6f9764c2"
+      "compose_url": "/apps/org.icewhale.psitransfer/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.psitransfer/meta.json",
+      "content_hash": "9a6af3d1",
+      "version": "2.4.1"
     },
     {
-      "id": "pyload",
+      "id": "org.icewhale.pyload",
       "title": "PyLoad",
       "tagline": "Free Downloader Manager.",
-      "category": "Downloader",
+      "category": "Media",
       "categories": [
-        "downloader"
+        "media"
       ],
-      "version": "0.5.0",
       "author": "joaobosconff",
       "developer": "linuxserver",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/pyload/assets/icon.png",
+      "icon": "/apps/org.icewhale.pyload/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/pyload/docker-compose.yml",
-      "meta_url": "/apps/pyload/meta.json",
-      "content_hash": "04ed0f7a"
+      "compose_url": "/apps/org.icewhale.pyload/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.pyload/meta.json",
+      "content_hash": "0319c10d",
+      "version": "0.5.0"
     },
     {
-      "id": "qbittorrent",
+      "id": "org.icewhale.qbittorrent",
       "title": "qBittorrent",
       "tagline": "P2P bittorrent download",
-      "category": "Downloader",
+      "category": "Media",
       "categories": [
-        "downloader"
+        "media"
       ],
-      "version": "release-5.0.4",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "qBittorrent",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/qbittorrent/assets/icon.png",
-      "thumbnail": "/apps/qbittorrent/assets/thumbnail.webp",
-      "compose_url": "/apps/qbittorrent/docker-compose.yml",
-      "meta_url": "/apps/qbittorrent/meta.json",
-      "content_hash": "49e58255"
+      "icon": "/apps/org.icewhale.qbittorrent/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.qbittorrent/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.qbittorrent/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.qbittorrent/meta.json",
+      "content_hash": "a621fc80",
+      "version": "5.0.4"
     },
     {
-      "id": "radarr",
+      "id": "org.icewhale.qui",
+      "title": "Qui",
+      "tagline": "Fast, modern web interface for qBittorrent",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "CasaOS Team",
+      "developer": "autobrr",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/org.icewhale.qui/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.qui/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.qui/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.qui/meta.json",
+      "content_hash": "f6d65f12",
+      "version": "1.28.0"
+    },
+    {
+      "id": "org.icewhale.radarr",
       "title": "Radarr",
       "tagline": "The movie collection manager for Usenet and BitTorrent users",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "6.1.1",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Radarr",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/radarr/assets/icon.png",
-      "thumbnail": "/apps/radarr/assets/thumbnail.webp",
-      "compose_url": "/apps/radarr/docker-compose.yml",
-      "meta_url": "/apps/radarr/meta.json",
-      "content_hash": "9e942f08"
+      "icon": "/apps/org.icewhale.radarr/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.radarr/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.radarr/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.radarr/meta.json",
+      "content_hash": "da0bfb5e",
+      "version": "6.3.0"
     },
     {
-      "id": "ragflow",
+      "id": "org.icewhale.ragflow",
       "title": "RagFlow",
       "tagline": "RagFlow is an open-source RAG engine based on deep document understanding.",
       "category": "AI",
       "categories": [
         "ai"
       ],
-      "version": "v0.21.1",
       "author": "RagFlow",
       "developer": "RagFlow",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/ragflow/assets/icon.png",
-      "thumbnail": "/apps/ragflow/assets/thumbnail.webp",
-      "compose_url": "/apps/ragflow/docker-compose.yml",
-      "meta_url": "/apps/ragflow/meta.json",
-      "content_hash": "5a938d38"
+      "icon": "/apps/org.icewhale.ragflow/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.ragflow/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.ragflow/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.ragflow/meta.json",
+      "content_hash": "71342061",
+      "version": "0.21.1"
     },
     {
-      "id": "rdtclient",
+      "id": "org.icewhale.rdtclient",
       "title": "Real-Debrid Torrent Client",
       "tagline": "",
-      "category": "Downloader",
+      "category": "Media",
       "categories": [
-        "downloader"
+        "media"
       ],
-      "version": "2.0.136",
       "author": "calganaygun",
       "developer": "",
       "architectures": [
         "amd64",
-        "arm",
         "arm64"
       ],
-      "icon": "/apps/rdtclient/assets/icon.png",
+      "icon": "/apps/org.icewhale.rdtclient/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/rdtclient/docker-compose.yml",
-      "meta_url": "/apps/rdtclient/meta.json",
-      "content_hash": "a90c7d80"
+      "compose_url": "/apps/org.icewhale.rdtclient/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.rdtclient/meta.json",
+      "content_hash": "29257492",
+      "version": "2.0.136"
     },
     {
-      "id": "readarr",
+      "id": "org.icewhale.readarr",
       "title": "Readarr",
       "tagline": "Ebook and audiobook collection manager for Usenet and BitTorrent users.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "0.3.10-develop",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Readarr Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/readarr/assets/icon.png",
-      "thumbnail": "/apps/readarr/assets/thumbnail.webp",
-      "compose_url": "/apps/readarr/docker-compose.yml",
-      "meta_url": "/apps/readarr/meta.json",
-      "content_hash": "9cec2519"
+      "icon": "/apps/org.icewhale.readarr/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.readarr/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.readarr/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.readarr/meta.json",
+      "content_hash": "d6dfabc0",
+      "version": "0.3.10-develop"
     },
     {
-      "id": "resilio-sync",
+      "id": "org.icewhale.resiliosync",
       "title": "resilio-sync",
       "tagline": "Unleash the power of seamless file synchronization.",
-      "category": "File Sync",
+      "category": "Productivity",
       "categories": [
-        "file sync"
+        "productivity"
       ],
-      "version": "3.1.2",
       "author": "self",
       "developer": "",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/resilio-sync/assets/icon.png",
+      "icon": "/apps/org.icewhale.resiliosync/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/resilio-sync/docker-compose.yml",
-      "meta_url": "/apps/resilio-sync/meta.json",
-      "content_hash": "fb1644e9"
+      "compose_url": "/apps/org.icewhale.resiliosync/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.resiliosync/meta.json",
+      "content_hash": "774f9b19",
+      "version": "3.1.2"
     },
     {
-      "id": "retroarch",
+      "id": "org.icewhale.retroarch",
       "title": "RetroArch",
       "tagline": "Online retro games emulator",
-      "category": "Games",
+      "category": "Media",
       "categories": [
-        "games"
+        "media"
       ],
-      "version": "latest",
       "author": "inglebard",
       "developer": "inglebard",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/retroarch/assets/icon.png",
+      "icon": "/apps/org.icewhale.retroarch/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/retroarch/docker-compose.yml",
-      "meta_url": "/apps/retroarch/meta.json",
-      "content_hash": "0d62f733"
+      "compose_url": "/apps/org.icewhale.retroarch/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.retroarch/meta.json",
+      "content_hash": "e18abcf0",
+      "version": "0.0.1"
     },
     {
-      "id": "romm",
+      "id": "org.icewhale.romm",
       "title": "RomM",
       "tagline": "RomM is a self-hosted ROM manager for managing and playing game collections.",
-      "category": "Games",
+      "category": "Media",
       "categories": [
-        "games"
+        "media"
       ],
-      "version": "4.8.1",
       "author": "rommapp",
       "developer": "rommapp",
       "architectures": [
         "amd64",
-        "arm",
         "arm64"
       ],
-      "icon": "/apps/romm/assets/icon.png",
+      "icon": "/apps/org.icewhale.romm/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/romm/docker-compose.yml",
-      "meta_url": "/apps/romm/meta.json",
-      "content_hash": "a3140f5c"
+      "compose_url": "/apps/org.icewhale.romm/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.romm/meta.json",
+      "content_hash": "3404caa7",
+      "version": "4.8.1"
     },
     {
-      "id": "sabnzbd",
+      "id": "org.icewhale.roonserver",
+      "title": "Roon Server",
+      "tagline": "Music software that transforms your listening experience",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "ZimaOS Team",
+      "developer": "Roon Labs",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/org.icewhale.roonserver/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.roonserver/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.roonserver/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.roonserver/meta.json",
+      "content_hash": "0492f6bb",
+      "version": "1.0.8"
+    },
+    {
+      "id": "org.icewhale.sabnzbd",
       "title": "Sabnzbd",
       "tagline": "Free and easy binary newsreader",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "5.0.3",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Sabnzbd Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/sabnzbd/assets/icon.png",
-      "thumbnail": "/apps/sabnzbd/assets/thumbnail.webp",
-      "compose_url": "/apps/sabnzbd/docker-compose.yml",
-      "meta_url": "/apps/sabnzbd/meta.json",
-      "content_hash": "79142f7a"
+      "icon": "/apps/org.icewhale.sabnzbd/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.sabnzbd/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.sabnzbd/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.sabnzbd/meta.json",
+      "content_hash": "5af6f3cc",
+      "version": "5.0.3"
     },
     {
-      "id": "sickchill",
+      "id": "org.icewhale.sickchill",
       "title": "Sickchill",
       "tagline": "Automatic video library manager for TV Shows",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "2023.6.27",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Sickchill Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/sickchill/assets/icon.png",
-      "thumbnail": "/apps/sickchill/assets/thumbnail.webp",
-      "compose_url": "/apps/sickchill/docker-compose.yml",
-      "meta_url": "/apps/sickchill/meta.json",
-      "content_hash": "f1581347"
+      "icon": "/apps/org.icewhale.sickchill/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.sickchill/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.sickchill/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.sickchill/meta.json",
+      "content_hash": "4ca5296d",
+      "version": "2023.6.27"
     },
     {
-      "id": "siyuan-note",
+      "id": "org.icewhale.siyuannote",
       "title": "SiYuan Note",
       "tagline": "Private personal knowledge management",
-      "category": "Notes",
+      "category": "Productivity",
       "categories": [
-        "notes"
+        "productivity"
       ],
-      "version": "v3.6.5",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "siyuan-note",
       "architectures": [
         "amd64",
         "arm64",
         "arm"
       ],
-      "icon": "/apps/siyuan-note/assets/icon.png",
-      "thumbnail": "/apps/siyuan-note/assets/thumbnail.webp",
-      "compose_url": "/apps/siyuan-note/docker-compose.yml",
-      "meta_url": "/apps/siyuan-note/meta.json",
-      "content_hash": "b8525c7a"
+      "icon": "/apps/org.icewhale.siyuannote/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.siyuannote/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.siyuannote/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.siyuannote/meta.json",
+      "content_hash": "ca03581a",
+      "version": "3.6.5"
     },
     {
-      "id": "smokeping",
+      "id": "org.icewhale.smokeping",
       "title": "Smokeping",
       "tagline": "Free open source network performance monitoring tool",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "2.9.0",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Lazylibrarian Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/smokeping/assets/icon.png",
-      "thumbnail": "/apps/smokeping/assets/thumbnail.webp",
-      "compose_url": "/apps/smokeping/docker-compose.yml",
-      "meta_url": "/apps/smokeping/meta.json",
-      "content_hash": "ee1848b7"
+      "icon": "/apps/org.icewhale.smokeping/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.smokeping/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.smokeping/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.smokeping/meta.json",
+      "content_hash": "1f028055",
+      "version": "2.9.0"
     },
     {
-      "id": "snapdrop",
+      "id": "org.icewhale.snapdrop",
       "title": "snapdrop",
       "tagline": "Cross-platform file sharing made easy.",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "version-eac78009",
       "author": "self",
       "developer": "",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/snapdrop/assets/icon.png",
+      "icon": "/apps/org.icewhale.snapdrop/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/snapdrop/docker-compose.yml",
-      "meta_url": "/apps/snapdrop/meta.json",
-      "content_hash": "41b8c06b"
+      "compose_url": "/apps/org.icewhale.snapdrop/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.snapdrop/meta.json",
+      "content_hash": "0a4b4e1a",
+      "version": "0.0.0-version-eac78009"
     },
     {
-      "id": "sonarr",
+      "id": "org.icewhale.sonarr",
       "title": "Sonarr",
       "tagline": "The PVR for Usenet and BitTorrent users",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "4.0.17",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Sonarr",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/sonarr/assets/icon.png",
-      "thumbnail": "/apps/sonarr/assets/thumbnail.webp",
-      "compose_url": "/apps/sonarr/docker-compose.yml",
-      "meta_url": "/apps/sonarr/meta.json",
-      "content_hash": "75b8c2de"
+      "icon": "/apps/org.icewhale.sonarr/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.sonarr/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.sonarr/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.sonarr/meta.json",
+      "content_hash": "87df9c3c",
+      "version": "4.0.19"
     },
     {
-      "id": "stremio",
+      "id": "org.icewhale.stremio",
       "title": "Stremio",
       "tagline": "Stremio is a modern media center that gives you the freedom to watch everything you want.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "v1.3.4",
       "author": "joaobosconff",
       "developer": "Andreas Tsarida / Stremio",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/stremio/assets/icon.png",
+      "icon": "/apps/org.icewhale.stremio/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/stremio/docker-compose.yml",
-      "meta_url": "/apps/stremio/meta.json",
-      "content_hash": "906846e0"
+      "compose_url": "/apps/org.icewhale.stremio/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.stremio/meta.json",
+      "content_hash": "df90089c",
+      "version": "1.3.4"
     },
     {
-      "id": "sure",
+      "id": "org.icewhale.sure",
       "title": "Sure",
       "tagline": "Personal finance management application",
       "category": "Finance",
       "categories": [
         "finance"
       ],
-      "version": "0.6.5-hotfix.1",
       "author": "we-promise",
       "developer": "we-promise",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/sure/assets/icon.png",
+      "icon": "/apps/org.icewhale.sure/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/sure/docker-compose.yml",
-      "meta_url": "/apps/sure/meta.json",
-      "content_hash": "37af1276"
+      "compose_url": "/apps/org.icewhale.sure/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.sure/meta.json",
+      "content_hash": "16a9749d",
+      "version": "0.6.5-hotfix.1"
     },
     {
-      "id": "swingmusic",
+      "id": "org.icewhale.swingmusic",
       "title": "Swing Music",
       "tagline": "Swing Music is a beautifully designed, self-hosted music streaming server. Like a cooler Spotify ... but bring your own music.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "v3.0.0",
       "author": "SwingMX",
       "developer": "SwingMX",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/swingmusic/assets/icon.png",
-      "thumbnail": "/apps/swingmusic/assets/thumbnail.webp",
-      "compose_url": "/apps/swingmusic/docker-compose.yml",
-      "meta_url": "/apps/swingmusic/meta.json",
-      "content_hash": "3b6f880b"
+      "icon": "/apps/org.icewhale.swingmusic/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.swingmusic/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.swingmusic/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.swingmusic/meta.json",
+      "content_hash": "e14534b3",
+      "version": "2.1.4"
     },
     {
-      "id": "syncthing",
+      "id": "org.icewhale.syncthing",
       "title": "Syncthing",
       "tagline": "Open decentralized file synchronization",
-      "category": "Backup",
+      "category": "Productivity",
       "categories": [
-        "backup"
+        "productivity"
       ],
-      "version": "1.29.7",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Syncthing",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/syncthing/assets/icon.png",
-      "thumbnail": "/apps/syncthing/assets/thumbnail.webp",
-      "compose_url": "/apps/syncthing/docker-compose.yml",
-      "meta_url": "/apps/syncthing/meta.json",
-      "content_hash": "94273cdf"
+      "icon": "/apps/org.icewhale.syncthing/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.syncthing/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.syncthing/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.syncthing/meta.json",
+      "content_hash": "ba95285d",
+      "version": "1.29.7"
     },
     {
-      "id": "tailscale",
+      "id": "org.icewhale.tailscale",
       "title": "Tailscale",
       "tagline": "Connect your devices and users together in your own secure virtual private network.",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "v1.98.3",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Tailscale Inc.",
       "architectures": [
         "amd64",
@@ -3101,84 +3335,84 @@
         "arm64",
         "386"
       ],
-      "icon": "/apps/tailscale/assets/icon.png",
+      "icon": "/apps/org.icewhale.tailscale/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/tailscale/docker-compose.yml",
-      "meta_url": "/apps/tailscale/meta.json",
-      "content_hash": "370de833"
+      "compose_url": "/apps/org.icewhale.tailscale/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.tailscale/meta.json",
+      "content_hash": "19b7bf86",
+      "version": "1.98.3"
     },
     {
-      "id": "taskingai",
+      "id": "org.icewhale.taskingai",
       "title": "TaskingAI",
       "tagline": "The developer-friendly cloud platform for building and running LLM agents for AI-native applications.",
-      "category": "Chat",
+      "category": "AI",
       "categories": [
-        "chat"
+        "ai"
       ],
-      "version": "v0.3.0",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "TaskingAI Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/taskingai/assets/icon.png",
-      "thumbnail": "/apps/taskingai/assets/thumbnail.webp",
-      "compose_url": "/apps/taskingai/docker-compose.yml",
-      "meta_url": "/apps/taskingai/meta.json",
-      "content_hash": "edf2c43e"
+      "icon": "/apps/org.icewhale.taskingai/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.taskingai/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.taskingai/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.taskingai/meta.json",
+      "content_hash": "f74ca58a",
+      "version": "0.3.0"
     },
     {
-      "id": "tautulli",
+      "id": "org.icewhale.tautulli",
       "title": "Tautulli",
       "tagline": "Monitor your Plex Media Server and much more.",
       "category": "Media",
       "categories": [
         "media"
       ],
-      "version": "2.17.1",
       "author": "Triskae",
       "developer": "Tautulli Team",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/tautulli/assets/icon.png",
-      "thumbnail": "/apps/tautulli/assets/thumbnail.webp",
-      "compose_url": "/apps/tautulli/docker-compose.yml",
-      "meta_url": "/apps/tautulli/meta.json",
-      "content_hash": "bda6b941"
+      "icon": "/apps/org.icewhale.tautulli/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.tautulli/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.tautulli/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.tautulli/meta.json",
+      "content_hash": "aa56c889",
+      "version": "2.17.1"
     },
     {
-      "id": "teable",
+      "id": "org.icewhale.teable",
       "title": "Teable",
       "tagline": "Teable adopts a concise spreadsheet interface, yet creates powerful database applications",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "latest",
       "author": "teableio",
       "developer": "teableio",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/teable/assets/icon.png",
-      "thumbnail": "/apps/teable/assets/thumbnail.webp",
-      "compose_url": "/apps/teable/docker-compose.yml",
-      "meta_url": "/apps/teable/meta.json",
-      "content_hash": "5f51001e"
+      "icon": "/apps/org.icewhale.teable/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.teable/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.teable/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.teable/meta.json",
+      "content_hash": "d1314a24",
+      "version": "0.0.1"
     },
     {
-      "id": "threadfin",
+      "id": "org.icewhale.threadfin",
       "title": "Threadfin",
       "tagline": "M3U proxy server",
-      "category": "Utilities",
+      "category": "Media",
       "categories": [
-        "utilities"
+        "media"
       ],
-      "version": "1.2.37",
       "author": "Fabio Tea",
       "developer": "jdownloader",
       "architectures": [
@@ -3186,42 +3420,42 @@
         "arm64",
         "arm"
       ],
-      "icon": "/apps/threadfin/assets/icon.png",
+      "icon": "/apps/org.icewhale.threadfin/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/threadfin/docker-compose.yml",
-      "meta_url": "/apps/threadfin/meta.json",
-      "content_hash": "f3c022f9"
+      "compose_url": "/apps/org.icewhale.threadfin/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.threadfin/meta.json",
+      "content_hash": "3f6067c2",
+      "version": "1.2.37"
     },
     {
-      "id": "transmission",
+      "id": "org.icewhale.transmission",
       "title": "Transmission",
       "tagline": "Transmission is a cross-platform BitTorrent client",
-      "category": "Downloader",
+      "category": "Media",
       "categories": [
-        "downloader"
+        "media"
       ],
-      "version": "4.1.1",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Transmission",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/transmission/assets/icon.png",
-      "thumbnail": "/apps/transmission/assets/thumbnail.webp",
-      "compose_url": "/apps/transmission/docker-compose.yml",
-      "meta_url": "/apps/transmission/meta.json",
-      "content_hash": "c8375faa"
+      "icon": "/apps/org.icewhale.transmission/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.transmission/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.transmission/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.transmission/meta.json",
+      "content_hash": "6419ced8",
+      "version": "4.1.1"
     },
     {
-      "id": "trilium",
+      "id": "org.icewhale.trilium",
       "title": "Trilium",
       "tagline": "Build your personal knowledge base with TriliumNext Notes",
-      "category": "Notes",
+      "category": "Productivity",
       "categories": [
-        "notes"
+        "productivity"
       ],
-      "version": "v0.103.0",
       "author": "Jason McFeetors",
       "developer": "zadam",
       "architectures": [
@@ -3229,41 +3463,40 @@
         "arm64",
         "arm"
       ],
-      "icon": "/apps/trilium/assets/icon.png",
+      "icon": "/apps/org.icewhale.trilium/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/trilium/docker-compose.yml",
-      "meta_url": "/apps/trilium/meta.json",
-      "content_hash": "2e4f9700"
+      "compose_url": "/apps/org.icewhale.trilium/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.trilium/meta.json",
+      "content_hash": "7648fefb",
+      "version": "0.103.0"
     },
     {
-      "id": "turbodiffusion_nvidia",
+      "id": "org.icewhale.turbodiffusionnvidia",
       "title": "TurboDiffusion(Nvidia GPU)",
       "tagline": "An accelerated video generation framework that speeds up end-to-end diffusion while preserving video quality",
       "category": "AI",
       "categories": [
         "ai"
       ],
-      "version": "20260312",
       "author": "thu-ml",
       "developer": "thu-ml",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/turbodiffusion_nvidia/assets/icon.png",
+      "icon": "/apps/org.icewhale.turbodiffusionnvidia/assets/icon.png",
       "thumbnail": "",
-      "compose_url": "/apps/turbodiffusion_nvidia/docker-compose.yml",
-      "meta_url": "/apps/turbodiffusion_nvidia/meta.json",
-      "content_hash": "6f7c34bf"
+      "compose_url": "/apps/org.icewhale.turbodiffusionnvidia/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.turbodiffusionnvidia/meta.json",
+      "content_hash": "a0764a85"
     },
     {
-      "id": "twingate-connector",
+      "id": "org.icewhale.twingateconnector",
       "title": "Twingate",
       "tagline": "Twingate Connector for CasaOS",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "1",
       "author": "Shubhankar Trivedi",
       "developer": "Twingate",
       "architectures": [
@@ -3271,234 +3504,234 @@
         "arm64",
         "arm"
       ],
-      "icon": "/apps/twingate-connector/assets/icon.png",
-      "thumbnail": "/apps/twingate-connector/assets/thumbnail.webp",
-      "compose_url": "/apps/twingate-connector/docker-compose.yml",
-      "meta_url": "/apps/twingate-connector/meta.json",
-      "content_hash": "931ef3ef"
+      "icon": "/apps/org.icewhale.twingateconnector/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.twingateconnector/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.twingateconnector/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.twingateconnector/meta.json",
+      "content_hash": "0bbd25a2",
+      "version": "1.0.0"
     },
     {
-      "id": "unifi-controller",
+      "id": "org.icewhale.unificontroller",
       "title": "Unifi-controller [legacy]",
       "tagline": "The Unifi-controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "8.0.7",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "LinuxServer.io",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/unifi-controller/assets/icon.png",
-      "thumbnail": "/apps/unifi-controller/assets/thumbnail.webp",
-      "compose_url": "/apps/unifi-controller/docker-compose.yml",
-      "meta_url": "/apps/unifi-controller/meta.json",
-      "content_hash": "8dd2169f"
+      "icon": "/apps/org.icewhale.unificontroller/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.unificontroller/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.unificontroller/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.unificontroller/meta.json",
+      "content_hash": "6ccbbf8f",
+      "version": "8.0.7"
     },
     {
-      "id": "unifi-network-application",
+      "id": "org.icewhale.unifinetworkapplication",
       "title": "Unifi Network Application",
       "tagline": "The Unifi network application software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "latest",
       "author": "Giuseppe Galilei",
       "developer": "Ubiquiti and Linuxserver.io",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/unifi-network-application/assets/icon.png",
+      "icon": "/apps/org.icewhale.unifinetworkapplication/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/unifi-network-application/docker-compose.yml",
-      "meta_url": "/apps/unifi-network-application/meta.json",
-      "content_hash": "1fb166ee"
+      "compose_url": "/apps/org.icewhale.unifinetworkapplication/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.unifinetworkapplication/meta.json",
+      "content_hash": "ecb7843d",
+      "version": "10.4.57-ls133"
     },
     {
-      "id": "uptimekuma",
+      "id": "org.icewhale.uptimekuma",
       "title": "Uptime Kuma",
       "tagline": "A fancy monitoring tool",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "2.4.0",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Louis Lam",
       "architectures": [
         "amd64",
         "arm64",
         "arm"
       ],
-      "icon": "/apps/uptimekuma/assets/icon.png",
-      "thumbnail": "/apps/uptimekuma/assets/thumbnail.webp",
-      "compose_url": "/apps/uptimekuma/docker-compose.yml",
-      "meta_url": "/apps/uptimekuma/meta.json",
-      "content_hash": "136a7443"
+      "icon": "/apps/org.icewhale.uptimekuma/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.uptimekuma/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.uptimekuma/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.uptimekuma/meta.json",
+      "content_hash": "2550f90e",
+      "version": "2.4.0"
     },
     {
-      "id": "v2raya",
+      "id": "org.icewhale.v2raya",
       "title": "V2rayA",
       "tagline": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "v2.2.7.5",
       "author": "v2rayA",
       "developer": "v2rayA",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/v2raya/assets/icon.png",
+      "icon": "/apps/org.icewhale.v2raya/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/v2raya/docker-compose.yml",
-      "meta_url": "/apps/v2raya/meta.json",
-      "content_hash": "539e6802"
+      "compose_url": "/apps/org.icewhale.v2raya/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.v2raya/meta.json",
+      "content_hash": "c4f35517",
+      "version": "2.2.7-5"
     },
     {
-      "id": "vaultwarden",
+      "id": "org.icewhale.vaultwarden",
       "title": "Vaultwarden",
       "tagline": "A self-hosted Bitwarden server",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "1.36.0",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "Daniel García",
       "architectures": [
         "amd64",
         "arm",
         "arm64"
       ],
-      "icon": "/apps/vaultwarden/assets/icon.png",
-      "thumbnail": "/apps/vaultwarden/assets/thumbnail.webp",
-      "compose_url": "/apps/vaultwarden/docker-compose.yml",
-      "meta_url": "/apps/vaultwarden/meta.json",
-      "content_hash": "67ba3981"
+      "icon": "/apps/org.icewhale.vaultwarden/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.vaultwarden/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.vaultwarden/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.vaultwarden/meta.json",
+      "content_hash": "3c283d8b",
+      "version": "1.36.0"
     },
     {
-      "id": "virtmanager",
+      "id": "org.icewhale.virtmanager",
       "title": "Virtual Machine Manager",
       "tagline": "A GTK Broadway web UI for libvirt and virt-manager.",
-      "category": "Utilities",
+      "category": "Developer",
       "categories": [
-        "utilities"
+        "developer"
       ],
-      "version": "latest",
       "author": "mber5",
       "developer": "Red Hat",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/virtmanager/assets/icon.png",
+      "icon": "/apps/org.icewhale.virtmanager/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/virtmanager/docker-compose.yml",
-      "meta_url": "/apps/virtmanager/meta.json",
-      "content_hash": "6a9837fc"
+      "compose_url": "/apps/org.icewhale.virtmanager/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.virtmanager/meta.json",
+      "content_hash": "2d0daa59",
+      "version": "0.0.1"
     },
     {
-      "id": "vocechat",
+      "id": "org.icewhale.vocechat",
       "title": "VoceChat",
       "tagline": "Have a Private Social Space Hosted on Your Site",
-      "category": "Chat",
+      "category": "Social",
       "categories": [
-        "chat"
+        "social"
       ],
-      "version": "v0.5.17",
       "author": "Privoce",
       "developer": "Privoce",
       "architectures": [
         "amd64"
       ],
-      "icon": "/apps/vocechat/assets/icon.png",
-      "thumbnail": "/apps/vocechat/assets/thumbnail.webp",
-      "compose_url": "/apps/vocechat/docker-compose.yml",
-      "meta_url": "/apps/vocechat/meta.json",
-      "content_hash": "82ac89ca"
+      "icon": "/apps/org.icewhale.vocechat/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.vocechat/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.vocechat/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.vocechat/meta.json",
+      "content_hash": "37abe087",
+      "version": "0.5.17"
     },
     {
-      "id": "wallabag",
+      "id": "org.icewhale.wallabag",
       "title": "Wallabag",
       "tagline": "Save and classify articles. Read them later. Freely.",
-      "category": "Notes",
+      "category": "Productivity",
       "categories": [
-        "notes"
+        "productivity"
       ],
-      "version": "2.6.14",
-      "author": "CasaOS Team",
+      "author": "ZimaOS Team",
       "developer": "wallabag",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/wallabag/assets/icon.png",
+      "icon": "/apps/org.icewhale.wallabag/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/wallabag/docker-compose.yml",
-      "meta_url": "/apps/wallabag/meta.json",
-      "content_hash": "158c2e80"
+      "compose_url": "/apps/org.icewhale.wallabag/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.wallabag/meta.json",
+      "content_hash": "ed5bda4b",
+      "version": "2.6.14"
     },
     {
-      "id": "webdav",
+      "id": "org.icewhale.webdav",
       "title": "WebDAV",
       "tagline": "A web-based file sharing and management protocol",
-      "category": "Utilities",
+      "category": "Productivity",
       "categories": [
-        "utilities"
+        "productivity"
       ],
-      "version": "amd64",
-      "author": "CasaOS Team",
-      "developer": "CasaOS Team",
+      "author": "ZimaOS Team",
+      "developer": "ZimaOS Team",
       "architectures": [
         "amd64",
         "386",
         "arm64",
         "arm"
       ],
-      "icon": "/apps/webdav/assets/icon.png",
+      "icon": "/apps/org.icewhale.webdav/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/webdav/docker-compose.yml",
-      "meta_url": "/apps/webdav/meta.json",
-      "content_hash": "3a10a2fb"
+      "compose_url": "/apps/org.icewhale.webdav/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.webdav/meta.json",
+      "content_hash": "a2a13159",
+      "version": "0.0.1"
     },
     {
-      "id": "weknora",
+      "id": "org.icewhale.weknora",
       "title": "WeKnora",
       "tagline": "WeKnora is an LLM-powered framework designed for deep document understanding and semantic retrieval, especially for handling complex, heterogeneous documents.",
       "category": "AI",
       "categories": [
         "ai"
       ],
-      "version": "v0.2.14",
       "author": "tencent",
       "developer": "Tencent",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/weknora/assets/icon.png",
-      "thumbnail": "/apps/weknora/assets/thumbnail.webp",
-      "compose_url": "/apps/weknora/docker-compose.yml",
-      "meta_url": "/apps/weknora/meta.json",
-      "content_hash": "e074a422"
+      "icon": "/apps/org.icewhale.weknora/assets/icon.svg",
+      "thumbnail": "/apps/org.icewhale.weknora/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.weknora/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.weknora/meta.json",
+      "content_hash": "def25999",
+      "version": "0.2.14"
     },
     {
-      "id": "wg-easy",
+      "id": "org.icewhale.wgeasy",
       "title": "WireGuard Easy",
       "tagline": "WEB UI to manage WireGuard VPN.",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "13",
       "author": "Sawy",
       "developer": "WeejeWel",
       "architectures": [
@@ -3506,32 +3739,33 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/wg-easy/assets/icon.png",
+      "icon": "/apps/org.icewhale.wgeasy/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/wg-easy/docker-compose.yml",
-      "meta_url": "/apps/wg-easy/meta.json",
-      "content_hash": "8bb3539c"
+      "compose_url": "/apps/org.icewhale.wgeasy/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.wgeasy/meta.json",
+      "content_hash": "3191fbc9",
+      "version": "13.0.0"
     },
     {
-      "id": "ztnet",
+      "id": "org.icewhale.ztnet",
       "title": "ZTnet",
       "tagline": "Self-hosted ZeroTier network controller with web UI for centralized management.",
-      "category": "Network",
+      "category": "Networking",
       "categories": [
-        "network"
+        "networking"
       ],
-      "version": "0.7.18",
       "author": "sinamics",
       "developer": "sinamics",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/ztnet/assets/icon.png",
+      "icon": "/apps/org.icewhale.ztnet/assets/icon.svg",
       "thumbnail": "",
-      "compose_url": "/apps/ztnet/docker-compose.yml",
-      "meta_url": "/apps/ztnet/meta.json",
-      "content_hash": "f368dfce"
+      "compose_url": "/apps/org.icewhale.ztnet/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.ztnet/meta.json",
+      "content_hash": "f2f31254",
+      "version": "0.7.18"
     }
   ]
 }
