@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-10T07:21:02Z",
+  "updated_at": "2026-09-10T07:58:32Z",
   "app_count": 178,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -637,8 +637,8 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.ddnsgo/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.ddnsgo/meta.json",
-      "content_hash": "e9e2c583",
-      "version": "6.17.3"
+      "content_hash": "64ea3191",
+      "version": "6.17.4"
     },
     {
       "id": "org.icewhale.ddnsupdater",
