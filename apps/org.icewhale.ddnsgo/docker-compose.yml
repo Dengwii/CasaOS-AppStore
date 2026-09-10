@@ -1,7 +1,7 @@
 name: ddns-go
 services:
   ddns-go:
-    image: jeessy/ddns-go:v6.17.1
+    image: jeessy/ddns-go:v6.17.4
     network_mode: bridge
     deploy:
       resources:
@@ -12,9 +12,15 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /root
+      - type: bind
+        source: /DATA/AppData/
+        target: /11
     ports:
       - target: 9876
         published: "9876"
+        protocol: tcp
+      - target: 19876
+        published: "19876"
         protocol: tcp
     container_name: ddns-go
 x-casaos:
@@ -25,4 +31,4 @@ x-casaos:
   scheme: http
   title:
     en_US: ddns-go
-  version: "6.17.1"
+  version: "6.17.4"
