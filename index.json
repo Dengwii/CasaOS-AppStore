@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-10T11:00:06Z",
+  "updated_at": "2026-09-10T17:04:56Z",
   "app_count": 178,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -22,7 +22,7 @@
       "thumbnail": "/apps/com.icewhale.bentopdf/assets/thumbnail.webp",
       "compose_url": "/apps/com.icewhale.bentopdf/docker-compose.yml",
       "meta_url": "/apps/com.icewhale.bentopdf/meta.json",
-      "content_hash": "37e1d2f3",
+      "content_hash": "0d7d805f",
       "version": "2.8.8"
     },
     {
@@ -106,7 +106,7 @@
       "thumbnail": "/apps/org.clumoove.app/assets/thumbnail.webp",
       "compose_url": "/apps/org.clumoove.app/docker-compose.yml",
       "meta_url": "/apps/org.clumoove.app/meta.json",
-      "content_hash": "73ce95d5",
+      "content_hash": "9e5ff295",
       "version": "0.17.0"
     },
     {
@@ -129,7 +129,7 @@
       "thumbnail": "/apps/org.icewhale.2fauth/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.2fauth/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.2fauth/meta.json",
-      "content_hash": "83701f36",
+      "content_hash": "9ee8b67a",
       "version": "6.1.3"
     },
     {
@@ -150,7 +150,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.actualbudget/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.actualbudget/meta.json",
-      "content_hash": "6fb415ff",
+      "content_hash": "49cb8c75",
       "version": "26.5.2"
     },
     {
@@ -174,7 +174,7 @@
       "thumbnail": "/apps/org.icewhale.adguardhome/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.adguardhome/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.adguardhome/meta.json",
-      "content_hash": "66223f40",
+      "content_hash": "f7259db9",
       "version": "0.107.79"
     },
     {
@@ -196,8 +196,8 @@
       "thumbnail": "/apps/org.icewhale.adminer/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.adminer/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.adminer/meta.json",
-      "content_hash": "15b768cc",
-      "version": "5.4.2"
+      "content_hash": "de7d05f9",
+      "version": "6.0.1"
     },
     {
       "id": "org.icewhale.albyhub",
@@ -239,7 +239,7 @@
       "thumbnail": "/apps/org.icewhale.alist/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.alist/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.alist/meta.json",
-      "content_hash": "01902fc9",
+      "content_hash": "5ab16018",
       "version": "3.40.0"
     },
     {
@@ -261,7 +261,7 @@
       "thumbnail": "/apps/org.icewhale.alistsync/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.alistsync/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.alistsync/meta.json",
-      "content_hash": "ec08403a",
+      "content_hash": "c1176ba5",
       "version": "1.1.5"
     },
     {
@@ -281,7 +281,7 @@
       "thumbnail": "/apps/org.icewhale.anaconda3/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.anaconda3/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.anaconda3/meta.json",
-      "content_hash": "df16128e"
+      "content_hash": "7e0bfa87"
     },
     {
       "id": "org.icewhale.anythingllm",
@@ -300,7 +300,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.anythingllm/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.anythingllm/meta.json",
-      "content_hash": "1ddccc83",
+      "content_hash": "abbf5fb0",
       "version": "1.14.2"
     },
     {
@@ -320,7 +320,7 @@
       "thumbnail": "/apps/org.icewhale.archivebox/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.archivebox/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.archivebox/meta.json",
-      "content_hash": "e2797d8a",
+      "content_hash": "27e903c7",
       "version": "0.7.4"
     },
     {
@@ -341,7 +341,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.audiobookshelf/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.audiobookshelf/meta.json",
-      "content_hash": "3800bb69",
+      "content_hash": "79c83eea",
       "version": "2.35.0"
     },
     {
@@ -363,7 +363,7 @@
       "thumbnail": "/apps/org.icewhale.autobrr/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.autobrr/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.autobrr/meta.json",
-      "content_hash": "80d11fa0",
+      "content_hash": "6491f94b",
       "version": "1.79.0"
     },
     {
@@ -384,7 +384,7 @@
       "thumbnail": "/apps/org.icewhale.bazarr/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.bazarr/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.bazarr/meta.json",
-      "content_hash": "e69e215a",
+      "content_hash": "8cda60e3",
       "version": "1.5.6"
     },
     {
@@ -405,7 +405,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.beaverhabittracker/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.beaverhabittracker/meta.json",
-      "content_hash": "62e0b0f4",
+      "content_hash": "5433a5b3",
       "version": "0.9.1"
     },
     {
@@ -426,7 +426,7 @@
       "thumbnail": "/apps/org.icewhale.blinko/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.blinko/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.blinko/meta.json",
-      "content_hash": "8bfef325",
+      "content_hash": "0e285abf",
       "version": "1.8.7"
     },
     {
@@ -447,7 +447,7 @@
       "thumbnail": "/apps/org.icewhale.calibreweb/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.calibreweb/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.calibreweb/meta.json",
-      "content_hash": "8bb8874d",
+      "content_hash": "af50998c",
       "version": "0.6.24"
     },
     {
@@ -468,7 +468,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.chatbotui/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.chatbotui/meta.json",
-      "content_hash": "65e99b6b",
+      "content_hash": "dae20add",
       "version": "0.0.1"
     },
     {
@@ -489,7 +489,7 @@
       "thumbnail": "/apps/org.icewhale.chatgptnextweb/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.chatgptnextweb/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.chatgptnextweb/meta.json",
-      "content_hash": "53fd7080",
+      "content_hash": "ea39a6b6",
       "version": "2.16.1"
     },
     {
@@ -510,7 +510,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.cloudbeaver/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.cloudbeaver/meta.json",
-      "content_hash": "464dd28f",
+      "content_hash": "1dae3a17",
       "version": "26.0.5"
     },
     {
@@ -532,7 +532,7 @@
       "thumbnail": "/apps/org.icewhale.cloudflared/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.cloudflared/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.cloudflared/meta.json",
-      "content_hash": "22e00fad",
+      "content_hash": "26517f35",
       "version": "2026.5.0"
     },
     {
@@ -553,7 +553,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.convertx/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.convertx/meta.json",
-      "content_hash": "0ec02290",
+      "content_hash": "10406c97",
       "version": "0.17.0"
     },
     {
@@ -573,7 +573,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.copyparty/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.copyparty/meta.json",
-      "content_hash": "6cf1b2d7",
+      "content_hash": "5e5cb3c3",
       "version": "1.20.13"
     },
     {
@@ -594,7 +594,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.crafty/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.crafty/meta.json",
-      "content_hash": "fc276b75",
+      "content_hash": "dcddbfc5",
       "version": "4.10.4"
     },
     {
@@ -615,7 +615,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.databag/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.databag/meta.json",
-      "content_hash": "57ce24c4",
+      "content_hash": "a286e0ab",
       "version": "0.1.18"
     },
     {
@@ -637,7 +637,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.ddnsgo/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.ddnsgo/meta.json",
-      "content_hash": "02075456",
+      "content_hash": "b69651f2",
       "version": "6.17.1"
     },
     {
@@ -679,7 +679,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.deepseekocrnvidia/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.deepseekocrnvidia/meta.json",
-      "content_hash": "b586fe2b",
+      "content_hash": "6033d460",
       "version": "2.2.0"
     },
     {
@@ -700,7 +700,7 @@
       "thumbnail": "/apps/org.icewhale.deluge/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.deluge/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.deluge/meta.json",
-      "content_hash": "68b195eb",
+      "content_hash": "24aea34a",
       "version": "2.2.0"
     },
     {
@@ -741,7 +741,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.docmost/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.docmost/meta.json",
-      "content_hash": "853731f8",
+      "content_hash": "8c921e95",
       "version": "0.90.0"
     },
     {
@@ -762,7 +762,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.downtify/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.downtify/meta.json",
-      "content_hash": "e71f3b55",
+      "content_hash": "6936eeda",
       "version": "2.7.0"
     },
     {
@@ -783,7 +783,7 @@
       "thumbnail": "/apps/org.icewhale.dsh-harness/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.dsh-harness/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.dsh-harness/meta.json",
-      "content_hash": "f1712100",
+      "content_hash": "6cbb2c13",
       "version": "0.1.0"
     },
     {
@@ -804,7 +804,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.duckdns/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.duckdns/meta.json",
-      "content_hash": "14135552",
+      "content_hash": "2a04b0f9",
       "version": "0.0.1"
     },
     {
@@ -825,7 +825,7 @@
       "thumbnail": "/apps/org.icewhale.duplicati/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.duplicati/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.duplicati/meta.json",
-      "content_hash": "4bd758ff",
+      "content_hash": "5736edcf",
       "version": "2.1.0"
     },
     {
@@ -846,7 +846,7 @@
       "thumbnail": "/apps/org.icewhale.emby/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.emby/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.emby/meta.json",
-      "content_hash": "30a45251",
+      "content_hash": "cc4e70ac",
       "version": "4.9.5"
     },
     {
@@ -867,7 +867,7 @@
       "thumbnail": "/apps/org.icewhale.embynvidia/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.embynvidia/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.embynvidia/meta.json",
-      "content_hash": "e0b829b9",
+      "content_hash": "c835d462",
       "version": "4.9.1"
     },
     {
@@ -888,7 +888,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.embystat/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.embystat/meta.json",
-      "content_hash": "a3f5488e",
+      "content_hash": "758b3fcb",
       "version": "0.2.0"
     },
     {
@@ -930,7 +930,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.esphome/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.esphome/meta.json",
-      "content_hash": "2ff4995a",
+      "content_hash": "9a29e0af",
       "version": "2026.5.1"
     },
     {
@@ -951,7 +951,7 @@
       "thumbnail": "/apps/org.icewhale.etherpad/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.etherpad/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.etherpad/meta.json",
-      "content_hash": "21fc3c6b",
+      "content_hash": "e8fba2b8",
       "version": "3.1.0"
     },
     {
@@ -971,7 +971,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.excalidraw/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.excalidraw/meta.json",
-      "content_hash": "184bd91d",
+      "content_hash": "210a0305",
       "version": "0.18.1"
     },
     {
@@ -992,7 +992,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.filedrop/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.filedrop/meta.json",
-      "content_hash": "3618f31a",
+      "content_hash": "60c836ce",
       "version": "1.0.1"
     },
     {
@@ -1013,7 +1013,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.fileflows/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.fileflows/meta.json",
-      "content_hash": "8fee85e7",
+      "content_hash": "b6848ee6",
       "version": "0.0.1"
     },
     {
@@ -1035,7 +1035,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.firefly/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.firefly/meta.json",
-      "content_hash": "f928b7e4",
+      "content_hash": "5fa1b1ca",
       "version": "0.0.1"
     },
     {
@@ -1077,7 +1077,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.flowise/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.flowise/meta.json",
-      "content_hash": "08ae279a",
+      "content_hash": "7092a767",
       "version": "3.1.2"
     },
     {
@@ -1099,7 +1099,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.freshrss/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.freshrss/meta.json",
-      "content_hash": "896fafe9",
+      "content_hash": "b06db569",
       "version": "1.29.1"
     },
     {
@@ -1120,7 +1120,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.frigate/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.frigate/meta.json",
-      "content_hash": "0d08834a",
+      "content_hash": "4b17fee4",
       "version": "0.17.2"
     },
     {
@@ -1142,7 +1142,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.gatewaygo/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.gatewaygo/meta.json",
-      "content_hash": "915b16be",
+      "content_hash": "0535a4ca",
       "version": "2.0.12"
     },
     {
@@ -1163,7 +1163,7 @@
       "thumbnail": "/apps/org.icewhale.gitea/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.gitea/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.gitea/meta.json",
-      "content_hash": "65636e8a",
+      "content_hash": "db5bf520",
       "version": "1.26.2"
     },
     {
@@ -1184,7 +1184,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.glances/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.glances/meta.json",
-      "content_hash": "943a9e16",
+      "content_hash": "9efdf006",
       "version": "4.5.4"
     },
     {
@@ -1206,7 +1206,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.gopeed/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.gopeed/meta.json",
-      "content_hash": "27adcf3c",
+      "content_hash": "77c547da",
       "version": "1.9.3"
     },
     {
@@ -1227,7 +1227,7 @@
       "thumbnail": "/apps/org.icewhale.grafana/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.grafana/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.grafana/meta.json",
-      "content_hash": "a9823b0d",
+      "content_hash": "3fd224c0",
       "version": "13.0.1-security-01"
     },
     {
@@ -1247,7 +1247,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.handbrake/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.handbrake/meta.json",
-      "content_hash": "4d6bf350",
+      "content_hash": "b6cef547",
       "version": "26.3.3"
     },
     {
@@ -1268,7 +1268,7 @@
       "thumbnail": "/apps/org.icewhale.hermes/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.hermes/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.hermes/meta.json",
-      "content_hash": "8dced013",
+      "content_hash": "7af2b491",
       "version": "0.16.0"
     },
     {
@@ -1290,7 +1290,7 @@
       "thumbnail": "/apps/org.icewhale.holoplay/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.holoplay/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.holoplay/meta.json",
-      "content_hash": "9f1f07a9",
+      "content_hash": "23e1926e",
       "version": "1.12.3"
     },
     {
@@ -1311,7 +1311,7 @@
       "thumbnail": "/apps/org.icewhale.homeassistant/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.homeassistant/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.homeassistant/meta.json",
-      "content_hash": "f2f7cac7",
+      "content_hash": "c368f6d6",
       "version": "2026.5.4"
     },
     {
@@ -1333,7 +1333,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.homebridge/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.homebridge/meta.json",
-      "content_hash": "4b2135fb",
+      "content_hash": "888e9305",
       "version": "2.1.0"
     },
     {
@@ -1354,7 +1354,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.hugo/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.hugo/meta.json",
-      "content_hash": "8b212b49",
+      "content_hash": "eedbf852",
       "version": "0.161.1"
     },
     {
@@ -1374,7 +1374,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.icewhalestablediffusionwebui/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.icewhalestablediffusionwebui/meta.json",
-      "content_hash": "648469cf",
+      "content_hash": "513d8f49",
       "version": "9.0.0"
     },
     {
@@ -1395,7 +1395,7 @@
       "thumbnail": "/apps/org.icewhale.immich/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.immich/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.immich/meta.json",
-      "content_hash": "554d8f72",
+      "content_hash": "5868aabb",
       "version": "2.7.2"
     },
     {
@@ -1415,7 +1415,7 @@
       "thumbnail": "/apps/org.icewhale.indextts/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.indextts/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.indextts/meta.json",
-      "content_hash": "7f318452",
+      "content_hash": "eb0abf4c",
       "version": "2.0.0"
     },
     {
@@ -1435,7 +1435,7 @@
       "thumbnail": "/apps/org.icewhale.indexttsnvidia/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.indexttsnvidia/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.indexttsnvidia/meta.json",
-      "content_hash": "e12b0075",
+      "content_hash": "67369f84",
       "version": "2.0.0"
     },
     {
@@ -1456,7 +1456,7 @@
       "thumbnail": "/apps/org.icewhale.jackett/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.jackett/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.jackett/meta.json",
-      "content_hash": "479b92a1",
+      "content_hash": "c58d25c9",
       "version": "0.24.1985"
     },
     {
@@ -1477,7 +1477,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.jdownloader2/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.jdownloader2/meta.json",
-      "content_hash": "fdea7f74",
+      "content_hash": "51fa4046",
       "version": "26.3.1"
     },
     {
@@ -1498,7 +1498,7 @@
       "thumbnail": "/apps/org.icewhale.jellyfin/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.jellyfin/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.jellyfin/meta.json",
-      "content_hash": "395454f1",
+      "content_hash": "67646bdc",
       "version": "10.11.10"
     },
     {
@@ -1519,7 +1519,7 @@
       "thumbnail": "/apps/org.icewhale.jellyfinnvidia/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.jellyfinnvidia/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.jellyfinnvidia/meta.json",
-      "content_hash": "ca0c9d2d",
+      "content_hash": "fac3c24f",
       "version": "10.10.6"
     },
     {
@@ -1540,7 +1540,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.jellyseerr/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.jellyseerr/meta.json",
-      "content_hash": "f2f5e6da",
+      "content_hash": "5ded46dc",
       "version": "2.7.3"
     },
     {
@@ -1561,7 +1561,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.jenkins/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.jenkins/meta.json",
-      "content_hash": "4a26d459",
+      "content_hash": "1f305272",
       "version": "2.569.0"
     },
     {
@@ -1582,7 +1582,7 @@
       "thumbnail": "/apps/org.icewhale.karakeep/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.karakeep/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.karakeep/meta.json",
-      "content_hash": "33624ca5",
+      "content_hash": "8b5db634",
       "version": "0.33.2"
     },
     {
@@ -1604,7 +1604,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.kavita/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.kavita/meta.json",
-      "content_hash": "1c481b0c",
+      "content_hash": "03ec1996",
       "version": "0.9.0-2"
     },
     {
@@ -1626,7 +1626,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.komga/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.komga/meta.json",
-      "content_hash": "4da245d1",
+      "content_hash": "b2a1416a",
       "version": "1.24.4"
     },
     {
@@ -1647,7 +1647,7 @@
       "thumbnail": "/apps/org.icewhale.labelstudio/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.labelstudio/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.labelstudio/meta.json",
-      "content_hash": "78e96325",
+      "content_hash": "475cb1df",
       "version": "1.23.0"
     },
     {
@@ -1667,7 +1667,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.langflow/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.langflow/meta.json",
-      "content_hash": "dc220f27",
+      "content_hash": "97faeade",
       "version": "1.9.3"
     },
     {
@@ -1688,7 +1688,7 @@
       "thumbnail": "/apps/org.icewhale.lazylibrarian/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.lazylibrarian/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.lazylibrarian/meta.json",
-      "content_hash": "d7e0c9ae",
+      "content_hash": "3b96add0",
       "version": "0.0.0-version-169e669f"
     },
     {
@@ -1708,7 +1708,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.librechat/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.librechat/meta.json",
-      "content_hash": "1c65018b",
+      "content_hash": "e1b50a07",
       "version": "0.8.7-rc1"
     },
     {
@@ -1729,7 +1729,7 @@
       "thumbnail": "/apps/org.icewhale.libredbstudio/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.libredbstudio/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.libredbstudio/meta.json",
-      "content_hash": "224ef7e7",
+      "content_hash": "67795ae4",
       "version": "0.13.7"
     },
     {
@@ -1750,7 +1750,7 @@
       "thumbnail": "/apps/org.icewhale.lidarr/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.lidarr/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.lidarr/meta.json",
-      "content_hash": "f5298b06",
+      "content_hash": "74088ce5",
       "version": "3.1.0"
     },
     {
@@ -1771,7 +1771,7 @@
       "thumbnail": "/apps/org.icewhale.linkwarden/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.linkwarden/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.linkwarden/meta.json",
-      "content_hash": "78eec042",
+      "content_hash": "abd7bd65",
       "version": "2.14.1"
     },
     {
@@ -1792,7 +1792,7 @@
       "thumbnail": "/apps/org.icewhale.llamacpp/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.llamacpp/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.llamacpp/meta.json",
-      "content_hash": "5903e841",
+      "content_hash": "0db9459d",
       "version": "1.0.0"
     },
     {
@@ -1812,7 +1812,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.llamafactorynvidia/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.llamafactorynvidia/meta.json",
-      "content_hash": "f59ca2b7",
+      "content_hash": "cd5909d8",
       "version": "0.9.4"
     },
     {
@@ -1833,7 +1833,7 @@
       "thumbnail": "/apps/org.icewhale.logseq/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.logseq/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.logseq/meta.json",
-      "content_hash": "821ad58d",
+      "content_hash": "f07e7045",
       "version": "0.10.10"
     },
     {
@@ -1855,7 +1855,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.lucky/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.lucky/meta.json",
-      "content_hash": "038d863e",
+      "content_hash": "3f433d38",
       "version": "2.27.2"
     },
     {
@@ -1877,7 +1877,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.lyrionmusicserver/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.lyrionmusicserver/meta.json",
-      "content_hash": "745335b1",
+      "content_hash": "f7115708",
       "version": "9.1.1"
     },
     {
@@ -1898,7 +1898,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.mariadb/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.mariadb/meta.json",
-      "content_hash": "27097433",
+      "content_hash": "83f222ea",
       "version": "11.4.8"
     },
     {
@@ -1919,7 +1919,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.maybe/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.maybe/meta.json",
-      "content_hash": "3d8f12e9",
+      "content_hash": "3f1df43d",
       "version": "0.6.0"
     },
     {
@@ -1963,8 +1963,8 @@
       "thumbnail": "/apps/org.icewhale.memos/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.memos/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.memos/meta.json",
-      "content_hash": "9755ba1c",
-      "version": "0.28.0"
+      "content_hash": "5f1fda30",
+      "version": "0.30.0"
     },
     {
       "id": "org.icewhale.mineosnode",
@@ -1983,7 +1983,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.mineosnode/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.mineosnode/meta.json",
-      "content_hash": "9569a03d",
+      "content_hash": "dcb4cdd7",
       "version": "1.2.2"
     },
     {
@@ -2004,7 +2004,7 @@
       "thumbnail": "/apps/org.icewhale.mongodb/assets/icon.webp",
       "compose_url": "/apps/org.icewhale.mongodb/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.mongodb/meta.json",
-      "content_hash": "a7bda817",
+      "content_hash": "3f25decf",
       "version": "8.2.2"
     },
     {
@@ -2025,7 +2025,7 @@
       "thumbnail": "/apps/org.icewhale.mongodb4/assets/icon.webp",
       "compose_url": "/apps/org.icewhale.mongodb4/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.mongodb4/meta.json",
-      "content_hash": "ac507023",
+      "content_hash": "508b883d",
       "version": "4.4.22"
     },
     {
@@ -2046,7 +2046,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.monica/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.monica/meta.json",
-      "content_hash": "d426f888",
+      "content_hash": "c57b925f",
       "version": "4.1.2"
     },
     {
@@ -2066,7 +2066,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.motioneye/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.motioneye/meta.json",
-      "content_hash": "7c08a1e1",
+      "content_hash": "88c18043",
       "version": "0.44.0"
     },
     {
@@ -2087,7 +2087,7 @@
       "thumbnail": "/apps/org.icewhale.mylar3/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.mylar3/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.mylar3/meta.json",
-      "content_hash": "75f0f08d",
+      "content_hash": "efe52109",
       "version": "0.9.0"
     },
     {
@@ -2109,7 +2109,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.myspeed/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.myspeed/meta.json",
-      "content_hash": "3b70a189",
+      "content_hash": "dcd18fd3",
       "version": "1.0.9"
     },
     {
@@ -2130,7 +2130,7 @@
       "thumbnail": "/apps/org.icewhale.n8n/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.n8n/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.n8n/meta.json",
-      "content_hash": "eba0f69e",
+      "content_hash": "09b45b99",
       "version": "2.22.3"
     },
     {
@@ -2152,7 +2152,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.navidrome/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.navidrome/meta.json",
-      "content_hash": "ab6877c5",
+      "content_hash": "d5607fe7",
       "version": "0.61.2"
     },
     {
@@ -2173,7 +2173,7 @@
       "thumbnail": "/apps/org.icewhale.netbird/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.netbird/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.netbird/meta.json",
-      "content_hash": "1850cada",
+      "content_hash": "642f215d",
       "version": "0.62.3"
     },
     {
@@ -2195,7 +2195,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.netdata/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.netdata/meta.json",
-      "content_hash": "7d579c64",
+      "content_hash": "f9727d8c",
       "version": "2.10.3"
     },
     {
@@ -2216,7 +2216,7 @@
       "thumbnail": "/apps/org.icewhale.netronome/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.netronome/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.netronome/meta.json",
-      "content_hash": "647a9dec",
+      "content_hash": "02105fa6",
       "version": "0.13.0"
     },
     {
@@ -2241,7 +2241,7 @@
       "thumbnail": "/apps/org.icewhale.nextcloud/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.nextcloud/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.nextcloud/meta.json",
-      "content_hash": "b4dd4e74",
+      "content_hash": "1e298df1",
       "version": "33.0.3"
     },
     {
@@ -2263,7 +2263,7 @@
       "thumbnail": "/apps/org.icewhale.nginxproxymanager/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.nginxproxymanager/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.nginxproxymanager/meta.json",
-      "content_hash": "ca86dc85",
+      "content_hash": "8bb54f59",
       "version": "2.13.5"
     },
     {
@@ -2285,7 +2285,7 @@
       "thumbnail": "/apps/org.icewhale.nodered/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.nodered/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.nodered/meta.json",
-      "content_hash": "16468dc5",
+      "content_hash": "2608eda1",
       "version": "4.1.10"
     },
     {
@@ -2306,7 +2306,7 @@
       "thumbnail": "/apps/org.icewhale.nzbget/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.nzbget/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.nzbget/meta.json",
-      "content_hash": "a620c295",
+      "content_hash": "6d7046fb",
       "version": "26.1.20260522"
     },
     {
@@ -2327,7 +2327,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.obsidian/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.obsidian/meta.json",
-      "content_hash": "3a15c248",
+      "content_hash": "b4a55b5b",
       "version": "1.12.7"
     },
     {
@@ -2348,7 +2348,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.ollama/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.ollama/meta.json",
-      "content_hash": "fccf9868",
+      "content_hash": "8129ce35",
       "version": "0.24.0"
     },
     {
@@ -2369,7 +2369,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.ollamanvidia/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.ollamanvidia/meta.json",
-      "content_hash": "bc160544",
+      "content_hash": "d577aefa",
       "version": "0.9.5"
     },
     {
@@ -2390,7 +2390,7 @@
       "thumbnail": "/apps/org.icewhale.ombi/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.ombi/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.ombi/meta.json",
-      "content_hash": "319635e5",
+      "content_hash": "c93f3bfa",
       "version": "4.53.5"
     },
     {
@@ -2411,7 +2411,7 @@
       "thumbnail": "/apps/org.icewhale.openclaw/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.openclaw/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.openclaw/meta.json",
-      "content_hash": "738ca790",
+      "content_hash": "d3393502",
       "version": "2026.5.7"
     },
     {
@@ -2432,7 +2432,7 @@
       "thumbnail": "/apps/org.icewhale.openhab/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.openhab/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.openhab/meta.json",
-      "content_hash": "de2210b5",
+      "content_hash": "88490436",
       "version": "5.1.4"
     },
     {
@@ -2452,7 +2452,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.openhands/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.openhands/meta.json",
-      "content_hash": "2b649960",
+      "content_hash": "8cca523f",
       "version": "0.59.0"
     },
     {
@@ -2474,7 +2474,7 @@
       "thumbnail": "/apps/org.icewhale.openlist/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.openlist/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.openlist/meta.json",
-      "content_hash": "e72fb4ab",
+      "content_hash": "4a1ab536",
       "version": "4.2.2"
     },
     {
@@ -2499,7 +2499,7 @@
       "thumbnail": "/apps/org.icewhale.openspeedtest/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.openspeedtest/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.openspeedtest/meta.json",
-      "content_hash": "7a7d6ef6",
+      "content_hash": "3faa6de8",
       "version": "2.0.6"
     },
     {
@@ -2519,7 +2519,7 @@
       "thumbnail": "/apps/org.icewhale.openwebuiollama/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.openwebuiollama/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.openwebuiollama/meta.json",
-      "content_hash": "704664ce",
+      "content_hash": "648dd6a5",
       "version": "0.9.6"
     },
     {
@@ -2540,7 +2540,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.opodsync/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.opodsync/meta.json",
-      "content_hash": "0865f198",
+      "content_hash": "954894a3",
       "version": "0.0.1"
     },
     {
@@ -2561,7 +2561,7 @@
       "thumbnail": "/apps/org.icewhale.overseerr/assets/icon.webp",
       "compose_url": "/apps/org.icewhale.overseerr/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.overseerr/meta.json",
-      "content_hash": "42a11d89",
+      "content_hash": "882f78a7",
       "version": "1.35.0"
     },
     {
@@ -2582,7 +2582,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.pdfding/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.pdfding/meta.json",
-      "content_hash": "d8e5bc5a",
+      "content_hash": "eb9ad211",
       "version": "1.7.2"
     },
     {
@@ -2603,7 +2603,7 @@
       "thumbnail": "/apps/org.icewhale.peanut/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.peanut/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.peanut/meta.json",
-      "content_hash": "6c48ef1d",
+      "content_hash": "d2c8f811",
       "version": "6.0.0"
     },
     {
@@ -2624,7 +2624,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.petio/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.petio/meta.json",
-      "content_hash": "b0a8dfd3",
+      "content_hash": "bfdf8ccb",
       "version": "0.5.5"
     },
     {
@@ -2645,7 +2645,7 @@
       "thumbnail": "/apps/org.icewhale.photoprism/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.photoprism/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.photoprism/meta.json",
-      "content_hash": "8cf1ef92"
+      "content_hash": "4bd80a53"
     },
     {
       "id": "org.icewhale.pihole",
@@ -2667,7 +2667,7 @@
       "thumbnail": "/apps/org.icewhale.pihole/assets/thumbnaill.webp",
       "compose_url": "/apps/org.icewhale.pihole/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.pihole/meta.json",
-      "content_hash": "16cc68a2",
+      "content_hash": "44f5f3dd",
       "version": "2026.5.0"
     },
     {
@@ -2687,7 +2687,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.pinchflat/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.pinchflat/meta.json",
-      "content_hash": "a9b4ff7b",
+      "content_hash": "3b9748b5",
       "version": "2025.9.26"
     },
     {
@@ -2708,7 +2708,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.pingvinshare/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.pingvinshare/meta.json",
-      "content_hash": "c2c35b3a",
+      "content_hash": "00ed2556",
       "version": "1.13.0"
     },
     {
@@ -2750,7 +2750,7 @@
       "thumbnail": "/apps/org.icewhale.plex/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.plex/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.plex/meta.json",
-      "content_hash": "aaf7caaf",
+      "content_hash": "cfeff0be",
       "version": "1.43.2"
     },
     {
@@ -2771,7 +2771,7 @@
       "thumbnail": "/apps/org.icewhale.plexnvidia/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.plexnvidia/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.plexnvidia/meta.json",
-      "content_hash": "4d8f52d7",
+      "content_hash": "d6eeeaf9",
       "version": "1.41.3"
     },
     {
@@ -2791,7 +2791,7 @@
       "thumbnail": "/apps/org.icewhale.pocketbase/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.pocketbase/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.pocketbase/meta.json",
-      "content_hash": "7975ddd1",
+      "content_hash": "5866ed37",
       "version": "0.26.6"
     },
     {
@@ -2813,7 +2813,7 @@
       "thumbnail": "/apps/org.icewhale.portainer/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.portainer/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.portainer/meta.json",
-      "content_hash": "aaa29bcb",
+      "content_hash": "70d15121",
       "version": "2.31.3"
     },
     {
@@ -2835,7 +2835,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.postgresql/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.postgresql/meta.json",
-      "content_hash": "740676eb",
+      "content_hash": "8ef22791",
       "version": "17.4.0"
     },
     {
@@ -2856,7 +2856,7 @@
       "thumbnail": "/apps/org.icewhale.prowlarr/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.prowlarr/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.prowlarr/meta.json",
-      "content_hash": "9a6431b2",
+      "content_hash": "0c8bb72f",
       "version": "2.5.2"
     },
     {
@@ -2877,7 +2877,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.psitransfer/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.psitransfer/meta.json",
-      "content_hash": "02d38c02",
+      "content_hash": "4600dd47",
       "version": "2.4.1"
     },
     {
@@ -2898,7 +2898,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.pyload/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.pyload/meta.json",
-      "content_hash": "0319c10d",
+      "content_hash": "ebd0d795",
       "version": "0.5.0"
     },
     {
@@ -2919,7 +2919,7 @@
       "thumbnail": "/apps/org.icewhale.qbittorrent/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.qbittorrent/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.qbittorrent/meta.json",
-      "content_hash": "6f72128c",
+      "content_hash": "27bf05a3",
       "version": "5.0.4"
     },
     {
@@ -2940,7 +2940,7 @@
       "thumbnail": "/apps/org.icewhale.qui/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.qui/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.qui/meta.json",
-      "content_hash": "885df3b8",
+      "content_hash": "c2e09f52",
       "version": "1.28.0"
     },
     {
@@ -2961,7 +2961,7 @@
       "thumbnail": "/apps/org.icewhale.radarr/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.radarr/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.radarr/meta.json",
-      "content_hash": "c904120a",
+      "content_hash": "7d465315",
       "version": "6.3.0"
     },
     {
@@ -2981,7 +2981,7 @@
       "thumbnail": "/apps/org.icewhale.ragflow/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.ragflow/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.ragflow/meta.json",
-      "content_hash": "3c49bba7",
+      "content_hash": "729b9620",
       "version": "0.21.1"
     },
     {
@@ -3023,7 +3023,7 @@
       "thumbnail": "/apps/org.icewhale.readarr/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.readarr/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.readarr/meta.json",
-      "content_hash": "d6dfabc0",
+      "content_hash": "f98f7596",
       "version": "0.3.10-develop"
     },
     {
@@ -3044,7 +3044,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.resiliosync/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.resiliosync/meta.json",
-      "content_hash": "774f9b19",
+      "content_hash": "ed358ec2",
       "version": "3.1.2"
     },
     {
@@ -3065,7 +3065,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.retroarch/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.retroarch/meta.json",
-      "content_hash": "e18abcf0",
+      "content_hash": "56935f2a",
       "version": "0.0.1"
     },
     {
@@ -3086,7 +3086,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.romm/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.romm/meta.json",
-      "content_hash": "be9bc393",
+      "content_hash": "7bc8a124",
       "version": "4.8.1"
     },
     {
@@ -3106,7 +3106,7 @@
       "thumbnail": "/apps/org.icewhale.roonserver/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.roonserver/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.roonserver/meta.json",
-      "content_hash": "9b2a8aea",
+      "content_hash": "3534ce2a",
       "version": "1.0.8"
     },
     {
@@ -3127,7 +3127,7 @@
       "thumbnail": "/apps/org.icewhale.sabnzbd/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.sabnzbd/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.sabnzbd/meta.json",
-      "content_hash": "d196ad49",
+      "content_hash": "22a176dc",
       "version": "5.0.3"
     },
     {
@@ -3148,7 +3148,7 @@
       "thumbnail": "/apps/org.icewhale.sickchill/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.sickchill/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.sickchill/meta.json",
-      "content_hash": "87aa6802",
+      "content_hash": "167e2bc6",
       "version": "2023.6.27"
     },
     {
@@ -3170,7 +3170,7 @@
       "thumbnail": "/apps/org.icewhale.siyuannote/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.siyuannote/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.siyuannote/meta.json",
-      "content_hash": "26ab13bd",
+      "content_hash": "1ccd3be6",
       "version": "3.6.5"
     },
     {
@@ -3191,7 +3191,7 @@
       "thumbnail": "/apps/org.icewhale.smokeping/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.smokeping/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.smokeping/meta.json",
-      "content_hash": "5e034a75",
+      "content_hash": "e86153fa",
       "version": "2.9.0"
     },
     {
@@ -3212,7 +3212,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.snapdrop/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.snapdrop/meta.json",
-      "content_hash": "0a4b4e1a",
+      "content_hash": "3fc3c838",
       "version": "0.0.0-version-eac78009"
     },
     {
@@ -3233,7 +3233,7 @@
       "thumbnail": "/apps/org.icewhale.sonarr/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.sonarr/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.sonarr/meta.json",
-      "content_hash": "54eda6b1",
+      "content_hash": "ffc4bb7b",
       "version": "4.0.19"
     },
     {
@@ -3254,7 +3254,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.stremio/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.stremio/meta.json",
-      "content_hash": "75ab714c",
+      "content_hash": "39486564",
       "version": "1.3.4"
     },
     {
@@ -3275,7 +3275,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.sure/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.sure/meta.json",
-      "content_hash": "85402e50",
+      "content_hash": "303fce7a",
       "version": "0.6.5-hotfix.1"
     },
     {
@@ -3295,7 +3295,7 @@
       "thumbnail": "/apps/org.icewhale.swingmusic/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.swingmusic/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.swingmusic/meta.json",
-      "content_hash": "c2cfbbab",
+      "content_hash": "93c90459",
       "version": "2.1.4"
     },
     {
@@ -3316,7 +3316,7 @@
       "thumbnail": "/apps/org.icewhale.syncthing/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.syncthing/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.syncthing/meta.json",
-      "content_hash": "4dbc0a81",
+      "content_hash": "3e25fe6f",
       "version": "1.29.7"
     },
     {
@@ -3339,7 +3339,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.tailscale/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.tailscale/meta.json",
-      "content_hash": "ab5988f6",
+      "content_hash": "cebecb7c",
       "version": "1.98.3"
     },
     {
@@ -3360,7 +3360,7 @@
       "thumbnail": "/apps/org.icewhale.taskingai/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.taskingai/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.taskingai/meta.json",
-      "content_hash": "f1e66f6c",
+      "content_hash": "47681c76",
       "version": "0.3.0"
     },
     {
@@ -3381,7 +3381,7 @@
       "thumbnail": "/apps/org.icewhale.tautulli/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.tautulli/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.tautulli/meta.json",
-      "content_hash": "b9deb566",
+      "content_hash": "a8bc8616",
       "version": "2.17.1"
     },
     {
@@ -3402,7 +3402,7 @@
       "thumbnail": "/apps/org.icewhale.teable/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.teable/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.teable/meta.json",
-      "content_hash": "b4b0cd3d",
+      "content_hash": "cdb8fa29",
       "version": "0.0.1"
     },
     {
@@ -3424,7 +3424,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.threadfin/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.threadfin/meta.json",
-      "content_hash": "3f6067c2",
+      "content_hash": "98cacc3e",
       "version": "1.2.37"
     },
     {
@@ -3445,7 +3445,7 @@
       "thumbnail": "/apps/org.icewhale.transmission/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.transmission/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.transmission/meta.json",
-      "content_hash": "f42a45d0",
+      "content_hash": "c4a54b11",
       "version": "4.1.1"
     },
     {
@@ -3467,7 +3467,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.trilium/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.trilium/meta.json",
-      "content_hash": "93106a51",
+      "content_hash": "35368042",
       "version": "0.103.0"
     },
     {
@@ -3487,7 +3487,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.turbodiffusionnvidia/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.turbodiffusionnvidia/meta.json",
-      "content_hash": "a0764a85"
+      "content_hash": "7c5a1716"
     },
     {
       "id": "org.icewhale.twingateconnector",
@@ -3529,7 +3529,7 @@
       "thumbnail": "/apps/org.icewhale.unificontroller/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.unificontroller/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.unificontroller/meta.json",
-      "content_hash": "22b0a523",
+      "content_hash": "959aa5bc",
       "version": "8.0.7"
     },
     {
@@ -3550,7 +3550,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.unifinetworkapplication/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.unifinetworkapplication/meta.json",
-      "content_hash": "ecb7843d",
+      "content_hash": "5ae4cbf0",
       "version": "10.4.57-ls133"
     },
     {
@@ -3572,7 +3572,7 @@
       "thumbnail": "/apps/org.icewhale.uptimekuma/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.uptimekuma/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.uptimekuma/meta.json",
-      "content_hash": "ff0bace2",
+      "content_hash": "1dce7a6b",
       "version": "2.4.0"
     },
     {
@@ -3593,7 +3593,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.v2raya/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.v2raya/meta.json",
-      "content_hash": "0abf6419",
+      "content_hash": "9ea4d967",
       "version": "2.2.7-5"
     },
     {
@@ -3615,7 +3615,7 @@
       "thumbnail": "/apps/org.icewhale.vaultwarden/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.vaultwarden/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.vaultwarden/meta.json",
-      "content_hash": "a5d13209",
+      "content_hash": "b6680df2",
       "version": "1.36.0"
     },
     {
@@ -3636,7 +3636,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.virtmanager/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.virtmanager/meta.json",
-      "content_hash": "2d0daa59",
+      "content_hash": "5af7eac0",
       "version": "0.0.1"
     },
     {
@@ -3656,7 +3656,7 @@
       "thumbnail": "/apps/org.icewhale.vocechat/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.vocechat/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.vocechat/meta.json",
-      "content_hash": "aa5219ce",
+      "content_hash": "f7754282",
       "version": "0.5.17"
     },
     {
@@ -3677,7 +3677,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.wallabag/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.wallabag/meta.json",
-      "content_hash": "4960b9fb",
+      "content_hash": "a307307e",
       "version": "2.6.14"
     },
     {
@@ -3700,7 +3700,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.webdav/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.webdav/meta.json",
-      "content_hash": "a2a13159",
+      "content_hash": "d36d2bd8",
       "version": "0.0.1"
     },
     {
@@ -3721,7 +3721,7 @@
       "thumbnail": "/apps/org.icewhale.weknora/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.weknora/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.weknora/meta.json",
-      "content_hash": "d0e545e6",
+      "content_hash": "fd63154e",
       "version": "0.2.14"
     },
     {
@@ -3743,7 +3743,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.wgeasy/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.wgeasy/meta.json",
-      "content_hash": "c8bad6f5",
+      "content_hash": "0dfdebab",
       "version": "13.0.0"
     },
     {
@@ -3764,7 +3764,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.ztnet/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.ztnet/meta.json",
-      "content_hash": "f0ae301b",
+      "content_hash": "15597246",
       "version": "0.7.18"
     }
   ]
