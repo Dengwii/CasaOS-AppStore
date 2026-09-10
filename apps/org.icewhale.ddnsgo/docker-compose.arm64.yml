@@ -1,7 +1,7 @@
 name: ddns-go
 services:
   ddns-go:
-    image: jeessy/ddns-go:v6.17.4@sha256:3664cd01f09bc976d1f1891d968b4b642ba1f3282e8c248412b3d5501600ce46
+    image: jeessy/ddns-go:v6.17.1@sha256:44d205993f9a6bafcdd49d71e437479ec1af3afc8067d1978a2685cf8cc64617
     network_mode: bridge
     deploy:
       resources:
@@ -25,4 +25,4 @@ x-casaos:
   scheme: http
   title:
     en_US: ddns-go
-  version: "6.17.4"
+  version: "6.17.1"
