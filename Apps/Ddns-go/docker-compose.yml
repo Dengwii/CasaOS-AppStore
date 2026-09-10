@@ -12,6 +12,7 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /root
+    volumes:
       - type: bind
         source: /DATA/AppData/
         target: /11
@@ -19,6 +20,7 @@ services:
       - target: 9876
         published: "9876"
         protocol: tcp
+    ports:
       - target: 19876
         published: "19876"
         protocol: tcp
@@ -63,7 +65,7 @@ x-casaos:
     zh_CN: 简单好用的DDNS
   title:
     en_US: ddns-go
-  version: "6.17.4"
+  version: "6.17.3"
   update_at: "2026-05-31"
   release_notes:
     en_US: |-
