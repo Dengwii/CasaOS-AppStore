@@ -12,7 +12,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /root
-    volumes:
       - type: bind
         source: /DATA/AppData/
         target: /11
@@ -20,7 +19,6 @@ services:
       - target: 9876
         published: "9876"
         protocol: tcp
-    ports:
       - target: 19876
         published: "19876"
         protocol: tcp
