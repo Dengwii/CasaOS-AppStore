@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-10T17:04:56Z",
+  "updated_at": "2026-09-10T17:05:40Z",
   "app_count": 178,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -196,8 +196,8 @@
       "thumbnail": "/apps/org.icewhale.adminer/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.adminer/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.adminer/meta.json",
-      "content_hash": "de7d05f9",
-      "version": "6.0.1"
+      "content_hash": "bda8f25b",
+      "version": "5.4.2"
     },
     {
       "id": "org.icewhale.albyhub",
@@ -1963,8 +1963,8 @@
       "thumbnail": "/apps/org.icewhale.memos/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.memos/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.memos/meta.json",
-      "content_hash": "5f1fda30",
-      "version": "0.30.0"
+      "content_hash": "cc5a837f",
+      "version": "0.28.0"
     },
     {
       "id": "org.icewhale.mineosnode",
