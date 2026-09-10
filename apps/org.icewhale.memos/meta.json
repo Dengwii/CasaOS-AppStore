@@ -16,23 +16,23 @@
   "tagline": "Memos is a lightweight, self-hosted memo hub. Open Source and Free forever.",
   "thumbnail": "/apps/org.icewhale.memos/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2026-04-27",
+  "update_at": "2026-09-10",
   "website": "https://usememos.com/",
   "repo": "https://github.com/usememos/memos",
   "support": "https://github.com/usememos/memos/issues",
   "docs": "https://www.usememos.com/docs",
   "title": "Memos",
-  "release_note": "- v0.28.0 improves SSO account handling by linking external provider identities to local Memos users.\n- The release redesigns account and SSO management and adds memo created/updated time display controls.\n- Fixes include authorization hardening, legacy username auth flows, markdown mixed-list handling, list query overhead, and task checkbox state preservation.",
+  "release_note": "ZimaOS E2E temporary upgrade fixture: 0.28.0 to 0.30.0.",
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "id": "org.icewhale.memos",
-  "version": "0.28.0",
+  "version": "0.30.0",
   "categories": [
     "productivity"
   ],
   "min_memory": 67108864,
   "min_image_size": {
-    "amd64": 23527585,
-    "arm": 21881481,
-    "arm64": 22433918
+    "amd64": 24005719,
+    "arm": 22418844,
+    "arm64": 22900068
   }
 }
