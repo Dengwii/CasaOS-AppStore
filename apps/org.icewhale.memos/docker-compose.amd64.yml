@@ -5,9 +5,7 @@ services:
       PGID: $PGID
       PUID: $PUID
       TZ: $TZ
-      E2E_UPSTREAM_ONLY: upstream-value
-      E2E_SHARED: upstream-loses
-    image: neosmemo/memos:0.30.0@sha256:51a4cef418b1f173ac37139ad99de08da5b8662136007231d3ac8a0498a3095a
+    image: neosmemo/memos:0.28.0@sha256:a9c224bfee66f1738ff2a28949f7001111a81b533004070860ed43dc77206600
     deploy:
       resources:
         reservations:
@@ -15,28 +13,19 @@ services:
     network_mode: bridge
     ports:
       - target: 5230
-        published: '5230'
+        published: "5230"
         protocol: tcp
-      - target: 25231
-        published: '25231'
-        protocol: tcp
-    restart: always
+    restart: unless-stopped
     volumes:
       - type: bind
         source: /DATA/AppData/memos/memos
         target: /var/opt/memos
-      - type: bind
-        source: /DATA/AppData/memos/e2e-upstream
-        target: /e2e-upstream
     container_name: memos
-    command:
-      - --port
-      - '5230'
 x-casaos:
   id: org.icewhale.memos
   main: memos
   icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.icewhale.memos/assets/icon.svg
   title:
     en_US: Memos
-  port_map: '5230'
-  version: 0.30.0
+  port_map: "5230"
+  version: "0.28.0"
