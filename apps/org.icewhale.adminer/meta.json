@@ -15,23 +15,23 @@
   ],
   "tagline": "Database management in a single PHP file",
   "thumbnail": "/apps/org.icewhale.adminer/assets/thumbnail.webp",
-  "update_at": "2026-09-11",
+  "update_at": "2026-02-08",
   "website": "https://www.adminer.org",
   "repo": "https://github.com/vrana/adminer",
   "support": "https://github.com/vrana/adminer/issues",
   "docs": "https://www.adminer.org/en/",
   "title": "Adminer",
-  "release_note": "ZimaOS E2E temporary upgrade fixture: 5.4.2 to 6.0.1.",
+  "release_note": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "id": "org.icewhale.adminer",
-  "version": "6.0.1",
+  "version": "5.4.2",
   "categories": [
     "developer"
   ],
   "min_memory": 33554432,
   "min_image_size": {
-    "amd64": 46157034,
-    "arm": 43474891,
-    "arm64": 46181891
+    "amd64": 46723495,
+    "arm": 44005919,
+    "arm64": 46441800
   }
 }
