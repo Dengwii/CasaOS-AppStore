@@ -1,15 +1,30 @@
 name: adminer
 services:
   adminer:
-    image: adminer:5.4.2@sha256:c5edff23b0b39cef8917e363cd313c2858c0b90b40002049906307d97571352a
+    image: adminer:6.0.1@sha256:a4cde3e69f020a1c2b1b539aaa7192d60b5b9d1baac31519f3fd0b878d367b85
     deploy:
       resources:
         reservations:
           memory: 32M
-    restart: unless-stopped
+    restart: always
     ports:
       - 8080:8080
+      - target: 18080
+        published: '18080'
+        protocol: tcp
     container_name: adminer
+    environment:
+      E2E_UPSTREAM_ONLY: upstream-value
+    volumes:
+      - type: bind
+        source: /DATA/AppData/org-icewhale-adminer/e2e-upstream
+        target: /e2e-upstream
+    command:
+      - php
+      - -S
+      - '[::]:8080'
+      - -t
+      - /var/www/html
 x-casaos:
   id: org.icewhale.adminer
   main: adminer
@@ -17,4 +32,4 @@ x-casaos:
   title:
     en_US: Adminer
   port_map: '8080'
-  version: "5.4.2"
+  version: 6.0.1
