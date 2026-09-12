@@ -46,7 +46,7 @@ x-casaos:
   port_map: "16601"
   scheme: http
   store_app_id: lucky
-  version: "2.27.2"
+  version: "3.0.0"
   update_at: "2026-02-15"
   release_notes:
     en_US: |-

@@ -1,7 +1,7 @@
 name: netbird
 services:
   netbird:
-    image: netbirdio/netbird:0.62.3
+    image: netbirdio/netbird:0.78.1
     container_name: netbird
     network_mode: host
     restart: unless-stopped
@@ -153,54 +153,39 @@ x-casaos:
   index: /
   title:
     en_US: NetBird
-  version: "0.62.3"
-  update_at: "2026-01-12"
+  version: "0.78.1"
+  update_at: "2026-09-12"
   release_notes:
     en_US: |-
-      - v0.62.3 adds management-side config compatibility checks.
-      - The official changelog points to the full v0.62.2...v0.62.3 comparison.
+      - v0.78.1 fixes SQLite network maps for networks that use peer-based routers.
     en_GB: |-
-      - v0.62.3 adds management-side config compatibility checks.
-      - The official changelog points to the full v0.62.2...v0.62.3 comparison.
+      - v0.78.1 fixes SQLite network maps for networks that use peer-based routers.
     it_IT: |-
-      - v0.62.3 aggiunge i controlli di compatibilità della configurazione management-side.
-      - Il registro delle modifiche ufficiale punta al confronto completo v0.62.2...v0.62.3.
+      - v0.78.1 corregge le mappe di rete SQLite per le reti che utilizzano router basati su peer.
     nb_NO: |-
-      - v0.62.3 legger til management-side konfigurasjonskompatibilitetskontroller.
-      - Den offisielle endringsloggen peker på den fullstendige v0.62.2...v0.62.3 sammenligningen.
+      - v0.78.1 retter SQLite-nettverkskart for nettverk som bruker peer-baserte rutere.
     zh_CN: |-
-      - v0.62.3 增加了 management 侧配置兼容性检查。
-      - 官方更新日志指向完整的 v0.62.2...v0.62.3 对比。
+      - v0.78.1 修复了使用基于对等节点的路由器时的 SQLite 网络映射。
     ja_JP: |-
-      - v0.62.3 は management 側の設定互換性チェックを追加します。
-      - 公式 changelog は v0.62.2...v0.62.3 の完全な比較を参照します。
+      - v0.78.1 は、ピアベースのルーターを使用するネットワークの SQLite ネットワークマップを修正します。
     ko_KR: |-
-      - v0.62.3은 management 측 설정 호환성 검사를 추가합니다.
-      - 공식 변경 로그는 전체 v0.62.2...v0.62.3 비교를 가리킵니다.
+      - v0.78.1은 피어 기반 라우터를 사용하는 네트워크의 SQLite 네트워크 맵을 수정합니다.
     fr_FR: |-
-      - v0.62.3 ajoute des vérifications de compatibilité de configuration côté management.
-      - Le changelog officiel renvoie à la comparaison complète v0.62.2...v0.62.3.
+      - v0.78.1 corrige les cartes réseau SQLite pour les réseaux utilisant des routeurs basés sur les pairs.
     de_DE: |-
-      - v0.62.3 ergänzt Kompatibilitätsprüfungen für die Management-Konfiguration.
-      - Das offizielle Changelog verweist auf den vollständigen Vergleich v0.62.2...v0.62.3.
+      - v0.78.1 korrigiert SQLite-Netzwerkkarten für Netzwerke mit Peer-basierten Routern.
     sv_SE: |-
-      - v0.62.3 lägger till management-side konfig kompatibilitetskontroller.
-      - Den officiella ändringsloggen pekar på den fullständiga v0.62.2...v0.62.3 jämförelsen.
+      - v0.78.1 korrigerar SQLite-nätverkskartor för nätverk som använder peer-baserade routrar.
     el_GR: |-
-      - Το v0.62.3 προσθέτει ελέγχους συμβατότητας διαμόρφωσης management-side.
-      - Το επίσημο αρχείο καταγραφής αλλαγών δείχνει την πλήρη σύγκριση v0.62.2...v0.62.3.
+      - Το v0.78.1 διορθώνει τους χάρτες δικτύου SQLite για δίκτυα που χρησιμοποιούν δρομολογητές βασισμένους σε peers.
     hr_HR: |-
-      - v0.62.3 dodaje provjere kompatibilnosti konfiguracije management-side.
-      - Službeni dnevnik promjena ukazuje na punu usporedbu v0.62.2...v0.62.3.
+      - v0.78.1 ispravlja SQLite mrežne karte za mreže koje koriste usmjerivače temeljene na peerovima.
     pt_PT: |-
-      - v0.62.3 adiciona verificações de compatibilidade de configuração management-side.
-      - O changelog oficial aponta para a comparação completa de v0.62.2...v0.62.3.
+      - v0.78.1 corrige os mapas de rede SQLite para redes que utilizam routers baseados em pares.
     ru_RU: |-
-      - v0.62.3 добавляет проверки совместимости конфигурации management-side.
-      - Официальный журнал изменений указывает на полное сравнение v0.62.2...v0.62.3.
+      - v0.78.1 исправляет сетевые карты SQLite для сетей, использующих маршрутизаторы на основе пиров.
     tr_TR: |-
-      - v0.62.3, management-side yapılandırma uyumluluk denetimlerini ekler.
-      - Resmi değişiklik günlüğü tam v0.62.2...v0.62.3 karşılaştırmasına işaret ediyor.
+      - v0.78.1, eş tabanlı yönlendiriciler kullanan ağlar için SQLite ağ haritalarını düzeltir.
   website: "https://netbird.io"
   repo: "https://github.com/netbirdio/netbird"
   support: "https://netbird.io/knowledge-hub/reporting-bugs-and-requesting-features-in-netbird"

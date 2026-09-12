@@ -1,7 +1,7 @@
 name: v2raya
 services:
   v2raya:
-    image: mzz2017/v2raya:v2.2.7.5
+    image: mzz2017/v2raya:v2.4.18
     container_name: v2raya
     deploy:
       resources:
@@ -381,69 +381,39 @@ x-casaos:
   index: /
   title:
     en_US: V2rayA
-  version: "2.2.7-5"
-  update_at: "2026-01-25"
+  version: "2.4.18"
+  update_at: "2026-09-12"
   release_notes:
     en_US: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
     en_GB: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
     it_IT: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
     nb_NO: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
     zh_CN: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 新增韩语支持，并包含 v2.4 系列的修复和改进。
     ja_JP: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
     ko_KR: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
     fr_FR: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
     de_DE: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
     sv_SE: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
     el_GR: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
     hr_HR: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
     pt_PT: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
     ru_RU: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
     tr_TR: |-
-      - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
-      - Corrects LRU cache list operations.
-      - Adds XHTTP support powered by Xray.
+      - v2rayA v2.4.18 adds Korean language support and includes the fixes and improvements from the v2.4 release series.
   website: "https://v2raya.org/"
   repo: "https://github.com/v2rayA/v2rayA"
   support: "https://github.com/v2rayA/v2rayA/issues"
