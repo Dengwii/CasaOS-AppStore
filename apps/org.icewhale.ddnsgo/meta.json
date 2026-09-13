@@ -12,23 +12,23 @@
     "/apps/org.icewhale.ddnsgo/assets/screenshot-1.webp"
   ],
   "tagline": "Simple and easy to use DDNS",
-  "update_at": "2026-05-31",
+  "update_at": "2026-09-12",
   "website": "",
   "repo": "https://github.com/jeessy2/ddns-go",
   "support": "https://github.com/jeessy2/ddns-go/issues",
   "docs": "https://github.com/jeessy2/ddns-go#readme",
   "title": "ddns-go",
-  "release_note": "- v6.17.2 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream.",
+  "release_note": "- v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.",
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "id": "org.icewhale.ddnsgo",
-  "version": "6.17.1",
+  "version": "6.17.7",
   "categories": [
     "networking"
   ],
   "min_memory": 33554432,
   "min_image_size": {
-    "amd64": 11793753,
-    "arm": 10730277,
-    "arm64": 11723557
+    "amd64": 11812773,
+    "arm": 10747446,
+    "arm64": 11744358
   }
 }

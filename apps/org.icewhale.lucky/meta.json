@@ -26,14 +26,14 @@
   "release_note": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "id": "org.icewhale.lucky",
-  "version": "2.27.2",
+  "version": "3.0.0",
   "categories": [
     "networking"
   ],
   "min_memory": 67108864,
   "min_image_size": {
-    "amd64": 34083377,
-    "arm": 30373631,
-    "arm64": 30304828
+    "amd64": 35894640,
+    "arm": 31965183,
+    "arm64": 31752212
   }
 }

@@ -5,7 +5,7 @@ services:
       PGID: $PGID
       PUID: $PUID
       TZ: $TZ
-    image: neosmemo/memos:0.28.0
+    image: neosmemo/memos:0.30.0
     deploy:
       resources:
         reservations:
@@ -28,4 +28,4 @@ x-casaos:
   title:
     en_US: Memos
   port_map: "5230"
-  version: "0.28.0"
+  version: "0.30.0"

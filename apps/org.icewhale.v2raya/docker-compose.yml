@@ -1,7 +1,7 @@
 name: v2raya
 services:
   v2raya:
-    image: mzz2017/v2raya:v2.2.7.5
+    image: mzz2017/v2raya:v2.4.18
     container_name: v2raya
     deploy:
       resources:
@@ -30,4 +30,4 @@ x-casaos:
   index: /
   title:
     en_US: V2rayA
-  version: "2.2.7-5"
+  version: "2.4.18"

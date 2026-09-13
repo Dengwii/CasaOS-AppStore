@@ -1,7 +1,7 @@
 name: 2fauth
 services:
   2fauth:
-    image: 2fauth/2fauth:6.1.3
+    image: 2fauth/2fauth:8.0.2
     deploy:
       resources:
         reservations:
@@ -27,4 +27,4 @@ x-casaos:
     en_US: 2FAuth
   index: /
   port_map: "8000"
-  version: "6.1.3"
+  version: "8.0.2"

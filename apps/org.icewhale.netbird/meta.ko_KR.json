@@ -1,4 +1,4 @@
 {
   "id": "org.icewhale.netbird",
-  "release_note": "- v0.62.3은 management 측 설정 호환성 검사를 추가합니다.\n- 공식 변경 로그는 전체 v0.62.2...v0.62.3 비교를 가리킵니다."
+  "release_note": "- v0.78.1은 피어 기반 라우터를 사용하는 네트워크의 SQLite 네트워크 맵을 수정합니다."
 }

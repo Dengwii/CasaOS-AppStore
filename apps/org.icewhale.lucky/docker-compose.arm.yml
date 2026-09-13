@@ -5,7 +5,7 @@ services:
       resources:
         reservations:
           memory: 64M
-    image: gdy666/lucky:2.27.2@sha256:a6d046f4465317f3d1b55de97784ecf1de1836fa27724321e6dd3a9ce5be7232
+    image: gdy666/lucky:3.0.0@sha256:671d7a5e80484bdf218afb7b38695e6681271473a3510f986054c03953f2442d
     restart: unless-stopped
     volumes:
       - type: bind
@@ -24,4 +24,4 @@ x-casaos:
     en_US: Lucky
   port_map: "16601"
   scheme: http
-  version: "2.27.2"
+  version: "3.0.0"
