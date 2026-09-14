@@ -1,37 +1,21 @@
 name: ddns-go
 services:
   ddns-go:
-    image: jeessy/ddns-go:v6.17.7
+    image: jeessy/ddns-go:v6.17.1
     network_mode: bridge
     deploy:
       resources:
         reservations:
           memory: "32M"
-    restart: always
+    restart: unless-stopped
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /root
-      - type: bind
-        source: /DATA/AppData/$AppID/e2e-upgrade
-        target: /zimaos-e2e-upgrade/ddns-go
     ports:
       - target: 9876
         published: "9876"
         protocol: tcp
-      - target: 9876
-        published: "19876"
-        protocol: tcp
-    environment:
-      TZ: $TZ
-      ZIMAOS_E2E_UPGRADE_MARKER: local-main-20260914-ddns-go
-    command:
-      - -l
-      - ":9876"
-      - -f
-      - "300"
-      - -cacheTimes
-      - "6"
     x-casaos:
       ports:
         - container: "9876"
@@ -73,39 +57,69 @@ x-casaos:
     zh_CN: 简单好用的DDNS
   title:
     en_US: ddns-go
-  version: "6.17.7"
-  update_at: "2026-09-12"
+  version: "6.17.1"
+  update_at: "2026-05-31"
   release_notes:
     en_US: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.2 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     en_GB: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.2 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     it_IT: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.2 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     nb_NO: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     zh_CN: |-
-      - v6.17.7 更新了密钥文档来源，并在 API 请求失败时返回更详细的信息。
+      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     ja_JP: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.2 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     ko_KR: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     fr_FR: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     de_DE: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     sv_SE: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     el_GR: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     hr_HR: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     pt_PT: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     ru_RU: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
     tr_TR: |-
-      - v6.17.7 updates the secret-key documentation source and returns more details when API requests fail.
+      - v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.
+      - Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.
+      - Updates Go crypto and network dependencies from the upstream release stream.
   website: ""
   repo: "https://github.com/jeessy2/ddns-go"
   support: "https://github.com/jeessy2/ddns-go/issues"
