@@ -7,7 +7,7 @@ services:
       resources:
         reservations:
           memory: "32M"
-    restart: unless-stopped
+    restart: always
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/config
@@ -16,6 +16,13 @@ services:
       - target: 9876
         published: "9876"
         protocol: tcp
+    environment:
+      TZ: $TZ
+    command:
+      - -l
+      - ":9876"
+      - -f
+      - "300"
     x-casaos:
       ports:
         - container: "9876"

@@ -10,6 +10,9 @@ services:
     restart: unless-stopped
     privileged: true
     network_mode: host
+    environment:
+      V2RAYA_ADDRESS: "0.0.0.0:2017"
+      V2RAYA_BASEURL: "/"
     volumes:
       - type: bind
         source: /lib/modules

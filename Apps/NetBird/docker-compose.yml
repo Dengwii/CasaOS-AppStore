@@ -19,6 +19,8 @@ services:
       NB_HOSTNAME: "Zima"
       NB_ENABLE_SSH_ROOT: "true"
       NB_ALLOW_SERVER_SSH: "true"
+      NB_ENABLE_CAPTURE: "false"
+      NB_ENTRYPOINT_SERVICE_TIMEOUT: "30"
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID
