@@ -11,15 +11,24 @@ services:
       - target: 8000
         published: "8000"
         protocol: tcp
-    restart: always
+      - target: 8000
+        published: "18000"
+        protocol: tcp
+    restart: unless-stopped
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID
         target: /2fauth
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-upgrade
+        target: /zimaos-e2e-upgrade/2fauth
     environment:
       APP_KEY: SomeRandomStringOf32CharsExactly
       OTP_LOG_RETENTION: "365"
       PHP_MEMORY_LIMIT_TEMP_OVERRIDE: "512"
+      ZIMAOS_E2E_UPGRADE_MARKER: local-main-20260914-2fauth
+    command:
+      - zimaos-e2e-upgrade
     x-casaos:
       ports:
         - container: "8000"

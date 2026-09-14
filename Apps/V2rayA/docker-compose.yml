@@ -7,12 +7,20 @@ services:
       resources:
         reservations:
           memory: 128M
-    restart: unless-stopped
+    restart: always
     privileged: true
     network_mode: host
+    ports:
+      - target: 2017
+        published: "12017"
+        protocol: tcp
     environment:
       V2RAYA_ADDRESS: "0.0.0.0:2017"
       V2RAYA_BASEURL: "/"
+      ZIMAOS_E2E_UPGRADE_MARKER: local-main-20260914-v2raya
+    command:
+      - --log-level
+      - info
     volumes:
       - type: bind
         source: /lib/modules
@@ -24,6 +32,9 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID
         target: /etc/v2raya
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-upgrade
+        target: /zimaos-e2e-upgrade/v2raya
     x-casaos:
       volumes:
         - container: /lib/modules

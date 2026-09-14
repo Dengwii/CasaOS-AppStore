@@ -4,7 +4,11 @@ services:
     image: netbirdio/netbird:0.78.1
     container_name: netbird
     network_mode: host
-    restart: unless-stopped
+    restart: always
+    ports:
+      - target: 51820
+        published: "15182"
+        protocol: udp
     cap_add:
       - NET_ADMIN
       - SYS_ADMIN
@@ -21,10 +25,16 @@ services:
       NB_ALLOW_SERVER_SSH: "true"
       NB_ENABLE_CAPTURE: "false"
       NB_ENTRYPOINT_SERVICE_TIMEOUT: "30"
+      ZIMAOS_E2E_UPGRADE_MARKER: local-main-20260914-netbird
+    command:
+      - zimaos-e2e-upgrade
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID
         target: /var/lib/netbird
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-upgrade
+        target: /zimaos-e2e-upgrade/netbird
     x-casaos:
       envs:
         - container: NB_SETUP_KEY

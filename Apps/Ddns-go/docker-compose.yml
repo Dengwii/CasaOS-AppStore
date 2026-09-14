@@ -12,17 +12,26 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /root
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-upgrade
+        target: /zimaos-e2e-upgrade/ddns-go
     ports:
       - target: 9876
         published: "9876"
         protocol: tcp
+      - target: 9876
+        published: "19876"
+        protocol: tcp
     environment:
       TZ: $TZ
+      ZIMAOS_E2E_UPGRADE_MARKER: local-main-20260914-ddns-go
     command:
       - -l
       - ":9876"
       - -f
       - "300"
+      - -cacheTimes
+      - "6"
     x-casaos:
       ports:
         - container: "9876"
