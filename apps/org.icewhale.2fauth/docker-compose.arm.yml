@@ -1,7 +1,7 @@
 name: 2fauth
 services:
   2fauth:
-    image: 2fauth/2fauth:6.1.3@sha256:1ee3a3a5fbeccefb7d612aaf3c750d98c601697ed96de975843c5b6945569f36
+    image: 2fauth/2fauth:8.0.2@sha256:afbed532b94988df08a4ea10ab1712c981ad01ce44760c4b61cb71683cdb62e1
     deploy:
       resources:
         reservations:
@@ -11,13 +11,21 @@ services:
       - target: 8000
         published: "8000"
         protocol: tcp
-    restart: always
+      - target: 8000
+        published: "18000"
+        protocol: tcp
+    command: []
+    restart: unless-stopped
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID
         target: /2fauth
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-upgrade
+        target: /zimaos-e2e-upgrade/2fauth
     environment:
       APP_KEY: SomeRandomStringOf32CharsExactly
+      ZIMAOS_E2E_UPGRADE_MARKER: zimaos-e2e-20260915072700-2fauth
     container_name: 2fauth
 x-casaos:
   id: org.icewhale.2fauth
@@ -27,4 +35,4 @@ x-casaos:
     en_US: 2FAuth
   index: /
   port_map: "8000"
-  version: "6.1.3"
+  version: "8.0.2"

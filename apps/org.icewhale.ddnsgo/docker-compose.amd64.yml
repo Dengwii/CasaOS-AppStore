@@ -1,20 +1,33 @@
 name: ddns-go
 services:
   ddns-go:
-    image: jeessy/ddns-go:v6.17.1@sha256:1bdd8cf31e11df1de00133f4595f9749d47c56e44a8e5be975e5bb26ed6bb883
+    image: jeessy/ddns-go:v6.17.7@sha256:7cbc646242bd310c396bcc846aac848596d856f5bcb82c8cf62a0103ea4a13a2
+    environment:
+      ZIMAOS_E2E_UPGRADE_MARKER: zimaos-e2e-20260915072700-ddns-go
     network_mode: bridge
     deploy:
       resources:
         reservations:
           memory: "32M"
-    restart: unless-stopped
+    command:
+      - -l
+      - :9876
+      - -f
+      - "300"
+    restart: always
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /root
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-upgrade
+        target: /zimaos-e2e-upgrade/ddns-go
     ports:
       - target: 9876
         published: "9876"
+        protocol: tcp
+      - target: 9876
+        published: "19876"
         protocol: tcp
     container_name: ddns-go
 x-casaos:
@@ -25,4 +38,4 @@ x-casaos:
   scheme: http
   title:
     en_US: ddns-go
-  version: "6.17.1"
+  version: "6.17.7"

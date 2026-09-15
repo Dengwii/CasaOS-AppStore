@@ -14,7 +14,7 @@
     "/apps/org.icewhale.syncthing/assets/screenshot-2.webp"
   ],
   "tips": {},
-  "update_at": "2025-06-14",
+  "update_at": "2026-09-15",
   "website": "https://syncthing.net",
   "repo": "https://github.com/syncthing/syncthing",
   "support": "https://forum.syncthing.net",
@@ -23,13 +23,13 @@
   "release_note": "Syncthing 1.29.7 is an upstream release; see official release notes for detailed fixes and changes.",
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "id": "org.icewhale.syncthing",
-  "version": "1.29.7",
+  "version": "2.1.5",
   "categories": [
     "productivity"
   ],
   "min_memory": 268435456,
   "min_image_size": {
-    "amd64": 22703078,
-    "arm64": 23075604
+    "amd64": 25542785,
+    "arm64": 25749927
   }
 }

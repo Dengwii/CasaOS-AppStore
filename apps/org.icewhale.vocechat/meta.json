@@ -15,7 +15,7 @@
   "tagline": "Have a Private Social Space Hosted on Your Site",
   "thumbnail": "/apps/org.icewhale.vocechat/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2026-05-17",
+  "update_at": "2026-09-15",
   "website": "https://voce.chat",
   "repo": "https://github.com/Privoce/vocechat-server-rust",
   "support": "https://github.com/Privoce/vocechat-server-rust/issues",
@@ -24,12 +24,12 @@
   "release_note": "- VoceChat image v0.5.17 is available on Docker Hub for amd64.\n- The Privoce/vocechat-server-rust GitHub repository still only exposes tags through v0.3.20, so this update is based on the published Docker image tag.",
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "id": "org.icewhale.vocechat",
-  "version": "0.5.17",
+  "version": "0.5.36",
   "categories": [
     "social"
   ],
   "min_memory": 67108864,
   "min_image_size": {
-    "amd64": 25055687
+    "amd64": 25438245
   }
 }

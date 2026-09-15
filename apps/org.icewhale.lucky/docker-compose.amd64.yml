@@ -5,14 +5,23 @@ services:
       resources:
         reservations:
           memory: 64M
-    image: gdy666/lucky:2.27.2@sha256:6bf725aaca3e866cc6dd71f8a5ce30018db35e763b7655287f2ce598d986e455
-    restart: unless-stopped
+    image: docker.io/gdy666/lucky:2.27.2@sha256:6bf725aaca3e866cc6dd71f8a5ce30018db35e763b7655287f2ce598d986e455
+    ports:
+      - target: 16601
+        published: "16602"
+        protocol: tcp
+    command: []
+    restart: always
     volumes:
       - type: bind
         source: /DATA/AppData/lucky
         target: /goodluck
+      - type: bind
+        source: /DATA/AppData/lucky/e2e-upgrade
+        target: /zimaos-e2e-upgrade/lucky
     environment:
       TZ: $TZ
+      ZIMAOS_E2E_UPGRADE_MARKER: zimaos-e2e-20260915072700-lucky
     network_mode: host
     privileged: false
 x-casaos:
@@ -24,4 +33,4 @@ x-casaos:
     en_US: Lucky
   port_map: "16601"
   scheme: http
-  version: "2.27.2"
+  version: "2.27.3-e2e.20260915072700"

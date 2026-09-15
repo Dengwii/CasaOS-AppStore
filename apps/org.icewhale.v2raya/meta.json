@@ -14,7 +14,7 @@
     "/apps/org.icewhale.v2raya/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
-  "update_at": "2026-01-25",
+  "update_at": "2026-09-15",
   "website": "https://v2raya.org/",
   "repo": "https://github.com/v2rayA/v2rayA",
   "support": "https://github.com/v2rayA/v2rayA/issues",
@@ -23,13 +23,13 @@
   "release_note": "- v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.\n- Corrects LRU cache list operations.\n- Adds XHTTP support powered by Xray.",
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "id": "org.icewhale.v2raya",
-  "version": "2.2.7-5",
+  "version": "2.4.19",
   "categories": [
     "networking"
   ],
   "min_memory": 134217728,
   "min_image_size": {
-    "amd64": 56593376,
-    "arm64": 53607799
+    "amd64": 42315741,
+    "arm64": 40778959
   }
 }

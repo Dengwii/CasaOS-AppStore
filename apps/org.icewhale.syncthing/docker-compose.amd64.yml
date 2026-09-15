@@ -5,7 +5,8 @@ services:
       PGID: $PGID
       PUID: $PUID
       TZ: $TZ
-    image: linuxserver/syncthing:1.29.7@sha256:0eef062da150a3e78186b6498bb3f4c8129e4fe74026039148c539c3cff3427e
+      ZIMAOS_E2E_UPGRADE_MARKER: zimaos-e2e-20260915072700-syncthing
+    image: linuxserver/syncthing:2.1.5@sha256:19fca08c4fcad5174edc39e0d946bdfeabe49fb26fe8652f67cfe4af1d878eab
     deploy:
       resources:
         reservations:
@@ -24,7 +25,11 @@ services:
       - target: 21027
         published: "21027"
         protocol: udp
-    restart: unless-stopped
+      - target: 8384
+        published: "18384"
+        protocol: tcp
+    command: []
+    restart: always
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/config
@@ -32,6 +37,9 @@ services:
       - type: bind
         source: /DATA
         target: /DATA
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-upgrade
+        target: /zimaos-e2e-upgrade/syncthing
     container_name: syncthing
 x-casaos:
   id: org.icewhale.syncthing
@@ -41,4 +49,4 @@ x-casaos:
     en_US: Syncthing
   index: /
   port_map: "8384"
-  version: "1.29.7"
+  version: "2.1.5"
