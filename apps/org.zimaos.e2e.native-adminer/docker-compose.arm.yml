@@ -1,0 +1,35 @@
+name: zimaos-e2e-native-adminer
+services:
+  adminer:
+    image: adminer:5.4.2@sha256:a897f24da9af68f2b0d5092dba067efeefe5bd979ee090bb7eb0adc8d73a82ff
+    deploy:
+      resources:
+        reservations:
+          memory: 32M
+    restart: unless-stopped
+    ports:
+      - target: 8080
+        published: '18080'
+        protocol: tcp
+    container_name: zimaos-e2e-native-adminer
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260916030539-88910-native-adminer-pristine
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    command:
+      - php
+      - -S
+      - '[::]:8080'
+      - -t
+      - /var/www/html
+x-casaos:
+  id: org.zimaos.e2e.native-adminer
+  main: adminer
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.native-adminer/assets/icon.svg
+  title:
+    en_US: ZimaOS E2E Native Adminer
+    zh_CN: ZimaOS E2E Native Adminer
+  port_map: '18080'
+  version: 5.4.2

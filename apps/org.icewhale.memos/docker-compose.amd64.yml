@@ -6,7 +6,7 @@ services:
       PUID: $PUID
       TZ: $TZ
       ZIMAOS_E2E_UPGRADE_MARKER: zimaos-e2e-20260915072700-memos
-    image: neosmemo/memos:0.30.0@sha256:51a4cef418b1f173ac37139ad99de08da5b8662136007231d3ac8a0498a3095a
+    image: neosmemo/memos:0.28.0@sha256:a9c224bfee66f1738ff2a28949f7001111a81b533004070860ed43dc77206600
     deploy:
       resources:
         reservations:
@@ -14,10 +14,10 @@ services:
     network_mode: bridge
     ports:
       - target: 5230
-        published: "5230"
+        published: '5230'
         protocol: tcp
       - target: 5230
-        published: "15230"
+        published: '15230'
         protocol: tcp
     command: []
     restart: always
@@ -35,5 +35,5 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.icewhale.memos/assets/icon.svg
   title:
     en_US: Memos
-  port_map: "5230"
-  version: "0.30.0"
+  port_map: '5230'
+  version: 0.28.0

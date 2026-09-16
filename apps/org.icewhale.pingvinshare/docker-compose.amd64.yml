@@ -1,12 +1,11 @@
 name: pingvin-share
-
 services:
   pingvin-share:
-    image: stonith404/pingvin-share
+    image: stonith404/pingvin-share:latest@sha256:460c5ad62294e9bf7ea7fa72d406db57f7c3c5572be7fec8497edc86cde79c89
     restart: unless-stopped
     ports:
       - target: 3000
-        published: "3410"
+        published: '3410'
         protocol: tcp
     environment:
       TRUST_PROXY: false
@@ -41,7 +40,7 @@ x-casaos:
     zh_CN: Pingvin-Share
   icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.icewhale.pingvinshare/assets/icon.svg
   main: pingvin-share
-  port_map: "3410"
+  port_map: '3410'
   index: /
   scheme: http
-  version: "1.13.0"
+  version: 1.13.0
