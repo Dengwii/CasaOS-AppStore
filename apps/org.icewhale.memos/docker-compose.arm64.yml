@@ -6,9 +6,7 @@ services:
       PUID: $PUID
       TZ: $TZ
       ZIMAOS_E2E_UPGRADE_MARKER: zimaos-e2e-20260915072700-memos
-      E2E_UPSTREAM_ONLY: upstream-value
-      E2E_SHARED: upstream-loses
-    image: neosmemo/memos:0.30.0@sha256:ce346ef5ff684aa81f0cfab8a216ace7a54b78164c95ba9c4e4623a13808aba9
+    image: neosmemo/memos:0.28.0@sha256:23f7f807f8661576f8e1845e926caf48435e0826e64ded8a3d6c6ba08056f817
     deploy:
       resources:
         reservations:
@@ -21,12 +19,7 @@ services:
       - target: 5230
         published: '15230'
         protocol: tcp
-      - target: 25231
-        published: '25231'
-        protocol: tcp
-    command:
-      - --port
-      - '5230'
+    command: []
     restart: always
     volumes:
       - type: bind
@@ -35,9 +28,6 @@ services:
       - type: bind
         source: /DATA/AppData/memos/e2e-upgrade
         target: /zimaos-e2e-upgrade/memos
-      - type: bind
-        source: /DATA/AppData/memos/e2e-upstream
-        target: /e2e-upstream
     container_name: memos
 x-casaos:
   id: org.icewhale.memos
@@ -46,4 +36,4 @@ x-casaos:
   title:
     en_US: Memos
   port_map: '5230'
-  version: 0.30.0
+  version: 0.28.0
