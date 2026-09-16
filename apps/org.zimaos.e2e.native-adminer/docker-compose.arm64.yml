@@ -1,25 +1,34 @@
 name: zimaos-e2e-native-adminer
 services:
   adminer:
-    image: adminer:5.4.2@sha256:c5edff23b0b39cef8917e363cd313c2858c0b90b40002049906307d97571352a
+    image: adminer:6.0.1@sha256:19e37a76b58ae9358c304c22b21b13faeccb159fec5afe76e19ac3e2e925fe3a
     deploy:
       resources:
         reservations:
           memory: 32M
-    restart: unless-stopped
+    restart: always
     ports:
       - target: 8080
         published: '18080'
         protocol: tcp
+      - target: 8080
+        published: '28080'
+        protocol: tcp
     container_name: zimaos-e2e-native-adminer
     environment:
       ZIMAOS_E2E_BASELINE: 20260916052256-108350-native-adminer-pristine
+      E2E_UPSTREAM_ONLY: upstream-value
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base
         target: /e2e-base
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-native-adminer/e2e-upstream
+        target: /e2e-upstream
     command:
       - php
+      - -d
+      - memory_limit=128M
       - -S
       - '[::]:8080'
       - -t
@@ -32,4 +41,4 @@ x-casaos:
     en_US: ZimaOS E2E Native Adminer
     zh_CN: ZimaOS E2E Native Adminer
   port_map: '18080'
-  version: 5.4.2
+  version: 6.0.1
