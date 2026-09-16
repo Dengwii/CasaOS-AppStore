@@ -13,7 +13,7 @@ services:
         protocol: tcp
     container_name: zimaos-e2e-native-adminer
     environment:
-      ZIMAOS_E2E_BASELINE: 20260916030539-88910-native-adminer-pristine
+      ZIMAOS_E2E_BASELINE: 20260916031310-90211-native-adminer-pristine
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base

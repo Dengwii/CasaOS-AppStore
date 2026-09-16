@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-16T03:09:29Z",
+  "updated_at": "2026-09-16T03:16:17Z",
   "app_count": 179,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -3786,7 +3786,7 @@
       "thumbnail": "/apps/org.zimaos.e2e.native-adminer/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.native-adminer/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.native-adminer/meta.json",
-      "content_hash": "a6925b7e",
+      "content_hash": "bbaebd0d",
       "version": "5.4.2"
     }
   ]
