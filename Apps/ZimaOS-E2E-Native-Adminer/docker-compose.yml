@@ -1,15 +1,18 @@
 name: zimaos-e2e-native-adminer
 services:
   adminer:
-    image: adminer:5.4.2
+    image: adminer:6.0.1
     deploy:
       resources:
         reservations:
           memory: 32M
-    restart: unless-stopped
+    restart: always
     ports:
     - target: 8080
       published: '18080'
+      protocol: tcp
+    - target: 8080
+      published: '28080'
       protocol: tcp
     x-casaos:
       ports:
@@ -20,12 +23,18 @@ services:
     container_name: zimaos-e2e-native-adminer
     environment:
       ZIMAOS_E2E_BASELINE: 20260916084843-143381-native-adminer-pristine
+      E2E_UPSTREAM_ONLY: upstream-value
     volumes:
     - type: bind
       source: /DATA/AppData/$AppID/e2e-base
       target: /e2e-base
+    - type: bind
+      source: /DATA/AppData/zimaos-e2e-native-adminer/e2e-upstream
+      target: /e2e-upstream
     command:
     - php
+    - -d
+    - memory_limit=128M
     - -S
     - '[::]:8080'
     - -t
@@ -56,12 +65,10 @@ x-casaos:
     en_US: ZimaOS E2E Native Adminer
     zh_CN: ZimaOS E2E Native Adminer
   port_map: '18080'
-  version: 5.4.2
+  version: 6.0.1
   update_at: '2026-09-16'
   release_notes:
-    en_US: '- v5.4.2 avoids a denial-of-service issue in the version check.
-
-      - It improves JSON display, generated values, exports, database support, and plugins.'
+    en_US: 'ZimaOS E2E temporary upgrade fixture: 5.4.2 to 6.0.1.'
     en_GB: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
@@ -71,9 +78,7 @@ x-casaos:
     nb_NO: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
-    zh_CN: '- v5.4.2 avoids a denial-of-service issue in the version check.
-
-      - It improves JSON display, generated values, exports, database support, and plugins.'
+    zh_CN: ZimaOS E2E 临时升级测试：5.4.2 升级到 6.0.1。
     ja_JP: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'

@@ -6,7 +6,9 @@ services:
       PUID: $PUID
       TZ: $TZ
       ZIMAOS_E2E_UPGRADE_MARKER: zimaos-e2e-20260915072700-memos
-    image: neosmemo/memos:0.28.0
+      E2E_UPSTREAM_ONLY: upstream-value
+      E2E_SHARED: upstream-loses
+    image: neosmemo/memos:0.30.0
     deploy:
       resources:
         reservations:
@@ -19,7 +21,12 @@ services:
     - target: 5230
       published: '15230'
       protocol: tcp
-    command: []
+    - target: 25231
+      published: '25231'
+      protocol: tcp
+    command:
+    - --port
+    - '5230'
     restart: always
     volumes:
     - type: bind
@@ -28,6 +35,9 @@ services:
     - type: bind
       source: /DATA/AppData/memos/e2e-upgrade
       target: /zimaos-e2e-upgrade/memos
+    - type: bind
+      source: /DATA/AppData/memos/e2e-upstream
+      target: /e2e-upstream
     x-casaos:
       envs:
       - container: PUID
@@ -226,14 +236,10 @@ x-casaos:
   title:
     en_US: Memos
   port_map: '5230'
-  version: 0.28.0
-  update_at: '2026-09-15'
+  version: 0.30.0
+  update_at: '2026-09-16'
   release_notes:
-    en_US: '- v0.28.0 improves SSO account handling by linking external provider identities to local Memos users.
-
-      - The release redesigns account and SSO management and adds memo created/updated time display controls.
-
-      - Fixes include authorization hardening, legacy username auth flows, markdown mixed-list handling, list query overhead, and task checkbox state preservation.'
+    en_US: 'ZimaOS E2E temporary upgrade fixture: 0.28.0 to 0.30.0.'
     en_GB: '- v0.28.0 improves SSO account handling by linking external provider identities to local Memos users.
 
       - The release redesigns account and SSO management and adds memo created/updated time display controls.
@@ -249,11 +255,7 @@ x-casaos:
       - The release redesigns account and SSO management and adds memo created/updated time display controls.
 
       - Fixes include authorization hardening, legacy username auth flows, markdown mixed-list handling, list query overhead, and task checkbox state preservation.'
-    zh_CN: '- v0.28.0 improves SSO account handling by linking external provider identities to local Memos users.
-
-      - The release redesigns account and SSO management and adds memo created/updated time display controls.
-
-      - Fixes include authorization hardening, legacy username auth flows, markdown mixed-list handling, list query overhead, and task checkbox state preservation.'
+    zh_CN: ZimaOS E2E 临时升级测试：0.28.0 升级到 0.30.0。
     ja_JP: '- v0.28.0 improves SSO account handling by linking external provider identities to local Memos users.
 
       - The release redesigns account and SSO management and adds memo created/updated time display controls.
