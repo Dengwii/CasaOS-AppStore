@@ -5,7 +5,7 @@ services:
     container_name: zimaos-e2e-command-add-different-composite-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917153238-139074-update-command-add-different-composite
+      ZIMAOS_E2E_BASELINE: 20260917165959-160364-update-command-add-different-composite
     restart: unless-stopped
     ports:
       - target: 80
@@ -21,7 +21,7 @@ services:
     network_mode: bridge
     restart: unless-stopped
     environment:
-      E2E_SECONDARY_BASELINE: 20260917153238-139074-update-command-add-different-composite
+      E2E_SECONDARY_BASELINE: 20260917165959-160364-update-command-add-different-composite
     command:
       - sh
       - -c
