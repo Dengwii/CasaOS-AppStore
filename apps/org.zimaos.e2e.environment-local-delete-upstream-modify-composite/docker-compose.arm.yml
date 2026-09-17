@@ -1,12 +1,12 @@
 name: zimaos-e2e-environment-local-delete-upstream-modify-composite
 services:
   web:
-    image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
+    image: traefik/whoami:v1.11.0@sha256:9564f83910c98c3bea640803d8014b5c586b4bd556906d1afab21c7e7f1e4d4c
     container_name: zimaos-e2e-environment-local-delete-upstream-modify-composite-web
     network_mode: bridge
     environment:
       ZIMAOS_E2E_BASELINE: 20260917123037-97265-update-environment-local-delete-upstream-modify-composite
-      E2E_CASE_012_A: baseline-a
+      E2E_CASE_012_A: upstream-a
     restart: unless-stopped
     ports:
       - target: 80
@@ -37,4 +37,4 @@ x-casaos:
     en_US: E2E Environment Local-Delete-Upstream-Modify Composite
     zh_CN: E2E Environment Local-Delete-Upstream-Modify Composite
   port_map: '18212'
-  version: 1.0.0
+  version: 1.1.0

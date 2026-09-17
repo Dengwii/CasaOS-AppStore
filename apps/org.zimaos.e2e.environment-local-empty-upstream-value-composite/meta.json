@@ -22,17 +22,17 @@
   "docs": "https://www.adminer.org/en/",
   "repo_id": "appstore-d-test",
   "title": "E2E Environment Local-Empty-Upstream-Value Composite",
-  "release_note": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+  "release_note": "ZimaOS E2E temporary upgrade fixture: 1.0.0 to 1.1.0.",
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "id": "org.zimaos.e2e.environment-local-empty-upstream-value-composite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "categories": [
     "developer"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 6482769,
-    "arm": 6050808,
-    "arm64": 6747653
+    "amd64": 6668564,
+    "arm": 6308736,
+    "arm64": 6903113
   }
 }
