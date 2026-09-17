@@ -1,7 +1,7 @@
 name: zimaos-e2e-ports-modify-same-single
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-ports-modify-same-single-web
     network_mode: bridge
     environment:
@@ -15,7 +15,7 @@ services:
       - --port=80
     ports:
       - target: 10010
-        published: '30020'
+        published: '30022'
         protocol: tcp
 x-casaos:
   id: org.zimaos.e2e.ports-modify-same-single
@@ -25,4 +25,4 @@ x-casaos:
     en_US: E2E Ports Modify-Same Single
     zh_CN: E2E Ports Modify-Same Single
   port_map: '18205'
-  version: 1.0.0
+  version: 1.1.0
