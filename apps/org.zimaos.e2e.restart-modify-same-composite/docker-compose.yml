@@ -1,11 +1,11 @@
 name: zimaos-e2e-restart-modify-same-composite
 services:
   web:
-    image: traefik/whoami:v1.11.0
+    image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-restart-modify-same-composite-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917204014-211990-update-restart-modify-same-composite
+      ZIMAOS_E2E_BASELINE: 20260917212707-222382-update-restart-modify-same-composite
     ports:
       - target: 80
         published: '18206'
@@ -16,14 +16,14 @@ services:
         target: /e2e-base
     command:
       - --port=80
-    restart: always
+    restart: unless-stopped
   helper:
     image: alpine:3.20
     container_name: zimaos-e2e-restart-modify-same-composite-helper
     network_mode: bridge
     restart: unless-stopped
     environment:
-      E2E_SECONDARY_BASELINE: 20260917204014-211990-update-restart-modify-same-composite
+      E2E_SECONDARY_BASELINE: 20260917212707-222382-update-restart-modify-same-composite
     command:
       - sh
       - -c
@@ -36,4 +36,4 @@ x-casaos:
     en_US: E2E Restart Modify-Same Composite
     zh_CN: E2E Restart Modify-Same Composite
   port_map: '18206'
-  version: 1.1.0
+  version: 1.0.0

@@ -1,11 +1,11 @@
 name: zimaos-e2e-restart-local-empty-upstream-value-composite
 services:
   web:
-    image: traefik/whoami:v1.11.0@sha256:9564f83910c98c3bea640803d8014b5c586b4bd556906d1afab21c7e7f1e4d4c
+    image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
     container_name: zimaos-e2e-restart-local-empty-upstream-value-composite-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917204014-211990-update-restart-local-empty-upstream-value-composite
+      ZIMAOS_E2E_BASELINE: 20260917212707-222382-update-restart-local-empty-upstream-value-composite
     ports:
       - target: 80
         published: '18216'
@@ -16,14 +16,14 @@ services:
         target: /e2e-base
     command:
       - --port=80
-    restart: always
+    restart: unless-stopped
   helper:
     image: alpine:3.20@sha256:37753b2965043543542cd9d48cba044151052ca14fa72e6cbec4edf2a1490599
     container_name: zimaos-e2e-restart-local-empty-upstream-value-composite-helper
     network_mode: bridge
     restart: unless-stopped
     environment:
-      E2E_SECONDARY_BASELINE: 20260917204014-211990-update-restart-local-empty-upstream-value-composite
+      E2E_SECONDARY_BASELINE: 20260917212707-222382-update-restart-local-empty-upstream-value-composite
     command:
       - sh
       - -c
@@ -36,4 +36,4 @@ x-casaos:
     en_US: E2E Restart Local-Empty-Upstream-Value Composite
     zh_CN: E2E Restart Local-Empty-Upstream-Value Composite
   port_map: '18216'
-  version: 1.1.0
+  version: 1.0.0

@@ -1,11 +1,11 @@
 name: zimaos-e2e-restart-local-empty-upstream-value-single
 services:
   web:
-    image: traefik/whoami:v1.11.0
+    image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-restart-local-empty-upstream-value-single-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917204014-211990-update-restart-local-empty-upstream-value-single
+      ZIMAOS_E2E_BASELINE: 20260917212707-222382-update-restart-local-empty-upstream-value-single
     ports:
       - target: 80
         published: '18215'
@@ -16,7 +16,7 @@ services:
         target: /e2e-base
     command:
       - --port=80
-    restart: always
+    restart: unless-stopped
 x-casaos:
   id: org.zimaos.e2e.restart-local-empty-upstream-value-single
   main: web
@@ -25,4 +25,4 @@ x-casaos:
     en_US: E2E Restart Local-Empty-Upstream-Value Single
     zh_CN: E2E Restart Local-Empty-Upstream-Value Single
   port_map: '18215'
-  version: 1.1.0
+  version: 1.0.0

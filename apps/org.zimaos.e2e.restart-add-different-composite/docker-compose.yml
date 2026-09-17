@@ -1,11 +1,11 @@
 name: zimaos-e2e-restart-add-different-composite
 services:
   web:
-    image: traefik/whoami:v1.11.0
+    image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-restart-add-different-composite-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917204014-211990-update-restart-add-different-composite
+      ZIMAOS_E2E_BASELINE: 20260917212707-222382-update-restart-add-different-composite
     ports:
       - target: 80
         published: '18204'
@@ -16,14 +16,13 @@ services:
         target: /e2e-base
     command:
       - --port=80
-    restart: always
   helper:
     image: alpine:3.20
     container_name: zimaos-e2e-restart-add-different-composite-helper
     network_mode: bridge
     restart: unless-stopped
     environment:
-      E2E_SECONDARY_BASELINE: 20260917204014-211990-update-restart-add-different-composite
+      E2E_SECONDARY_BASELINE: 20260917212707-222382-update-restart-add-different-composite
     command:
       - sh
       - -c
@@ -36,4 +35,4 @@ x-casaos:
     en_US: E2E Restart Add-Different Composite
     zh_CN: E2E Restart Add-Different Composite
   port_map: '18204'
-  version: 1.1.0
+  version: 1.0.0
