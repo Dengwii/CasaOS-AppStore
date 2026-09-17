@@ -3,8 +3,7 @@ services:
   vocechat:
     environment:
       TZ: $TZ
-      ZIMAOS_E2E_UPGRADE_MARKER: zimaos-e2e-20260915072700-vocechat
-    image: privoce/vocechat-server:v0.5.36
+    image: privoce/vocechat-server:v0.5.17
     deploy:
       resources:
         reservations:
@@ -14,18 +13,11 @@ services:
       - target: 3000
         published: "3009"
         protocol: tcp
-      - target: 3000
-        published: "13009"
-        protocol: tcp
-    command: []
-    restart: always
+    restart: unless-stopped
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/home/vocechat-server/data
         target: /home/vocechat-server/data
-      - type: bind
-        source: /DATA/AppData/$AppID/e2e-upgrade
-        target: /zimaos-e2e-upgrade/vocechat
     x-casaos:
       envs:
         - container: TZ
@@ -170,8 +162,8 @@ x-casaos:
     en_US: VoceChat
   index: /
   port_map: "3009"
-  version: "0.5.36"
-  update_at: "2026-09-15"
+  version: "0.5.17"
+  update_at: "2026-05-17"
   release_notes:
     en_US: |-
       - VoceChat image v0.5.17 is available on Docker Hub for amd64.

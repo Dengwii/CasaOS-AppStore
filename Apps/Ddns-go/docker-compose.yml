@@ -1,33 +1,20 @@
 name: ddns-go
 services:
   ddns-go:
-    image: jeessy/ddns-go:v6.17.7
-    environment:
-      ZIMAOS_E2E_UPGRADE_MARKER: zimaos-e2e-20260915072700-ddns-go
+    image: jeessy/ddns-go:v6.17.1
     network_mode: bridge
     deploy:
       resources:
         reservations:
           memory: "32M"
-    command:
-      - -l
-      - :9876
-      - -f
-      - "300"
-    restart: always
+    restart: unless-stopped
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /root
-      - type: bind
-        source: /DATA/AppData/$AppID/e2e-upgrade
-        target: /zimaos-e2e-upgrade/ddns-go
     ports:
       - target: 9876
         published: "9876"
-        protocol: tcp
-      - target: 9876
-        published: "19876"
         protocol: tcp
     x-casaos:
       ports:
@@ -70,8 +57,8 @@ x-casaos:
     zh_CN: 简单好用的DDNS
   title:
     en_US: ddns-go
-  version: "6.17.7"
-  update_at: "2026-09-15"
+  version: "6.17.1"
+  update_at: "2026-05-31"
   release_notes:
     en_US: |-
       - v6.17.2 optimizes the HiPMDnsMgr adapter with English logs and pagination support.

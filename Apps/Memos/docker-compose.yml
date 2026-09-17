@@ -5,8 +5,7 @@ services:
       PGID: $PGID
       PUID: $PUID
       TZ: $TZ
-      ZIMAOS_E2E_UPGRADE_MARKER: zimaos-e2e-20260915072700-memos
-    image: neosmemo/memos:0.30.0
+    image: neosmemo/memos:0.28.0
     deploy:
       resources:
         reservations:
@@ -16,18 +15,11 @@ services:
       - target: 5230
         published: "5230"
         protocol: tcp
-      - target: 5230
-        published: "15230"
-        protocol: tcp
-    command: []
-    restart: always
+    restart: unless-stopped
     volumes:
       - type: bind
         source: /DATA/AppData/memos/memos
         target: /var/opt/memos
-      - type: bind
-        source: /DATA/AppData/memos/e2e-upgrade
-        target: /zimaos-e2e-upgrade/memos
     x-casaos:
       envs:
         - container: PUID
@@ -183,8 +175,8 @@ x-casaos:
   title:
     en_US: Memos
   port_map: "5230"
-  version: "0.30.0"
-  update_at: "2026-09-15"
+  version: "0.28.0"
+  update_at: "2026-04-27"
   release_notes:
     en_US: |-
       - v0.28.0 improves SSO account handling by linking external provider identities to local Memos users.

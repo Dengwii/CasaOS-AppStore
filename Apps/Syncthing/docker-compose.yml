@@ -5,8 +5,7 @@ services:
       PGID: $PGID
       PUID: $PUID
       TZ: $TZ
-      ZIMAOS_E2E_UPGRADE_MARKER: zimaos-e2e-20260915072700-syncthing
-    image: linuxserver/syncthing:2.1.5
+    image: linuxserver/syncthing:1.29.7
     deploy:
       resources:
         reservations:
@@ -25,11 +24,7 @@ services:
       - target: 21027
         published: "21027"
         protocol: udp
-      - target: 8384
-        published: "18384"
-        protocol: tcp
-    command: []
-    restart: always
+    restart: unless-stopped
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/config
@@ -37,9 +32,6 @@ services:
       - type: bind
         source: /DATA
         target: /DATA
-      - type: bind
-        source: /DATA/AppData/$AppID/e2e-upgrade
-        target: /zimaos-e2e-upgrade/syncthing
     x-casaos:
       envs:
         - container: TZ
@@ -302,8 +294,8 @@ x-casaos:
     en_US: Syncthing
   index: /
   port_map: "8384"
-  version: "2.1.5"
-  update_at: "2026-09-15"
+  version: "1.29.7"
+  update_at: "2025-06-14"
   release_notes:
     en_US: |-
       Syncthing 1.29.7 is an upstream release; see official release notes for detailed fixes and changes.

@@ -1,22 +1,13 @@
 name: v2raya
 services:
   v2raya:
-    image: mzz2017/v2raya:v2.4.19
+    image: mzz2017/v2raya:v2.2.7.5
     container_name: v2raya
     deploy:
       resources:
         reservations:
           memory: 128M
-    environment:
-      ZIMAOS_E2E_UPGRADE_MARKER: zimaos-e2e-20260915072700-v2raya
-    ports:
-      - target: 2017
-        published: "12017"
-        protocol: tcp
-    command:
-      - --log-level
-      - info
-    restart: always
+    restart: unless-stopped
     privileged: true
     network_mode: host
     volumes:
@@ -30,9 +21,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID
         target: /etc/v2raya
-      - type: bind
-        source: /DATA/AppData/$AppID/e2e-upgrade
-        target: /zimaos-e2e-upgrade/v2raya
     x-casaos:
       volumes:
         - container: /lib/modules
@@ -393,8 +381,8 @@ x-casaos:
   index: /
   title:
     en_US: V2rayA
-  version: "2.4.19"
-  update_at: "2026-09-15"
+  version: "2.2.7-5"
+  update_at: "2026-01-25"
   release_notes:
     en_US: |-
       - v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.
