@@ -5,7 +5,7 @@ services:
     container_name: zimaos-e2e-command-modify-different-single-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917165959-160364-update-command-modify-different-single
+      ZIMAOS_E2E_BASELINE: 20260917183130-181889-update-command-modify-different-single
     restart: unless-stopped
     ports:
       - target: 80
