@@ -3,8 +3,9 @@ services:
   web:
     image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-environment-local-delete-upstream-modify-composite-web
+    network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917110228-81839-update-environment-local-delete-upstream-modify-composite
+      ZIMAOS_E2E_BASELINE: 20260917123037-97265-update-environment-local-delete-upstream-modify-composite
       E2E_CASE_012_A: baseline-a
     restart: unless-stopped
     ports:
@@ -20,9 +21,10 @@ services:
   helper:
     image: alpine:3.20
     container_name: zimaos-e2e-environment-local-delete-upstream-modify-composite-helper
+    network_mode: bridge
     restart: unless-stopped
     environment:
-      E2E_SECONDARY_BASELINE: 20260917110228-81839-update-environment-local-delete-upstream-modify-composite
+      E2E_SECONDARY_BASELINE: 20260917123037-97265-update-environment-local-delete-upstream-modify-composite
     command:
       - sh
       - -c

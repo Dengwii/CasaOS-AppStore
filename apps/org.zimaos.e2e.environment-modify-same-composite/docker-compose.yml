@@ -3,8 +3,9 @@ services:
   web:
     image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-environment-modify-same-composite-web
+    network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917110228-81839-update-environment-modify-same-composite
+      ZIMAOS_E2E_BASELINE: 20260917123037-97265-update-environment-modify-same-composite
       E2E_CASE_006_A: baseline-a
     restart: unless-stopped
     ports:
@@ -20,9 +21,10 @@ services:
   helper:
     image: alpine:3.20
     container_name: zimaos-e2e-environment-modify-same-composite-helper
+    network_mode: bridge
     restart: unless-stopped
     environment:
-      E2E_SECONDARY_BASELINE: 20260917110228-81839-update-environment-modify-same-composite
+      E2E_SECONDARY_BASELINE: 20260917123037-97265-update-environment-modify-same-composite
     command:
       - sh
       - -c

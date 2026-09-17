@@ -3,8 +3,9 @@ services:
   web:
     image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-environment-modify-same-single-web
+    network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917110228-81839-update-environment-modify-same-single
+      ZIMAOS_E2E_BASELINE: 20260917123037-97265-update-environment-modify-same-single
       E2E_CASE_005_A: baseline-a
     restart: unless-stopped
     ports:
