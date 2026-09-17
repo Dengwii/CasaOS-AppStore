@@ -5,7 +5,7 @@ services:
     container_name: zimaos-e2e-ports-add-different-composite-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917134954-114335-update-ports-add-different-composite
+      ZIMAOS_E2E_BASELINE: 20260917140034-116715-update-ports-add-different-composite
     restart: unless-stopped
     volumes:
       - type: bind
@@ -20,7 +20,7 @@ services:
     network_mode: bridge
     restart: unless-stopped
     environment:
-      E2E_SECONDARY_BASELINE: 20260917134954-114335-update-ports-add-different-composite
+      E2E_SECONDARY_BASELINE: 20260917140034-116715-update-ports-add-different-composite
     command:
       - sh
       - -c

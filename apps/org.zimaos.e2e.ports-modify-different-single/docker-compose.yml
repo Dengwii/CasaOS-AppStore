@@ -5,7 +5,7 @@ services:
     container_name: zimaos-e2e-ports-modify-different-single-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917134954-114335-update-ports-modify-different-single
+      ZIMAOS_E2E_BASELINE: 20260917140034-116715-update-ports-modify-different-single
     restart: unless-stopped
     volumes:
       - type: bind
