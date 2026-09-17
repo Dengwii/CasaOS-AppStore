@@ -5,7 +5,7 @@ services:
     container_name: zimaos-e2e-restart-local-empty-upstream-value-single-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917212707-222382-update-restart-local-empty-upstream-value-single
+      ZIMAOS_E2E_BASELINE: 20260917214521-225176-update-restart-local-empty-upstream-value-single
     ports:
       - target: 80
         published: '18215'
