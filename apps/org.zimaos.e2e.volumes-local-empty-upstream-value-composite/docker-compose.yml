@@ -1,7 +1,7 @@
 name: zimaos-e2e-volumes-local-empty-upstream-value-composite
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-volumes-local-empty-upstream-value-composite-web
     network_mode: bridge
     environment:
@@ -15,7 +15,7 @@ services:
       - --port=80
     volumes:
       - type: bind
-        source: /DATA/AppData/zimaos-e2e-volumes-local-empty-upstream-value-composite/case-base-a
+        source: /DATA/AppData/zimaos-e2e-volumes-local-empty-upstream-value-composite/case-upstream-a
         target: /e2e-case-a
   helper:
     image: alpine:3.20
@@ -36,4 +36,4 @@ x-casaos:
     en_US: E2E Volumes Local-Empty-Upstream-Value Composite
     zh_CN: E2E Volumes Local-Empty-Upstream-Value Composite
   port_map: '18216'
-  version: 1.0.0
+  version: 1.1.0
