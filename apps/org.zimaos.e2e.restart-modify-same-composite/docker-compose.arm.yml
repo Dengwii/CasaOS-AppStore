@@ -5,7 +5,7 @@ services:
     container_name: zimaos-e2e-restart-modify-same-composite-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917200829-201158-update-restart-modify-same-composite
+      ZIMAOS_E2E_BASELINE: 20260917204014-211990-update-restart-modify-same-composite
     ports:
       - target: 80
         published: '18206'
@@ -23,7 +23,7 @@ services:
     network_mode: bridge
     restart: unless-stopped
     environment:
-      E2E_SECONDARY_BASELINE: 20260917200829-201158-update-restart-modify-same-composite
+      E2E_SECONDARY_BASELINE: 20260917204014-211990-update-restart-modify-same-composite
     command:
       - sh
       - -c
