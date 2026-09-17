@@ -1,27 +1,37 @@
 name: zimaos-e2e-upgrade-single
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-upgrade-single-web
-    restart: unless-stopped
+    restart: always
     ports:
     - target: 80
       published: '18101'
       protocol: tcp
+    - target: 80
+      published: '18121'
+      protocol: tcp
     environment:
       ZIMAOS_E2E_BASELINE: 20260917071020-40176-update-single
-      E2E_SHARED: baseline
-      E2E_LOCAL_DELETE_UPSTREAM_MODIFY: baseline
-      E2E_LOCAL_KEEP_UPSTREAM_DELETE: baseline
-      E2E_LOCAL_EMPTY_UPSTREAM_VALUE: baseline
-      E2E_LOCAL_VALUE_UPSTREAM_EMPTY: baseline
-      E2E_BOTH_EMPTY: baseline
+      E2E_SHARED: upstream-loses
+      E2E_LOCAL_DELETE_UPSTREAM_MODIFY: upstream-value
+      E2E_LOCAL_EMPTY_UPSTREAM_VALUE: upstream-value
+      E2E_LOCAL_VALUE_UPSTREAM_EMPTY: ''
+      E2E_BOTH_EMPTY: ''
+      E2E_UPSTREAM_ONLY: upstream-value
+      E2E_UPSTREAM_ADDED: upstream-value
+      E2E_BOTH_ADD_SAME: upstream-loses
+      E2E_DIFFERENT_UPSTREAM: upstream-value
     volumes:
     - type: bind
       source: /DATA/AppData/$AppID/e2e-base
       target: /e2e-base
+    - type: bind
+      source: /DATA/AppData/zimaos-e2e-upgrade-single/e2e-upstream
+      target: /e2e-upstream
     command:
     - --port=80
+    - --name=upstream-single
 x-casaos:
   id: org.zimaos.e2e.upgrade-single
   architectures:
@@ -48,12 +58,10 @@ x-casaos:
     en_US: E2E Upgrade Single
     zh_CN: E2E Upgrade Single
   port_map: '18101'
-  version: 1.0.0
+  version: 1.1.0
   update_at: '2026-09-17'
   release_notes:
-    en_US: '- v5.4.2 avoids a denial-of-service issue in the version check.
-
-      - It improves JSON display, generated values, exports, database support, and plugins.'
+    en_US: 'ZimaOS E2E temporary upgrade fixture: 1.0.0 to 1.1.0.'
     en_GB: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
@@ -63,9 +71,7 @@ x-casaos:
     nb_NO: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
-    zh_CN: '- v5.4.2 avoids a denial-of-service issue in the version check.
-
-      - It improves JSON display, generated values, exports, database support, and plugins.'
+    zh_CN: ZimaOS E2E 临时升级测试：1.0.0 升级到 1.1.0。
     ja_JP: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
