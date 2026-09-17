@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-17T19:02:56Z",
+  "updated_at": "2026-09-17T19:20:22Z",
   "app_count": 194,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -3786,8 +3786,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-add-different-composite/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-add-different-composite/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-add-different-composite/meta.json",
-      "content_hash": "7dbb7141",
-      "version": "1.0.0"
+      "content_hash": "9bcb38af",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-add-different-single",
@@ -3808,8 +3808,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-add-different-single/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-add-different-single/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-add-different-single/meta.json",
-      "content_hash": "3a710fc4",
-      "version": "1.0.0"
+      "content_hash": "a730152f",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-add-same-composite",
@@ -3830,8 +3830,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-add-same-composite/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-add-same-composite/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-add-same-composite/meta.json",
-      "content_hash": "dab39be1",
-      "version": "1.0.0"
+      "content_hash": "386b35aa",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-add-same-single",
@@ -3852,8 +3852,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-add-same-single/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-add-same-single/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-add-same-single/meta.json",
-      "content_hash": "d522d386",
-      "version": "1.0.0"
+      "content_hash": "6b377649",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-delete-same-composite",
@@ -3874,8 +3874,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-delete-same-composite/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-delete-same-composite/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-delete-same-composite/meta.json",
-      "content_hash": "ccd4205b",
-      "version": "1.0.0"
+      "content_hash": "a5a1b166",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-delete-same-single",
@@ -3896,8 +3896,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-delete-same-single/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-delete-same-single/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-delete-same-single/meta.json",
-      "content_hash": "7863ad01",
-      "version": "1.0.0"
+      "content_hash": "677c2bd7",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-local-delete-upstream-modify-composite",
@@ -3918,8 +3918,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-composite/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-composite/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-composite/meta.json",
-      "content_hash": "aa69b6ae",
-      "version": "1.0.0"
+      "content_hash": "c15cc8cb",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-local-delete-upstream-modify-single",
@@ -3940,8 +3940,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-single/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-single/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-single/meta.json",
-      "content_hash": "dc383503",
-      "version": "1.0.0"
+      "content_hash": "c56642c8",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-local-empty-upstream-value-composite",
@@ -3962,8 +3962,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-local-empty-upstream-value-composite/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-local-empty-upstream-value-composite/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-local-empty-upstream-value-composite/meta.json",
-      "content_hash": "18a0edc6",
-      "version": "1.0.0"
+      "content_hash": "0b9c3656",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-local-empty-upstream-value-single",
@@ -3984,8 +3984,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-local-empty-upstream-value-single/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-local-empty-upstream-value-single/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-local-empty-upstream-value-single/meta.json",
-      "content_hash": "0cf236a9",
-      "version": "1.0.0"
+      "content_hash": "26a22962",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-local-unchanged-upstream-delete-composite",
@@ -4006,8 +4006,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-composite/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-composite/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-composite/meta.json",
-      "content_hash": "48a1b15b",
-      "version": "1.0.0"
+      "content_hash": "f4986a82",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-local-unchanged-upstream-delete-single",
@@ -4028,8 +4028,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-single/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-single/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-single/meta.json",
-      "content_hash": "f68b5149",
-      "version": "1.0.0"
+      "content_hash": "72646843",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-modify-different-composite",
@@ -4050,8 +4050,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-modify-different-composite/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-modify-different-composite/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-modify-different-composite/meta.json",
-      "content_hash": "baac6837",
-      "version": "1.0.0"
+      "content_hash": "e5ac59d2",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-modify-different-single",
@@ -4072,8 +4072,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-modify-different-single/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-modify-different-single/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-modify-different-single/meta.json",
-      "content_hash": "e1a49d9f",
-      "version": "1.0.0"
+      "content_hash": "ebca316f",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-modify-same-composite",
@@ -4094,8 +4094,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-modify-same-composite/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-modify-same-composite/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-modify-same-composite/meta.json",
-      "content_hash": "553b614e",
-      "version": "1.0.0"
+      "content_hash": "afdaf2f9",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.command-modify-same-single",
@@ -4116,8 +4116,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.command-modify-same-single/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.command-modify-same-single/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.command-modify-same-single/meta.json",
-      "content_hash": "779de298",
-      "version": "1.0.0"
+      "content_hash": "66329039",
+      "version": "1.1.0"
     }
   ]
 }
