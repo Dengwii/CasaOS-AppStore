@@ -5,7 +5,7 @@ services:
     container_name: zimaos-e2e-ports-delete-same-single-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917131350-106610-update-ports-delete-same-single
+      ZIMAOS_E2E_BASELINE: 20260917133559-110860-update-ports-delete-same-single
     restart: unless-stopped
     volumes:
       - type: bind

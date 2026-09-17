@@ -5,7 +5,7 @@ services:
     container_name: zimaos-e2e-ports-local-unchanged-upstream-delete-composite-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917131350-106610-update-ports-local-unchanged-upstream-delete-composite
+      ZIMAOS_E2E_BASELINE: 20260917133559-110860-update-ports-local-unchanged-upstream-delete-composite
     restart: unless-stopped
     volumes:
       - type: bind
@@ -23,7 +23,7 @@ services:
     network_mode: bridge
     restart: unless-stopped
     environment:
-      E2E_SECONDARY_BASELINE: 20260917131350-106610-update-ports-local-unchanged-upstream-delete-composite
+      E2E_SECONDARY_BASELINE: 20260917133559-110860-update-ports-local-unchanged-upstream-delete-composite
     command:
       - sh
       - -c
