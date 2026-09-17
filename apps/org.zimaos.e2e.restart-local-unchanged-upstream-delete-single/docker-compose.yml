@@ -4,7 +4,7 @@ services:
     image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-restart-local-unchanged-upstream-delete-single-web
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917103026-76552-update-restart-local-unchanged-upstream-delete-single
+      ZIMAOS_E2E_BASELINE: 20260917110228-81839-update-restart-local-unchanged-upstream-delete-single
     ports:
       - target: 80
         published: '18277'

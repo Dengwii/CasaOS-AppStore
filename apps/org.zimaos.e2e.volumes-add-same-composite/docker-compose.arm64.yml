@@ -4,7 +4,7 @@ services:
     image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
     container_name: zimaos-e2e-volumes-add-same-composite-web
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917103026-76552-update-volumes-add-same-composite
+      ZIMAOS_E2E_BASELINE: 20260917110228-81839-update-volumes-add-same-composite
     restart: unless-stopped
     ports:
       - target: 80
@@ -18,7 +18,7 @@ services:
     container_name: zimaos-e2e-volumes-add-same-composite-helper
     restart: unless-stopped
     environment:
-      E2E_SECONDARY_BASELINE: 20260917103026-76552-update-volumes-add-same-composite
+      E2E_SECONDARY_BASELINE: 20260917110228-81839-update-volumes-add-same-composite
     command:
       - sh
       - -c

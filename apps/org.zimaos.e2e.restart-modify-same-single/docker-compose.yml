@@ -4,7 +4,7 @@ services:
     image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-restart-modify-same-single-web
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917103026-76552-update-restart-modify-same-single
+      ZIMAOS_E2E_BASELINE: 20260917110228-81839-update-restart-modify-same-single
     ports:
       - target: 80
         published: '18269'

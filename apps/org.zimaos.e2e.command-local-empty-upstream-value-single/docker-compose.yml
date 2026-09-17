@@ -4,7 +4,7 @@ services:
     image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-command-local-empty-upstream-value-single-web
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917103026-76552-update-command-local-empty-upstream-value-single
+      ZIMAOS_E2E_BASELINE: 20260917110228-81839-update-command-local-empty-upstream-value-single
     restart: unless-stopped
     ports:
       - target: 80

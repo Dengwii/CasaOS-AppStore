@@ -4,7 +4,7 @@ services:
     image: traefik/whoami:v1.10.3@sha256:c899811bc4a1f63a1273c612e15f1bea6514a19c7b08143dbbdef3e8f882c38d
     container_name: zimaos-e2e-environment-delete-same-single-web
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917103026-76552-update-environment-delete-same-single
+      ZIMAOS_E2E_BASELINE: 20260917110228-81839-update-environment-delete-same-single
       E2E_CASE_009_A: baseline-a
     restart: unless-stopped
     ports:

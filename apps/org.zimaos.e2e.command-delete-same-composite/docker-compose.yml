@@ -4,7 +4,7 @@ services:
     image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-command-delete-same-composite-web
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917103026-76552-update-command-delete-same-composite
+      ZIMAOS_E2E_BASELINE: 20260917110228-81839-update-command-delete-same-composite
     restart: unless-stopped
     ports:
       - target: 80
@@ -22,7 +22,7 @@ services:
     container_name: zimaos-e2e-command-delete-same-composite-helper
     restart: unless-stopped
     environment:
-      E2E_SECONDARY_BASELINE: 20260917103026-76552-update-command-delete-same-composite
+      E2E_SECONDARY_BASELINE: 20260917110228-81839-update-command-delete-same-composite
     command:
       - sh
       - -c

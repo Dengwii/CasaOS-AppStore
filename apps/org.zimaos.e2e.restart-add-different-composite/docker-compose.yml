@@ -4,7 +4,7 @@ services:
     image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-restart-add-different-composite-web
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917103026-76552-update-restart-add-different-composite
+      ZIMAOS_E2E_BASELINE: 20260917110228-81839-update-restart-add-different-composite
     ports:
       - target: 80
         published: '18268'
@@ -20,7 +20,7 @@ services:
     container_name: zimaos-e2e-restart-add-different-composite-helper
     restart: unless-stopped
     environment:
-      E2E_SECONDARY_BASELINE: 20260917103026-76552-update-restart-add-different-composite
+      E2E_SECONDARY_BASELINE: 20260917110228-81839-update-restart-add-different-composite
     command:
       - sh
       - -c
