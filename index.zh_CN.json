@@ -703,84 +703,24 @@
       "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
     },
     {
-      "id": "org.zimaos.e2e.restart-add-different-composite",
+      "id": "org.zimaos.e2e.image-composite",
       "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Add-Different Composite"
+      "title": "E2E Image Composite"
     },
     {
-      "id": "org.zimaos.e2e.restart-add-different-single",
+      "id": "org.zimaos.e2e.image-single",
       "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Add-Different Single"
+      "title": "E2E Image Single"
     },
     {
-      "id": "org.zimaos.e2e.restart-add-same-composite",
+      "id": "org.zimaos.e2e.manage-composite",
       "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Add-Same Composite"
+      "title": "E2E Manage Composite"
     },
     {
-      "id": "org.zimaos.e2e.restart-add-same-single",
+      "id": "org.zimaos.e2e.manage-single",
       "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Add-Same Single"
-    },
-    {
-      "id": "org.zimaos.e2e.restart-delete-same-composite",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Delete-Same Composite"
-    },
-    {
-      "id": "org.zimaos.e2e.restart-delete-same-single",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Delete-Same Single"
-    },
-    {
-      "id": "org.zimaos.e2e.restart-local-delete-upstream-modify-composite",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Local-Delete-Upstream-Modify Composite"
-    },
-    {
-      "id": "org.zimaos.e2e.restart-local-delete-upstream-modify-single",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Local-Delete-Upstream-Modify Single"
-    },
-    {
-      "id": "org.zimaos.e2e.restart-local-empty-upstream-value-composite",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Local-Empty-Upstream-Value Composite"
-    },
-    {
-      "id": "org.zimaos.e2e.restart-local-empty-upstream-value-single",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Local-Empty-Upstream-Value Single"
-    },
-    {
-      "id": "org.zimaos.e2e.restart-local-unchanged-upstream-delete-composite",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Local-Unchanged-Upstream-Delete Composite"
-    },
-    {
-      "id": "org.zimaos.e2e.restart-local-unchanged-upstream-delete-single",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Local-Unchanged-Upstream-Delete Single"
-    },
-    {
-      "id": "org.zimaos.e2e.restart-modify-different-composite",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Modify-Different Composite"
-    },
-    {
-      "id": "org.zimaos.e2e.restart-modify-different-single",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Modify-Different Single"
-    },
-    {
-      "id": "org.zimaos.e2e.restart-modify-same-composite",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Modify-Same Composite"
-    },
-    {
-      "id": "org.zimaos.e2e.restart-modify-same-single",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Restart Modify-Same Single"
+      "title": "E2E Manage Single"
     }
   ]
 }
