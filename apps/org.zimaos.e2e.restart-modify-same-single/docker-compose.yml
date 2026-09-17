@@ -5,7 +5,7 @@ services:
     container_name: zimaos-e2e-restart-modify-same-single-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917194547-197774-update-restart-modify-same-single
+      ZIMAOS_E2E_BASELINE: 20260917200829-201158-update-restart-modify-same-single
     ports:
       - target: 80
         published: '18205'
