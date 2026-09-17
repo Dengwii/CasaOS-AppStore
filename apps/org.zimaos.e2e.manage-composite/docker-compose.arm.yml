@@ -9,7 +9,7 @@ services:
         published: '18104'
         protocol: tcp
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917091211-62694-manage-composite
+      ZIMAOS_E2E_BASELINE: 20260917103026-76552-manage-composite
       E2E_SHARED: baseline
       E2E_LOCAL_DELETE_UPSTREAM_MODIFY: baseline
       E2E_LOCAL_KEEP_UPSTREAM_DELETE: baseline
@@ -27,7 +27,7 @@ services:
     container_name: zimaos-e2e-manage-composite-helper
     restart: unless-stopped
     environment:
-      E2E_SECONDARY_BASELINE: 20260917091211-62694-manage-composite
+      E2E_SECONDARY_BASELINE: 20260917103026-76552-manage-composite
     command:
       - sh
       - -c

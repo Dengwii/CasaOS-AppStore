@@ -1,0 +1,27 @@
+name: zimaos-e2e-ports-delete-same-single
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:c899811bc4a1f63a1273c612e15f1bea6514a19c7b08143dbbdef3e8f882c38d
+    container_name: zimaos-e2e-ports-delete-same-single-web
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260917103026-76552-update-ports-delete-same-single
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    command:
+      - --port=80
+    ports:
+      - target: 10050
+        published: '30100'
+        protocol: tcp
+x-casaos:
+  id: org.zimaos.e2e.ports-delete-same-single
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.ports-delete-same-single/assets/icon.svg
+  title:
+    en_US: E2E Ports Delete-Same Single
+    zh_CN: E2E Ports Delete-Same Single
+  port_map: '18225'
+  version: 1.0.0

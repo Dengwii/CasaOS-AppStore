@@ -1,0 +1,26 @@
+name: zimaos-e2e-restart-add-different-single
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
+    container_name: zimaos-e2e-restart-add-different-single-web
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260917103026-76552-update-restart-add-different-single
+    ports:
+      - target: 80
+        published: '18267'
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.restart-add-different-single
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.restart-add-different-single/assets/icon.svg
+  title:
+    en_US: E2E Restart Add-Different Single
+    zh_CN: E2E Restart Add-Different Single
+  port_map: '18267'
+  version: 1.0.0

@@ -1,0 +1,27 @@
+name: zimaos-e2e-volumes-delete-same-single
+services:
+  web:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-volumes-delete-same-single-web
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260917103026-76552-update-volumes-delete-same-single
+    restart: unless-stopped
+    ports:
+      - target: 80
+        published: '18241'
+        protocol: tcp
+    command:
+      - --port=80
+    volumes:
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-volumes-delete-same-single/case-base-a
+        target: /e2e-case-a
+x-casaos:
+  id: org.zimaos.e2e.volumes-delete-same-single
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.volumes-delete-same-single/assets/icon.svg
+  title:
+    en_US: E2E Volumes Delete-Same Single
+    zh_CN: E2E Volumes Delete-Same Single
+  port_map: '18241'
+  version: 1.0.0

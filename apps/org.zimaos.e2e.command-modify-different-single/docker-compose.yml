@@ -1,0 +1,28 @@
+name: zimaos-e2e-command-modify-different-single
+services:
+  web:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-command-modify-different-single-web
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260917103026-76552-update-command-modify-different-single
+    restart: unless-stopped
+    ports:
+      - target: 80
+        published: '18255'
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    command:
+      - --port=80
+      - --name=baseline
+x-casaos:
+  id: org.zimaos.e2e.command-modify-different-single
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.command-modify-different-single/assets/icon.svg
+  title:
+    en_US: E2E Command Modify-Different Single
+    zh_CN: E2E Command Modify-Different Single
+  port_map: '18255'
+  version: 1.0.0

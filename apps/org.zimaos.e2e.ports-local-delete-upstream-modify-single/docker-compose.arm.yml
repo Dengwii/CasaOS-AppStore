@@ -1,0 +1,27 @@
+name: zimaos-e2e-ports-local-delete-upstream-modify-single
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
+    container_name: zimaos-e2e-ports-local-delete-upstream-modify-single-web
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260917103026-76552-update-ports-local-delete-upstream-modify-single
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    command:
+      - --port=80
+    ports:
+      - target: 10054
+        published: '30108'
+        protocol: tcp
+x-casaos:
+  id: org.zimaos.e2e.ports-local-delete-upstream-modify-single
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.ports-local-delete-upstream-modify-single/assets/icon.svg
+  title:
+    en_US: E2E Ports Local-Delete-Upstream-Modify Single
+    zh_CN: E2E Ports Local-Delete-Upstream-Modify Single
+  port_map: '18227'
+  version: 1.0.0
