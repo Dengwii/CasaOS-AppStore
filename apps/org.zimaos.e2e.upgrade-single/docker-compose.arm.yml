@@ -1,37 +1,27 @@
 name: zimaos-e2e-upgrade-single
 services:
   web:
-    image: traefik/whoami:v1.11.0@sha256:9564f83910c98c3bea640803d8014b5c586b4bd556906d1afab21c7e7f1e4d4c
+    image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
     container_name: zimaos-e2e-upgrade-single-web
-    restart: always
+    restart: unless-stopped
     ports:
       - target: 80
         published: '18101'
         protocol: tcp
-      - target: 80
-        published: '18121'
-        protocol: tcp
     environment:
-      ZIMAOS_E2E_BASELINE: 20260917080955-49980-update-single
-      E2E_SHARED: upstream-loses
-      E2E_LOCAL_DELETE_UPSTREAM_MODIFY: upstream-value
-      E2E_LOCAL_EMPTY_UPSTREAM_VALUE: upstream-value
-      E2E_LOCAL_VALUE_UPSTREAM_EMPTY: ''
-      E2E_BOTH_EMPTY: ''
-      E2E_UPSTREAM_ONLY: upstream-value
-      E2E_UPSTREAM_ADDED: upstream-value
-      E2E_BOTH_ADD_SAME: upstream-loses
-      E2E_DIFFERENT_UPSTREAM: upstream-value
+      ZIMAOS_E2E_BASELINE: 20260917084725-58313-update-single
+      E2E_SHARED: baseline
+      E2E_LOCAL_DELETE_UPSTREAM_MODIFY: baseline
+      E2E_LOCAL_KEEP_UPSTREAM_DELETE: baseline
+      E2E_LOCAL_EMPTY_UPSTREAM_VALUE: baseline
+      E2E_LOCAL_VALUE_UPSTREAM_EMPTY: baseline
+      E2E_BOTH_EMPTY: baseline
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base
         target: /e2e-base
-      - type: bind
-        source: /DATA/AppData/zimaos-e2e-upgrade-single/e2e-upstream
-        target: /e2e-local
     command:
       - --port=80
-      - --name=upstream-single
 x-casaos:
   id: org.zimaos.e2e.upgrade-single
   main: web
@@ -40,4 +30,4 @@ x-casaos:
     en_US: E2E Upgrade Single
     zh_CN: E2E Upgrade Single
   port_map: '18101'
-  version: 1.1.0
+  version: 1.0.0
