@@ -17,7 +17,7 @@
   "tips": {
     "before_install": "Default login account `666`, Default login password `666`,tips:`Before each update, remember to back up the configuration`."
   },
-  "update_at": "2026-09-15",
+  "update_at": "2026-02-15",
   "website": "https://lucky666.cn/",
   "repo": "https://github.com/gdy666/lucky",
   "support": "https://github.com/gdy666/lucky/issues",
@@ -26,7 +26,7 @@
   "release_note": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02.",
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "id": "org.icewhale.lucky",
-  "version": "2.27.3-e2e.20260915072700",
+  "version": "2.27.2",
   "categories": [
     "networking"
   ],

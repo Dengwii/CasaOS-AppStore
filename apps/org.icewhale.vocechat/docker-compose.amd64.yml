@@ -3,8 +3,7 @@ services:
   vocechat:
     environment:
       TZ: $TZ
-      ZIMAOS_E2E_UPGRADE_MARKER: zimaos-e2e-20260915072700-vocechat
-    image: privoce/vocechat-server:v0.5.36@sha256:bb324e9ce9ba5e53d863e381d7c272688a377aff39e7063438ab7fe5df7b29c5
+    image: privoce/vocechat-server:v0.5.17@sha256:7df8b76b15e285c4e348ec44a855c0429bcea477928cfc857c5c42d22fc1d2d1
     deploy:
       resources:
         reservations:
@@ -14,18 +13,11 @@ services:
       - target: 3000
         published: "3009"
         protocol: tcp
-      - target: 3000
-        published: "13009"
-        protocol: tcp
-    command: []
-    restart: always
+    restart: unless-stopped
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/home/vocechat-server/data
         target: /home/vocechat-server/data
-      - type: bind
-        source: /DATA/AppData/$AppID/e2e-upgrade
-        target: /zimaos-e2e-upgrade/vocechat
     container_name: vocechat
 x-casaos:
   id: org.icewhale.vocechat
@@ -35,4 +27,4 @@ x-casaos:
     en_US: VoceChat
   index: /
   port_map: "3009"
-  version: "0.5.36"
+  version: "0.5.17"

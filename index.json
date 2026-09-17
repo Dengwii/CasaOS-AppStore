@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-09-16T09:59:03Z",
-  "app_count": 179,
+  "updated_at": "2026-09-17T06:53:10Z",
+  "app_count": 184,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
     {
@@ -129,8 +129,8 @@
       "thumbnail": "/apps/org.icewhale.2fauth/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.2fauth/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.2fauth/meta.json",
-      "content_hash": "d070553f",
-      "version": "8.0.2"
+      "content_hash": "b86bc8d0",
+      "version": "6.1.3"
     },
     {
       "id": "org.icewhale.actualbudget",
@@ -637,8 +637,8 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.ddnsgo/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.ddnsgo/meta.json",
-      "content_hash": "7a05fce6",
-      "version": "6.17.7"
+      "content_hash": "e8b55108",
+      "version": "6.17.1"
     },
     {
       "id": "org.icewhale.ddnsupdater",
@@ -1855,8 +1855,8 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.lucky/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.lucky/meta.json",
-      "content_hash": "97d34122",
-      "version": "2.27.3-e2e.20260915072700"
+      "content_hash": "e5793243",
+      "version": "2.27.2"
     },
     {
       "id": "org.icewhale.lyrionmusicserver",
@@ -1963,8 +1963,8 @@
       "thumbnail": "/apps/org.icewhale.memos/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.memos/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.memos/meta.json",
-      "content_hash": "5b5e7f83",
-      "version": "0.30.0"
+      "content_hash": "d4bae8d8",
+      "version": "0.28.0"
     },
     {
       "id": "org.icewhale.mineosnode",
@@ -2708,7 +2708,7 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.pingvinshare/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.pingvinshare/meta.json",
-      "content_hash": "cb188ec7",
+      "content_hash": "b20b8e23",
       "version": "1.13.0"
     },
     {
@@ -3316,8 +3316,8 @@
       "thumbnail": "/apps/org.icewhale.syncthing/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.syncthing/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.syncthing/meta.json",
-      "content_hash": "9bd06b30",
-      "version": "2.1.5"
+      "content_hash": "9e63519c",
+      "version": "1.29.7"
     },
     {
       "id": "org.icewhale.tailscale",
@@ -3445,8 +3445,8 @@
       "thumbnail": "/apps/org.icewhale.transmission/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.transmission/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.transmission/meta.json",
-      "content_hash": "53c7ec0a",
-      "version": "4.1.3"
+      "content_hash": "8f9b6174",
+      "version": "4.1.1"
     },
     {
       "id": "org.icewhale.trilium",
@@ -3593,8 +3593,8 @@
       "thumbnail": "",
       "compose_url": "/apps/org.icewhale.v2raya/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.v2raya/meta.json",
-      "content_hash": "c6a123ce",
-      "version": "2.4.19"
+      "content_hash": "13346dd7",
+      "version": "2.2.7-5"
     },
     {
       "id": "org.icewhale.vaultwarden",
@@ -3656,8 +3656,8 @@
       "thumbnail": "/apps/org.icewhale.vocechat/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.vocechat/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.vocechat/meta.json",
-      "content_hash": "577fff3d",
-      "version": "0.5.36"
+      "content_hash": "7209d5d9",
+      "version": "0.5.17"
     },
     {
       "id": "org.icewhale.wallabag",
@@ -3768,8 +3768,8 @@
       "version": "0.7.18"
     },
     {
-      "id": "org.zimaos.e2e.native-adminer",
-      "title": "ZimaOS E2E Native Adminer",
+      "id": "org.zimaos.e2e.image-composite",
+      "title": "E2E Image Composite",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -3782,12 +3782,122 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.native-adminer/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.native-adminer/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.native-adminer/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.native-adminer/meta.json",
-      "content_hash": "7bc6cc2a",
-      "version": "6.0.1"
+      "icon": "/apps/org.zimaos.e2e.image-composite/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.image-composite/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.image-composite/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.image-composite/meta.json",
+      "content_hash": "b9d2e1b8",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.image-single",
+      "title": "E2E Image Single",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.image-single/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.image-single/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.image-single/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.image-single/meta.json",
+      "content_hash": "8a76eaba",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.manage-composite",
+      "title": "E2E Manage Composite",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.manage-composite/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.manage-composite/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.manage-composite/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.manage-composite/meta.json",
+      "content_hash": "5fd42ecc",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.manage-single",
+      "title": "E2E Manage Single",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.manage-single/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.manage-single/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.manage-single/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.manage-single/meta.json",
+      "content_hash": "6477d2cf",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.upgrade-composite",
+      "title": "E2E Upgrade Composite",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.upgrade-composite/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.upgrade-composite/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.upgrade-composite/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.upgrade-composite/meta.json",
+      "content_hash": "d378640b",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.upgrade-single",
+      "title": "E2E Upgrade Single",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.upgrade-single/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.upgrade-single/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.upgrade-single/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.upgrade-single/meta.json",
+      "content_hash": "7dde6f22",
+      "version": "1.0.0"
     }
   ]
 }

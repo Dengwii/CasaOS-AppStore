@@ -703,8 +703,33 @@
       "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
     },
     {
-      "id": "org.zimaos.e2e.native-adminer",
-      "title": "ZimaOS E2E Native Adminer",
+      "id": "org.zimaos.e2e.image-composite",
+      "title": "E2E Image Composite",
+      "tagline": "单PHP文件的数据库管理工具"
+    },
+    {
+      "id": "org.zimaos.e2e.image-single",
+      "title": "E2E Image Single",
+      "tagline": "单PHP文件的数据库管理工具"
+    },
+    {
+      "id": "org.zimaos.e2e.manage-composite",
+      "title": "E2E Manage Composite",
+      "tagline": "单PHP文件的数据库管理工具"
+    },
+    {
+      "id": "org.zimaos.e2e.manage-single",
+      "title": "E2E Manage Single",
+      "tagline": "单PHP文件的数据库管理工具"
+    },
+    {
+      "id": "org.zimaos.e2e.upgrade-composite",
+      "title": "E2E Upgrade Composite",
+      "tagline": "单PHP文件的数据库管理工具"
+    },
+    {
+      "id": "org.zimaos.e2e.upgrade-single",
+      "title": "E2E Upgrade Single",
       "tagline": "单PHP文件的数据库管理工具"
     }
   ]
