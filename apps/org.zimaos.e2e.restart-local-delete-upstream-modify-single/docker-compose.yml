@@ -1,7 +1,7 @@
 name: zimaos-e2e-restart-local-delete-upstream-modify-single
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-restart-local-delete-upstream-modify-single-web
     network_mode: bridge
     environment:
@@ -16,7 +16,7 @@ services:
         target: /e2e-base
     command:
       - --port=80
-    restart: unless-stopped
+    restart: always
 x-casaos:
   id: org.zimaos.e2e.restart-local-delete-upstream-modify-single
   main: web
@@ -25,4 +25,4 @@ x-casaos:
     en_US: E2E Restart Local-Delete-Upstream-Modify Single
     zh_CN: E2E Restart Local-Delete-Upstream-Modify Single
   port_map: '18211'
-  version: 1.0.0
+  version: 1.1.0

@@ -1,7 +1,7 @@
 name: zimaos-e2e-restart-modify-different-composite
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-restart-modify-different-composite-web
     network_mode: bridge
     environment:
@@ -16,7 +16,7 @@ services:
         target: /e2e-base
     command:
       - --port=80
-    restart: unless-stopped
+    restart: always
   helper:
     image: alpine:3.20
     container_name: zimaos-e2e-restart-modify-different-composite-helper
@@ -36,4 +36,4 @@ x-casaos:
     en_US: E2E Restart Modify-Different Composite
     zh_CN: E2E Restart Modify-Different Composite
   port_map: '18208'
-  version: 1.0.0
+  version: 1.1.0
