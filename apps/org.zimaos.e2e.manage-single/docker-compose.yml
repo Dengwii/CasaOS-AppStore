@@ -9,7 +9,7 @@ services:
         published: '18103'
         protocol: tcp
     environment:
-      ZIMAOS_E2E_BASELINE: 20260918071441-338171-manage-single
+      ZIMAOS_E2E_BASELINE: 20260918111909-372787-manage-single
       E2E_SHARED: baseline
       E2E_LOCAL_DELETE_UPSTREAM_MODIFY: baseline
       E2E_LOCAL_KEEP_UPSTREAM_DELETE: baseline
