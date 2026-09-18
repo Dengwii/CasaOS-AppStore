@@ -1,0 +1,30 @@
+name: zimaos-e2e-environment-modify-different-single
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-environment-modify-different-single-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260918031822-278070-update-environment-modify-different-single
+      E2E_CASE_007_A: baseline-a
+      E2E_CASE_007_B: baseline-b
+    restart: unless-stopped
+    ports:
+      - target: 80
+        published: '18207'
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.environment-modify-different-single
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.environment-modify-different-single/assets/icon.svg
+  title:
+    en_US: E2E Environment Modify-Different Single
+    zh_CN: E2E Environment Modify-Different Single
+  port_map: '18207'
+  version: 1.0.0
