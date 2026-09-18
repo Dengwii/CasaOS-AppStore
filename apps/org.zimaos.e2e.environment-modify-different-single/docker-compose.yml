@@ -1,13 +1,13 @@
 name: zimaos-e2e-environment-modify-different-single
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-environment-modify-different-single-web
     network_mode: bridge
     environment:
       ZIMAOS_E2E_BASELINE: 20260918034101-284415-update-environment-modify-different-single
       E2E_CASE_007_A: baseline-a
-      E2E_CASE_007_B: baseline-b
+      E2E_CASE_007_B: upstream-b
     restart: unless-stopped
     ports:
       - target: 80
@@ -27,4 +27,4 @@ x-casaos:
     en_US: E2E Environment Modify-Different Single
     zh_CN: E2E Environment Modify-Different Single
   port_map: '18207'
-  version: 1.0.0
+  version: 1.1.0

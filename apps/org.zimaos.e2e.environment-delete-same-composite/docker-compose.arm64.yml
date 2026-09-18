@@ -1,12 +1,11 @@
 name: zimaos-e2e-environment-delete-same-composite
 services:
   web:
-    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    image: traefik/whoami:v1.11.0@sha256:c2c89736959e8830c3db090e2f54500499ceb0460267f91dce494728d7327770
     container_name: zimaos-e2e-environment-delete-same-composite-web
     network_mode: bridge
     environment:
       ZIMAOS_E2E_BASELINE: 20260918034101-284415-update-environment-delete-same-composite
-      E2E_CASE_010_A: baseline-a
     restart: unless-stopped
     ports:
       - target: 80
@@ -37,4 +36,4 @@ x-casaos:
     en_US: E2E Environment Delete-Same Composite
     zh_CN: E2E Environment Delete-Same Composite
   port_map: '18210'
-  version: 1.0.0
+  version: 1.1.0
