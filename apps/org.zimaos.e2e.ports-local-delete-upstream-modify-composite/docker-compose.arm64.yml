@@ -1,0 +1,39 @@
+name: zimaos-e2e-ports-local-delete-upstream-modify-composite
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-ports-local-delete-upstream-modify-composite-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260918042316-295345-update-ports-local-delete-upstream-modify-composite
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    command:
+      - --port=80
+    ports:
+      - target: 10024
+        published: '30048'
+        protocol: tcp
+  helper:
+    image: alpine:3.20@sha256:45e09956dc667c5eff3583c9d94830261fb1ca0be10a0a7db36266edf5de9e1d
+    container_name: zimaos-e2e-ports-local-delete-upstream-modify-composite-helper
+    network_mode: bridge
+    restart: unless-stopped
+    environment:
+      E2E_SECONDARY_BASELINE: 20260918042316-295345-update-ports-local-delete-upstream-modify-composite
+    command:
+      - sh
+      - -c
+      - while true; do sleep 3600; done
+x-casaos:
+  id: org.zimaos.e2e.ports-local-delete-upstream-modify-composite
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.ports-local-delete-upstream-modify-composite/assets/icon.svg
+  title:
+    en_US: E2E Ports Local-Delete-Upstream-Modify Composite
+    zh_CN: E2E Ports Local-Delete-Upstream-Modify Composite
+  port_map: '18212'
+  version: 1.0.0
