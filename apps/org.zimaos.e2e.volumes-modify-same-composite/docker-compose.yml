@@ -1,7 +1,7 @@
 name: zimaos-e2e-volumes-modify-same-composite
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-volumes-modify-same-composite-web
     network_mode: bridge
     environment:
@@ -15,7 +15,7 @@ services:
       - --port=80
     volumes:
       - type: bind
-        source: /DATA/AppData/zimaos-e2e-volumes-modify-same-composite/case-base-a
+        source: /DATA/AppData/zimaos-e2e-volumes-modify-same-composite/case-upstream-a
         target: /e2e-case-a
   helper:
     image: alpine:3.20
@@ -36,4 +36,4 @@ x-casaos:
     en_US: E2E Volumes Modify-Same Composite
     zh_CN: E2E Volumes Modify-Same Composite
   port_map: '18206'
-  version: 1.0.0
+  version: 1.1.0
