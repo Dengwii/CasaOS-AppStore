@@ -1,7 +1,7 @@
 name: zimaos-e2e-volumes-local-delete-upstream-unchanged-composite
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-volumes-local-delete-upstream-unchanged-composite-web
     network_mode: bridge
     environment:
@@ -54,12 +54,10 @@ x-casaos:
     en_US: E2E Volumes Local-Delete-Upstream-Unchanged Composite
     zh_CN: E2E Volumes Local-Delete-Upstream-Unchanged Composite
   port_map: '18216'
-  version: 1.0.0
+  version: 1.1.0
   update_at: '2026-09-18'
   release_notes:
-    en_US: '- v5.4.2 avoids a denial-of-service issue in the version check.
-
-      - It improves JSON display, generated values, exports, database support, and plugins.'
+    en_US: 'ZimaOS E2E temporary upgrade fixture: 1.0.0 to 1.1.0.'
     en_GB: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
@@ -69,9 +67,7 @@ x-casaos:
     nb_NO: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
-    zh_CN: '- v5.4.2 avoids a denial-of-service issue in the version check.
-
-      - It improves JSON display, generated values, exports, database support, and plugins.'
+    zh_CN: ZimaOS E2E 临时升级测试：1.0.0 升级到 1.1.0。
     ja_JP: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
