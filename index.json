@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-18T03:39:01Z",
+  "updated_at": "2026-09-18T03:45:04Z",
   "app_count": 194,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -3768,8 +3768,8 @@
       "version": "0.7.18"
     },
     {
-      "id": "org.zimaos.e2e.command-add-different-composite",
-      "title": "E2E Command Add-Different Composite",
+      "id": "org.zimaos.e2e.environment-add-different-composite",
+      "title": "E2E Environment Add-Different Composite",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -3782,16 +3782,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-add-different-composite/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-add-different-composite/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-add-different-composite/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-add-different-composite/meta.json",
-      "content_hash": "04a563e8",
+      "icon": "/apps/org.zimaos.e2e.environment-add-different-composite/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-add-different-composite/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-add-different-composite/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-add-different-composite/meta.json",
+      "content_hash": "c076c5c5",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-add-different-single",
-      "title": "E2E Command Add-Different Single",
+      "id": "org.zimaos.e2e.environment-add-different-single",
+      "title": "E2E Environment Add-Different Single",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -3804,16 +3804,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-add-different-single/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-add-different-single/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-add-different-single/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-add-different-single/meta.json",
-      "content_hash": "08e5d633",
+      "icon": "/apps/org.zimaos.e2e.environment-add-different-single/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-add-different-single/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-add-different-single/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-add-different-single/meta.json",
+      "content_hash": "e53220b4",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-add-same-composite",
-      "title": "E2E Command Add-Same Composite",
+      "id": "org.zimaos.e2e.environment-add-same-composite",
+      "title": "E2E Environment Add-Same Composite",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -3826,16 +3826,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-add-same-composite/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-add-same-composite/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-add-same-composite/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-add-same-composite/meta.json",
-      "content_hash": "98d0dec9",
+      "icon": "/apps/org.zimaos.e2e.environment-add-same-composite/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-add-same-composite/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-add-same-composite/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-add-same-composite/meta.json",
+      "content_hash": "663ce17e",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-add-same-single",
-      "title": "E2E Command Add-Same Single",
+      "id": "org.zimaos.e2e.environment-add-same-single",
+      "title": "E2E Environment Add-Same Single",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -3848,16 +3848,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-add-same-single/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-add-same-single/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-add-same-single/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-add-same-single/meta.json",
-      "content_hash": "d6918e89",
+      "icon": "/apps/org.zimaos.e2e.environment-add-same-single/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-add-same-single/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-add-same-single/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-add-same-single/meta.json",
+      "content_hash": "1f3af27b",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-delete-same-composite",
-      "title": "E2E Command Delete-Same Composite",
+      "id": "org.zimaos.e2e.environment-delete-same-composite",
+      "title": "E2E Environment Delete-Same Composite",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -3870,16 +3870,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-delete-same-composite/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-delete-same-composite/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-delete-same-composite/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-delete-same-composite/meta.json",
-      "content_hash": "1da9e9ab",
+      "icon": "/apps/org.zimaos.e2e.environment-delete-same-composite/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-delete-same-composite/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-delete-same-composite/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-delete-same-composite/meta.json",
+      "content_hash": "97361693",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-delete-same-single",
-      "title": "E2E Command Delete-Same Single",
+      "id": "org.zimaos.e2e.environment-delete-same-single",
+      "title": "E2E Environment Delete-Same Single",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -3892,16 +3892,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-delete-same-single/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-delete-same-single/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-delete-same-single/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-delete-same-single/meta.json",
-      "content_hash": "22a66eaf",
+      "icon": "/apps/org.zimaos.e2e.environment-delete-same-single/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-delete-same-single/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-delete-same-single/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-delete-same-single/meta.json",
+      "content_hash": "778e4dd6",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-local-delete-upstream-modify-composite",
-      "title": "E2E Command Local-Delete-Upstream-Modify Composite",
+      "id": "org.zimaos.e2e.environment-local-delete-upstream-modify-composite",
+      "title": "E2E Environment Local-Delete-Upstream-Modify Composite",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -3914,16 +3914,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-composite/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-composite/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-composite/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-composite/meta.json",
-      "content_hash": "78dab55c",
+      "icon": "/apps/org.zimaos.e2e.environment-local-delete-upstream-modify-composite/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-local-delete-upstream-modify-composite/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-local-delete-upstream-modify-composite/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-local-delete-upstream-modify-composite/meta.json",
+      "content_hash": "08785a1d",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-local-delete-upstream-modify-single",
-      "title": "E2E Command Local-Delete-Upstream-Modify Single",
+      "id": "org.zimaos.e2e.environment-local-delete-upstream-modify-single",
+      "title": "E2E Environment Local-Delete-Upstream-Modify Single",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -3936,16 +3936,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-single/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-single/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-single/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-local-delete-upstream-modify-single/meta.json",
-      "content_hash": "ba164e0b",
+      "icon": "/apps/org.zimaos.e2e.environment-local-delete-upstream-modify-single/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-local-delete-upstream-modify-single/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-local-delete-upstream-modify-single/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-local-delete-upstream-modify-single/meta.json",
+      "content_hash": "bd8fdd69",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-local-delete-upstream-unchanged-composite",
-      "title": "E2E Command Local-Delete-Upstream-Unchanged Composite",
+      "id": "org.zimaos.e2e.environment-local-delete-upstream-unchanged-composite",
+      "title": "E2E Environment Local-Delete-Upstream-Unchanged Composite",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -3958,16 +3958,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-local-delete-upstream-unchanged-composite/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-local-delete-upstream-unchanged-composite/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-local-delete-upstream-unchanged-composite/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-local-delete-upstream-unchanged-composite/meta.json",
-      "content_hash": "3a3545b6",
+      "icon": "/apps/org.zimaos.e2e.environment-local-delete-upstream-unchanged-composite/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-local-delete-upstream-unchanged-composite/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-local-delete-upstream-unchanged-composite/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-local-delete-upstream-unchanged-composite/meta.json",
+      "content_hash": "f3f692df",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-local-delete-upstream-unchanged-single",
-      "title": "E2E Command Local-Delete-Upstream-Unchanged Single",
+      "id": "org.zimaos.e2e.environment-local-delete-upstream-unchanged-single",
+      "title": "E2E Environment Local-Delete-Upstream-Unchanged Single",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -3980,16 +3980,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-local-delete-upstream-unchanged-single/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-local-delete-upstream-unchanged-single/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-local-delete-upstream-unchanged-single/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-local-delete-upstream-unchanged-single/meta.json",
-      "content_hash": "67389700",
+      "icon": "/apps/org.zimaos.e2e.environment-local-delete-upstream-unchanged-single/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-local-delete-upstream-unchanged-single/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-local-delete-upstream-unchanged-single/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-local-delete-upstream-unchanged-single/meta.json",
+      "content_hash": "3abc2142",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-local-unchanged-upstream-delete-composite",
-      "title": "E2E Command Local-Unchanged-Upstream-Delete Composite",
+      "id": "org.zimaos.e2e.environment-local-unchanged-upstream-delete-composite",
+      "title": "E2E Environment Local-Unchanged-Upstream-Delete Composite",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -4002,16 +4002,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-composite/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-composite/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-composite/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-composite/meta.json",
-      "content_hash": "483757df",
+      "icon": "/apps/org.zimaos.e2e.environment-local-unchanged-upstream-delete-composite/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-local-unchanged-upstream-delete-composite/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-local-unchanged-upstream-delete-composite/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-local-unchanged-upstream-delete-composite/meta.json",
+      "content_hash": "46ce6bcd",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-local-unchanged-upstream-delete-single",
-      "title": "E2E Command Local-Unchanged-Upstream-Delete Single",
+      "id": "org.zimaos.e2e.environment-local-unchanged-upstream-delete-single",
+      "title": "E2E Environment Local-Unchanged-Upstream-Delete Single",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -4024,16 +4024,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-single/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-single/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-single/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-local-unchanged-upstream-delete-single/meta.json",
-      "content_hash": "30fc1940",
+      "icon": "/apps/org.zimaos.e2e.environment-local-unchanged-upstream-delete-single/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-local-unchanged-upstream-delete-single/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-local-unchanged-upstream-delete-single/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-local-unchanged-upstream-delete-single/meta.json",
+      "content_hash": "d086d27e",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-modify-different-composite",
-      "title": "E2E Command Modify-Different Composite",
+      "id": "org.zimaos.e2e.environment-modify-different-composite",
+      "title": "E2E Environment Modify-Different Composite",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -4046,16 +4046,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-modify-different-composite/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-modify-different-composite/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-modify-different-composite/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-modify-different-composite/meta.json",
-      "content_hash": "2731b6a3",
+      "icon": "/apps/org.zimaos.e2e.environment-modify-different-composite/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-modify-different-composite/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-modify-different-composite/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-modify-different-composite/meta.json",
+      "content_hash": "529eedcf",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-modify-different-single",
-      "title": "E2E Command Modify-Different Single",
+      "id": "org.zimaos.e2e.environment-modify-different-single",
+      "title": "E2E Environment Modify-Different Single",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -4068,16 +4068,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-modify-different-single/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-modify-different-single/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-modify-different-single/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-modify-different-single/meta.json",
-      "content_hash": "0362e1ab",
+      "icon": "/apps/org.zimaos.e2e.environment-modify-different-single/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-modify-different-single/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-modify-different-single/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-modify-different-single/meta.json",
+      "content_hash": "b2b2278e",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-modify-same-composite",
-      "title": "E2E Command Modify-Same Composite",
+      "id": "org.zimaos.e2e.environment-modify-same-composite",
+      "title": "E2E Environment Modify-Same Composite",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -4090,16 +4090,16 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-modify-same-composite/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-modify-same-composite/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-modify-same-composite/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-modify-same-composite/meta.json",
-      "content_hash": "296cbc72",
+      "icon": "/apps/org.zimaos.e2e.environment-modify-same-composite/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-modify-same-composite/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-modify-same-composite/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-modify-same-composite/meta.json",
+      "content_hash": "4a801d70",
       "version": "1.0.0"
     },
     {
-      "id": "org.zimaos.e2e.command-modify-same-single",
-      "title": "E2E Command Modify-Same Single",
+      "id": "org.zimaos.e2e.environment-modify-same-single",
+      "title": "E2E Environment Modify-Same Single",
       "tagline": "Database management in a single PHP file",
       "category": "Developer",
       "categories": [
@@ -4112,11 +4112,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "/apps/org.zimaos.e2e.command-modify-same-single/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.command-modify-same-single/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.command-modify-same-single/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.command-modify-same-single/meta.json",
-      "content_hash": "082978ea",
+      "icon": "/apps/org.zimaos.e2e.environment-modify-same-single/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.environment-modify-same-single/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.environment-modify-same-single/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.environment-modify-same-single/meta.json",
+      "content_hash": "3ea0e074",
       "version": "1.0.0"
     }
   ]

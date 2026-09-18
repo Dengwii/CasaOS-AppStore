@@ -703,83 +703,83 @@
       "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
     },
     {
-      "id": "org.zimaos.e2e.command-add-different-composite",
-      "title": "E2E Command Add-Different Composite",
+      "id": "org.zimaos.e2e.environment-add-different-composite",
+      "title": "E2E Environment Add-Different Composite",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-add-different-single",
-      "title": "E2E Command Add-Different Single",
+      "id": "org.zimaos.e2e.environment-add-different-single",
+      "title": "E2E Environment Add-Different Single",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-add-same-composite",
-      "title": "E2E Command Add-Same Composite",
+      "id": "org.zimaos.e2e.environment-add-same-composite",
+      "title": "E2E Environment Add-Same Composite",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-add-same-single",
-      "title": "E2E Command Add-Same Single",
+      "id": "org.zimaos.e2e.environment-add-same-single",
+      "title": "E2E Environment Add-Same Single",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-delete-same-composite",
-      "title": "E2E Command Delete-Same Composite",
+      "id": "org.zimaos.e2e.environment-delete-same-composite",
+      "title": "E2E Environment Delete-Same Composite",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-delete-same-single",
-      "title": "E2E Command Delete-Same Single",
+      "id": "org.zimaos.e2e.environment-delete-same-single",
+      "title": "E2E Environment Delete-Same Single",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-local-delete-upstream-modify-composite",
-      "title": "E2E Command Local-Delete-Upstream-Modify Composite",
+      "id": "org.zimaos.e2e.environment-local-delete-upstream-modify-composite",
+      "title": "E2E Environment Local-Delete-Upstream-Modify Composite",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-local-delete-upstream-modify-single",
-      "title": "E2E Command Local-Delete-Upstream-Modify Single",
+      "id": "org.zimaos.e2e.environment-local-delete-upstream-modify-single",
+      "title": "E2E Environment Local-Delete-Upstream-Modify Single",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-local-delete-upstream-unchanged-composite",
-      "title": "E2E Command Local-Delete-Upstream-Unchanged Composite",
+      "id": "org.zimaos.e2e.environment-local-delete-upstream-unchanged-composite",
+      "title": "E2E Environment Local-Delete-Upstream-Unchanged Composite",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-local-delete-upstream-unchanged-single",
-      "title": "E2E Command Local-Delete-Upstream-Unchanged Single",
+      "id": "org.zimaos.e2e.environment-local-delete-upstream-unchanged-single",
+      "title": "E2E Environment Local-Delete-Upstream-Unchanged Single",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-local-unchanged-upstream-delete-composite",
-      "title": "E2E Command Local-Unchanged-Upstream-Delete Composite",
+      "id": "org.zimaos.e2e.environment-local-unchanged-upstream-delete-composite",
+      "title": "E2E Environment Local-Unchanged-Upstream-Delete Composite",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-local-unchanged-upstream-delete-single",
-      "title": "E2E Command Local-Unchanged-Upstream-Delete Single",
+      "id": "org.zimaos.e2e.environment-local-unchanged-upstream-delete-single",
+      "title": "E2E Environment Local-Unchanged-Upstream-Delete Single",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-modify-different-composite",
-      "title": "E2E Command Modify-Different Composite",
+      "id": "org.zimaos.e2e.environment-modify-different-composite",
+      "title": "E2E Environment Modify-Different Composite",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-modify-different-single",
-      "title": "E2E Command Modify-Different Single",
+      "id": "org.zimaos.e2e.environment-modify-different-single",
+      "title": "E2E Environment Modify-Different Single",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-modify-same-composite",
-      "title": "E2E Command Modify-Same Composite",
+      "id": "org.zimaos.e2e.environment-modify-same-composite",
+      "title": "E2E Environment Modify-Same Composite",
       "tagline": "单PHP文件的数据库管理工具"
     },
     {
-      "id": "org.zimaos.e2e.command-modify-same-single",
-      "title": "E2E Command Modify-Same Single",
+      "id": "org.zimaos.e2e.environment-modify-same-single",
+      "title": "E2E Environment Modify-Same Single",
       "tagline": "单PHP文件的数据库管理工具"
     }
   ]
