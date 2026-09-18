@@ -1,7 +1,7 @@
 name: zimaos-e2e-ports-local-unchanged-upstream-delete-single
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-ports-local-unchanged-upstream-delete-single-web
     network_mode: bridge
     environment:
@@ -13,10 +13,7 @@ services:
         target: /e2e-base
     command:
       - --port=80
-    ports:
-      - target: 10026
-        published: '30052'
-        protocol: tcp
+    ports: []
 x-casaos:
   id: org.zimaos.e2e.ports-local-unchanged-upstream-delete-single
   main: web
@@ -25,4 +22,4 @@ x-casaos:
     en_US: E2E Ports Local-Unchanged-Upstream-Delete Single
     zh_CN: E2E Ports Local-Unchanged-Upstream-Delete Single
   port_map: '18213'
-  version: 1.0.0
+  version: 1.1.0

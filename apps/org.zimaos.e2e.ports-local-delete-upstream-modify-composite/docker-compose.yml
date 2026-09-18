@@ -1,7 +1,7 @@
 name: zimaos-e2e-ports-local-delete-upstream-modify-composite
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-ports-local-delete-upstream-modify-composite-web
     network_mode: bridge
     environment:
@@ -15,7 +15,7 @@ services:
       - --port=80
     ports:
       - target: 10024
-        published: '30048'
+        published: '30051'
         protocol: tcp
   helper:
     image: alpine:3.20
@@ -36,4 +36,4 @@ x-casaos:
     en_US: E2E Ports Local-Delete-Upstream-Modify Composite
     zh_CN: E2E Ports Local-Delete-Upstream-Modify Composite
   port_map: '18212'
-  version: 1.0.0
+  version: 1.1.0
