@@ -1,0 +1,28 @@
+name: zimaos-e2e-volumes-local-unchanged-upstream-delete-single
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-volumes-local-unchanged-upstream-delete-single-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260918050619-305930-update-volumes-local-unchanged-upstream-delete-single
+    restart: unless-stopped
+    ports:
+      - target: 80
+        published: '18213'
+        protocol: tcp
+    command:
+      - --port=80
+    volumes:
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-volumes-local-unchanged-upstream-delete-single/case-base-a
+        target: /e2e-case-a
+x-casaos:
+  id: org.zimaos.e2e.volumes-local-unchanged-upstream-delete-single
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.volumes-local-unchanged-upstream-delete-single/assets/icon.svg
+  title:
+    en_US: E2E Volumes Local-Unchanged-Upstream-Delete Single
+    zh_CN: E2E Volumes Local-Unchanged-Upstream-Delete Single
+  port_map: '18213'
+  version: 1.0.0

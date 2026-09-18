@@ -1,0 +1,31 @@
+name: zimaos-e2e-volumes-modify-different-single
+services:
+  web:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-volumes-modify-different-single-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260918050619-305930-update-volumes-modify-different-single
+    restart: unless-stopped
+    ports:
+      - target: 80
+        published: '18207'
+        protocol: tcp
+    command:
+      - --port=80
+    volumes:
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-volumes-modify-different-single/case-base-a
+        target: /e2e-case-a
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-volumes-modify-different-single/case-base-b
+        target: /e2e-case-b
+x-casaos:
+  id: org.zimaos.e2e.volumes-modify-different-single
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.volumes-modify-different-single/assets/icon.svg
+  title:
+    en_US: E2E Volumes Modify-Different Single
+    zh_CN: E2E Volumes Modify-Different Single
+  port_map: '18207'
+  version: 1.0.0
