@@ -1,7 +1,7 @@
 name: zimaos-e2e-command-delete-same-composite
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-command-delete-same-composite-web
     network_mode: bridge
     environment:
@@ -15,9 +15,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base
         target: /e2e-base
-    command:
-      - --port=80
-      - --name=baseline
   helper:
     image: alpine:3.20
     container_name: zimaos-e2e-command-delete-same-composite-helper
@@ -37,4 +34,4 @@ x-casaos:
     en_US: E2E Command Delete-Same Composite
     zh_CN: E2E Command Delete-Same Composite
   port_map: '18210'
-  version: 1.0.0
+  version: 1.1.0
