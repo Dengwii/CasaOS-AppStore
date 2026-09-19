@@ -5,7 +5,7 @@ services:
     container_name: zimaos-e2e-legacy-unmanaged-environment-local-add-upstream-unchanged-single-main-to-main-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260919100549-513084-update-legacy-unmanaged-environment-local-add-upstream-unchanged-single-main-to-main
+      ZIMAOS_E2E_BASELINE: 20260919103347-518275-update-legacy-unmanaged-environment-local-add-upstream-unchanged-single-main-to-main
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base
