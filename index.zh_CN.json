@@ -703,26 +703,6 @@
       "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
     },
     {
-      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-composite-main-to-main",
-      "title": "E2E legacy-unmanaged environment local-add-upstream-unchanged composite main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-single-main-to-main",
-      "title": "E2E legacy-unmanaged environment local-add-upstream-unchanged single main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-modify-upstream-unchanged-composite-main-to-main",
-      "title": "E2E legacy-unmanaged environment local-modify-upstream-unchanged composite main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-modify-upstream-unchanged-single-main-to-main",
-      "title": "E2E legacy-unmanaged environment local-modify-upstream-unchanged single main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-add-composite-main-to-main",
       "title": "E2E legacy-unmanaged environment local-unchanged-upstream-add composite main-to-main",
       "tagline": "单PHP文件的数据库管理工具"
@@ -730,16 +710,6 @@
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-add-single-main-to-main",
       "title": "E2E legacy-unmanaged environment local-unchanged-upstream-add single main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-modify-composite-main-to-main",
-      "title": "E2E legacy-unmanaged environment local-unchanged-upstream-modify composite main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-modify-single-main-to-main",
-      "title": "E2E legacy-unmanaged environment local-unchanged-upstream-modify single main-to-main",
       "tagline": "单PHP文件的数据库管理工具"
     }
   ]
