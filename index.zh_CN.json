@@ -701,26 +701,6 @@
     {
       "id": "org.icewhale.ztnet",
       "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-helper-to-helper",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E legacy-unmanaged-cartesian environment cartesian-modify-delete composite helper-to-helper"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-helper-to-main",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E legacy-unmanaged-cartesian environment cartesian-modify-delete composite helper-to-main"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-main-to-helper",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E legacy-unmanaged-cartesian environment cartesian-modify-delete composite main-to-helper"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-main-to-main",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E legacy-unmanaged-cartesian environment cartesian-modify-delete composite main-to-main"
     }
   ]
 }
