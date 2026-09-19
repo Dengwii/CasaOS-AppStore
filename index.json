@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-09-19T14:06:37Z",
-  "app_count": 181,
+  "updated_at": "2026-09-19T15:53:33Z",
+  "app_count": 178,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
     {
@@ -3766,72 +3766,6 @@
       "meta_url": "/apps/org.icewhale.ztnet/meta.json",
       "content_hash": "15597246",
       "version": "0.7.18"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-composite-helper-to-main",
-      "title": "E2E legacy-two-stage-edit environment local-modify-upstream-unchanged composite helper-to-main",
-      "tagline": "Database management in a single PHP file",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "Tim Düsterhus",
-      "developer": "Jakub Vrána",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-composite-helper-to-main/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-composite-helper-to-main/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-composite-helper-to-main/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-composite-helper-to-main/meta.json",
-      "content_hash": "8d012b86",
-      "version": "1.1.0"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-composite-main-to-main",
-      "title": "E2E legacy-two-stage-edit environment local-modify-upstream-unchanged composite main-to-main",
-      "tagline": "Database management in a single PHP file",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "Tim Düsterhus",
-      "developer": "Jakub Vrána",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-composite-main-to-main/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-composite-main-to-main/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-composite-main-to-main/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-composite-main-to-main/meta.json",
-      "content_hash": "42927227",
-      "version": "1.1.0"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main",
-      "title": "E2E legacy-two-stage-edit environment local-modify-upstream-unchanged single main-to-main",
-      "tagline": "Database management in a single PHP file",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "Tim Düsterhus",
-      "developer": "Jakub Vrána",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/meta.json",
-      "content_hash": "a83de109",
-      "version": "1.1.0"
     }
   ]
 }
