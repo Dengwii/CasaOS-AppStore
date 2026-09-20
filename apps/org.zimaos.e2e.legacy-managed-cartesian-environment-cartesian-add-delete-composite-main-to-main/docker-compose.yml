@@ -1,0 +1,45 @@
+name: zimaos-e2e-legacy-managed-cartesian-environment-cartesian-add-delete-composite-main-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-legacy-managed-cartesian-environment-cartesian-add-delete-composite-main-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920141525-846597-update-legacy-managed-cartesian-environment-cartesian-add-delete-composite-main-to-main
+      E2E_CART_0869_MAIN_UPSTREAM: baseline-upstream
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '19069'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+  helper:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-legacy-managed-cartesian-environment-cartesian-add-delete-composite-main-to-main-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920141525-846597-update-legacy-managed-cartesian-environment-cartesian-add-delete-composite-main-to-main-helper
+      E2E_CART_0869_HELPER_UPSTREAM: baseline-upstream
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+    restart: unless-stopped
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.legacy-managed-cartesian-environment-cartesian-add-delete-composite-main-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.legacy-managed-cartesian-environment-cartesian-add-delete-composite-main-to-main/assets/icon.svg
+  title:
+    en_US: E2E legacy-managed-cartesian environment cartesian-add-delete composite main-to-main
+    zh_CN: E2E legacy-managed-cartesian environment cartesian-add-delete composite main-to-main
+  port_map: '19069'
+  version: 1.0.0
+  scheme: http
+  index: /
