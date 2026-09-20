@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-20T00:37:32Z",
+  "updated_at": "2026-09-20T00:41:47Z",
   "app_count": 182,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -3786,8 +3786,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-helper-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-helper-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-helper-to-helper/meta.json",
-      "content_hash": "aa13784d",
-      "version": "1.0.0"
+      "content_hash": "f0819625",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-helper-to-main",
@@ -3808,8 +3808,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-helper-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-helper-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-helper-to-main/meta.json",
-      "content_hash": "cc3e17ef",
-      "version": "1.0.0"
+      "content_hash": "737937c4",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-main-to-helper",
@@ -3830,8 +3830,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-main-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-main-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-main-to-helper/meta.json",
-      "content_hash": "3f17b02f",
-      "version": "1.0.0"
+      "content_hash": "71226ae6",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-main-to-main",
@@ -3852,8 +3852,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-main-to-main/meta.json",
-      "content_hash": "faa2795e",
-      "version": "1.0.0"
+      "content_hash": "c5c62ae6",
+      "version": "1.1.0"
     }
   ]
 }
