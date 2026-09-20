@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-20T13:16:31Z",
+  "updated_at": "2026-09-20T13:24:43Z",
   "app_count": 256,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -3874,8 +3874,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-edit-save-no-change-environment-local-modify-upstream-unchanged-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-edit-save-no-change-environment-local-modify-upstream-unchanged-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-edit-save-no-change-environment-local-modify-upstream-unchanged-single-main-to-main/meta.json",
-      "content_hash": "ab9743b8",
-      "version": "1.0.0"
+      "content_hash": "2706d518",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-managed-cartesian-command-cartesian-delete-delete-composite-helper-to-main",
@@ -3896,8 +3896,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-managed-cartesian-command-cartesian-delete-delete-composite-helper-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-command-cartesian-delete-delete-composite-helper-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-command-cartesian-delete-delete-composite-helper-to-main/meta.json",
-      "content_hash": "cc859201",
-      "version": "1.0.0"
+      "content_hash": "d74da8a3",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-managed-cartesian-environment-cartesian-add-delete-composite-main-to-main",
@@ -3918,8 +3918,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-managed-cartesian-environment-cartesian-add-delete-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-environment-cartesian-add-delete-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-environment-cartesian-add-delete-composite-main-to-main/meta.json",
-      "content_hash": "f0060bd5",
-      "version": "1.0.0"
+      "content_hash": "d2ffa1ce",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-managed-cartesian-ports-cartesian-add-add-composite-main-to-main",
@@ -3940,8 +3940,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-managed-cartesian-ports-cartesian-add-add-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-ports-cartesian-add-add-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-ports-cartesian-add-add-composite-main-to-main/meta.json",
-      "content_hash": "473eb318",
-      "version": "1.0.0"
+      "content_hash": "78e73682",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-managed-cartesian-ports-cartesian-unchanged-delete-composite-main-to-helper",
@@ -3962,8 +3962,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-managed-cartesian-ports-cartesian-unchanged-delete-composite-main-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-ports-cartesian-unchanged-delete-composite-main-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-ports-cartesian-unchanged-delete-composite-main-to-helper/meta.json",
-      "content_hash": "c1ab37be",
-      "version": "1.0.0"
+      "content_hash": "88ed8a00",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-managed-cartesian-restart-cartesian-delete-add-composite-helper-to-helper",
@@ -3984,8 +3984,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-managed-cartesian-restart-cartesian-delete-add-composite-helper-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-restart-cartesian-delete-add-composite-helper-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-restart-cartesian-delete-add-composite-helper-to-helper/meta.json",
-      "content_hash": "ab9d2ac2",
-      "version": "1.0.0"
+      "content_hash": "bcefedeb",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main",
@@ -4006,8 +4006,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main/meta.json",
-      "content_hash": "db994452",
-      "version": "1.0.0"
+      "content_hash": "737f771b",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-managed-cartesian-volumes-cartesian-unchanged-add-composite-helper-to-main",
@@ -4028,8 +4028,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-managed-cartesian-volumes-cartesian-unchanged-add-composite-helper-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-volumes-cartesian-unchanged-add-composite-helper-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-managed-cartesian-volumes-cartesian-unchanged-add-composite-helper-to-main/meta.json",
-      "content_hash": "da82e9bb",
-      "version": "1.0.0"
+      "content_hash": "144bc128",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-managed-environment-modify-same-single-main-to-main",
@@ -4050,8 +4050,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-managed-environment-modify-same-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-managed-environment-modify-same-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-managed-environment-modify-same-single-main-to-main/meta.json",
-      "content_hash": "c91aea65",
-      "version": "1.0.0"
+      "content_hash": "35a8781a",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-managed-restart-local-unchanged-upstream-modify-single-main-to-main",
@@ -4072,8 +4072,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-managed-restart-local-unchanged-upstream-modify-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-managed-restart-local-unchanged-upstream-modify-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-managed-restart-local-unchanged-upstream-modify-single-main-to-main/meta.json",
-      "content_hash": "08790e8f",
-      "version": "1.0.0"
+      "content_hash": "ac465890",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-managed-volumes-modify-different-single-main-to-main",
@@ -4094,8 +4094,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-managed-volumes-modify-different-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-managed-volumes-modify-different-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-managed-volumes-modify-different-single-main-to-main/meta.json",
-      "content_hash": "a2a136d2",
-      "version": "1.0.0"
+      "content_hash": "f4b158e9",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-add-single-main-to-main",
@@ -4116,8 +4116,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-add-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-add-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-add-single-main-to-main/meta.json",
-      "content_hash": "9e36b690",
-      "version": "1.0.0"
+      "content_hash": "01984da5",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-exact-history-command-cartesian-add-unchanged-single-main-to-main",
@@ -4138,8 +4138,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-exact-history-command-cartesian-add-unchanged-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-exact-history-command-cartesian-add-unchanged-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-exact-history-command-cartesian-add-unchanged-single-main-to-main/meta.json",
-      "content_hash": "071a6b6d",
-      "version": "1.0.0"
+      "content_hash": "bc124dbf",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-exact-history-restart-cartesian-add-add-single-main-to-main",
@@ -4160,8 +4160,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-exact-history-restart-cartesian-add-add-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-exact-history-restart-cartesian-add-add-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-exact-history-restart-cartesian-add-add-single-main-to-main/meta.json",
-      "content_hash": "50c7180f",
-      "version": "1.0.0"
+      "content_hash": "edab8f8c",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-command-cartesian-add-add-single-main-to-main",
@@ -4182,8 +4182,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-command-cartesian-add-add-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-command-cartesian-add-add-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-command-cartesian-add-add-single-main-to-main/meta.json",
-      "content_hash": "bafea19c",
-      "version": "1.0.0"
+      "content_hash": "ccba6c01",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-environment-cartesian-modify-modify-single-main-to-main",
@@ -4204,8 +4204,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-environment-cartesian-modify-modify-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-environment-cartesian-modify-modify-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-environment-cartesian-modify-modify-single-main-to-main/meta.json",
-      "content_hash": "43e6fa14",
-      "version": "1.0.0"
+      "content_hash": "caca541f",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-ports-cartesian-add-add-single-main-to-main",
@@ -4226,8 +4226,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-ports-cartesian-add-add-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-ports-cartesian-add-add-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-ports-cartesian-add-add-single-main-to-main/meta.json",
-      "content_hash": "bc17f58c",
-      "version": "1.0.0"
+      "content_hash": "d9dda057",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-add-single-main-to-main",
@@ -4248,8 +4248,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-add-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-add-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-add-single-main-to-main/meta.json",
-      "content_hash": "9c07253f",
-      "version": "1.0.0"
+      "content_hash": "ffd66407",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-unchanged-single-main-to-main",
@@ -4270,8 +4270,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-unchanged-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-unchanged-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-unchanged-single-main-to-main/meta.json",
-      "content_hash": "e026974a",
-      "version": "1.0.0"
+      "content_hash": "0cb3b3a2",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-volumes-cartesian-add-add-single-main-to-main",
@@ -4292,8 +4292,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-volumes-cartesian-add-add-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-volumes-cartesian-add-add-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-volumes-cartesian-add-add-single-main-to-main/meta.json",
-      "content_hash": "544b7ea4",
-      "version": "1.0.0"
+      "content_hash": "edcf4987",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-command-cartesian-add-add-single-main-to-main",
@@ -4314,8 +4314,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-command-cartesian-add-add-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-command-cartesian-add-add-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-command-cartesian-add-add-single-main-to-main/meta.json",
-      "content_hash": "8f4119e4",
-      "version": "1.0.0"
+      "content_hash": "63b8f695",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-environment-cartesian-delete-unchanged-single-main-to-main",
@@ -4336,8 +4336,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-environment-cartesian-delete-unchanged-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-environment-cartesian-delete-unchanged-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-environment-cartesian-delete-unchanged-single-main-to-main/meta.json",
-      "content_hash": "c6484db0",
-      "version": "1.0.0"
+      "content_hash": "93c75102",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-ports-cartesian-modify-unchanged-single-main-to-main",
@@ -4358,8 +4358,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-ports-cartesian-modify-unchanged-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-ports-cartesian-modify-unchanged-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-ports-cartesian-modify-unchanged-single-main-to-main/meta.json",
-      "content_hash": "dc2334ba",
-      "version": "1.0.0"
+      "content_hash": "9cdf380f",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-add-add-single-main-to-main",
@@ -4380,8 +4380,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-add-add-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-add-add-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-add-add-single-main-to-main/meta.json",
-      "content_hash": "2dbdb41e",
-      "version": "1.0.0"
+      "content_hash": "91a0d6c1",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-modify-add-single-main-to-main",
@@ -4402,8 +4402,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-modify-add-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-modify-add-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-modify-add-single-main-to-main/meta.json",
-      "content_hash": "d598c78f",
-      "version": "1.0.0"
+      "content_hash": "560d73fc",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-volumes-cartesian-delete-add-single-main-to-main",
@@ -4424,8 +4424,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-volumes-cartesian-delete-add-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-volumes-cartesian-delete-add-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-volumes-cartesian-delete-add-single-main-to-main/meta.json",
-      "content_hash": "7a05f908",
-      "version": "1.0.0"
+      "content_hash": "e15439ed",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-two-stage-cartesian-command-cartesian-add-modify-composite-helper-to-main",
@@ -4446,8 +4446,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-command-cartesian-add-modify-composite-helper-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-command-cartesian-add-modify-composite-helper-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-command-cartesian-add-modify-composite-helper-to-main/meta.json",
-      "content_hash": "86772cab",
-      "version": "1.0.0"
+      "content_hash": "8795448e",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-two-stage-cartesian-command-cartesian-unchanged-unchanged-composite-helper-to-main",
@@ -4468,8 +4468,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-command-cartesian-unchanged-unchanged-composite-helper-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-command-cartesian-unchanged-unchanged-composite-helper-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-command-cartesian-unchanged-unchanged-composite-helper-to-main/meta.json",
-      "content_hash": "e8bbfcb0",
-      "version": "1.0.0"
+      "content_hash": "00cd70ad",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-two-stage-cartesian-environment-cartesian-modify-delete-composite-helper-to-helper",
@@ -4490,8 +4490,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-environment-cartesian-modify-delete-composite-helper-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-environment-cartesian-modify-delete-composite-helper-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-environment-cartesian-modify-delete-composite-helper-to-helper/meta.json",
-      "content_hash": "56fa6a5e",
-      "version": "1.0.0"
+      "content_hash": "83de3044",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-add-modify-composite-main-to-main",
@@ -4512,8 +4512,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-add-modify-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-add-modify-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-add-modify-composite-main-to-main/meta.json",
-      "content_hash": "60adbdee",
-      "version": "1.0.0"
+      "content_hash": "c205c60e",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-modify-modify-composite-main-to-helper",
@@ -4534,8 +4534,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-modify-modify-composite-main-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-modify-modify-composite-main-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-modify-modify-composite-main-to-helper/meta.json",
-      "content_hash": "bbe9a861",
-      "version": "1.0.0"
+      "content_hash": "5a06ce23",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-two-stage-cartesian-restart-cartesian-unchanged-modify-composite-helper-to-main",
@@ -4556,8 +4556,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-restart-cartesian-unchanged-modify-composite-helper-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-restart-cartesian-unchanged-modify-composite-helper-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-restart-cartesian-unchanged-modify-composite-helper-to-main/meta.json",
-      "content_hash": "db76d417",
-      "version": "1.0.0"
+      "content_hash": "01444054",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-two-stage-cartesian-volumes-cartesian-add-unchanged-composite-main-to-helper",
@@ -4578,8 +4578,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-volumes-cartesian-add-unchanged-composite-main-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-volumes-cartesian-add-unchanged-composite-main-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-volumes-cartesian-add-unchanged-composite-main-to-helper/meta.json",
-      "content_hash": "00e7f232",
-      "version": "1.0.0"
+      "content_hash": "ae5622ba",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-two-stage-edit-command-local-modify-upstream-unchanged-composite-main-to-main",
@@ -4600,8 +4600,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-edit-command-local-modify-upstream-unchanged-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-edit-command-local-modify-upstream-unchanged-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-edit-command-local-modify-upstream-unchanged-composite-main-to-main/meta.json",
-      "content_hash": "7273578a",
-      "version": "1.0.0"
+      "content_hash": "45e3ae4b",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main",
@@ -4622,8 +4622,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/meta.json",
-      "content_hash": "1805690d",
-      "version": "1.0.0"
+      "content_hash": "22292456",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-delete-add-composite-helper-to-main",
@@ -4644,8 +4644,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-delete-add-composite-helper-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-delete-add-composite-helper-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-delete-add-composite-helper-to-main/meta.json",
-      "content_hash": "71f44c1c",
-      "version": "1.0.0"
+      "content_hash": "4e947f5a",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-modify-add-composite-main-to-helper",
@@ -4666,8 +4666,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-modify-add-composite-main-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-modify-add-composite-main-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-modify-add-composite-main-to-helper/meta.json",
-      "content_hash": "b80032f7",
-      "version": "1.0.0"
+      "content_hash": "3781763a",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-modify-delete-composite-main-to-helper",
@@ -4688,8 +4688,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-modify-delete-composite-main-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-modify-delete-composite-main-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-modify-delete-composite-main-to-helper/meta.json",
-      "content_hash": "f4dd30bb",
-      "version": "1.0.0"
+      "content_hash": "40751aff",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-unchanged-modify-composite-helper-to-helper",
@@ -4710,8 +4710,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-unchanged-modify-composite-helper-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-unchanged-modify-composite-helper-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-unchanged-modify-composite-helper-to-helper/meta.json",
-      "content_hash": "7f58dd63",
-      "version": "1.0.0"
+      "content_hash": "2e973308",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-add-add-composite-main-to-main",
@@ -4732,8 +4732,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-add-add-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-add-add-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-add-add-composite-main-to-main/meta.json",
-      "content_hash": "e3168e87",
-      "version": "1.0.0"
+      "content_hash": "53b6b545",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-delete-add-composite-helper-to-main",
@@ -4754,8 +4754,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-delete-add-composite-helper-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-delete-add-composite-helper-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-delete-add-composite-helper-to-main/meta.json",
-      "content_hash": "d3482117",
-      "version": "1.0.0"
+      "content_hash": "6b63074e",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-delete-delete-composite-main-to-helper",
@@ -4776,8 +4776,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-delete-delete-composite-main-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-delete-delete-composite-main-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-delete-delete-composite-main-to-helper/meta.json",
-      "content_hash": "f0e17b96",
-      "version": "1.0.0"
+      "content_hash": "94f2ab05",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-unchanged-unchanged-composite-helper-to-main",
@@ -4798,8 +4798,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-unchanged-unchanged-composite-helper-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-unchanged-unchanged-composite-helper-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-unchanged-unchanged-composite-helper-to-main/meta.json",
-      "content_hash": "907a3e12",
-      "version": "1.0.0"
+      "content_hash": "f9786cb9",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-delete-delete-composite-helper-to-main",
@@ -4820,8 +4820,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-delete-delete-composite-helper-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-delete-delete-composite-helper-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-delete-delete-composite-helper-to-main/meta.json",
-      "content_hash": "c3d510b3",
-      "version": "1.0.0"
+      "content_hash": "6f06fe1b",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-modify-unchanged-composite-main-to-main",
@@ -4842,8 +4842,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-modify-unchanged-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-modify-unchanged-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-modify-unchanged-composite-main-to-main/meta.json",
-      "content_hash": "d87d91d8",
-      "version": "1.0.0"
+      "content_hash": "ec2323d8",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-unchanged-add-composite-main-to-helper",
@@ -4864,8 +4864,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-unchanged-add-composite-main-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-unchanged-add-composite-main-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-unchanged-add-composite-main-to-helper/meta.json",
-      "content_hash": "797c185b",
-      "version": "1.0.0"
+      "content_hash": "e5b6d4f8",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-add-unchanged-composite-helper-to-helper",
@@ -4886,8 +4886,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-add-unchanged-composite-helper-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-add-unchanged-composite-helper-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-add-unchanged-composite-helper-to-helper/meta.json",
-      "content_hash": "1e3e2db5",
-      "version": "1.0.0"
+      "content_hash": "e40995ac",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-add-unchanged-composite-main-to-main",
@@ -4908,8 +4908,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-add-unchanged-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-add-unchanged-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-add-unchanged-composite-main-to-main/meta.json",
-      "content_hash": "f5ba52ea",
-      "version": "1.0.0"
+      "content_hash": "bb9e570f",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-delete-modify-composite-main-to-helper",
@@ -4930,8 +4930,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-delete-modify-composite-main-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-delete-modify-composite-main-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-delete-modify-composite-main-to-helper/meta.json",
-      "content_hash": "db031cc4",
-      "version": "1.0.0"
+      "content_hash": "f34d8555",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-unchanged-delete-composite-helper-to-main",
@@ -4952,8 +4952,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-unchanged-delete-composite-helper-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-unchanged-delete-composite-helper-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-unchanged-delete-composite-helper-to-main/meta.json",
-      "content_hash": "f80e4815",
-      "version": "1.0.0"
+      "content_hash": "77219124",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-modify-modify-composite-helper-to-helper",
@@ -4974,8 +4974,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-modify-modify-composite-helper-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-modify-modify-composite-helper-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-modify-modify-composite-helper-to-helper/meta.json",
-      "content_hash": "58d699a6",
-      "version": "1.0.0"
+      "content_hash": "242f77de",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main",
@@ -4996,8 +4996,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main/meta.json",
-      "content_hash": "e346a8b1",
-      "version": "1.0.0"
+      "content_hash": "b078866f",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-unchanged-modify-composite-main-to-helper",
@@ -5018,8 +5018,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-unchanged-modify-composite-main-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-unchanged-modify-composite-main-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-unchanged-modify-composite-main-to-helper/meta.json",
-      "content_hash": "b87204ab",
-      "version": "1.0.0"
+      "content_hash": "1bd8f8cd",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-add-different-single-main-to-main",
@@ -5040,8 +5040,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-different-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-different-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-different-single-main-to-main/meta.json",
-      "content_hash": "a8a8a751",
-      "version": "1.0.0"
+      "content_hash": "1fabf676",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-add-same-single-main-to-main",
@@ -5062,8 +5062,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-same-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-same-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-same-single-main-to-main/meta.json",
-      "content_hash": "9b913532",
-      "version": "1.0.0"
+      "content_hash": "d71061d5",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-single-main-to-main",
@@ -5084,8 +5084,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-single-main-to-main/meta.json",
-      "content_hash": "92c12f8d",
-      "version": "1.0.0"
+      "content_hash": "99638758",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-single-main-to-main",
@@ -5106,8 +5106,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-single-main-to-main/meta.json",
-      "content_hash": "704cc30e",
-      "version": "1.0.0"
+      "content_hash": "118308c5",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-single-main-to-main",
@@ -5128,8 +5128,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-single-main-to-main/meta.json",
-      "content_hash": "88f1e49d",
-      "version": "1.0.0"
+      "content_hash": "82c1e11d",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-restart-local-modify-upstream-unchanged-single-main-to-main",
@@ -5150,8 +5150,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-restart-local-modify-upstream-unchanged-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-restart-local-modify-upstream-unchanged-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-restart-local-modify-upstream-unchanged-single-main-to-main/meta.json",
-      "content_hash": "0c63b4b5",
-      "version": "1.0.0"
+      "content_hash": "8fbef531",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-volumes-local-unchanged-upstream-add-single-main-to-main",
@@ -5172,8 +5172,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-volumes-local-unchanged-upstream-add-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-volumes-local-unchanged-upstream-add-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-volumes-local-unchanged-upstream-add-single-main-to-main/meta.json",
-      "content_hash": "63c3a3b1",
-      "version": "1.0.0"
+      "content_hash": "151f2aef",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.manage-composite",
@@ -5238,8 +5238,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.native-composite-cross-environment-add-same-composite-helper-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.native-composite-cross-environment-add-same-composite-helper-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.native-composite-cross-environment-add-same-composite-helper-to-helper/meta.json",
-      "content_hash": "951caaec",
-      "version": "1.0.0"
+      "content_hash": "4c426873",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.native-composite-cross-ports-add-different-composite-helper-to-helper",
@@ -5260,8 +5260,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.native-composite-cross-ports-add-different-composite-helper-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.native-composite-cross-ports-add-different-composite-helper-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.native-composite-cross-ports-add-different-composite-helper-to-helper/meta.json",
-      "content_hash": "11c17770",
-      "version": "1.0.0"
+      "content_hash": "136d2c58",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.native-composite-cross-ports-delete-same-composite-helper-to-helper",
@@ -5282,8 +5282,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.native-composite-cross-ports-delete-same-composite-helper-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.native-composite-cross-ports-delete-same-composite-helper-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.native-composite-cross-ports-delete-same-composite-helper-to-helper/meta.json",
-      "content_hash": "5ac6bcba",
-      "version": "1.0.0"
+      "content_hash": "51e6fcf7",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.native-composite-cross-restart-delete-same-composite-main-to-helper",
@@ -5304,8 +5304,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.native-composite-cross-restart-delete-same-composite-main-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.native-composite-cross-restart-delete-same-composite-main-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.native-composite-cross-restart-delete-same-composite-main-to-helper/meta.json",
-      "content_hash": "0058802d",
-      "version": "1.0.0"
+      "content_hash": "6a4255b8",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.native-composite-cross-volumes-local-add-upstream-unchanged-composite-helper-to-main",
@@ -5326,8 +5326,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.native-composite-cross-volumes-local-add-upstream-unchanged-composite-helper-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.native-composite-cross-volumes-local-add-upstream-unchanged-composite-helper-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.native-composite-cross-volumes-local-add-upstream-unchanged-composite-helper-to-main/meta.json",
-      "content_hash": "3440cdc2",
-      "version": "1.0.0"
+      "content_hash": "9d7b2870",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.native-composite-cross-volumes-local-delete-upstream-modify-composite-helper-to-helper",
@@ -5348,8 +5348,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.native-composite-cross-volumes-local-delete-upstream-modify-composite-helper-to-helper/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.native-composite-cross-volumes-local-delete-upstream-modify-composite-helper-to-helper/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.native-composite-cross-volumes-local-delete-upstream-modify-composite-helper-to-helper/meta.json",
-      "content_hash": "b4715449",
-      "version": "1.0.0"
+      "content_hash": "9208565d",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-modify-single-main-to-main",
@@ -5370,8 +5370,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-modify-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-modify-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-modify-single-main-to-main/meta.json",
-      "content_hash": "998be4fc",
-      "version": "1.0.0"
+      "content_hash": "324affbf",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.native-environment-modify-different-single-main-to-main",
@@ -5392,8 +5392,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.native-environment-modify-different-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.native-environment-modify-different-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.native-environment-modify-different-single-main-to-main/meta.json",
-      "content_hash": "4587b721",
-      "version": "1.0.0"
+      "content_hash": "ce098c62",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.native-restart-delete-same-single-main-to-main",
@@ -5414,8 +5414,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.native-restart-delete-same-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.native-restart-delete-same-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.native-restart-delete-same-single-main-to-main/meta.json",
-      "content_hash": "eb4d0793",
-      "version": "1.0.0"
+      "content_hash": "778f8b51",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.native-save-no-change-environment-local-unchanged-upstream-add-single-main-to-main",
@@ -5436,8 +5436,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.native-save-no-change-environment-local-unchanged-upstream-add-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.native-save-no-change-environment-local-unchanged-upstream-add-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.native-save-no-change-environment-local-unchanged-upstream-add-single-main-to-main/meta.json",
-      "content_hash": "64db4a5a",
-      "version": "1.0.0"
+      "content_hash": "96cb24bd",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main",
@@ -5458,8 +5458,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/meta.json",
-      "content_hash": "9199485a",
-      "version": "1.0.0"
+      "content_hash": "6215f129",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.native-volumes-add-same-single-main-to-main",
@@ -5480,8 +5480,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.native-volumes-add-same-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.native-volumes-add-same-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.native-volumes-add-same-single-main-to-main/meta.json",
-      "content_hash": "39016118",
-      "version": "1.0.0"
+      "content_hash": "ec0c0f3e",
+      "version": "1.1.0"
     }
   ]
 }
