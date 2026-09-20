@@ -1,7 +1,7 @@
 name: zimaos-e2e-legacy-unmanaged-command-add-different-composite-main-to-main
 services:
   web:
-    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    image: traefik/whoami:v1.11.0@sha256:c2c89736959e8830c3db090e2f54500499ceb0460267f91dce494728d7327770
     container_name: zimaos-e2e-legacy-unmanaged-command-add-different-composite-main-to-main-web
     network_mode: bridge
     environment:
@@ -15,6 +15,9 @@ services:
         published: '18204'
         protocol: tcp
     restart: unless-stopped
+    command:
+      - --port=80
+      - --name=upstream-main
   helper:
     image: alpine:3.20@sha256:45e09956dc667c5eff3583c9d94830261fb1ca0be10a0a7db36266edf5de9e1d
     container_name: zimaos-e2e-legacy-unmanaged-command-add-different-composite-main-to-main-helper
@@ -34,6 +37,6 @@ x-casaos:
     en_US: E2E legacy-unmanaged command add-different composite main-to-main
     zh_CN: E2E legacy-unmanaged command add-different composite main-to-main
   port_map: '18204'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /
