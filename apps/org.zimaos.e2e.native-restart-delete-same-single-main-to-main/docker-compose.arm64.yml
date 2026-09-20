@@ -1,0 +1,30 @@
+name: zimaos-e2e-native-restart-delete-same-single-main-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-native-restart-delete-same-single-main-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920162142-879240-update-native-restart-delete-same-single-main-to-main
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '18545'
+        protocol: tcp
+    command:
+      - --port=80
+    restart: unless-stopped
+x-casaos:
+  id: org.zimaos.e2e.native-restart-delete-same-single-main-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.native-restart-delete-same-single-main-to-main/assets/icon.svg
+  title:
+    en_US: E2E native restart delete-same single main-to-main
+    zh_CN: E2E native restart delete-same single main-to-main
+  port_map: '18545'
+  version: 1.0.0
+  scheme: http
+  index: /
