@@ -1,0 +1,33 @@
+name: zimaos-e2e-native-volumes-delete-same-single-main-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
+    container_name: zimaos-e2e-native-volumes-delete-same-single-main-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-native-volumes-delete-same-single-main-to-main
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-native-volumes-delete-same-single-main-to-main/case-base-a
+        target: /e2e-case-a
+    ports:
+      - target: 80
+        published: '18497'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.native-volumes-delete-same-single-main-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.native-volumes-delete-same-single-main-to-main/assets/icon.svg
+  title:
+    en_US: E2E native volumes delete-same single main-to-main
+    zh_CN: E2E native volumes delete-same single main-to-main
+  port_map: '18497'
+  version: 1.0.0
+  scheme: http
+  index: /

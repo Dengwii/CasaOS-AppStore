@@ -1,0 +1,45 @@
+name: zimaos-e2e-image-composite-both
+services:
+  web:
+    image: traefik/whoami:latest@sha256:7752820e8169b4ce86b8a8613b0cf401bd021928647a8e0fdf37d713920a7645
+    container_name: zimaos-e2e-image-composite-both-web
+    restart: unless-stopped
+    ports:
+      - target: 80
+        published: '18108'
+        protocol: tcp
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-image-composite-both
+      E2E_SHARED: baseline
+      E2E_LOCAL_DELETE_UPSTREAM_MODIFY: baseline
+      E2E_LOCAL_KEEP_UPSTREAM_DELETE: baseline
+      E2E_LOCAL_EMPTY_UPSTREAM_VALUE: baseline
+      E2E_LOCAL_VALUE_UPSTREAM_EMPTY: baseline
+      E2E_BOTH_EMPTY: baseline
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    command:
+      - --port=80
+  helper:
+    image: alpine:latest@sha256:d3c3fda3e4d3f0fcfc86cf469c6dfbe65017143dde23feb4b11df37c373cdc76
+    container_name: zimaos-e2e-image-composite-both-helper
+    restart: unless-stopped
+    environment:
+      E2E_SECONDARY_BASELINE: 20260920014055-643440-image-composite-both
+    command:
+      - sh
+      - -c
+      - while true; do sleep 3600; done
+x-casaos:
+  id: org.zimaos.e2e.image-composite-both
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.image-composite-both/assets/icon.svg
+  title:
+    en_US: E2E Image Composite Main And Helper
+    zh_CN: E2E Image Composite Main And Helper
+  port_map: '18108'
+  version: 1.0.0
+  scheme: http
+  index: /

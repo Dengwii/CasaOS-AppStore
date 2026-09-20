@@ -1,0 +1,49 @@
+name: zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-delete-delete-composite-helper-to-helper
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
+    container_name: zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-delete-delete-composite-helper-to-helper-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-legacy-unmanaged-cartesian-volumes-cartesian-delete-delete-composite-helper-to-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-delete-delete-composite-helper-to-helper/cart-baseline
+        target: /e2e-cart-0712
+    ports:
+      - target: 80
+        published: '18912'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+  helper:
+    image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
+    container_name: zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-delete-delete-composite-helper-to-helper-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-legacy-unmanaged-cartesian-volumes-cartesian-delete-delete-composite-helper-to-helper-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-delete-delete-composite-helper-to-helper/cart-baseline-helper
+        target: /e2e-cart-0712-helper
+    restart: unless-stopped
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-delete-delete-composite-helper-to-helper
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-delete-delete-composite-helper-to-helper/assets/icon.svg
+  title:
+    en_US: E2E legacy-unmanaged-cartesian volumes cartesian-delete-delete composite helper-to-helper
+    zh_CN: E2E legacy-unmanaged-cartesian volumes cartesian-delete-delete composite helper-to-helper
+  port_map: '18912'
+  version: 1.0.0
+  scheme: http
+  index: /

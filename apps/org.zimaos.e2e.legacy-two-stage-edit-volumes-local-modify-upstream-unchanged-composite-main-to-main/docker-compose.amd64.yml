@@ -1,0 +1,51 @@
+name: zimaos-e2e-legacy-two-stage-edit-volumes-local-modify-upstream-unchanged-composite-main-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:c899811bc4a1f63a1273c612e15f1bea6514a19c7b08143dbbdef3e8f882c38d
+    container_name: zimaos-e2e-legacy-two-stage-edit-volumes-local-modify-upstream-unchanged-composite-main-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-legacy-two-stage-edit-volumes-local-modify-upstream-unchanged-composite-main-to-main
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-legacy-two-stage-edit-volumes-local-modify-upstream-unchanged-composite-main-to-main/case-base-a
+        target: /e2e-case-a
+    ports:
+      - target: 80
+        published: '19928'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+  helper:
+    image: alpine:3.20@sha256:c64c687cbea9300178b30c95835354e34c4e4febc4badfe27102879de0483b5e
+    container_name: zimaos-e2e-legacy-two-stage-edit-volumes-local-modify-upstream-unchanged-composite-main-to-main-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-legacy-two-stage-edit-volumes-local-modify-upstream-unchanged-composite-main-to-main-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-legacy-two-stage-edit-volumes-local-modify-upstream-unchanged-composite-main-to-main/case-base-a-helper
+        target: /e2e-case-a-helper
+    restart: unless-stopped
+    command:
+      - sh
+      - -c
+      - while true; do sleep 3600; done
+x-casaos:
+  id: org.zimaos.e2e.legacy-two-stage-edit-volumes-local-modify-upstream-unchanged-composite-main-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.legacy-two-stage-edit-volumes-local-modify-upstream-unchanged-composite-main-to-main/assets/icon.svg
+  title:
+    en_US: E2E legacy-two-stage-edit volumes local-modify-upstream-unchanged composite main-to-main
+    zh_CN: E2E legacy-two-stage-edit volumes local-modify-upstream-unchanged composite main-to-main
+  port_map: '19928'
+  version: 1.0.0
+  scheme: http
+  index: /

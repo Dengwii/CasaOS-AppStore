@@ -1,0 +1,33 @@
+name: zimaos-e2e-native-direct-ports-local-unchanged-upstream-modify-single-main-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-native-direct-ports-local-unchanged-upstream-modify-single-main-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-native-direct-ports-local-unchanged-upstream-modify-single-main-to-main
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '19944'
+        protocol: tcp
+      - target: 16976
+        published: '43952'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.native-direct-ports-local-unchanged-upstream-modify-single-main-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.native-direct-ports-local-unchanged-upstream-modify-single-main-to-main/assets/icon.svg
+  title:
+    en_US: E2E native-direct ports local-unchanged-upstream-modify single main-to-main
+    zh_CN: E2E native-direct ports local-unchanged-upstream-modify single main-to-main
+  port_map: '19944'
+  version: 1.0.0
+  scheme: http
+  index: /

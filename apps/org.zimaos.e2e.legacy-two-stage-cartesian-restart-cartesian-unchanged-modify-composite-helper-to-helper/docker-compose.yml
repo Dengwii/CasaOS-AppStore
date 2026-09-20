@@ -1,0 +1,43 @@
+name: zimaos-e2e-legacy-two-stage-cartesian-restart-cartesian-unchanged-modify-composite-helper-to-helper
+services:
+  web:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-legacy-two-stage-cartesian-restart-cartesian-unchanged-modify-composite-helper-to-helper-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-legacy-two-stage-cartesian-restart-cartesian-unchanged-modify-composite-helper-to-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '19692'
+        protocol: tcp
+    command:
+      - --port=80
+    restart: unless-stopped
+  helper:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-legacy-two-stage-cartesian-restart-cartesian-unchanged-modify-composite-helper-to-helper-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-legacy-two-stage-cartesian-restart-cartesian-unchanged-modify-composite-helper-to-helper-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+    command:
+      - --port=80
+    restart: unless-stopped
+x-casaos:
+  id: org.zimaos.e2e.legacy-two-stage-cartesian-restart-cartesian-unchanged-modify-composite-helper-to-helper
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.legacy-two-stage-cartesian-restart-cartesian-unchanged-modify-composite-helper-to-helper/assets/icon.svg
+  title:
+    en_US: E2E legacy-two-stage-cartesian restart cartesian-unchanged-modify composite helper-to-helper
+    zh_CN: E2E legacy-two-stage-cartesian restart cartesian-unchanged-modify composite helper-to-helper
+  port_map: '19692'
+  version: 1.0.0
+  scheme: http
+  index: /

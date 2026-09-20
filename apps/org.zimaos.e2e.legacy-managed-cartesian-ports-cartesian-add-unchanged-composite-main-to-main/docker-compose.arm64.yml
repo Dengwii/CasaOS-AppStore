@@ -1,0 +1,44 @@
+name: zimaos-e2e-legacy-managed-cartesian-ports-cartesian-add-unchanged-composite-main-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-legacy-managed-cartesian-ports-cartesian-add-unchanged-composite-main-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-legacy-managed-cartesian-ports-cartesian-add-unchanged-composite-main-to-main
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '19137'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+  helper:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-legacy-managed-cartesian-ports-cartesian-add-unchanged-composite-main-to-main-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-legacy-managed-cartesian-ports-cartesian-add-unchanged-composite-main-to-main-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+    restart: unless-stopped
+    command:
+      - --port=80
+    ports: []
+x-casaos:
+  id: org.zimaos.e2e.legacy-managed-cartesian-ports-cartesian-add-unchanged-composite-main-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.legacy-managed-cartesian-ports-cartesian-add-unchanged-composite-main-to-main/assets/icon.svg
+  title:
+    en_US: E2E legacy-managed-cartesian ports cartesian-add-unchanged composite main-to-main
+    zh_CN: E2E legacy-managed-cartesian ports cartesian-add-unchanged composite main-to-main
+  port_map: '19137'
+  version: 1.0.0
+  scheme: http
+  index: /

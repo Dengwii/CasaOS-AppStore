@@ -1,0 +1,45 @@
+name: zimaos-e2e-legacy-managed-cartesian-environment-cartesian-unchanged-modify-composite-main-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:c899811bc4a1f63a1273c612e15f1bea6514a19c7b08143dbbdef3e8f882c38d
+    container_name: zimaos-e2e-legacy-managed-cartesian-environment-cartesian-unchanged-modify-composite-main-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-legacy-managed-cartesian-environment-cartesian-unchanged-modify-composite-main-to-main
+      E2E_CART_0913_MAIN: baseline
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '19113'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+  helper:
+    image: traefik/whoami:v1.10.3@sha256:c899811bc4a1f63a1273c612e15f1bea6514a19c7b08143dbbdef3e8f882c38d
+    container_name: zimaos-e2e-legacy-managed-cartesian-environment-cartesian-unchanged-modify-composite-main-to-main-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-legacy-managed-cartesian-environment-cartesian-unchanged-modify-composite-main-to-main-helper
+      E2E_CART_0913_HELPER: baseline
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+    restart: unless-stopped
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.legacy-managed-cartesian-environment-cartesian-unchanged-modify-composite-main-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.legacy-managed-cartesian-environment-cartesian-unchanged-modify-composite-main-to-main/assets/icon.svg
+  title:
+    en_US: E2E legacy-managed-cartesian environment cartesian-unchanged-modify composite main-to-main
+    zh_CN: E2E legacy-managed-cartesian environment cartesian-unchanged-modify composite main-to-main
+  port_map: '19113'
+  version: 1.0.0
+  scheme: http
+  index: /

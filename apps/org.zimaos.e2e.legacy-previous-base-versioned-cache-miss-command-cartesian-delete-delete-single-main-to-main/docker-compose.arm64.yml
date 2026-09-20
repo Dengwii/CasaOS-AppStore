@@ -1,0 +1,31 @@
+name: zimaos-e2e-legacy-previous-base-versioned-cache-miss-command-cartesian-delete-delete-single-main-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-legacy-previous-base-versioned-cache-miss-command-cartesian-delete-delete-single-main-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-legacy-previous-base-versioned-cache-miss-command-cartesian-delete-delete-single-main-to-main
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '19867'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+      - --name=baseline-main-1667
+x-casaos:
+  id: org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-command-cartesian-delete-delete-single-main-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-command-cartesian-delete-delete-single-main-to-main/assets/icon.svg
+  title:
+    en_US: E2E legacy-previous-base-versioned-cache-miss command cartesian-delete-delete single main-to-main
+    zh_CN: E2E legacy-previous-base-versioned-cache-miss command cartesian-delete-delete single main-to-main
+  port_map: '19867'
+  version: 1.0.0
+  scheme: http
+  index: /

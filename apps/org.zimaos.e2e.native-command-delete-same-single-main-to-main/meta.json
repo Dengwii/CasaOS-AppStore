@@ -1,0 +1,39 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "Tim Düsterhus",
+  "category": "Developer",
+  "description": "Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP. Conversely to phpMyAdmin, it consist of a single file ready to deploy to the target server. Adminer is available for MySQL, PostgreSQL, SQLite, MS SQL, Oracle, Firebird, SimpleDB, Elasticsearch and MongoDB.",
+  "developer": "Jakub Vrána",
+  "screenshot_link": [
+    "/apps/org.zimaos.e2e.native-command-delete-same-single-main-to-main/assets/screenshot-1.webp",
+    "/apps/org.zimaos.e2e.native-command-delete-same-single-main-to-main/assets/screenshot-2.webp",
+    "/apps/org.zimaos.e2e.native-command-delete-same-single-main-to-main/assets/screenshot-3.webp"
+  ],
+  "tagline": "Database management in a single PHP file",
+  "thumbnail": "/apps/org.zimaos.e2e.native-command-delete-same-single-main-to-main/assets/thumbnail.webp",
+  "update_at": "2026-09-20",
+  "website": "https://www.adminer.org",
+  "repo": "https://github.com/vrana/adminer",
+  "support": "https://github.com/vrana/adminer/issues",
+  "docs": "https://www.adminer.org/en/",
+  "hostname": "10.0.9.9",
+  "repo_id": "appstore-d-test",
+  "title": "E2E native command delete-same single main-to-main",
+  "release_note": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "id": "org.zimaos.e2e.native-command-delete-same-single-main-to-main",
+  "version": "1.0.0",
+  "categories": [
+    "developer"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 2851836,
+    "arm": 2675618,
+    "arm64": 2654706
+  }
+}

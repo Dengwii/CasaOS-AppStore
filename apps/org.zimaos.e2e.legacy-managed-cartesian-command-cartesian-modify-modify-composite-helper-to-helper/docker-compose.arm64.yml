@@ -1,0 +1,45 @@
+name: zimaos-e2e-legacy-managed-cartesian-command-cartesian-modify-modify-composite-helper-to-helper
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-legacy-managed-cartesian-command-cartesian-modify-modify-composite-helper-to-helper-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-legacy-managed-cartesian-command-cartesian-modify-modify-composite-helper-to-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '19276'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+      - --name=baseline-main-1076
+  helper:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-legacy-managed-cartesian-command-cartesian-modify-modify-composite-helper-to-helper-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920014055-643440-update-legacy-managed-cartesian-command-cartesian-modify-modify-composite-helper-to-helper-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+    restart: unless-stopped
+    command:
+      - --port=80
+      - --name=baseline-helper-1076
+x-casaos:
+  id: org.zimaos.e2e.legacy-managed-cartesian-command-cartesian-modify-modify-composite-helper-to-helper
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.legacy-managed-cartesian-command-cartesian-modify-modify-composite-helper-to-helper/assets/icon.svg
+  title:
+    en_US: E2E legacy-managed-cartesian command cartesian-modify-modify composite helper-to-helper
+    zh_CN: E2E legacy-managed-cartesian command cartesian-modify-modify composite helper-to-helper
+  port_map: '19276'
+  version: 1.0.0
+  scheme: http
+  index: /
