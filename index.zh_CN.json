@@ -701,6 +701,126 @@
     {
       "id": "org.icewhale.ztnet",
       "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-add-different-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment add-different composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-add-different-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment add-different single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-add-same-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment add-same composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-add-same-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment add-same single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-delete-same-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment delete-same composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-delete-same-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment delete-same single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-add-upstream-unchanged composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-add-upstream-unchanged single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-modify-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-delete-upstream-modify composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-modify-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-delete-upstream-modify single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-delete-upstream-unchanged composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-delete-upstream-unchanged single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-modify-upstream-unchanged-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-modify-upstream-unchanged composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-modify-upstream-unchanged-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-modify-upstream-unchanged single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-add-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-unchanged-upstream-add composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-add-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-unchanged-upstream-add single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-unchanged-upstream-delete composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-unchanged-upstream-delete single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-modify-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-unchanged-upstream-modify composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-modify-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment local-unchanged-upstream-modify single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-modify-different-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment modify-different composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-modify-different-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment modify-different single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-modify-same-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment modify-same composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-environment-modify-same-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged environment modify-same single main-to-main"
     }
   ]
 }

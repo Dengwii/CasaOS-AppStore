@@ -1,0 +1,30 @@
+name: zimaos-e2e-legacy-unmanaged-environment-add-same-single-main-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-legacy-unmanaged-environment-add-same-single-main-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920022046-648938-update-legacy-unmanaged-environment-add-same-single-main-to-main
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '18201'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.legacy-unmanaged-environment-add-same-single-main-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-same-single-main-to-main/assets/icon.svg
+  title:
+    en_US: E2E legacy-unmanaged environment add-same single main-to-main
+    zh_CN: E2E legacy-unmanaged environment add-same single main-to-main
+  port_map: '18201'
+  version: 1.0.0
+  scheme: http
+  index: /
