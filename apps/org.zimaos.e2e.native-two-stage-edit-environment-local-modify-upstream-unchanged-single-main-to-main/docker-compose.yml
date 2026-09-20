@@ -1,0 +1,31 @@
+name: zimaos-e2e-native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920121320-814225-update-native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main
+      E2E_CASE_1776_MAIN_A: baseline-a
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '19976'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/assets/icon.svg
+  title:
+    en_US: E2E native-two-stage-edit environment local-modify-upstream-unchanged single main-to-main
+    zh_CN: E2E native-two-stage-edit environment local-modify-upstream-unchanged single main-to-main
+  port_map: '19976'
+  version: 1.0.0
+  scheme: http
+  index: /

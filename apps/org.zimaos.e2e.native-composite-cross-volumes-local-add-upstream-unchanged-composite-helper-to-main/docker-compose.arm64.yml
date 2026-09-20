@@ -1,0 +1,43 @@
+name: zimaos-e2e-native-composite-cross-volumes-local-add-upstream-unchanged-composite-helper-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-native-composite-cross-volumes-local-add-upstream-unchanged-composite-helper-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920121320-814225-update-native-composite-cross-volumes-local-add-upstream-unchanged-composite-helper-to-main
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '18661'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+  helper:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-native-composite-cross-volumes-local-add-upstream-unchanged-composite-helper-to-main-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260920121320-814225-update-native-composite-cross-volumes-local-add-upstream-unchanged-composite-helper-to-main-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+    restart: unless-stopped
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.native-composite-cross-volumes-local-add-upstream-unchanged-composite-helper-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.native-composite-cross-volumes-local-add-upstream-unchanged-composite-helper-to-main/assets/icon.svg
+  title:
+    en_US: E2E native-composite-cross volumes local-add-upstream-unchanged composite helper-to-main
+    zh_CN: E2E native-composite-cross volumes local-add-upstream-unchanged composite helper-to-main
+  port_map: '18661'
+  version: 1.0.0
+  scheme: http
+  index: /
