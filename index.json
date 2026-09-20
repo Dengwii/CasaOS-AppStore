@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-20T02:24:04Z",
+  "updated_at": "2026-09-20T02:28:53Z",
   "app_count": 202,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -3786,8 +3786,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-different-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-different-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-different-composite-main-to-main/meta.json",
-      "content_hash": "da9d60d6",
-      "version": "1.0.0"
+      "content_hash": "fe254d98",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-add-different-single-main-to-main",
@@ -3808,8 +3808,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-different-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-different-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-different-single-main-to-main/meta.json",
-      "content_hash": "4dfab2ed",
-      "version": "1.0.0"
+      "content_hash": "0eef8eb3",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-add-same-composite-main-to-main",
@@ -3830,8 +3830,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-same-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-same-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-same-composite-main-to-main/meta.json",
-      "content_hash": "7374168b",
-      "version": "1.0.0"
+      "content_hash": "ce4df413",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-add-same-single-main-to-main",
@@ -3852,8 +3852,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-same-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-same-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-add-same-single-main-to-main/meta.json",
-      "content_hash": "fb1b2633",
-      "version": "1.0.0"
+      "content_hash": "3c9f15a3",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-delete-same-composite-main-to-main",
@@ -3874,8 +3874,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-delete-same-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-delete-same-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-delete-same-composite-main-to-main/meta.json",
-      "content_hash": "8b71b504",
-      "version": "1.0.0"
+      "content_hash": "0e8a4e63",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-delete-same-single-main-to-main",
@@ -3896,8 +3896,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-delete-same-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-delete-same-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-delete-same-single-main-to-main/meta.json",
-      "content_hash": "4d54848e",
-      "version": "1.0.0"
+      "content_hash": "4e6da3b0",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-composite-main-to-main",
@@ -3918,8 +3918,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-composite-main-to-main/meta.json",
-      "content_hash": "f48d2cf8",
-      "version": "1.0.0"
+      "content_hash": "d51c4dac",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-single-main-to-main",
@@ -3940,8 +3940,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-add-upstream-unchanged-single-main-to-main/meta.json",
-      "content_hash": "3a599d38",
-      "version": "1.0.0"
+      "content_hash": "dd3a3e32",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-modify-composite-main-to-main",
@@ -3962,8 +3962,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-modify-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-modify-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-modify-composite-main-to-main/meta.json",
-      "content_hash": "d14dfecd",
-      "version": "1.0.0"
+      "content_hash": "2ceaad3b",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-modify-single-main-to-main",
@@ -3984,8 +3984,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-modify-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-modify-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-modify-single-main-to-main/meta.json",
-      "content_hash": "03095d19",
-      "version": "1.0.0"
+      "content_hash": "c90d9a5e",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-composite-main-to-main",
@@ -4006,8 +4006,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-composite-main-to-main/meta.json",
-      "content_hash": "dcac3255",
-      "version": "1.0.0"
+      "content_hash": "a1f64254",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-single-main-to-main",
@@ -4028,8 +4028,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-delete-upstream-unchanged-single-main-to-main/meta.json",
-      "content_hash": "551cda04",
-      "version": "1.0.0"
+      "content_hash": "c55c7b69",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-modify-upstream-unchanged-composite-main-to-main",
@@ -4050,8 +4050,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-modify-upstream-unchanged-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-modify-upstream-unchanged-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-modify-upstream-unchanged-composite-main-to-main/meta.json",
-      "content_hash": "d658ff13",
-      "version": "1.0.0"
+      "content_hash": "660eb668",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-modify-upstream-unchanged-single-main-to-main",
@@ -4072,8 +4072,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-modify-upstream-unchanged-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-modify-upstream-unchanged-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-modify-upstream-unchanged-single-main-to-main/meta.json",
-      "content_hash": "83357488",
-      "version": "1.0.0"
+      "content_hash": "1c62df7a",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-add-composite-main-to-main",
@@ -4094,8 +4094,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-add-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-add-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-add-composite-main-to-main/meta.json",
-      "content_hash": "0f094d1f",
-      "version": "1.0.0"
+      "content_hash": "c60eecce",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-add-single-main-to-main",
@@ -4116,8 +4116,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-add-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-add-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-add-single-main-to-main/meta.json",
-      "content_hash": "44d023b9",
-      "version": "1.0.0"
+      "content_hash": "8329af18",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-composite-main-to-main",
@@ -4138,8 +4138,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-composite-main-to-main/meta.json",
-      "content_hash": "50bc7db2",
-      "version": "1.0.0"
+      "content_hash": "ae18dd36",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-single-main-to-main",
@@ -4160,8 +4160,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-delete-single-main-to-main/meta.json",
-      "content_hash": "ffef3972",
-      "version": "1.0.0"
+      "content_hash": "54233765",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-modify-composite-main-to-main",
@@ -4182,8 +4182,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-modify-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-modify-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-modify-composite-main-to-main/meta.json",
-      "content_hash": "065701e8",
-      "version": "1.0.0"
+      "content_hash": "70fa5531",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-modify-single-main-to-main",
@@ -4204,8 +4204,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-modify-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-modify-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-local-unchanged-upstream-modify-single-main-to-main/meta.json",
-      "content_hash": "a2f80fb7",
-      "version": "1.0.0"
+      "content_hash": "429cfc39",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-modify-different-composite-main-to-main",
@@ -4226,8 +4226,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-modify-different-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-modify-different-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-modify-different-composite-main-to-main/meta.json",
-      "content_hash": "84b6f4c0",
-      "version": "1.0.0"
+      "content_hash": "58ba3d1e",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-modify-different-single-main-to-main",
@@ -4248,8 +4248,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-modify-different-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-modify-different-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-modify-different-single-main-to-main/meta.json",
-      "content_hash": "ba277e37",
-      "version": "1.0.0"
+      "content_hash": "467e5504",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-modify-same-composite-main-to-main",
@@ -4270,8 +4270,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-modify-same-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-modify-same-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-modify-same-composite-main-to-main/meta.json",
-      "content_hash": "11378361",
-      "version": "1.0.0"
+      "content_hash": "d3b13caf",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.legacy-unmanaged-environment-modify-same-single-main-to-main",
@@ -4292,8 +4292,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-modify-same-single-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-modify-same-single-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-environment-modify-same-single-main-to-main/meta.json",
-      "content_hash": "75583222",
-      "version": "1.0.0"
+      "content_hash": "c47283c3",
+      "version": "1.1.0"
     }
   ]
 }
