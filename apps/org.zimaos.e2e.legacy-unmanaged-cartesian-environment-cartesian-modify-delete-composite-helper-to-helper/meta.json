@@ -23,17 +23,17 @@
   "hostname": "10.0.9.9",
   "repo_id": "appstore-d-test",
   "title": "E2E legacy-unmanaged-cartesian environment cartesian-modify-delete composite helper-to-helper",
-  "release_note": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+  "release_note": "ZimaOS E2E temporary upgrade fixture: 1.0.0 to 1.1.0.",
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-modify-delete-composite-helper-to-helper",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "categories": [
     "developer"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 2851836,
-    "arm": 2675618,
-    "arm64": 2654706
+    "amd64": 5889467,
+    "arm": 5609164,
+    "arm64": 5464872
   }
 }
