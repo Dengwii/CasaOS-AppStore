@@ -1,0 +1,32 @@
+name: zimaos-e2e-native-environment-modify-different-single-main-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-native-environment-modify-different-single-main-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260921215814-1252718-update-native-environment-modify-different-single-main-to-main
+      E2E_CASE_247_MAIN_A: baseline-a
+      E2E_CASE_247_MAIN_B: baseline-b
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '18447'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.native-environment-modify-different-single-main-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.native-environment-modify-different-single-main-to-main/assets/icon.svg
+  title:
+    en_US: E2E native environment modify-different single main-to-main
+    zh_CN: E2E native environment modify-different single main-to-main
+  port_map: '18447'
+  version: 1.0.0
+  scheme: http
+  index: /
