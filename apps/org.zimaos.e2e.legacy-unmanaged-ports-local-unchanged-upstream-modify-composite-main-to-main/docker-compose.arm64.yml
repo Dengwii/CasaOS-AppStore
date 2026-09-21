@@ -1,0 +1,52 @@
+name: zimaos-e2e-legacy-unmanaged-ports-local-unchanged-upstream-modify-composite-main-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-legacy-unmanaged-ports-local-unchanged-upstream-modify-composite-main-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260921171621-1205145-update-legacy-unmanaged-ports-local-unchanged-upstream-modify-composite-main-to-main
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '18240'
+        protocol: tcp
+      - target: 10160
+        published: '30320'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+  helper:
+    image: alpine:3.20@sha256:45e09956dc667c5eff3583c9d94830261fb1ca0be10a0a7db36266edf5de9e1d
+    container_name: zimaos-e2e-legacy-unmanaged-ports-local-unchanged-upstream-modify-composite-main-to-main-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260921171621-1205145-update-legacy-unmanaged-ports-local-unchanged-upstream-modify-composite-main-to-main-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+    restart: unless-stopped
+    command:
+      - sh
+      - -c
+      - while true; do sleep 3600; done
+    ports:
+      - target: 10162
+        published: '30324'
+        protocol: tcp
+x-casaos:
+  id: org.zimaos.e2e.legacy-unmanaged-ports-local-unchanged-upstream-modify-composite-main-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.legacy-unmanaged-ports-local-unchanged-upstream-modify-composite-main-to-main/assets/icon.svg
+  title:
+    en_US: E2E legacy-unmanaged ports local-unchanged-upstream-modify composite main-to-main
+    zh_CN: E2E legacy-unmanaged ports local-unchanged-upstream-modify composite main-to-main
+  port_map: '18240'
+  version: 1.0.0
+  scheme: http
+  index: /
