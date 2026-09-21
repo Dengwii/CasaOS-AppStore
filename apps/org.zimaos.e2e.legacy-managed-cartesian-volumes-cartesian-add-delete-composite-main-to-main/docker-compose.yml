@@ -1,0 +1,49 @@
+name: zimaos-e2e-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260921023814-992202-update-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main/cart-baseline-upstream
+        target: /e2e-cart-0997-upstream
+    ports:
+      - target: 80
+        published: '19197'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+  helper:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260921023814-992202-update-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main/cart-baseline-upstream-helper
+        target: /e2e-cart-0997-upstream-helper
+    restart: unless-stopped
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main
+  main: web
+  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.zimaos.e2e.legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main/assets/icon.svg
+  title:
+    en_US: E2E legacy-managed-cartesian volumes cartesian-add-delete composite main-to-main
+    zh_CN: E2E legacy-managed-cartesian volumes cartesian-add-delete composite main-to-main
+  port_map: '19197'
+  version: 1.0.0
+  scheme: http
+  index: /
