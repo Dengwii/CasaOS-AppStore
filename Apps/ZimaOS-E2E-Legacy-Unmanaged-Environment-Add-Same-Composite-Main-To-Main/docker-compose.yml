@@ -1,11 +1,12 @@
 name: zimaos-e2e-legacy-unmanaged-environment-add-same-composite-main-to-main
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-legacy-unmanaged-environment-add-same-composite-main-to-main-web
     network_mode: bridge
     environment:
       ZIMAOS_E2E_BASELINE: 20260921171621-1205145-update-legacy-unmanaged-environment-add-same-composite-main-to-main
+      E2E_CASE_002_MAIN_A: upstream-a
     volumes:
     - type: bind
       source: /DATA/AppData/$AppID/e2e-base
@@ -58,12 +59,10 @@ x-casaos:
     en_US: E2E legacy-unmanaged environment add-same composite main-to-main
     zh_CN: E2E legacy-unmanaged environment add-same composite main-to-main
   port_map: '18202'
-  version: 1.0.0
+  version: 1.1.0
   update_at: '2026-09-21'
   release_notes:
-    en_US: '- v5.4.2 avoids a denial-of-service issue in the version check.
-
-      - It improves JSON display, generated values, exports, database support, and plugins.'
+    en_US: 'ZimaOS E2E temporary upgrade fixture: 1.0.0 to 1.1.0.'
     en_GB: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
@@ -73,9 +72,7 @@ x-casaos:
     nb_NO: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
-    zh_CN: '- v5.4.2 avoids a denial-of-service issue in the version check.
-
-      - It improves JSON display, generated values, exports, database support, and plugins.'
+    zh_CN: ZimaOS E2E 临时升级测试：1.0.0 升级到 1.1.0。
     ja_JP: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
