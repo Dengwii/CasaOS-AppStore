@@ -1,12 +1,13 @@
 name: zimaos-e2e-legacy-unmanaged-environment-local-unchanged-upstream-add-composite-main-to-main
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-legacy-unmanaged-environment-local-unchanged-upstream-add-composite-main-to-main-web
     network_mode: bridge
     environment:
       ZIMAOS_E2E_BASELINE: 20260921171621-1205145-update-legacy-unmanaged-environment-local-unchanged-upstream-add-composite-main-to-main
       E2E_CASE_014_MAIN_A: baseline-a
+      E2E_CASE_014_MAIN_B: upstream-b
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base
@@ -42,6 +43,6 @@ x-casaos:
     en_US: E2E legacy-unmanaged environment local-unchanged-upstream-add composite main-to-main
     zh_CN: E2E legacy-unmanaged environment local-unchanged-upstream-add composite main-to-main
   port_map: '18214'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /

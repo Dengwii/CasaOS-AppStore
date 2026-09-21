@@ -1,7 +1,7 @@
 name: zimaos-e2e-legacy-unmanaged-command-modify-same-composite-main-to-main
 services:
   web:
-    image: traefik/whoami:v1.10.3@sha256:c899811bc4a1f63a1273c612e15f1bea6514a19c7b08143dbbdef3e8f882c38d
+    image: traefik/whoami:v1.11.0@sha256:4f90b33ddca9c4d4f06527070d6e503b16d71016edea036842be2a84e60c91cb
     container_name: zimaos-e2e-legacy-unmanaged-command-modify-same-composite-main-to-main-web
     network_mode: bridge
     environment:
@@ -17,7 +17,7 @@ services:
     restart: unless-stopped
     command:
       - --port=80
-      - --name=baseline-main
+      - --name=same-main
   helper:
     image: traefik/whoami:v1.10.3@sha256:c899811bc4a1f63a1273c612e15f1bea6514a19c7b08143dbbdef3e8f882c38d
     container_name: zimaos-e2e-legacy-unmanaged-command-modify-same-composite-main-to-main-helper
@@ -40,6 +40,6 @@ x-casaos:
     en_US: E2E legacy-unmanaged command modify-same composite main-to-main
     zh_CN: E2E legacy-unmanaged command modify-same composite main-to-main
   port_map: '18278'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /
