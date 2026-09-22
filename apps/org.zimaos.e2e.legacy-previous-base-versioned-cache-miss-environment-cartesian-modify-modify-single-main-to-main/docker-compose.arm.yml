@@ -1,13 +1,13 @@
 name: zimaos-e2e-legacy-previous-base-versioned-cache-miss-environment-cartesian-modify-modify-single-main-to-main
 services:
   web:
-    image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
+    image: traefik/whoami:v1.11.0@sha256:9564f83910c98c3bea640803d8014b5c586b4bd556906d1afab21c7e7f1e4d4c
     container_name: zimaos-e2e-legacy-previous-base-versioned-cache-miss-environment-cartesian-modify-modify-single-main-to-main-web
     network_mode: bridge
     environment:
       ZIMAOS_E2E_BASELINE: 20260922095009-1422902-update-legacy-previous-base-versioned-cache-miss-environment-cartesian-modify-modify-single-main-to-main
       E2E_CART_1626_MAIN_LOCAL: baseline-local
-      E2E_CART_1626_MAIN_UPSTREAM: baseline-upstream
+      E2E_CART_1626_MAIN_UPSTREAM: upstream
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base
@@ -27,6 +27,6 @@ x-casaos:
     en_US: E2E legacy-previous-base-versioned-cache-miss environment cartesian-modify-modify single main-to-main
     zh_CN: E2E legacy-previous-base-versioned-cache-miss environment cartesian-modify-modify single main-to-main
   port_map: '19826'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /
