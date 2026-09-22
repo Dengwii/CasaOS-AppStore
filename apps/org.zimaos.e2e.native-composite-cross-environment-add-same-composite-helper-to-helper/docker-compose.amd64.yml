@@ -1,0 +1,43 @@
+name: zimaos-e2e-native-composite-cross-environment-add-same-composite-helper-to-helper
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:c899811bc4a1f63a1273c612e15f1bea6514a19c7b08143dbbdef3e8f882c38d
+    container_name: zimaos-e2e-native-composite-cross-environment-add-same-composite-helper-to-helper-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260922095009-1422902-update-native-composite-cross-environment-add-same-composite-helper-to-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '18563'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+  helper:
+    image: traefik/whoami:v1.10.3@sha256:c899811bc4a1f63a1273c612e15f1bea6514a19c7b08143dbbdef3e8f882c38d
+    container_name: zimaos-e2e-native-composite-cross-environment-add-same-composite-helper-to-helper-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260922095009-1422902-update-native-composite-cross-environment-add-same-composite-helper-to-helper-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+    restart: unless-stopped
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.native-composite-cross-environment-add-same-composite-helper-to-helper
+  main: web
+  icon: https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages/apps/org.zimaos.e2e.native-composite-cross-environment-add-same-composite-helper-to-helper/assets/icon.svg
+  title:
+    en_US: E2E native-composite-cross environment add-same composite helper-to-helper
+    zh_CN: E2E native-composite-cross environment add-same composite helper-to-helper
+  port_map: '18563'
+  version: 1.0.0
+  scheme: http
+  index: /
