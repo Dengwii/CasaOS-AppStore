@@ -1,7 +1,7 @@
 name: zimaos-e2e-native-composite-cross-environment-add-same-composite-helper-to-helper
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-native-composite-cross-environment-add-same-composite-helper-to-helper-web
     network_mode: bridge
     environment:
@@ -23,6 +23,7 @@ services:
     network_mode: bridge
     environment:
       ZIMAOS_E2E_BASELINE: 20260922111604-1443294-update-native-composite-cross-environment-add-same-composite-helper-to-helper-helper
+      E2E_CASE_363_HELPER_A: upstream-a
     volumes:
     - type: bind
       source: /DATA/AppData/$AppID/e2e-base-helper
@@ -56,12 +57,10 @@ x-casaos:
     en_US: E2E native-composite-cross environment add-same composite helper-to-helper
     zh_CN: E2E native-composite-cross environment add-same composite helper-to-helper
   port_map: '18563'
-  version: 1.0.0
+  version: 1.1.0
   update_at: '2026-09-22'
   release_notes:
-    en_US: '- v5.4.2 avoids a denial-of-service issue in the version check.
-
-      - It improves JSON display, generated values, exports, database support, and plugins.'
+    en_US: 'ZimaOS E2E temporary upgrade fixture: 1.0.0 to 1.1.0.'
     en_GB: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
@@ -71,9 +70,7 @@ x-casaos:
     nb_NO: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
-    zh_CN: '- v5.4.2 avoids a denial-of-service issue in the version check.
-
-      - It improves JSON display, generated values, exports, database support, and plugins.'
+    zh_CN: ZimaOS E2E 临时升级测试：1.0.0 升级到 1.1.0。
     ja_JP: '- v5.4.2 avoids a denial-of-service issue in the version check.
 
       - It improves JSON display, generated values, exports, database support, and plugins.'
