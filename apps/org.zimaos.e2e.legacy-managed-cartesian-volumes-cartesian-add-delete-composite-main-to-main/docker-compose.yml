@@ -1,15 +1,18 @@
 name: zimaos-e2e-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main
 services:
   web:
-    image: traefik/whoami:v1.11.0
+    image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260922115813-1453972-update-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main
+      ZIMAOS_E2E_BASELINE: 20260922123745-1463104-update-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base
         target: /e2e-base
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main/cart-baseline-upstream
+        target: /e2e-cart-0997-upstream
     ports:
       - target: 80
         published: '19197'
@@ -22,7 +25,7 @@ services:
     container_name: zimaos-e2e-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main-helper
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260922115813-1453972-update-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main-helper
+      ZIMAOS_E2E_BASELINE: 20260922123745-1463104-update-legacy-managed-cartesian-volumes-cartesian-add-delete-composite-main-to-main-helper
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base-helper
@@ -41,6 +44,6 @@ x-casaos:
     en_US: E2E legacy-managed-cartesian volumes cartesian-add-delete composite main-to-main
     zh_CN: E2E legacy-managed-cartesian volumes cartesian-add-delete composite main-to-main
   port_map: '19197'
-  version: 1.1.0
+  version: 1.0.0
   scheme: http
   index: /

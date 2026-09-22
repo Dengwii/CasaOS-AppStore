@@ -1,11 +1,11 @@
 name: zimaos-e2e-legacy-previous-base-versioned-cache-miss-ports-cartesian-add-add-single-main-to-main
 services:
   web:
-    image: traefik/whoami:v1.11.0
+    image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-legacy-previous-base-versioned-cache-miss-ports-cartesian-add-add-single-main-to-main-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260922115813-1453972-update-legacy-previous-base-versioned-cache-miss-ports-cartesian-add-add-single-main-to-main
+      ZIMAOS_E2E_BASELINE: 20260922123745-1463104-update-legacy-previous-base-versioned-cache-miss-ports-cartesian-add-add-single-main-to-main
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base
@@ -13,9 +13,6 @@ services:
     ports:
       - target: 80
         published: '19833'
-        protocol: tcp
-      - target: 17533
-        published: '48333'
         protocol: tcp
     restart: unless-stopped
     command:
@@ -28,6 +25,6 @@ x-casaos:
     en_US: E2E legacy-previous-base-versioned-cache-miss ports cartesian-add-add single main-to-main
     zh_CN: E2E legacy-previous-base-versioned-cache-miss ports cartesian-add-add single main-to-main
   port_map: '19833'
-  version: 1.1.0
+  version: 1.0.0
   scheme: http
   index: /

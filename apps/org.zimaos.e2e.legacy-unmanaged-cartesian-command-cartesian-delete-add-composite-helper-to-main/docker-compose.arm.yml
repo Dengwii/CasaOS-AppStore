@@ -1,11 +1,11 @@
 name: zimaos-e2e-legacy-unmanaged-cartesian-command-cartesian-delete-add-composite-helper-to-main
 services:
   web:
-    image: traefik/whoami:v1.11.0@sha256:9564f83910c98c3bea640803d8014b5c586b4bd556906d1afab21c7e7f1e4d4c
+    image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
     container_name: zimaos-e2e-legacy-unmanaged-cartesian-command-cartesian-delete-add-composite-helper-to-main-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260922115813-1453972-update-legacy-unmanaged-cartesian-command-cartesian-delete-add-composite-helper-to-main
+      ZIMAOS_E2E_BASELINE: 20260922123745-1463104-update-legacy-unmanaged-cartesian-command-cartesian-delete-add-composite-helper-to-main
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base
@@ -18,13 +18,12 @@ services:
     command:
       - --port=80
       - --name=baseline-local-main-0767
-      - --verbose=true
   helper:
     image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
     container_name: zimaos-e2e-legacy-unmanaged-cartesian-command-cartesian-delete-add-composite-helper-to-main-helper
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260922115813-1453972-update-legacy-unmanaged-cartesian-command-cartesian-delete-add-composite-helper-to-main-helper
+      ZIMAOS_E2E_BASELINE: 20260922123745-1463104-update-legacy-unmanaged-cartesian-command-cartesian-delete-add-composite-helper-to-main-helper
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base-helper
@@ -41,6 +40,6 @@ x-casaos:
     en_US: E2E legacy-unmanaged-cartesian command cartesian-delete-add composite helper-to-main
     zh_CN: E2E legacy-unmanaged-cartesian command cartesian-delete-add composite helper-to-main
   port_map: '18967'
-  version: 1.1.0
+  version: 1.0.0
   scheme: http
   index: /

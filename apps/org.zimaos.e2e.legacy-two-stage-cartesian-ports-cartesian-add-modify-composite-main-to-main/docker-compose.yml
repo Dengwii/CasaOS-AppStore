@@ -1,11 +1,11 @@
 name: zimaos-e2e-legacy-two-stage-cartesian-ports-cartesian-add-modify-composite-main-to-main
 services:
   web:
-    image: traefik/whoami:v1.11.0
+    image: traefik/whoami:v1.10.3
     container_name: zimaos-e2e-legacy-two-stage-cartesian-ports-cartesian-add-modify-composite-main-to-main-web
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260922115813-1453972-update-legacy-two-stage-cartesian-ports-cartesian-add-modify-composite-main-to-main
+      ZIMAOS_E2E_BASELINE: 20260922123745-1463104-update-legacy-two-stage-cartesian-ports-cartesian-add-modify-composite-main-to-main
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base
@@ -15,7 +15,7 @@ services:
         published: '19449'
         protocol: tcp
       - target: 15997
-        published: '44493'
+        published: '44492'
         protocol: tcp
     restart: unless-stopped
     command:
@@ -25,7 +25,7 @@ services:
     container_name: zimaos-e2e-legacy-two-stage-cartesian-ports-cartesian-add-modify-composite-main-to-main-helper
     network_mode: bridge
     environment:
-      ZIMAOS_E2E_BASELINE: 20260922115813-1453972-update-legacy-two-stage-cartesian-ports-cartesian-add-modify-composite-main-to-main-helper
+      ZIMAOS_E2E_BASELINE: 20260922123745-1463104-update-legacy-two-stage-cartesian-ports-cartesian-add-modify-composite-main-to-main-helper
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base-helper
@@ -45,6 +45,6 @@ x-casaos:
     en_US: E2E legacy-two-stage-cartesian ports cartesian-add-modify composite main-to-main
     zh_CN: E2E legacy-two-stage-cartesian ports cartesian-add-modify composite main-to-main
   port_map: '19449'
-  version: 1.1.0
+  version: 1.0.0
   scheme: http
   index: /
