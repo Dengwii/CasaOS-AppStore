@@ -1,11 +1,12 @@
 name: zimaos-e2e-legacy-unmanaged-cartesian-environment-cartesian-add-add-composite-main-to-main
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-legacy-unmanaged-cartesian-environment-cartesian-add-add-composite-main-to-main-web
     network_mode: bridge
     environment:
       ZIMAOS_E2E_BASELINE: 20260922060339-1373243-update-legacy-unmanaged-cartesian-environment-cartesian-add-add-composite-main-to-main
+      E2E_CART_0541_MAIN_UPSTREAM: upstream
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base
@@ -38,6 +39,6 @@ x-casaos:
     en_US: E2E legacy-unmanaged-cartesian environment cartesian-add-add composite main-to-main
     zh_CN: E2E legacy-unmanaged-cartesian environment cartesian-add-add composite main-to-main
   port_map: '18741'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /

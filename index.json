@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-22T06:08:15Z",
+  "updated_at": "2026-09-22T06:13:25Z",
   "app_count": 179,
   "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
   "apps": [
@@ -3786,8 +3786,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-add-add-composite-main-to-main/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-add-add-composite-main-to-main/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-add-add-composite-main-to-main/meta.json",
-      "content_hash": "d47f2e63",
-      "version": "1.0.0"
+      "content_hash": "186220a8",
+      "version": "1.1.0"
     }
   ]
 }
