@@ -45,7 +45,7 @@ services:
 x-casaos:
   id: org.icewhale.embynvidia
   main: emby
-  icon: https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages/apps/org.icewhale.embynvidia/assets/icon.svg
+  icon: https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages/apps/org.icewhale.embynvidia/assets/icon.svg
   title:
     en_US: Emby(Nvidia GPU)
   index: /

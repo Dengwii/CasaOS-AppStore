@@ -21,7 +21,7 @@
   "docs": "https://github.com/libredb/libredb-studio/tree/main/docs",
   "title": "LibreDB Studio",
   "release_note": "Updated to LibreDB Studio 0.13.7 and switched to the official Docker Hub image.",
-  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "id": "org.icewhale.libredbstudio",
   "version": "0.13.7",
   "categories": [

@@ -22,7 +22,7 @@
   "docs": "https://support.emby.media/support/",
   "title": "Emby",
   "release_note": "- The linuxserver/emby 4.9.5 Docker image tag was published on Docker Hub on 2026-05-18.\n- This updates the app from the 4.9.1 image line to the 4.9.5 image line.\n- No per-tag release notes were published in linuxserver/docker-emby; validate the Web UI after upgrading.",
-  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "id": "org.icewhale.emby",
   "version": "4.9.5",
   "categories": [

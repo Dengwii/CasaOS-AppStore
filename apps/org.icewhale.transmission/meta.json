@@ -24,7 +24,7 @@
   "docs": "https://github.com/transmission/transmission/blob/main/docs/README.md",
   "title": "Transmission",
   "release_note": "- 4.1.1 is a bugfix release after the 4.1.0 feature cycle.\n- Fixes more than 20 issues and includes performance improvements.\n- Recommended by upstream for all users on the 4.1.x line.",
-  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "id": "org.icewhale.transmission",
   "version": "4.1.1",
   "categories": [

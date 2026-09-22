@@ -18,7 +18,7 @@
   "docs": "",
   "title": "FileDrop",
   "release_note": "",
-  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "id": "org.icewhale.filedrop",
   "version": "1.0.1",
   "categories": [

@@ -24,7 +24,7 @@
   "docs": "https://support.plex.tv",
   "title": "Plex",
   "release_note": "- Updates the LinuxServer Plex image to the 1.43.2 release line.\n- Includes upstream LinuxServer image refreshes and CI-tested container updates.\n- Pulls in Plex Media Server fixes from the 1.43.2 release stream.",
-  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "id": "org.icewhale.plex",
   "version": "1.43.2",
   "categories": [

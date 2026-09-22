@@ -20,7 +20,7 @@
   "docs": "https://docs.clumoove.com",
   "title": "Clumoove",
   "release_note": "- Fixes S3 multipart uploads failing with HTTP 500 InternalError during UploadPart on Railway Storage Buckets (Tigris), MinIO, and other S3-compatible providers.",
-  "base_url": "https://cdn.jsdelivr.net/gh/Dengwii/CasaOS-AppStore@gh-pages",
+  "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "id": "org.clumoove.app",
   "version": "0.17.0",
   "categories": [
