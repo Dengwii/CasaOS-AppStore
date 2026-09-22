@@ -701,6 +701,11 @@
     {
       "id": "org.icewhale.ztnet",
       "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-cross-environment-add-same-composite-helper-to-helper",
+      "title": "E2E native-composite-cross environment add-same composite helper-to-helper",
+      "tagline": "单PHP文件的数据库管理工具"
     }
   ]
 }
