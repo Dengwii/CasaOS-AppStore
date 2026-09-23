@@ -1,0 +1,45 @@
+name: zimaos-e2e-native-composite-update-scope-command-image-main-and-helper-config-main-and-helper
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-native-composite-update-scope-command-image-main-and-helper-config-main-and-helper-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260923192050-1779572-update-native-composite-update-scope-command-image-main-and-helper-config-main-and-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '20026'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+      - --name=baseline-main
+  helper:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-native-composite-update-scope-command-image-main-and-helper-config-main-and-helper-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260923192050-1779572-update-native-composite-update-scope-command-image-main-and-helper-config-main-and-helper-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+    restart: unless-stopped
+    command:
+      - --port=80
+      - --name=baseline-helper
+x-casaos:
+  id: org.zimaos.e2e.native-composite-update-scope-command-image-main-and-helper-config-main-and-helper
+  main: web
+  icon: https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages/apps/org.zimaos.e2e.native-composite-update-scope-command-image-main-and-helper-config-main-and-helper/assets/icon.svg
+  title:
+    en_US: E2E Update Scope command image-main-and-helper config-main-and-helper
+    zh_CN: E2E Update Scope command image-main-and-helper config-main-and-helper
+  port_map: '20026'
+  version: 1.0.0
+  scheme: http
+  index: /

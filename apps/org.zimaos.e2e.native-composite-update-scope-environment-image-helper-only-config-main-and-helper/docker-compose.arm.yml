@@ -1,0 +1,47 @@
+name: zimaos-e2e-native-composite-update-scope-environment-image-helper-only-config-main-and-helper
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
+    container_name: zimaos-e2e-native-composite-update-scope-environment-image-helper-only-config-main-and-helper-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260923192050-1779572-update-native-composite-update-scope-environment-image-helper-only-config-main-and-helper
+      E2E_CASE_1796_MAIN_A: baseline-a
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '19996'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+  helper:
+    image: alpine:3.20@sha256:37753b2965043543542cd9d48cba044151052ca14fa72e6cbec4edf2a1490599
+    container_name: zimaos-e2e-native-composite-update-scope-environment-image-helper-only-config-main-and-helper-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260923192050-1779572-update-native-composite-update-scope-environment-image-helper-only-config-main-and-helper-helper
+      E2E_CASE_1796_HELPER_A: baseline-a
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+    restart: unless-stopped
+    command:
+      - sh
+      - -c
+      - while true; do sleep 3600; done
+x-casaos:
+  id: org.zimaos.e2e.native-composite-update-scope-environment-image-helper-only-config-main-and-helper
+  main: web
+  icon: https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages/apps/org.zimaos.e2e.native-composite-update-scope-environment-image-helper-only-config-main-and-helper/assets/icon.svg
+  title:
+    en_US: E2E Update Scope environment image-helper-only config-main-and-helper
+    zh_CN: E2E Update Scope environment image-helper-only config-main-and-helper
+  port_map: '19996'
+  version: 1.0.0
+  scheme: http
+  index: /

@@ -1,0 +1,45 @@
+name: zimaos-e2e-native-composite-update-scope-command-image-main-only-config-main-only
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-native-composite-update-scope-command-image-main-only-config-main-only-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260923192050-1779572-update-native-composite-update-scope-command-image-main-only-config-main-only
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '20018'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+      - --name=baseline-main
+  helper:
+    image: traefik/whoami:v1.10.3@sha256:7865582efaa90720f146cbdb411756b5e85dafcb0f608396a48c4d2d0b1218ad
+    container_name: zimaos-e2e-native-composite-update-scope-command-image-main-only-config-main-only-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260923192050-1779572-update-native-composite-update-scope-command-image-main-only-config-main-only-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+    restart: unless-stopped
+    command:
+      - --port=80
+      - --name=baseline-helper
+x-casaos:
+  id: org.zimaos.e2e.native-composite-update-scope-command-image-main-only-config-main-only
+  main: web
+  icon: https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages/apps/org.zimaos.e2e.native-composite-update-scope-command-image-main-only-config-main-only/assets/icon.svg
+  title:
+    en_US: E2E Update Scope command image-main-only config-main-only
+    zh_CN: E2E Update Scope command image-main-only config-main-only
+  port_map: '20018'
+  version: 1.0.0
+  scheme: http
+  index: /
