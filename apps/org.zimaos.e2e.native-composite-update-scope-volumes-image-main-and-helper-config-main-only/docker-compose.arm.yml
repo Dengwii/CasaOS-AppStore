@@ -1,7 +1,7 @@
 name: zimaos-e2e-native-composite-update-scope-volumes-image-main-and-helper-config-main-only
 services:
   web:
-    image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
+    image: traefik/whoami:v1.11.0@sha256:9564f83910c98c3bea640803d8014b5c586b4bd556906d1afab21c7e7f1e4d4c
     container_name: zimaos-e2e-native-composite-update-scope-volumes-image-main-and-helper-config-main-only-web
     network_mode: bridge
     environment:
@@ -11,7 +11,7 @@ services:
         source: /DATA/AppData/$AppID/e2e-base
         target: /e2e-base
       - type: bind
-        source: /DATA/AppData/zimaos-e2e-native-composite-update-scope-volumes-image-main-and-helper-config-main-only/case-base-a
+        source: /DATA/AppData/zimaos-e2e-native-composite-update-scope-volumes-image-main-and-helper-config-main-only/case-upstream-a
         target: /e2e-case-a
     ports:
       - target: 80
@@ -21,7 +21,7 @@ services:
     command:
       - --port=80
   helper:
-    image: alpine:3.20@sha256:37753b2965043543542cd9d48cba044151052ca14fa72e6cbec4edf2a1490599
+    image: alpine:3.21@sha256:63a197f77bb6d7db9c3c5f8bd52f277059bcc1386a27c8e0aca9205fafd02253
     container_name: zimaos-e2e-native-composite-update-scope-volumes-image-main-and-helper-config-main-only-helper
     network_mode: bridge
     environment:
@@ -46,6 +46,6 @@ x-casaos:
     en_US: E2E Update Scope volumes image-main-and-helper config-main-only
     zh_CN: E2E Update Scope volumes image-main-and-helper config-main-only
   port_map: '20015'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /

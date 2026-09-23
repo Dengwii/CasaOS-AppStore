@@ -6,7 +6,7 @@ services:
     network_mode: bridge
     environment:
       ZIMAOS_E2E_BASELINE: 20260923192050-1779572-update-native-composite-update-scope-environment-image-helper-only-config-main-and-helper
-      E2E_CASE_1796_MAIN_A: baseline-a
+      E2E_CASE_1796_MAIN_A: upstream-a
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base
@@ -19,12 +19,12 @@ services:
     command:
       - --port=80
   helper:
-    image: alpine:3.20@sha256:c64c687cbea9300178b30c95835354e34c4e4febc4badfe27102879de0483b5e
+    image: alpine:3.21@sha256:3c81aa9a3d770b316568f4499e30461a5cd3fbd7180bd89e28e34894c7845832
     container_name: zimaos-e2e-native-composite-update-scope-environment-image-helper-only-config-main-and-helper-helper
     network_mode: bridge
     environment:
       ZIMAOS_E2E_BASELINE: 20260923192050-1779572-update-native-composite-update-scope-environment-image-helper-only-config-main-and-helper-helper
-      E2E_CASE_1796_HELPER_A: baseline-a
+      E2E_CASE_1796_HELPER_A: upstream-a
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base-helper
@@ -42,6 +42,6 @@ x-casaos:
     en_US: E2E Update Scope environment image-helper-only config-main-and-helper
     zh_CN: E2E Update Scope environment image-helper-only config-main-and-helper
   port_map: '19996'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /
