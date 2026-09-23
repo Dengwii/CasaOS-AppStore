@@ -701,61 +701,6 @@
     {
       "id": "org.icewhale.ztnet",
       "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
-    },
-    {
-      "id": "org.zimaos.e2e.image-composite",
-      "title": "E2E Image Composite",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.image-composite-both",
-      "title": "E2E Image Composite Main And Helper",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.image-composite-main",
-      "title": "E2E Image Composite Main Only",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.image-single",
-      "title": "E2E Image Single",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-ports-cartesian-add-add-single-main-to-main",
-      "title": "E2E legacy-previous-base-versioned-cache-miss ports cartesian-add-add single main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-unchanged-single-main-to-main",
-      "title": "E2E legacy-previous-base-versioned-cache-miss restart cartesian-add-unchanged single main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-volumes-cartesian-add-add-single-main-to-main",
-      "title": "E2E legacy-previous-base-versioned-cache-miss volumes cartesian-add-add single main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main",
-      "title": "E2E legacy-two-stage-edit environment local-modify-upstream-unchanged single main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.manage-composite",
-      "title": "E2E Manage Composite",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.manage-single",
-      "title": "E2E Manage Single",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.native-composite-cross-restart-add-different-composite-helper-to-main",
-      "title": "E2E native-composite-cross restart add-different composite helper-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
     }
   ]
 }
