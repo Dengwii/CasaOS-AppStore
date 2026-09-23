@@ -1,0 +1,49 @@
+name: zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main
+services:
+  web:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260923205535-1808238-update-legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main/cart-baseline-local
+        target: /e2e-cart-0699-local
+    ports:
+      - target: 80
+        published: '18899'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+  helper:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260923205535-1808238-update-legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main/cart-baseline-local-helper
+        target: /e2e-cart-0699-local-helper
+    restart: unless-stopped
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main
+  main: web
+  icon: https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main/assets/icon.svg
+  title:
+    en_US: E2E legacy-unmanaged-cartesian volumes cartesian-modify-unchanged composite helper-to-main
+    zh_CN: E2E legacy-unmanaged-cartesian volumes cartesian-modify-unchanged composite helper-to-main
+  port_map: '18899'
+  version: 1.0.0
+  scheme: http
+  index: /

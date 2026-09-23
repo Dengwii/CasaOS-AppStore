@@ -701,6 +701,516 @@
     {
       "id": "org.icewhale.ztnet",
       "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-edit-save-no-change-environment-local-modify-upstream-unchanged-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-edit-save-no-change environment local-modify-upstream-unchanged single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-managed-cartesian-command-cartesian-unchanged-add-composite-helper-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-managed-cartesian command cartesian-unchanged-add composite helper-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-managed-cartesian-environment-cartesian-delete-add-composite-helper-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-managed-cartesian environment cartesian-delete-add composite helper-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-managed-cartesian-ports-cartesian-modify-add-composite-helper-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-managed-cartesian ports cartesian-modify-add composite helper-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-managed-cartesian-ports-cartesian-modify-modify-composite-helper-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-managed-cartesian ports cartesian-modify-modify composite helper-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-managed-cartesian-restart-cartesian-delete-modify-composite-main-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-managed-cartesian restart cartesian-delete-modify composite main-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-managed-cartesian-volumes-cartesian-add-delete-composite-helper-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-managed-cartesian volumes cartesian-add-delete composite helper-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-managed-cartesian-volumes-cartesian-unchanged-unchanged-composite-helper-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-managed-cartesian volumes cartesian-unchanged-unchanged composite helper-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-add-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-no-edit-direct environment local-unchanged-upstream-add single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-delete-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-no-edit-direct environment local-unchanged-upstream-delete single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-exact-history-ports-cartesian-add-unchanged-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-exact-history ports cartesian-add-unchanged single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-exact-history-volumes-cartesian-add-delete-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-exact-history volumes cartesian-add-delete single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-command-cartesian-modify-delete-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-versioned-cache-miss command cartesian-modify-delete single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-environment-cartesian-add-add-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-versioned-cache-miss environment cartesian-add-add single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-environment-cartesian-modify-modify-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-versioned-cache-miss environment cartesian-modify-modify single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-ports-cartesian-add-modify-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-versioned-cache-miss ports cartesian-add-modify single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-add-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-versioned-cache-miss restart cartesian-add-add single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-volumes-cartesian-add-add-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-versioned-cache-miss volumes cartesian-add-add single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-command-cartesian-add-unchanged-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-versionless-target command cartesian-add-unchanged single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-environment-cartesian-add-add-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-versionless-target environment cartesian-add-add single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-environment-cartesian-delete-add-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-versionless-target environment cartesian-delete-add single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-ports-cartesian-add-add-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-versionless-target ports cartesian-add-add single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-modify-delete-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-versionless-target restart cartesian-modify-delete single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-volumes-cartesian-add-add-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-previous-base-versionless-target volumes cartesian-add-add single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-command-cartesian-delete-delete-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-cartesian command cartesian-delete-delete composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-environment-cartesian-modify-delete-composite-helper-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-cartesian environment cartesian-modify-delete composite helper-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-environment-cartesian-modify-modify-composite-helper-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-cartesian environment cartesian-modify-modify composite helper-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-add-unchanged-composite-main-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-cartesian ports cartesian-add-unchanged composite main-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-restart-cartesian-modify-delete-composite-helper-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-cartesian restart cartesian-modify-delete composite helper-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-volumes-cartesian-add-add-composite-main-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-cartesian volumes cartesian-add-add composite main-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-volumes-cartesian-unchanged-modify-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-cartesian volumes cartesian-unchanged-modify composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-edit environment local-modify-upstream-unchanged single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-add-modify-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian command cartesian-add-modify composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-unchanged-add-composite-helper-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian command cartesian-unchanged-add composite helper-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-unchanged-delete-composite-main-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian command cartesian-unchanged-delete composite main-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-delete-add-composite-helper-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian environment cartesian-delete-add composite helper-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-delete-delete-composite-helper-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian environment cartesian-delete-delete composite helper-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-environment-cartesian-unchanged-unchanged-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian environment cartesian-unchanged-unchanged composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-delete-unchanged-composite-helper-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian ports cartesian-delete-unchanged composite helper-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-modify-delete-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian ports cartesian-modify-delete composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-ports-cartesian-unchanged-delete-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian ports cartesian-unchanged-delete composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-delete-unchanged-composite-helper-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian restart cartesian-delete-unchanged composite helper-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-delete-unchanged-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian restart cartesian-delete-unchanged composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-restart-cartesian-unchanged-modify-composite-helper-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian restart cartesian-unchanged-modify composite helper-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-add-unchanged-composite-main-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian volumes cartesian-add-unchanged composite main-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-delete-add-composite-helper-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian volumes cartesian-delete-add composite helper-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-modify-unchanged-composite-helper-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian volumes cartesian-modify-unchanged composite helper-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-cartesian-volumes-cartesian-unchanged-modify-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged-cartesian volumes cartesian-unchanged-modify composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-unmanaged-restart-local-unchanged-upstream-add-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-unmanaged restart local-unchanged-upstream-add single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-cross-command-add-same-composite-helper-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E native-composite-cross command add-same composite helper-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-cross-ports-local-unchanged-upstream-modify-composite-helper-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E native-composite-cross ports local-unchanged-upstream-modify composite helper-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-cross-restart-add-same-composite-helper-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E native-composite-cross restart add-same composite helper-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-cross-restart-local-unchanged-upstream-add-composite-helper-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E native-composite-cross restart local-unchanged-upstream-add composite helper-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-command-image-helper-only-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope command image-helper-only config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-command-image-helper-only-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope command image-helper-only config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-command-image-helper-only-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope command image-helper-only config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-command-image-main-and-helper-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope command image-main-and-helper config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-command-image-main-and-helper-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope command image-main-and-helper config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-command-image-main-and-helper-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope command image-main-and-helper config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-command-image-main-only-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope command image-main-only config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-command-image-main-only-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope command image-main-only config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-command-image-main-only-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope command image-main-only config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-environment-image-helper-only-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope environment image-helper-only config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-environment-image-helper-only-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope environment image-helper-only config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-environment-image-helper-only-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope environment image-helper-only config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-environment-image-main-and-helper-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope environment image-main-and-helper config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-environment-image-main-and-helper-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope environment image-main-and-helper config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-environment-image-main-and-helper-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope environment image-main-and-helper config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope environment image-main-only config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope environment image-main-only config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope environment image-main-only config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-ports-image-helper-only-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope ports image-helper-only config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-ports-image-helper-only-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope ports image-helper-only config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-ports-image-helper-only-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope ports image-helper-only config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-ports-image-main-and-helper-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope ports image-main-and-helper config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-ports-image-main-and-helper-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope ports image-main-and-helper config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-ports-image-main-and-helper-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope ports image-main-and-helper config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-ports-image-main-only-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope ports image-main-only config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-ports-image-main-only-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope ports image-main-only config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-ports-image-main-only-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope ports image-main-only config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-restart-image-helper-only-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope restart image-helper-only config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-restart-image-helper-only-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope restart image-helper-only config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-restart-image-helper-only-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope restart image-helper-only config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-restart-image-main-and-helper-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope restart image-main-and-helper config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-restart-image-main-and-helper-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope restart image-main-and-helper config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-restart-image-main-and-helper-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope restart image-main-and-helper config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-restart-image-main-only-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope restart image-main-only config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-restart-image-main-only-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope restart image-main-only config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-restart-image-main-only-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope restart image-main-only config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-volumes-image-helper-only-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope volumes image-helper-only config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-volumes-image-helper-only-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope volumes image-helper-only config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-volumes-image-helper-only-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope volumes image-helper-only config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-volumes-image-main-and-helper-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope volumes image-main-and-helper config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-volumes-image-main-and-helper-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope volumes image-main-and-helper config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-volumes-image-main-and-helper-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope volumes image-main-and-helper config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-volumes-image-main-only-config-helper-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope volumes image-main-only config-helper-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-volumes-image-main-only-config-main-and-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope volumes image-main-only config-main-and-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-volumes-image-main-only-config-main-only",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E Update Scope volumes image-main-only config-main-only"
+    },
+    {
+      "id": "org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-add-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E native-direct environment local-unchanged-upstream-add composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-add-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E native-direct environment local-unchanged-upstream-add single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.native-save-no-change-environment-local-unchanged-upstream-add-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E native-save-no-change environment local-unchanged-upstream-add single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E native-two-stage-edit environment local-modify-upstream-unchanged single main-to-main"
     }
   ]
 }
