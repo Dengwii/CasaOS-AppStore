@@ -1,7 +1,7 @@
 name: zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-delete-add-composite-helper-to-helper
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-delete-add-composite-helper-to-helper-web
     network_mode: bridge
     environment:
@@ -33,6 +33,9 @@ services:
       - type: bind
         source: /DATA/AppData/zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-delete-add-composite-helper-to-helper/cart-baseline-local-helper
         target: /e2e-cart-0704-local-helper
+      - type: bind
+        source: /DATA/AppData/zimaos-e2e-legacy-unmanaged-cartesian-volumes-cartesian-delete-add-composite-helper-to-helper/cart-upstream-helper
+        target: /e2e-cart-0704-upstream-helper
     restart: unless-stopped
     command:
       - --port=80
@@ -44,6 +47,6 @@ x-casaos:
     en_US: E2E legacy-unmanaged-cartesian volumes cartesian-delete-add composite helper-to-helper
     zh_CN: E2E legacy-unmanaged-cartesian volumes cartesian-delete-add composite helper-to-helper
   port_map: '18904'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /

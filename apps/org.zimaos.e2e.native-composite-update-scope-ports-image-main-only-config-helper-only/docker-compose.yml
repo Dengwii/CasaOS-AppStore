@@ -1,7 +1,7 @@
 name: zimaos-e2e-native-composite-update-scope-ports-image-main-only-config-helper-only
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-native-composite-update-scope-ports-image-main-only-config-helper-only-web
     network_mode: bridge
     environment:
@@ -37,7 +37,7 @@ services:
       - while true; do sleep 3600; done
     ports:
       - target: 17206
-        published: '44412'
+        published: '44415'
         protocol: tcp
 x-casaos:
   id: org.zimaos.e2e.native-composite-update-scope-ports-image-main-only-config-helper-only
@@ -47,6 +47,6 @@ x-casaos:
     en_US: E2E Update Scope ports image-main-only config-helper-only
     zh_CN: E2E Update Scope ports image-main-only config-helper-only
   port_map: '20001'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /

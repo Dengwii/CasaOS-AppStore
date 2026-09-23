@@ -11,7 +11,7 @@ services:
         source: /DATA/AppData/$AppID/e2e-base
         target: /e2e-base
       - type: bind
-        source: /DATA/AppData/zimaos-e2e-native-composite-update-scope-volumes-image-helper-only-config-main-and-helper/case-base-a
+        source: /DATA/AppData/zimaos-e2e-native-composite-update-scope-volumes-image-helper-only-config-main-and-helper/case-upstream-a
         target: /e2e-case-a
     ports:
       - target: 80
@@ -21,7 +21,7 @@ services:
     command:
       - --port=80
   helper:
-    image: alpine:3.20@sha256:37753b2965043543542cd9d48cba044151052ca14fa72e6cbec4edf2a1490599
+    image: alpine:3.21@sha256:63a197f77bb6d7db9c3c5f8bd52f277059bcc1386a27c8e0aca9205fafd02253
     container_name: zimaos-e2e-native-composite-update-scope-volumes-image-helper-only-config-main-and-helper-helper
     network_mode: bridge
     environment:
@@ -31,7 +31,7 @@ services:
         source: /DATA/AppData/$AppID/e2e-base-helper
         target: /e2e-base-helper
       - type: bind
-        source: /DATA/AppData/zimaos-e2e-native-composite-update-scope-volumes-image-helper-only-config-main-and-helper/case-base-a-helper
+        source: /DATA/AppData/zimaos-e2e-native-composite-update-scope-volumes-image-helper-only-config-main-and-helper/case-upstream-a-helper
         target: /e2e-case-a-helper
     restart: unless-stopped
     command:
@@ -46,6 +46,6 @@ x-casaos:
     en_US: E2E Update Scope volumes image-helper-only config-main-and-helper
     zh_CN: E2E Update Scope volumes image-helper-only config-main-and-helper
   port_map: '20014'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /
