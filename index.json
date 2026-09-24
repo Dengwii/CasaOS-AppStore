@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-09-24T07:03:14Z",
-  "app_count": 178,
+  "updated_at": "2026-09-24T07:11:18Z",
+  "app_count": 180,
   "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "apps": [
     {
@@ -3766,6 +3766,50 @@
       "meta_url": "/apps/org.icewhale.ztnet/meta.json",
       "content_hash": "368ba8ea",
       "version": "0.7.18"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-modify-unchanged-single-main-to-main",
+      "title": "E2E legacy-previous-base-versioned-cache-miss restart cartesian-modify-unchanged single main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-modify-unchanged-single-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-modify-unchanged-single-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-modify-unchanged-single-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-modify-unchanged-single-main-to-main/meta.json",
+      "content_hash": "4e9d1043",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-delete-unchanged-single-main-to-main",
+      "title": "E2E legacy-previous-base-versionless-target restart cartesian-delete-unchanged single main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-delete-unchanged-single-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-delete-unchanged-single-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-delete-unchanged-single-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-delete-unchanged-single-main-to-main/meta.json",
+      "content_hash": "4a0b8162",
+      "version": "1.0.0"
     }
   ]
 }
