@@ -1,0 +1,35 @@
+name: zimaos-e2e-manage-single
+services:
+  web:
+    image: traefik/whoami:v1.10.3@sha256:f1c59fb1677f4711290c320d288e182adad7b84326d71cf5fb883893b07cd23d
+    container_name: zimaos-e2e-manage-single-web
+    restart: unless-stopped
+    ports:
+      - target: 80
+        published: '18103'
+        protocol: tcp
+    environment:
+      ZIMAOS_E2E_BASELINE: 20260924020714-1912184-manage-single
+      E2E_SHARED: baseline
+      E2E_LOCAL_DELETE_UPSTREAM_MODIFY: baseline
+      E2E_LOCAL_KEEP_UPSTREAM_DELETE: baseline
+      E2E_LOCAL_EMPTY_UPSTREAM_VALUE: baseline
+      E2E_LOCAL_VALUE_UPSTREAM_EMPTY: baseline
+      E2E_BOTH_EMPTY: baseline
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.manage-single
+  main: web
+  icon: https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages/apps/org.zimaos.e2e.manage-single/assets/icon.svg
+  title:
+    en_US: E2E Manage Single
+    zh_CN: E2E Manage Single
+  port_map: '18103'
+  version: 1.0.0
+  scheme: http
+  index: /
