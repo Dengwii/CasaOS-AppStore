@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-09-24T00:45:29Z",
-  "app_count": 178,
+  "updated_at": "2026-09-24T00:53:24Z",
+  "app_count": 194,
   "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "apps": [
     {
@@ -3766,6 +3766,358 @@
       "meta_url": "/apps/org.icewhale.ztnet/meta.json",
       "content_hash": "55e8a942",
       "version": "0.7.18"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-edit-save-no-change-environment-local-modify-upstream-unchanged-single-main-to-main",
+      "title": "E2E legacy-edit-save-no-change environment local-modify-upstream-unchanged single main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.legacy-edit-save-no-change-environment-local-modify-upstream-unchanged-single-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.legacy-edit-save-no-change-environment-local-modify-upstream-unchanged-single-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.legacy-edit-save-no-change-environment-local-modify-upstream-unchanged-single-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.legacy-edit-save-no-change-environment-local-modify-upstream-unchanged-single-main-to-main/meta.json",
+      "content_hash": "516747a9",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-add-single-main-to-main",
+      "title": "E2E legacy-no-edit-direct environment local-unchanged-upstream-add single main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-add-single-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-add-single-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-add-single-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-add-single-main-to-main/meta.json",
+      "content_hash": "2d254b69",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-delete-single-main-to-main",
+      "title": "E2E legacy-no-edit-direct environment local-unchanged-upstream-delete single main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-delete-single-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-delete-single-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-delete-single-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.legacy-no-edit-direct-environment-local-unchanged-upstream-delete-single-main-to-main/meta.json",
+      "content_hash": "13f14ed1",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-command-cartesian-modify-delete-single-main-to-main",
+      "title": "E2E legacy-previous-base-versioned-cache-miss command cartesian-modify-delete single main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-command-cartesian-modify-delete-single-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-command-cartesian-modify-delete-single-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-command-cartesian-modify-delete-single-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-command-cartesian-modify-delete-single-main-to-main/meta.json",
+      "content_hash": "fe2e3a8b",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-ports-cartesian-add-modify-single-main-to-main",
+      "title": "E2E legacy-previous-base-versioned-cache-miss ports cartesian-add-modify single main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-ports-cartesian-add-modify-single-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-ports-cartesian-add-modify-single-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-ports-cartesian-add-modify-single-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-ports-cartesian-add-modify-single-main-to-main/meta.json",
+      "content_hash": "4e448d03",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-add-single-main-to-main",
+      "title": "E2E legacy-previous-base-versioned-cache-miss restart cartesian-add-add single main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-add-single-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-add-single-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-add-single-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-restart-cartesian-add-add-single-main-to-main/meta.json",
+      "content_hash": "abfde8f2",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-volumes-cartesian-add-add-single-main-to-main",
+      "title": "E2E legacy-previous-base-versioned-cache-miss volumes cartesian-add-add single main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-volumes-cartesian-add-add-single-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-volumes-cartesian-add-add-single-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-volumes-cartesian-add-add-single-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.legacy-previous-base-versioned-cache-miss-volumes-cartesian-add-add-single-main-to-main/meta.json",
+      "content_hash": "2e267b20",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-add-unchanged-composite-main-to-helper",
+      "title": "E2E legacy-two-stage-cartesian ports cartesian-add-unchanged composite main-to-helper",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-add-unchanged-composite-main-to-helper/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-add-unchanged-composite-main-to-helper/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-add-unchanged-composite-main-to-helper/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-add-unchanged-composite-main-to-helper/meta.json",
+      "content_hash": "b9281cf6",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main",
+      "title": "E2E legacy-two-stage-edit environment local-modify-upstream-unchanged single main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/meta.json",
+      "content_hash": "6ba98ca3",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-helper-only",
+      "title": "E2E Update Scope environment image-main-only config-helper-only",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-helper-only/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-helper-only/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-helper-only/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-helper-only/meta.json",
+      "content_hash": "fe41a321",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-main-and-helper",
+      "title": "E2E Update Scope environment image-main-only config-main-and-helper",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-main-and-helper/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-main-and-helper/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-main-and-helper/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-main-and-helper/meta.json",
+      "content_hash": "3c5f60df",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-main-only",
+      "title": "E2E Update Scope environment image-main-only config-main-only",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-main-only/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-main-only/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-main-only/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-main-only/meta.json",
+      "content_hash": "58415058",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-add-composite-main-to-main",
+      "title": "E2E native-direct environment local-unchanged-upstream-add composite main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-add-composite-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-add-composite-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-add-composite-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-add-composite-main-to-main/meta.json",
+      "content_hash": "edb31054",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-add-single-main-to-main",
+      "title": "E2E native-direct environment local-unchanged-upstream-add single main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-add-single-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-add-single-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-add-single-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.native-direct-environment-local-unchanged-upstream-add-single-main-to-main/meta.json",
+      "content_hash": "c6633851",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.native-save-no-change-environment-local-unchanged-upstream-add-single-main-to-main",
+      "title": "E2E native-save-no-change environment local-unchanged-upstream-add single main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.native-save-no-change-environment-local-unchanged-upstream-add-single-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.native-save-no-change-environment-local-unchanged-upstream-add-single-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.native-save-no-change-environment-local-unchanged-upstream-add-single-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.native-save-no-change-environment-local-unchanged-upstream-add-single-main-to-main/meta.json",
+      "content_hash": "64d2384b",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main",
+      "title": "E2E native-two-stage-edit environment local-modify-upstream-unchanged single main-to-main",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main/meta.json",
+      "content_hash": "4e3445b3",
+      "version": "1.0.0"
     }
   ]
 }
