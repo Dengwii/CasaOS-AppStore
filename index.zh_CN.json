@@ -701,36 +701,6 @@
     {
       "id": "org.icewhale.ztnet",
       "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
-    },
-    {
-      "id": "org.zimaos.e2e.image-composite",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Image Composite"
-    },
-    {
-      "id": "org.zimaos.e2e.image-composite-both",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Image Composite Main And Helper"
-    },
-    {
-      "id": "org.zimaos.e2e.image-composite-main",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Image Composite Main Only"
-    },
-    {
-      "id": "org.zimaos.e2e.image-single",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Image Single"
-    },
-    {
-      "id": "org.zimaos.e2e.manage-composite",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Manage Composite"
-    },
-    {
-      "id": "org.zimaos.e2e.manage-single",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Manage Single"
     }
   ]
 }
