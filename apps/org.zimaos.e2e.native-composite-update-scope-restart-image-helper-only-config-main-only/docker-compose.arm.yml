@@ -16,9 +16,9 @@ services:
         protocol: tcp
     command:
       - --port=80
-    restart: unless-stopped
+    restart: always
   helper:
-    image: alpine:3.20@sha256:37753b2965043543542cd9d48cba044151052ca14fa72e6cbec4edf2a1490599
+    image: alpine:3.21@sha256:63a197f77bb6d7db9c3c5f8bd52f277059bcc1386a27c8e0aca9205fafd02253
     container_name: zimaos-e2e-native-composite-update-scope-restart-image-helper-only-config-main-only-helper
     network_mode: bridge
     environment:
@@ -40,6 +40,6 @@ x-casaos:
     en_US: E2E Update Scope restart image-helper-only config-main-only
     zh_CN: E2E Update Scope restart image-helper-only config-main-only
   port_map: '20030'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /

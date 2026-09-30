@@ -1,7 +1,7 @@
 name: zimaos-e2e-legacy-managed-cartesian-ports-cartesian-modify-add-composite-helper-to-main
 services:
   web:
-    image: traefik/whoami:v1.10.3
+    image: traefik/whoami:v1.11.0
     container_name: zimaos-e2e-legacy-managed-cartesian-ports-cartesian-modify-add-composite-helper-to-main-web
     network_mode: bridge
     environment:
@@ -16,6 +16,9 @@ services:
         protocol: tcp
       - target: 14772
         published: '41430'
+        protocol: tcp
+      - target: 14773
+        published: '41433'
         protocol: tcp
     restart: unless-stopped
     command:
@@ -45,6 +48,6 @@ x-casaos:
     en_US: E2E legacy-managed-cartesian ports cartesian-modify-add composite helper-to-main
     zh_CN: E2E legacy-managed-cartesian ports cartesian-modify-add composite helper-to-main
   port_map: '19143'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /

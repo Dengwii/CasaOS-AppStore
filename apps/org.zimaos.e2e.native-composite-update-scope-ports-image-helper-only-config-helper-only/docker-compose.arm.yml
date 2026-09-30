@@ -21,7 +21,7 @@ services:
     command:
       - --port=80
   helper:
-    image: alpine:3.20@sha256:37753b2965043543542cd9d48cba044151052ca14fa72e6cbec4edf2a1490599
+    image: alpine:3.21@sha256:63a197f77bb6d7db9c3c5f8bd52f277059bcc1386a27c8e0aca9205fafd02253
     container_name: zimaos-e2e-native-composite-update-scope-ports-image-helper-only-config-helper-only-helper
     network_mode: bridge
     environment:
@@ -37,7 +37,7 @@ services:
       - while true; do sleep 3600; done
     ports:
       - target: 17218
-        published: '44436'
+        published: '44439'
         protocol: tcp
 x-casaos:
   id: org.zimaos.e2e.native-composite-update-scope-ports-image-helper-only-config-helper-only
@@ -47,6 +47,6 @@ x-casaos:
     en_US: E2E Update Scope ports image-helper-only config-helper-only
     zh_CN: E2E Update Scope ports image-helper-only config-helper-only
   port_map: '20004'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /
