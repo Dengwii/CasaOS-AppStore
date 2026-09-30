@@ -23,17 +23,17 @@
   "hostname": "10.0.9.9",
   "repo_id": "appstore-d-test",
   "title": "E2E Update Scope environment image-main-only config-main-only",
-  "release_note": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+  "release_note": "ZimaOS E2E temporary upgrade fixture: 1.0.0 to 1.1.0.",
   "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "id": "org.zimaos.e2e.native-composite-update-scope-environment-image-main-only-config-main-only",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "categories": [
     "developer"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 6482769,
-    "arm": 6050808,
-    "arm64": 6747653
+    "amd64": 6668564,
+    "arm": 6308736,
+    "arm64": 6903113
   }
 }
