@@ -701,36 +701,6 @@
     {
       "id": "org.icewhale.ztnet",
       "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-command-cartesian-add-unchanged-single-main-to-main.r3.p19800",
-      "title": "E2E legacy-previous-base-versionless-target command cartesian-add-unchanged single main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-environment-cartesian-add-add-single-main-to-main.r3.p19761",
-      "title": "E2E legacy-previous-base-versionless-target environment cartesian-add-add single main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-environment-cartesian-delete-add-single-main-to-main.r3.p19769",
-      "title": "E2E legacy-previous-base-versionless-target environment cartesian-delete-add single main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-ports-cartesian-add-add-single-main-to-main.r3.p19773",
-      "title": "E2E legacy-previous-base-versionless-target ports cartesian-add-add single main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-restart-cartesian-modify-delete-single-main-to-main.r3.p19815",
-      "title": "E2E legacy-previous-base-versionless-target restart cartesian-modify-delete single main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-previous-base-versionless-target-volumes-cartesian-add-add-single-main-to-main.r3.p19785",
-      "title": "E2E legacy-previous-base-versionless-target volumes cartesian-add-add single main-to-main",
-      "tagline": "单PHP文件的数据库管理工具"
     }
   ]
 }
