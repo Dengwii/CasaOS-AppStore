@@ -701,6 +701,71 @@
     {
       "id": "org.icewhale.ztnet",
       "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-edit-save-no-change-environment-local-modify-upstream-unchanged-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-edit-save-no-change environment local-modify-upstream-unchanged single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-managed-cartesian-restart-cartesian-delete-modify-composite-main-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-managed-cartesian restart cartesian-delete-modify composite main-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-managed-command-local-modify-upstream-unchanged-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-managed command local-modify-upstream-unchanged single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-managed-environment-modify-same-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-managed environment modify-same single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-command-cartesian-delete-delete-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-cartesian command cartesian-delete-delete composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-environment-cartesian-modify-modify-composite-helper-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-cartesian environment cartesian-modify-modify composite helper-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-ports-cartesian-add-unchanged-composite-main-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-cartesian ports cartesian-add-unchanged composite main-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-restart-cartesian-modify-delete-composite-helper-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-cartesian restart cartesian-modify-delete composite helper-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-volumes-cartesian-add-add-composite-main-to-helper",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-cartesian volumes cartesian-add-add composite main-to-helper"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-cartesian-volumes-cartesian-unchanged-modify-composite-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-cartesian volumes cartesian-unchanged-modify composite main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.legacy-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E legacy-two-stage-edit environment local-modify-upstream-unchanged single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.native-save-no-change-environment-local-unchanged-upstream-add-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E native-save-no-change environment local-unchanged-upstream-add single main-to-main"
+    },
+    {
+      "id": "org.zimaos.e2e.native-two-stage-edit-environment-local-modify-upstream-unchanged-single-main-to-main",
+      "tagline": "单PHP文件的数据库管理工具",
+      "title": "E2E native-two-stage-edit environment local-modify-upstream-unchanged single main-to-main"
     }
   ]
 }
