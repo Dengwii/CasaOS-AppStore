@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-09-30T15:40:44Z",
-  "app_count": 178,
+  "updated_at": "2026-10-01T13:34:53Z",
+  "app_count": 186,
   "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "apps": [
     {
@@ -3766,6 +3766,182 @@
       "meta_url": "/apps/org.icewhale.ztnet/meta.json",
       "content_hash": "7db63df4",
       "version": "0.7.18"
+    },
+    {
+      "id": "org.zimaos.e2e.image-composite",
+      "title": "E2E Image Composite",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.image-composite/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.image-composite/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.image-composite/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.image-composite/meta.json",
+      "content_hash": "3e4a9639",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.image-composite-both",
+      "title": "E2E Image Composite Main And Helper",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.image-composite-both/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.image-composite-both/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.image-composite-both/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.image-composite-both/meta.json",
+      "content_hash": "63c89539",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.image-composite-main",
+      "title": "E2E Image Composite Main Only",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.image-composite-main/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.image-composite-main/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.image-composite-main/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.image-composite-main/meta.json",
+      "content_hash": "81585887",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.image-single",
+      "title": "E2E Image Single",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.image-single/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.image-single/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.image-single/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.image-single/meta.json",
+      "content_hash": "a7a002ba",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.manage-composite",
+      "title": "E2E Manage Composite",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.manage-composite/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.manage-composite/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.manage-composite/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.manage-composite/meta.json",
+      "content_hash": "66e5d3b7",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.manage-single",
+      "title": "E2E Manage Single",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.manage-single/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.manage-single/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.manage-single/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.manage-single/meta.json",
+      "content_hash": "9f0e9157",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.update-list-fixed-same-versioned",
+      "title": "E2E Update List Fixed Same Versioned",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.update-list-fixed-same-versioned/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.update-list-fixed-same-versioned/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.update-list-fixed-same-versioned/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.update-list-fixed-same-versioned/meta.json",
+      "content_hash": "ec67ea0f",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.update-list-fixed-same-versionless",
+      "title": "E2E Update List Fixed Same Versionless",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.update-list-fixed-same-versionless/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.update-list-fixed-same-versionless/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.update-list-fixed-same-versionless/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.update-list-fixed-same-versionless/meta.json",
+      "content_hash": "4530d4fd",
+      "version": "1.0.0"
     }
   ]
 }
