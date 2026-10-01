@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-10-01T21:50:28Z",
-  "app_count": 179,
+  "updated_at": "2026-10-01T22:02:24Z",
+  "app_count": 178,
   "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "apps": [
     {
@@ -3766,28 +3766,6 @@
       "meta_url": "/apps/org.icewhale.ztnet/meta.json",
       "content_hash": "7db63df4",
       "version": "0.7.18"
-    },
-    {
-      "id": "org.zimaos.e2e.legacy-managed-ports-local-unchanged-upstream-delete-single-main-to-main.compatfix-1001a.p18361",
-      "title": "E2E legacy-managed ports local-unchanged-upstream-delete single main-to-main",
-      "tagline": "Database management in a single PHP file",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "Tim Düsterhus",
-      "developer": "Jakub Vrána",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "/apps/org.zimaos.e2e.legacy-managed-ports-local-unchanged-upstream-delete-single-main-to-main.compatfix-1001a.p18361/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.legacy-managed-ports-local-unchanged-upstream-delete-single-main-to-main.compatfix-1001a.p18361/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.legacy-managed-ports-local-unchanged-upstream-delete-single-main-to-main.compatfix-1001a.p18361/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.legacy-managed-ports-local-unchanged-upstream-delete-single-main-to-main.compatfix-1001a.p18361/meta.json",
-      "content_hash": "54e29448",
-      "version": "1.1.0"
     }
   ]
 }
