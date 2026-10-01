@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-10-01T20:54:43Z",
-  "app_count": 181,
+  "updated_at": "2026-10-01T21:10:07Z",
+  "app_count": 178,
   "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "apps": [
     {
@@ -3766,72 +3766,6 @@
       "meta_url": "/apps/org.icewhale.ztnet/meta.json",
       "content_hash": "368ba8ea",
       "version": "0.7.18"
-    },
-    {
-      "id": "org.zimaos.e2e.image-single-versionless.srcaudit-nodrift-1001a.p18111",
-      "title": "E2E Image Single Without Version",
-      "tagline": "Database management in a single PHP file",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "Tim Düsterhus",
-      "developer": "Jakub Vrána",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "/apps/org.zimaos.e2e.image-single-versionless.srcaudit-nodrift-1001a.p18111/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.image-single-versionless.srcaudit-nodrift-1001a.p18111/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.image-single-versionless.srcaudit-nodrift-1001a.p18111/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.image-single-versionless.srcaudit-nodrift-1001a.p18111/meta.json",
-      "content_hash": "967e687c",
-      "version": "1.0.0"
-    },
-    {
-      "id": "org.zimaos.e2e.image-single-zero-version.srcaudit-nodrift-1001a.p18112",
-      "title": "E2E Image Single Version 0.0.0",
-      "tagline": "Database management in a single PHP file",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "Tim Düsterhus",
-      "developer": "Jakub Vrána",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "/apps/org.zimaos.e2e.image-single-zero-version.srcaudit-nodrift-1001a.p18112/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.image-single-zero-version.srcaudit-nodrift-1001a.p18112/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.image-single-zero-version.srcaudit-nodrift-1001a.p18112/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.image-single-zero-version.srcaudit-nodrift-1001a.p18112/meta.json",
-      "content_hash": "22691641",
-      "version": "1.0.0"
-    },
-    {
-      "id": "org.zimaos.e2e.image-single.srcaudit-nodrift-1001a.p18105",
-      "title": "E2E Image Single",
-      "tagline": "Database management in a single PHP file",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "Tim Düsterhus",
-      "developer": "Jakub Vrána",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "/apps/org.zimaos.e2e.image-single.srcaudit-nodrift-1001a.p18105/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.image-single.srcaudit-nodrift-1001a.p18105/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.image-single.srcaudit-nodrift-1001a.p18105/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.image-single.srcaudit-nodrift-1001a.p18105/meta.json",
-      "content_hash": "eb2477a5",
-      "version": "1.0.0"
     }
   ]
 }
