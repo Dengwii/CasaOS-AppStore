@@ -1,0 +1,45 @@
+name: zimaos-e2e-legacy-managed-cartesian-environment-cartesian-delete-add-composite-helper-to-helper-r2-p19096
+services:
+  web:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-legacy-managed-cartesian-environment-cartesian-delete-add-composite-helper-to-helper-r2-p19096-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20261004112300-1470643-update-legacy-managed-cartesian-environment-cartesian-delete-add-composite-helper-to-helper
+      E2E_CART_0896_MAIN_LOCAL: baseline-local
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '19096'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+  helper:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-legacy-managed-cartesian-environment-cartesian-delete-add-composite-helper-to-helper-r2-p19096-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20261004112300-1470643-update-legacy-managed-cartesian-environment-cartesian-delete-add-composite-helper-to-helper-helper
+      E2E_CART_0896_HELPER_LOCAL: baseline-local
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+    restart: unless-stopped
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.legacy-managed-cartesian-environment-cartesian-delete-add-composite-helper-to-helper.r2.p19096
+  main: web
+  icon: https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages/apps/org.zimaos.e2e.legacy-managed-cartesian-environment-cartesian-delete-add-composite-helper-to-helper.r2.p19096/assets/icon.svg
+  title:
+    en_US: E2E legacy-managed-cartesian environment cartesian-delete-add composite helper-to-helper
+    zh_CN: E2E legacy-managed-cartesian environment cartesian-delete-add composite helper-to-helper
+  port_map: '19096'
+  version: 1.0.0
+  scheme: http
+  index: /
