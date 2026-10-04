@@ -23,7 +23,7 @@
   "hostname": "10.0.9.9",
   "repo_id": "appstore-d-test",
   "title": "E2E Image Composite Main And Helper",
-  "release_note": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins.",
+  "release_note": "ZimaOS E2E temporary upgrade fixture: 1.0.0 to 1.0.0.",
   "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "id": "org.zimaos.e2e.image-composite-both.s1004131807-image-composite-both.p18108",
   "version": "1.0.0",
