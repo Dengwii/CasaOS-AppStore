@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-10-04T13:21:25Z",
-  "app_count": 180,
+  "updated_at": "2026-10-04T13:33:45Z",
+  "app_count": 178,
   "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "apps": [
     {
@@ -3766,50 +3766,6 @@
       "meta_url": "/apps/org.icewhale.ztnet/meta.json",
       "content_hash": "b2916961",
       "version": "0.7.18"
-    },
-    {
-      "id": "org.zimaos.e2e.manage-composite.s1004131807-manage.p18104",
-      "title": "E2E Manage Composite",
-      "tagline": "Database management in a single PHP file",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "Tim Düsterhus",
-      "developer": "Jakub Vrána",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "/apps/org.zimaos.e2e.manage-composite.s1004131807-manage.p18104/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.manage-composite.s1004131807-manage.p18104/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.manage-composite.s1004131807-manage.p18104/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.manage-composite.s1004131807-manage.p18104/meta.json",
-      "content_hash": "55317172",
-      "version": "1.0.0"
-    },
-    {
-      "id": "org.zimaos.e2e.manage-single.s1004131807-manage.p18103",
-      "title": "E2E Manage Single",
-      "tagline": "Database management in a single PHP file",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "Tim Düsterhus",
-      "developer": "Jakub Vrána",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "/apps/org.zimaos.e2e.manage-single.s1004131807-manage.p18103/assets/icon.svg",
-      "thumbnail": "/apps/org.zimaos.e2e.manage-single.s1004131807-manage.p18103/assets/thumbnail.webp",
-      "compose_url": "/apps/org.zimaos.e2e.manage-single.s1004131807-manage.p18103/docker-compose.yml",
-      "meta_url": "/apps/org.zimaos.e2e.manage-single.s1004131807-manage.p18103/meta.json",
-      "content_hash": "2fbc1dda",
-      "version": "1.0.0"
     }
   ]
 }
