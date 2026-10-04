@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-04T14:55:00Z",
+  "updated_at": "2026-10-04T15:02:41Z",
   "app_count": 179,
   "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "apps": [
@@ -3786,7 +3786,7 @@
       "thumbnail": "/apps/org.zimaos.e2e.image-single-zero-version.s1004131807-image-single-zero-version.p18112/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.image-single-zero-version.s1004131807-image-single-zero-version.p18112/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.image-single-zero-version.s1004131807-image-single-zero-version.p18112/meta.json",
-      "content_hash": "901190d5",
+      "content_hash": "8a2cf5d9",
       "version": "1.0.0"
     }
   ]
