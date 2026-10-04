@@ -701,11 +701,6 @@
     {
       "id": "org.icewhale.ztnet",
       "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
-    },
-    {
-      "id": "org.zimaos.e2e.image-single-zero-version.s1004131807-image-single-zero-version.p18112",
-      "tagline": "单PHP文件的数据库管理工具",
-      "title": "E2E Image Single Version 0.0.0"
     }
   ]
 }
