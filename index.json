@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-10-04T14:33:24Z",
-  "app_count": 178,
+  "updated_at": "2026-10-04T14:37:08Z",
+  "app_count": 179,
   "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "apps": [
     {
@@ -3766,6 +3766,28 @@
       "meta_url": "/apps/org.icewhale.ztnet/meta.json",
       "content_hash": "94d31758",
       "version": "0.7.18"
+    },
+    {
+      "id": "org.zimaos.e2e.image-single-versionless.s1004131807-image-single-versionless.p18111",
+      "title": "E2E Image Single Without Version",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.image-single-versionless.s1004131807-image-single-versionless.p18111/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.image-single-versionless.s1004131807-image-single-versionless.p18111/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.image-single-versionless.s1004131807-image-single-versionless.p18111/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.image-single-versionless.s1004131807-image-single-versionless.p18111/meta.json",
+      "content_hash": "a2a0fdb8",
+      "version": "1.0.0"
     }
   ]
 }
