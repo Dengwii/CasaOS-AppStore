@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-10-04T18:09:15Z",
-  "app_count": 178,
+  "updated_at": "2026-10-05T04:31:39Z",
+  "app_count": 181,
   "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages",
   "apps": [
     {
@@ -3766,6 +3766,72 @@
       "meta_url": "/apps/org.icewhale.ztnet/meta.json",
       "content_hash": "368ba8ea",
       "version": "0.7.18"
+    },
+    {
+      "id": "org.zimaos.e2e.update-list-fixed-same-versioned.contract-20261005-fixed.p18109",
+      "title": "E2E Update List Fixed Same Versioned",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.update-list-fixed-same-versioned.contract-20261005-fixed.p18109/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.update-list-fixed-same-versioned.contract-20261005-fixed.p18109/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.update-list-fixed-same-versioned.contract-20261005-fixed.p18109/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.update-list-fixed-same-versioned.contract-20261005-fixed.p18109/meta.json",
+      "content_hash": "78b14917",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.update-list-fixed-same-versionless.contract-20261005-fixed.p18110",
+      "title": "E2E Update List Fixed Same Versionless",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.update-list-fixed-same-versionless.contract-20261005-fixed.p18110/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.update-list-fixed-same-versionless.contract-20261005-fixed.p18110/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.update-list-fixed-same-versionless.contract-20261005-fixed.p18110/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.update-list-fixed-same-versionless.contract-20261005-fixed.p18110/meta.json",
+      "content_hash": "26c77a1a",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.update-list-fixed-same-zero-version.contract-20261005-fixed.p18115",
+      "title": "E2E Update List Fixed Same Version 0.0.0",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.update-list-fixed-same-zero-version.contract-20261005-fixed.p18115/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.update-list-fixed-same-zero-version.contract-20261005-fixed.p18115/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.update-list-fixed-same-zero-version.contract-20261005-fixed.p18115/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.update-list-fixed-same-zero-version.contract-20261005-fixed.p18115/meta.json",
+      "content_hash": "9dd8138a",
+      "version": "1.0.0"
     }
   ]
 }
