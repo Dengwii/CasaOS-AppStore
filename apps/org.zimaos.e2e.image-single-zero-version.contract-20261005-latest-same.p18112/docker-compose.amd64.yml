@@ -1,0 +1,35 @@
+name: zimaos-e2e-image-single-zero-version-contract-20261005-latest-same-p18112
+services:
+  web:
+    image: traefik/whoami:latest@sha256:80f8bb74f634d45d55967820a702c5fddf01cf92968bb29ed7a3573dd16b0e55
+    container_name: zimaos-e2e-image-single-zero-version-contract-20261005-latest-same-p18112-web
+    restart: unless-stopped
+    ports:
+      - target: 80
+        published: '18112'
+        protocol: tcp
+    environment:
+      ZIMAOS_E2E_BASELINE: 20261005051756-1697246-image-single-zero-version
+      E2E_SHARED: baseline
+      E2E_LOCAL_DELETE_UPSTREAM_MODIFY: baseline
+      E2E_LOCAL_KEEP_UPSTREAM_DELETE: baseline
+      E2E_LOCAL_EMPTY_UPSTREAM_VALUE: baseline
+      E2E_LOCAL_VALUE_UPSTREAM_EMPTY: baseline
+      E2E_BOTH_EMPTY: baseline
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    command:
+      - --port=80
+x-casaos:
+  id: org.zimaos.e2e.image-single-zero-version.contract-20261005-latest-same.p18112
+  main: web
+  icon: https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages/apps/org.zimaos.e2e.image-single-zero-version.contract-20261005-latest-same.p18112/assets/icon.svg
+  title:
+    en_US: E2E Image Single Version 0.0.0
+    zh_CN: E2E Image Single Version 0.0.0
+  port_map: '18112'
+  version: 1.0.0
+  scheme: http
+  index: /
