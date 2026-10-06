@@ -1,0 +1,45 @@
+name: zimaos-e2e-legacy-unmanaged-cartesian-command-cartesian-add-modify-composite-main-to-main-m1006084817-p18937
+services:
+  web:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-legacy-unmanaged-cartesian-command-cartesian-add-modify-composite-main-to-main-m1006084817-p18937-web
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20261006085004-1865673-update-legacy-unmanaged-cartesian-command-cartesian-add-modify-composite-main-to-main
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    ports:
+      - target: 80
+        published: '18937'
+        protocol: tcp
+    restart: unless-stopped
+    command:
+      - --port=80
+      - --verbose=false
+  helper:
+    image: traefik/whoami:v1.10.3
+    container_name: zimaos-e2e-legacy-unmanaged-cartesian-command-cartesian-add-modify-composite-main-to-main-m1006084817-p18937-helper
+    network_mode: bridge
+    environment:
+      ZIMAOS_E2E_BASELINE: 20261006085004-1865673-update-legacy-unmanaged-cartesian-command-cartesian-add-modify-composite-main-to-main-helper
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base-helper
+        target: /e2e-base-helper
+    restart: unless-stopped
+    command:
+      - --port=80
+      - --verbose=false
+x-casaos:
+  id: org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-add-modify-composite-main-to-main.m1006084817.p18937
+  main: web
+  icon: https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/refs/heads/gh-pages/apps/org.zimaos.e2e.legacy-unmanaged-cartesian-command-cartesian-add-modify-composite-main-to-main.m1006084817.p18937/assets/icon.svg
+  title:
+    en_US: E2E legacy-unmanaged-cartesian command cartesian-add-modify composite main-to-main
+    zh_CN: E2E legacy-unmanaged-cartesian command cartesian-add-modify composite main-to-main
+  port_map: '18937'
+  version: 1.0.0
+  scheme: http
+  index: /
