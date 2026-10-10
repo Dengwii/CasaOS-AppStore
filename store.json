@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "store_id": "appstore-d-versionless-cross-source-82",
+  "name": "AppStore-D Versionless Cross-Source Fixture",
+  "description": "Temporary fixture for reproducing the V1/V2 cross-source image upgrade bug",
+  "maintainer": "Dengwii",
+  "url": "https://github.com/Dengwii/CasaOS-AppStore"
+}

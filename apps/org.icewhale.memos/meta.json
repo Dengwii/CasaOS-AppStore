@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "usememos Team",
+  "category": "Productivity",
+  "categories": [
+    "productivity"
+  ],
+  "description": "Temporary versionless V2 fixture used to reproduce cross-source image upgrade detection.",
+  "developer": "usememos Team",
+  "tagline": "Versionless V2 fixture for cross-source upgrade testing",
+  "thumbnail": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/gh-pages/apps/org.icewhale.memos/assets/thumbnail.webp",
+  "tips": {},
+  "website": "https://usememos.com/",
+  "repo": "https://github.com/usememos/memos",
+  "support": "https://github.com/usememos/memos/issues",
+  "docs": "https://www.usememos.com/docs",
+  "title": "Memos",
+  "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/codex-cross-source-versionless-82-20261010T150000Z",
+  "id": "org.icewhale.memos"
+}

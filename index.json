@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "updated_at": "2026-10-10T15:00:00Z",
+  "app_count": 1,
+  "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/codex-cross-source-versionless-82-20261010T150000Z",
+  "apps": [
+    {
+      "id": "org.icewhale.memos",
+      "title": "Memos",
+      "tagline": "Versionless V2 fixture for cross-source upgrade testing",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "usememos Team",
+      "developer": "usememos Team",
+      "architectures": [
+        "amd64",
+        "arm64",
+        "arm"
+      ],
+      "icon": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/gh-pages/apps/org.icewhale.memos/assets/icon.svg",
+      "thumbnail": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/gh-pages/apps/org.icewhale.memos/assets/thumbnail.webp",
+      "compose_url": "/apps/org.icewhale.memos/docker-compose.yml",
+      "meta_url": "/apps/org.icewhale.memos/meta.json",
+      "content_hash": "82d02800"
+    }
+  ]
+}
