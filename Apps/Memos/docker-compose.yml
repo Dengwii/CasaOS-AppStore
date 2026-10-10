@@ -1,4 +1,4 @@
-name: memos
+name: dengwii-memos-cross-source
 services:
   memos:
     environment:
@@ -18,7 +18,7 @@ services:
     restart: unless-stopped
     volumes:
       - type: bind
-        source: /DATA/AppData/memos/memos
+        source: /DATA/AppData/dengwii-memos-cross-source/memos
         target: /var/opt/memos
     x-casaos:
       envs:
@@ -43,7 +43,7 @@ services:
             en_US: memos data directory.
             zh_CN: memos 数据目录
 
-    container_name: memos
+    container_name: dengwii-memos-cross-source
 x-casaos:
   id: org.icewhale.memos
   architectures:

@@ -9,7 +9,7 @@
   "categories": [
     "productivity"
   ],
-  "description": "Temporary versionless V2 fixture used to reproduce cross-source image upgrade detection.",
+  "description": "Temporary versionless V2 fixture with a collision-free Compose identity for reproducing cross-source image upgrade detection.",
   "developer": "usememos Team",
   "tagline": "Versionless V2 fixture for cross-source upgrade testing",
   "thumbnail": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/gh-pages/apps/org.icewhale.memos/assets/thumbnail.webp",

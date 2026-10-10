@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-10T15:00:00Z",
+  "updated_at": "2026-10-10T15:10:00Z",
   "app_count": 1,
   "base_url": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/codex-cross-source-versionless-82-20261010T150000Z",
   "apps": [
@@ -23,7 +23,7 @@
       "thumbnail": "https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/gh-pages/apps/org.icewhale.memos/assets/thumbnail.webp",
       "compose_url": "/apps/org.icewhale.memos/docker-compose.yml",
       "meta_url": "/apps/org.icewhale.memos/meta.json",
-      "content_hash": "82d02800"
+      "content_hash": "82d02801"
     }
   ]
 }
