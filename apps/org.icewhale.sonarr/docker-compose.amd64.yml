@@ -1,0 +1,38 @@
+name: sonarr
+services:
+  sonarr:
+    environment:
+      PGID: $PGID
+      PUID: $PUID
+      TZ: $TZ
+    image: linuxserver/sonarr:4.0.19@sha256:64e9c8a2315516837fd809d53e2d2006bf8a17787754dc6474d2c5964d862f6e
+    deploy:
+      resources:
+        reservations:
+          memory: "256M"
+    network_mode: bridge
+    ports:
+      - target: 8989
+        published: "8989"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/config
+        target: /config
+      - type: bind
+        source: /DATA/Media/TV Shows
+        target: /tv
+      - type: bind
+        source: /DATA/Downloads
+        target: /downloads
+    container_name: sonarr
+x-casaos:
+  id: org.icewhale.sonarr
+  main: sonarr
+  icon: https://raw.githubusercontent.com/Dengwii/CasaOS-AppStore/gh-pages/apps/org.icewhale.sonarr/assets/icon.svg
+  title:
+    en_US: Sonarr
+  index: /
+  port_map: "8989"
+  version: "4.0.19"
