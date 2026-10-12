@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "id": "org.zimaos.e2e.image-stable-docker-hub.r2.p18116",
+      "title": "E2E Stable Tag Docker Hub",
+      "tagline": "单PHP文件的数据库管理工具"
+    },
+    {
+      "id": "org.zimaos.e2e.image-stable-ghcr.r2.p18117",
+      "title": "E2E Stable Tag GHCR",
+      "tagline": "单PHP文件的数据库管理工具"
+    }
+  ]
+}

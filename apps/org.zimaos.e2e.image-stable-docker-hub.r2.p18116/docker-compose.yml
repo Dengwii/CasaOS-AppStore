@@ -1,0 +1,37 @@
+name: zimaos-e2e-image-stable-docker-hub-r2-p18116
+services:
+  web:
+    image: nginx:stable
+    container_name: zimaos-e2e-image-stable-docker-hub-r2-p18116-web
+    restart: unless-stopped
+    ports:
+      - target: 80
+        published: '18116'
+        protocol: tcp
+    environment:
+      ZIMAOS_E2E_BASELINE: 20261012102936-3076092-image-stable-docker-hub
+      E2E_SHARED: baseline
+      E2E_LOCAL_DELETE_UPSTREAM_MODIFY: baseline
+      E2E_LOCAL_KEEP_UPSTREAM_DELETE: baseline
+      E2E_LOCAL_EMPTY_UPSTREAM_VALUE: baseline
+      E2E_LOCAL_VALUE_UPSTREAM_EMPTY: baseline
+      E2E_BOTH_EMPTY: baseline
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/e2e-base
+        target: /e2e-base
+    command:
+      - nginx
+      - -g
+      - daemon off;
+x-casaos:
+  id: org.zimaos.e2e.image-stable-docker-hub.r2.p18116
+  main: web
+  icon: http://10.0.1.22:18088/baseline/apps/org.zimaos.e2e.image-stable-docker-hub.r2.p18116/assets/icon.svg
+  title:
+    en_US: E2E Stable Tag Docker Hub
+    zh_CN: E2E Stable Tag Docker Hub
+  port_map: '18116'
+  version: 1.0.0
+  scheme: http
+  index: /

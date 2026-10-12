@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "updated_at": "2026-10-12T10:30:43Z",
+  "app_count": 2,
+  "base_url": "http://10.0.1.22:18088/baseline",
+  "apps": [
+    {
+      "id": "org.zimaos.e2e.image-stable-docker-hub.r2.p18116",
+      "title": "E2E Stable Tag Docker Hub",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.image-stable-docker-hub.r2.p18116/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.image-stable-docker-hub.r2.p18116/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.image-stable-docker-hub.r2.p18116/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.image-stable-docker-hub.r2.p18116/meta.json",
+      "content_hash": "d29ecdc1",
+      "version": "1.0.0"
+    },
+    {
+      "id": "org.zimaos.e2e.image-stable-ghcr.r2.p18117",
+      "title": "E2E Stable Tag GHCR",
+      "tagline": "Database management in a single PHP file",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "Tim Düsterhus",
+      "developer": "Jakub Vrána",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/org.zimaos.e2e.image-stable-ghcr.r2.p18117/assets/icon.svg",
+      "thumbnail": "/apps/org.zimaos.e2e.image-stable-ghcr.r2.p18117/assets/thumbnail.webp",
+      "compose_url": "/apps/org.zimaos.e2e.image-stable-ghcr.r2.p18117/docker-compose.yml",
+      "meta_url": "/apps/org.zimaos.e2e.image-stable-ghcr.r2.p18117/meta.json",
+      "content_hash": "b4773052",
+      "version": "1.0.0"
+    }
+  ]
+}
