@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "updated_at": "2026-10-12T10:30:43Z",
+  "updated_at": "2026-10-12T10:31:00Z",
   "app_count": 2,
-  "base_url": "http://10.0.1.22:18088/baseline",
+  "base_url": "http://10.0.1.22:18088/target",
   "apps": [
     {
       "id": "org.zimaos.e2e.image-stable-docker-hub.r2.p18116",
@@ -23,8 +23,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.image-stable-docker-hub.r2.p18116/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.image-stable-docker-hub.r2.p18116/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.image-stable-docker-hub.r2.p18116/meta.json",
-      "content_hash": "d29ecdc1",
-      "version": "1.0.0"
+      "content_hash": "d210e065",
+      "version": "1.1.0"
     },
     {
       "id": "org.zimaos.e2e.image-stable-ghcr.r2.p18117",
@@ -45,8 +45,8 @@
       "thumbnail": "/apps/org.zimaos.e2e.image-stable-ghcr.r2.p18117/assets/thumbnail.webp",
       "compose_url": "/apps/org.zimaos.e2e.image-stable-ghcr.r2.p18117/docker-compose.yml",
       "meta_url": "/apps/org.zimaos.e2e.image-stable-ghcr.r2.p18117/meta.json",
-      "content_hash": "b4773052",
-      "version": "1.0.0"
+      "content_hash": "f8253514",
+      "version": "1.1.0"
     }
   ]
 }

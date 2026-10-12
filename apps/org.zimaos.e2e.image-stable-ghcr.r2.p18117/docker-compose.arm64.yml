@@ -1,21 +1,24 @@
 name: zimaos-e2e-image-stable-ghcr-r2-p18117
 services:
   web:
-    image: ghcr.io/sikalabs/hello-world-server:stable@sha256:cf8538bf6489b66696418c0175640f86e897153b162a69ca5f5f878f6bf9e49e
+    image: ghcr.io/sikalabs/hello-world-server:v0.13.0@sha256:cf8538bf6489b66696418c0175640f86e897153b162a69ca5f5f878f6bf9e49e
     container_name: zimaos-e2e-image-stable-ghcr-r2-p18117-web
-    restart: unless-stopped
+    restart: on-failure
     ports:
       - target: 8000
         published: '18117'
         protocol: tcp
     environment:
       ZIMAOS_E2E_BASELINE: 20261012102936-3076092-image-stable-ghcr
-      E2E_SHARED: baseline
-      E2E_LOCAL_DELETE_UPSTREAM_MODIFY: baseline
-      E2E_LOCAL_KEEP_UPSTREAM_DELETE: baseline
-      E2E_LOCAL_EMPTY_UPSTREAM_VALUE: baseline
-      E2E_LOCAL_VALUE_UPSTREAM_EMPTY: baseline
-      E2E_BOTH_EMPTY: baseline
+      E2E_SHARED: upstream-loses
+      E2E_LOCAL_DELETE_UPSTREAM_MODIFY: upstream-value
+      E2E_LOCAL_EMPTY_UPSTREAM_VALUE: upstream-value
+      E2E_LOCAL_VALUE_UPSTREAM_EMPTY: ''
+      E2E_BOTH_EMPTY: ''
+      ZIMAOS_E2E_NAMED_STORE_IMAGE: must-not-apply
+      E2E_UPSTREAM_ADDED: upstream-value
+      E2E_BOTH_ADD_SAME: upstream-loses
+      E2E_DIFFERENT_UPSTREAM: upstream-value
     volumes:
       - type: bind
         source: /DATA/AppData/$AppID/e2e-base
@@ -25,11 +28,11 @@ services:
 x-casaos:
   id: org.zimaos.e2e.image-stable-ghcr.r2.p18117
   main: web
-  icon: http://10.0.1.22:18088/baseline/apps/org.zimaos.e2e.image-stable-ghcr.r2.p18117/assets/icon.svg
+  icon: http://10.0.1.22:18088/target/apps/org.zimaos.e2e.image-stable-ghcr.r2.p18117/assets/icon.svg
   title:
     en_US: E2E Stable Tag GHCR
     zh_CN: E2E Stable Tag GHCR
   port_map: '18117'
-  version: 1.0.0
+  version: 1.1.0
   scheme: http
   index: /
